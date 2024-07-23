@@ -1,6 +1,7 @@
 import { SignIn } from '../access_manager/signin.mjs';
 import { backendServer } from '../app.mjs';
 import { Hash } from '../util/hash.mjs';
+import { Invocation } from './invocation.mjs';
 
 export class Routing {
     static async init(logger) {
@@ -9,10 +10,8 @@ export class Routing {
             SignIn.init(req, res);
         });
 
-        backendServer.get('/discord/redirect', async (req, res) => {
-            logger.info('test');
-            console.log(req.query);
-            console.log(req.headers);
+        backendServer.post('/invocation', async (req, res) => {
+            await new Invocation().init(req, res);
         });
     }
 }
