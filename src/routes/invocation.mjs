@@ -1,15 +1,25 @@
+import { serverConfig } from '../../config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
 import { scarlet_violet } from '../data/drop.mjs';
 import { sv6Card } from '../data/sv6.mjs';
+import { Hash } from '../util/hash.mjs';
 
 export class Invocation {
     async init(req, res) {
-        if (!(await CheckAccess.init(req, res))) {
+        const userInfo = await CheckAccess.init(req, res);
+        if (!userInfo) {
             res.statusCode = 401;
             res.json({ message: 'Unauthorized' });
             return;
         }
+
+        if (!CheckAccess.checkPull(userInfo.last_time_pull)) {
+            res.statusCode = 400;
+            res.json({ message: 'Too soon' });
+            return;
+        }
+        let discordId = Hash.decrypt(req.headers.sessionid, serverConfig.hash);
 
         let results = [];
         for (let dropRate of scarlet_violet.normal) {
@@ -19,7 +29,8 @@ export class Invocation {
             results.push(card);
         }
 
-        this.saveInPull(req.headers.sesssionid, results);
+        this.saveInPull(discordId, results);
+        this.savePullDateTime(discordId);
         res.json(results);
     }
 
@@ -56,9 +67,19 @@ export class Invocation {
                     card_id: card.id,
                     image: card.images.large,
                     rarity: card.rarity,
-                    discordId,
+                    discord_id: discordId,
                 }
             );
         }
+    }
+
+    async savePullDateTime(discordId) {
+        dbConnect.queryDB(
+            `UPDATE ptcg_users SET last_time_pull=:lastTimePull WHERE discord_id=':discordId'`,
+            {
+                discordId,
+                lastTimePull: Math.floor(Date.now() / 1000),
+            }
+        );
     }
 }

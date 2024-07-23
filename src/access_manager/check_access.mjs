@@ -14,12 +14,15 @@ export class CheckAccess {
         }
 
         const output = await dbConnect.queryDB(
-            `SELECT discordId, pseudo
+            `SELECT *
             FROM ptcg_users
-            WHERE discordId = :discordId`,
-            { discordId: discordId }
+            WHERE discord_id = :discordId`,
+            { discordId }
         );
-        let result = Object.values(JSON.parse(JSON.stringify(await output)));
-        return `${result.length}` == '1';
+        return output[0] ?? false;
+    }
+
+    static checkPull(lastTimePull) {
+        return 14400 <= Math.floor(Date.now() / 1000) - lastTimePull;
     }
 }

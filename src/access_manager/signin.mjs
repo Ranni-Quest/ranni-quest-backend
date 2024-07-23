@@ -8,7 +8,7 @@ export class SignIn {
             const userInfo = await SignIn.discordConnection(req);
 
             dbConnect.queryDB(
-                `INSERT INTO ptcg_users (discordId, pseudo) 
+                `INSERT INTO ptcg_users (discord_id, pseudo) 
                 VALUES (':id', ':username')
                 ON DUPLICATE KEY UPDATE pseudo=':username'`,
                 userInfo
