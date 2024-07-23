@@ -1,7 +1,8 @@
+console.log('in');
 import cors from 'cors';
-import express from 'express.js';
 import cookieParser from 'cookie-parser';
-import { serverConfig } from '../config';
+import { serverConfig } from '../config.mjs';
+import express from 'express';
 
 export const backendServer = express();
 
@@ -16,8 +17,13 @@ backendServer.use(
 
 backendServer.use(cookieParser());
 backendServer.use(express.json());
+backendServer.listen(serverConfig.config.backendPort, () => {
+    console.log(
+        `Local:        http://localhost:${serverConfig.config.backendPort}`
+    );
+});
 
-import winston from 'winston/lib/winston/config';
+import winston from 'winston';
 
 export const logger = winston.createLogger({
     level: 'debug',
@@ -27,8 +33,12 @@ export const logger = winston.createLogger({
             return `${timestamp} ${level} ${message}`;
         })
     ),
+    transports: [new winston.transports.Console()],
 });
 
-import { DatabaseManager } from './database/manager';
+import { DatabaseManager } from './database/manager.mjs';
 export const dbConnect = new DatabaseManager(logger);
 await dbConnect.init();
+
+import { Routing } from './routes/routing.mjs';
+await Routing.init(logger);

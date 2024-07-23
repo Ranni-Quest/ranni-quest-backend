@@ -1,4 +1,4 @@
-import { serverConfig } from '../../config';
+import { serverConfig } from '../../config.mjs';
 import mysql from 'mysql';
 
 export class DatabaseManager {
@@ -37,52 +37,57 @@ export class DatabaseManager {
     }
 
     async connect(parseStatements = true) {
-        this.conn.connect((err) => {
-            if (err) {
-                setTimeout(async () => {
-                    console.log(err);
-                    console.log('Failed to connect to the db. retry ...');
-                    await this.connect();
-                });
-            }
-            console.log('Connected to mySQL server');
+        const that = this;
+        try {
+            that.conn.connect((err) => {
+                if (err) {
+                    setTimeout(async () => {
+                        console.log(err);
+                        console.log('Failed to connect to the db. retry ...');
+                        await that.connect();
+                    }, 1000);
 
-            if (parseStatements) {
-                this.conn.config.queryFormat = (query, values) => {
-                    if (!values) return query;
+                    return;
+                }
 
-                    query = query
-                        .replace(/\:(\w+)/g, (txt, key) => {
+                console.log('Connected to mySQL server');
+
+                if (parseStatements) {
+                    that.conn.config.queryFormat = (query, values) => {
+                        if (!values) return query;
+
+                        query = query.replace(/\:(\w+)/g, (txt, key) => {
                             if (values.hasOwnProperty(key)) {
-                                return this.escape(values[key]);
+                                return values[key];
                             }
                             return txt;
-                        })
-                        .bind(this);
-                    query = query.replace(/\n/g, '');
-                    return query;
-                };
-            }
-
-            this.conn.on('error', async (err) => {
-                console.log('db error ', err);
-
-                if (err.code === 'PROTOCOL_CONNECTION_LOST') {
-                    console.log('Reconnect on lost ...');
-                    await this.connect();
-                } else {
-                    this.logger.error(
-                        `Database connection lost with err: ${err.code} ' ${err.message}`
-                    );
-
-                    throw err;
+                        });
+                        query = query.replace(/\n/g, '');
+                        console.log(query);
+                        return query;
+                    };
                 }
+
+                that.conn.on('error', async (err) => {
+                    console.log('db error ', err);
+
+                    if (err.code === 'PROTOCOL_CONNECTION_LOST') {
+                        console.log('Reconnect on lost ...');
+                        await that.connect();
+                    } else {
+                        that.logger.error(
+                            `Database connection lost with err: ${err.code} ' ${err.message}`
+                        );
+
+                        throw err;
+                    }
+                });
             });
-        });
+        } catch (error) {}
     }
 
     async queryDB(text, values) {
-        await this.query(`USE '${this.defaultSchema}'`, null);
+        await this.query(`USE ${this.defaultSchema}`, null);
         return await this.query(text, values);
     }
 
