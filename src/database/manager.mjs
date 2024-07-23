@@ -63,7 +63,6 @@ export class DatabaseManager {
                             return txt;
                         });
                         query = query.replace(/\n/g, '');
-                        console.log(query);
                         return query;
                     };
                 }

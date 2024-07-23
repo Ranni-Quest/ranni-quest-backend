@@ -40,5 +40,9 @@ import { DatabaseManager } from './database/manager.mjs';
 export const dbConnect = new DatabaseManager(logger);
 await dbConnect.init();
 
+import { LogIn } from './access_manager/login.mjs';
+export const loginHandler = new LogIn();
+await loginHandler.init();
+
 import { Routing } from './routes/routing.mjs';
 await Routing.init(logger);

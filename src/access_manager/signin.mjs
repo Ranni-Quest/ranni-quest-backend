@@ -14,17 +14,15 @@ export class SignIn {
                 userInfo
             );
 
-            const sessionId = Hash.encrypt(
-                `${userInfo.id}${userInfo.username}`,
-                serverConfig.hash
-            );
+            const sessionId = Hash.encrypt(userInfo.id, serverConfig.hash);
 
             res.send(`
-                <button id="myButton" class="float-left submit-button" >Connexion</button>
+                <button id="myButton" class="float-left submit-button" >show Token</button>
+                <div id="token" style="display: none;">${sessionId}</div>
 
                 <script type="text/javascript">
                     document.getElementById("myButton").onclick = function () {
-                        location.href = "http://localhost:3000?sessionId=${sessionId}";
+                        document.getElementById("token").style.display = ''
                     };
                 </script>
             `);
