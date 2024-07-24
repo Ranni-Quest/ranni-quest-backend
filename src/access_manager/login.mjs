@@ -45,7 +45,7 @@ export class LogIn {
 
         // req.session.user = this.userInfo;
 
-        logger.info('Login ' + this.discordId);
+        logger.info('Login ' + this.discordId + sessionId);
         res.setHeader('Content-Type', 'application/json');
         res.json(this.userInfo);
     }
