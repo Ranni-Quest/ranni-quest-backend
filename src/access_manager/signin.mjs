@@ -4,6 +4,7 @@ import { Hash } from '../util/hash.mjs';
 
 export class SignIn {
     static async init(req, res) {
+        res.set('Cache-Control', 'no-store');
         try {
             const userInfo = await SignIn.discordConnection(req);
 

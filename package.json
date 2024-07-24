@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "startapp": "node ./src/app.mjs"
+        "startapp": "dev node ./src/app.mjs",
+        "start": 
     },
     "dependencies": {
         "cookie-parser": "^1.4.6",

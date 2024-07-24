@@ -8,6 +8,7 @@ export class LogIn {
     userInfo = {};
 
     async init(req, res) {
+        res.set('Cache-Control', 'no-store');
         backendServer.post('/api/login', async (req, res) => {
             try {
                 await this._main(req, res);
