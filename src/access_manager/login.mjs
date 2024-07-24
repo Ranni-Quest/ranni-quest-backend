@@ -39,14 +39,13 @@ export class LogIn {
 
         sessionId = req.body.sessionId;
 
-        await this._getUserInfo(sessionId);
+        const userInfo = await this._getUserInfo(sessionId);
 
         logger.info(
-            `pazorijaozêijr ${!this.discordId} ${!Object.keys(this.userInfo)
-                .length}`
+            `pazorijaozêijr ${!this.discordId} ${!Object.keys(userInfo).length}`
         );
 
-        if (!this.discordId && !Object.keys(this.userInfo).length) {
+        if (!this.discordId && !Object.keys(userInfo).length) {
             return false;
         }
 
@@ -55,6 +54,7 @@ export class LogIn {
             this.discordId,
             `User Agent: ${req.headers['user-agent']}`
         );
+        return userInfo;
 
         // logger.info('Login ' + this.discordId + sessionId);
     }
@@ -76,6 +76,7 @@ export class LogIn {
 
             this.discordId = res[0].discordId;
             this.userInfo = res[0] || null;
+            return res[0];
         } catch (error) {
             // logger.error(error.message);
             // logger.error(error.stack);
