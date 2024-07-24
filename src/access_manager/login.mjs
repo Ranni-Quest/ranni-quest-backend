@@ -23,7 +23,8 @@ export class LogIn {
         let sessionId = null;
 
         if (!req.body?.sessionId) {
-            res.json(null);
+            res.statusCode = 401;
+            res.json({ message: 'Unauthorize' });
             return;
         }
 
