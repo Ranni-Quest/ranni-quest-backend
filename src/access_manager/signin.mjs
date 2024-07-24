@@ -46,10 +46,7 @@ export class SignIn {
         urlencoded.append('client_id', serverConfig.discord.client_id);
         urlencoded.append('client_secret', serverConfig.discord.client_secret);
         urlencoded.append('grant_type', 'authorization_code');
-        urlencoded.append(
-            'redirect_uri',
-            'http://localhost:3001/discord/oauth'
-        );
+        urlencoded.append('redirect_uri', serverConfig.discord.redirect_uri);
 
         const requestOptions = {
             method: 'POST',
