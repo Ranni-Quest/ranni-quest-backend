@@ -23,6 +23,6 @@ export class CheckAccess {
     }
 
     static checkPull(lastTimePull) {
-        return 14400 <= Math.floor(Date.now() / 1000) - (lastTimePull ?? 0);
+        return 60 * 5 <= Math.floor(Date.now() / 1000) - (lastTimePull ?? 0);
     }
 }
