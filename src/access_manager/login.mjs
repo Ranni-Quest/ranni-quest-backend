@@ -45,6 +45,7 @@ export class LogIn {
             `pazorijaozêijr ${!this.discordId} ${!Object.keys(this.userInfo)
                 .length}`
         );
+
         if (!this.discordId && !Object.keys(this.userInfo).length) {
             return false;
         }
@@ -70,6 +71,8 @@ export class LogIn {
                 WHERE discordId = :discordId`,
                 { discordId }
             );
+
+            console.log(res);
 
             this.discordId = res[0].discordId;
             this.userInfo = res[0] || null;
