@@ -1,7 +1,7 @@
 import { SignIn } from '../access_manager/signin.mjs';
 import { backendServer } from '../app.mjs';
-import { Hash } from '../util/hash.mjs';
 import { Invocation } from './invocation.mjs';
+import { Ladder } from './ladder.mjs';
 
 export class Routing {
     static async init(logger) {
@@ -14,6 +14,10 @@ export class Routing {
         backendServer.post('/api/invocation', async (req, res) => {
             res.set('Cache-Control', 'no-store');
             await new Invocation().init(req, res);
+        });
+
+        backendServer.get('/api/ladder', async (req, res) => {
+            await new Ladder().init(req, res);
         });
     }
 }
