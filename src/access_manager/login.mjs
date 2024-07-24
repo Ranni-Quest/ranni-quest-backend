@@ -21,7 +21,9 @@ export class LogIn {
                 res.json(this.userInfo);
             } catch (error) {
                 console.log(error);
-                res.statusCode = 400;
+                res.statusCode = 401;
+                res.json({ message: 'Unauthorize' });
+                return;
             }
         });
     }
