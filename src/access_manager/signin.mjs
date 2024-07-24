@@ -17,12 +17,15 @@ export class SignIn {
             const sessionId = Hash.encrypt(userInfo.id, serverConfig.hash);
 
             res.send(`
+                <p>Copier le token, ne le donner à personne</p>
                 <button id="myButton" class="float-left submit-button" >show Token</button>
                 <div id="token" style="display: none;">${sessionId}</div>
+                <a id="link" href="https://ranni.quest" style="display: none;" >Aller sur l'application</a>
 
                 <script type="text/javascript">
                     document.getElementById("myButton").onclick = function () {
                         document.getElementById("token").style.display = ''
+                        document.getElementById("link").style.display = ''
                     };
                 </script>
             `);
