@@ -10,7 +10,7 @@ export class LogIn {
     async init(req, res) {
         backendServer.post('/api/login', async (req, res) => {
             try {
-                const userInfo = this._main(req, res);
+                const userInfo = await this._main(req, res);
                 if (!userInfo) {
                     logger.info('failed to Login ' + sessionId);
                     res.statusCode = 401;
@@ -30,7 +30,7 @@ export class LogIn {
         res.set('Cache-Control', 'no-store');
         let sessionId = null;
 
-        logger.info(!req.body?.sessionId);
+        logger.info(` ???? ${!req.body?.sessionId}`);
         if (!req.body?.sessionId) {
             return false;
         }
@@ -39,7 +39,10 @@ export class LogIn {
 
         await this._getUserInfo(sessionId);
 
-        logger.info(!this.discordId, !Object.keys(this.userInfo).length);
+        logger.info(
+            `pazorijaozêijr ${!this.discordId} ${!Object.keys(this.userInfo)
+                .length}`
+        );
         if (!this.discordId && !Object.keys(this.userInfo).length) {
             return false;
         }
