@@ -56,13 +56,21 @@ export class LogIn {
             if (!discordId) {
                 return;
             }
-
+            logger.info(
+                `SELECT *
+                FROM ptcg_users
+                WHERE discordId = :discordId`,
+                discordId
+            );
             const res = await dbConnect.queryDB(
                 `SELECT *
                 FROM ptcg_users
                 WHERE discordId = :discordId`,
                 { discordId }
             );
+
+            console.log(res);
+
             this.discordId = res[0].discordId;
             this.userInfo = res[0] || null;
         } catch (error) {
