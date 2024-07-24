@@ -8,7 +8,6 @@ export class LogIn {
     userInfo = {};
 
     async init(req, res) {
-        res.set('Cache-Control', 'no-store');
         backendServer.post('/api/login', async (req, res) => {
             try {
                 await this._main(req, res);
@@ -20,7 +19,7 @@ export class LogIn {
     }
 
     async _main(req, res) {
-        const config = serverConfig.public;
+        res.set('Cache-Control', 'no-store');
         let sessionId = null;
 
         if (!req.body?.sessionId) {
