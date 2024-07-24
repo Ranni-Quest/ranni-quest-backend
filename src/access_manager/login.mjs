@@ -11,7 +11,6 @@ export class LogIn {
         backendServer.post('/api/login', async (req, res) => {
             try {
                 await this._main(req, res);
-                console.log('Login');
             } catch (error) {
                 console.log(error);
                 res.statusCode = 400;
@@ -34,6 +33,7 @@ export class LogIn {
         if (!this.discordId && !Object.keys(this.userInfo).length) {
             res.statusCode = 401;
             res.json({ message: 'Unauthorize' });
+            logger.info('failed to Login ' + sessionId);
             return;
         }
 
@@ -45,6 +45,7 @@ export class LogIn {
 
         // req.session.user = this.userInfo;
 
+        logger.info('Login ' + this.discordId);
         res.setHeader('Content-Type', 'application/json');
         res.json(this.userInfo);
     }

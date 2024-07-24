@@ -3,6 +3,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { serverConfig } from '../../config/config.mjs';
 import express from 'express';
+import sessions from 'express-session';
 
 export const backendServer = express();
 
@@ -12,6 +13,15 @@ backendServer.use(
         credentials: true,
         maxAge: 3600,
         optionsSuccessStatus: 200,
+    })
+);
+
+backendServer.use(
+    sessions({
+        secret: 'GuOrudtiO1F6xfQyeROs6lojxaur96FQ7SNtrNNF8Fz',
+        saveUninitialized: true,
+        cookie: { maxAge: 24 * 60 * 60 * 1000 },
+        resave: true,
     })
 );
 
