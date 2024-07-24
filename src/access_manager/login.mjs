@@ -73,6 +73,6 @@ export class LogIn {
             this.discordId = '';
             this.userInfo = {};
         }
-        return null;
+        return {};
     }
 }
