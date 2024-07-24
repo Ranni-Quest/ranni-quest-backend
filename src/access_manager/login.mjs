@@ -8,7 +8,7 @@ export class LogIn {
     userInfo = {};
 
     async init(req, res) {
-        backendServer.post('/login', async (req, res) => {
+        backendServer.post('/api/login', async (req, res) => {
             try {
                 await this._main(req, res);
                 console.log('Login');
