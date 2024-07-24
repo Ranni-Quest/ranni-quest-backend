@@ -30,6 +30,7 @@ export class LogIn {
         res.set('Cache-Control', 'no-store');
         let sessionId = null;
 
+        logger.info(!req.body?.sessionId);
         if (!req.body?.sessionId) {
             return false;
         }
@@ -38,6 +39,7 @@ export class LogIn {
 
         await this._getUserInfo(sessionId);
 
+        logger.info(!this.discordId, !Object.keys(this.userInfo).length);
         if (!this.discordId && !Object.keys(this.userInfo).length) {
             return false;
         }
@@ -48,7 +50,7 @@ export class LogIn {
             `User Agent: ${req.headers['user-agent']}`
         );
 
-        logger.info('Login ' + this.discordId + sessionId);
+        // logger.info('Login ' + this.discordId + sessionId);
     }
 
     async _getUserInfo(sessionId) {
@@ -57,20 +59,12 @@ export class LogIn {
             if (!discordId) {
                 return;
             }
-            logger.info(
-                `SELECT *
-                FROM ptcg_users
-                WHERE discordId = :discordId`,
-                discordId
-            );
             const res = await dbConnect.queryDB(
                 `SELECT *
                 FROM ptcg_users
                 WHERE discordId = :discordId`,
                 { discordId }
             );
-
-            console.log(res);
 
             this.discordId = res[0].discordId;
             this.userInfo = res[0] || null;
