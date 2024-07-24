@@ -40,6 +40,11 @@ export class Invocation {
             god: 0.001,
             normal: 99.999,
         };
+        const totalWeight = Object.values(drops).reduce(
+            (acc, value) => acc + value,
+            0
+        );
+
         const random = Math.random() * totalWeight;
 
         // Determine which drop to return based on the random number
