@@ -12,7 +12,7 @@ export class LogIn {
             try {
                 const userInfo = await this._main(req, res);
                 if (!userInfo) {
-                    logger.info('failed to Login ' + sessionId);
+                    logger.info('failed to Login ' + !req.body?.sessionId);
                     res.statusCode = 401;
                     res.json({ message: 'Unauthorize' });
                     return;
