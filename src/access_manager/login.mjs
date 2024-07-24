@@ -30,6 +30,7 @@ export class LogIn {
         sessionId = req.body.sessionId;
 
         await this._getUserInfo(sessionId);
+
         if (!this.discordId && !Object.keys(this.userInfo).length) {
             res.statusCode = 401;
             res.json({ message: 'Unauthorize' });

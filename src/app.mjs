@@ -4,6 +4,7 @@ import cookieParser from 'cookie-parser';
 import { serverConfig } from '../../config/config.mjs';
 import express from 'express';
 import sessions from 'express-session';
+import nocache from 'nocache';
 
 export const backendServer = express();
 
@@ -24,7 +25,7 @@ backendServer.use(
         resave: true,
     })
 );
-
+backendServer.use(nocache());
 backendServer.use(cookieParser());
 backendServer.use(express.json());
 backendServer.listen(serverConfig.config.backendPort, () => {
