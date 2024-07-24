@@ -10,7 +10,15 @@ export class LogIn {
     async init(req, res) {
         backendServer.post('/api/login', async (req, res) => {
             try {
-                await this._main(req, res);
+                const userInfo = this._main(req, res);
+                if (!userInfo) {
+                    logger.info('failed to Login ' + sessionId);
+                    res.statusCode = 401;
+                    res.json({ message: 'Unauthorize' });
+                    return;
+                }
+                res.setHeader('Content-Type', 'application/json');
+                res.json(this.userInfo);
             } catch (error) {
                 console.log(error);
                 res.statusCode = 400;
@@ -23,9 +31,7 @@ export class LogIn {
         let sessionId = null;
 
         if (!req.body?.sessionId) {
-            res.statusCode = 401;
-            res.json({ message: 'Unauthorize' });
-            return;
+            return false;
         }
 
         sessionId = req.body.sessionId;
@@ -33,10 +39,7 @@ export class LogIn {
         await this._getUserInfo(sessionId);
 
         if (!this.discordId && !Object.keys(this.userInfo).length) {
-            res.statusCode = 401;
-            res.json({ message: 'Unauthorize' });
-            logger.info('failed to Login ' + sessionId);
-            return;
+            return false;
         }
 
         UserActionLogger.info(
@@ -45,11 +48,7 @@ export class LogIn {
             `User Agent: ${req.headers['user-agent']}`
         );
 
-        // req.session.user = this.userInfo;
-
         logger.info('Login ' + this.discordId + sessionId);
-        res.setHeader('Content-Type', 'application/json');
-        res.json(this.userInfo);
     }
 
     async _getUserInfo(sessionId) {
