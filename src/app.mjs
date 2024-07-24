@@ -1,7 +1,7 @@
 console.log('in');
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import { serverConfig } from '../config.mjs';
+import { serverConfig } from '../../config/config.mjs';
 import express from 'express';
 
 export const backendServer = express();

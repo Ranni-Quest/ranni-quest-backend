@@ -1,4 +1,4 @@
-import { serverConfig } from '../../config.mjs';
+import { serverConfig } from '../../../config/config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
 import { scarlet_violet } from '../data/drop.mjs';

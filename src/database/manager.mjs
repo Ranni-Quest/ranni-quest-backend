@@ -1,4 +1,4 @@
-import { serverConfig } from '../../config.mjs';
+import { serverConfig } from '../../../config/config.mjs';
 import mysql from 'mysql';
 
 export class DatabaseManager {

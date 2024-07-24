@@ -1,4 +1,4 @@
-import { serverConfig } from '../../config.mjs';
+import { serverConfig } from '../../../config/config.mjs';
 import { backendServer, dbConnect, logger } from '../app.mjs';
 import { UserActionLogger } from '../database/user_action_logger.mjs';
 import { Hash } from '../util/hash.mjs';
