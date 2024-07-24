@@ -32,7 +32,6 @@ export class LogIn {
         res.set('Cache-Control', 'no-store');
         let sessionId = null;
 
-        logger.info(` ???? ${!req.body?.sessionId}`);
         if (!req.body?.sessionId) {
             return false;
         }
@@ -40,10 +39,6 @@ export class LogIn {
         sessionId = req.body.sessionId;
 
         const userInfo = await this._getUserInfo(sessionId);
-
-        logger.info(
-            `pazorijaozêijr ${!this.discordId} ${!Object.keys(userInfo).length}`
-        );
 
         if (!this.discordId && !Object.keys(userInfo).length) {
             return false;
@@ -55,8 +50,6 @@ export class LogIn {
             `User Agent: ${req.headers['user-agent']}`
         );
         return userInfo;
-
-        // logger.info('Login ' + this.discordId + sessionId);
     }
 
     async _getUserInfo(sessionId) {
@@ -71,9 +64,6 @@ export class LogIn {
                 WHERE discordId = :discordId`,
                 { discordId }
             );
-
-            console.log(res);
-
             this.discordId = res[0].discordId;
             this.userInfo = res[0] || null;
             return res[0];
@@ -83,5 +73,6 @@ export class LogIn {
             this.discordId = '';
             this.userInfo = {};
         }
+        return null;
     }
 }
