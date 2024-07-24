@@ -57,9 +57,9 @@ export class LogIn {
             }
 
             const res = await dbConnect.queryDB(
-                `SELECT discordId, pseudo
+                `SELECT *
                 FROM ptcg_users
-                WHERE discord_id = :discordId`,
+                WHERE discordId = :discordId`,
                 { discordId }
             );
             this.discordId = res[0].discordId;

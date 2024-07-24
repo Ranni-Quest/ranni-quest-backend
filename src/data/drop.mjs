@@ -3,7 +3,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -14,7 +14,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -25,7 +25,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -36,7 +36,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -47,7 +47,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -58,7 +58,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -69,7 +69,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -80,7 +80,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -91,7 +91,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -102,7 +102,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -115,7 +115,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -125,7 +125,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -135,7 +135,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -145,7 +145,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -155,7 +155,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommonmmon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -165,7 +165,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -175,7 +175,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -185,7 +185,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -195,7 +195,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -205,7 +205,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 25,
             ultra_rare: 25,
@@ -217,7 +217,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -228,7 +228,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -239,7 +239,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -250,7 +250,7 @@ export const scarlet_violet = {
         {
             common: 100,
             uncommon: 0,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -261,7 +261,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 100,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -272,7 +272,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 100,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -283,7 +283,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 100,
-            holographique: 0,
+            rare: 0,
             double_rare: 0,
             illustration_rare: 0,
             illustration_rare_chromatic: 0,
@@ -294,7 +294,7 @@ export const scarlet_violet = {
         {
             common: 40,
             uncommon: 40,
-            holographique: 16.97,
+            rare: 16.97,
             double_rare: 0.73,
             illustration_rare: 0.56,
             illustration_rare_chromatic: 0.56,
@@ -305,7 +305,7 @@ export const scarlet_violet = {
         {
             common: 40,
             uncommon: 40,
-            holographique: 16.97,
+            rare: 16.97,
             double_rare: 0.73,
             illustration_rare: 0.56,
             illustration_rare_chromatic: 0.56,
@@ -316,7 +316,7 @@ export const scarlet_violet = {
         {
             common: 0,
             uncommon: 0,
-            holographique: 96.97,
+            rare: 96.97,
             double_rare: 0.73,
             illustration_rare: 0.56,
             illustration_rare_chromatic: 0.56,

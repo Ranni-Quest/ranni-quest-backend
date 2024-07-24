@@ -4,7 +4,7 @@ export class UserActionLogger {
     static info(type, discordId, message, isError = 0) {
         message = message.replaceAll("'", '"');
         dbConnect.queryDB(
-            `INSERT INTO ptcg_logs (message, discordId, type, timestamp, \`is_error\`)
+            `INSERT INTO ptcg_logs (message, discordId, type, timestamp, isError)
             VALUES (':message', ':discordId', ':type', :timestamp, :isError)`,
             {
                 message,

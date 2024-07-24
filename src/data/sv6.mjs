@@ -1,4 +1,4 @@
-export const sv6Card = {
+export const sv6Cards = {
     common: [
         {
             id: 'sv6-1',
@@ -920,107 +920,7 @@ export const sv6Card = {
             },
         },
     ],
-    double_rare: [
-        {
-            id: 'sv6-23',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/23.png',
-                large: 'https://images.pokemontcg.io/sv6/23_hires.png',
-            },
-        },
-        {
-            id: 'sv6-25',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/25.png',
-                large: 'https://images.pokemontcg.io/sv6/25_hires.png',
-            },
-        },
-        {
-            id: 'sv6-29',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/29.png',
-                large: 'https://images.pokemontcg.io/sv6/29_hires.png',
-            },
-        },
-        {
-            id: 'sv6-40',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/40.png',
-                large: 'https://images.pokemontcg.io/sv6/40_hires.png',
-            },
-        },
-        {
-            id: 'sv6-61',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/61.png',
-                large: 'https://images.pokemontcg.io/sv6/61_hires.png',
-            },
-        },
-        {
-            id: 'sv6-64',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/64.png',
-                large: 'https://images.pokemontcg.io/sv6/64_hires.png',
-            },
-        },
-        {
-            id: 'sv6-68',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/68.png',
-                large: 'https://images.pokemontcg.io/sv6/68_hires.png',
-            },
-        },
-        {
-            id: 'sv6-77',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/77.png',
-                large: 'https://images.pokemontcg.io/sv6/77_hires.png',
-            },
-        },
-        {
-            id: 'sv6-94',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/94.png',
-                large: 'https://images.pokemontcg.io/sv6/94_hires.png',
-            },
-        },
-        {
-            id: 'sv6-106',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/106.png',
-                large: 'https://images.pokemontcg.io/sv6/106_hires.png',
-            },
-        },
-        {
-            id: 'sv6-112',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/112.png',
-                large: 'https://images.pokemontcg.io/sv6/112_hires.png',
-            },
-        },
-        {
-            id: 'sv6-130',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/130.png',
-                large: 'https://images.pokemontcg.io/sv6/130_hires.png',
-            },
-        },
-        {
-            id: 'sv6-134',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/134.png',
-                large: 'https://images.pokemontcg.io/sv6/134_hires.png',
-            },
-        },
-        {
-            id: 'sv6-141',
-            images: {
-                small: 'https://images.pokemontcg.io/sv6/141.png',
-                large: 'https://images.pokemontcg.io/sv6/141_hires.png',
-            },
-        },
-    ],
-    holographique: [
+    rare: [
         {
             id: 'sv6-19',
             images: {
@@ -1131,6 +1031,106 @@ export const sv6Card = {
             images: {
                 small: 'https://images.pokemontcg.io/sv6/123.png',
                 large: 'https://images.pokemontcg.io/sv6/123_hires.png',
+            },
+        },
+    ],
+    double_rare: [
+        {
+            id: 'sv6-23',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/23.png',
+                large: 'https://images.pokemontcg.io/sv6/23_hires.png',
+            },
+        },
+        {
+            id: 'sv6-25',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/25.png',
+                large: 'https://images.pokemontcg.io/sv6/25_hires.png',
+            },
+        },
+        {
+            id: 'sv6-29',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/29.png',
+                large: 'https://images.pokemontcg.io/sv6/29_hires.png',
+            },
+        },
+        {
+            id: 'sv6-40',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/40.png',
+                large: 'https://images.pokemontcg.io/sv6/40_hires.png',
+            },
+        },
+        {
+            id: 'sv6-61',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/61.png',
+                large: 'https://images.pokemontcg.io/sv6/61_hires.png',
+            },
+        },
+        {
+            id: 'sv6-64',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/64.png',
+                large: 'https://images.pokemontcg.io/sv6/64_hires.png',
+            },
+        },
+        {
+            id: 'sv6-68',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/68.png',
+                large: 'https://images.pokemontcg.io/sv6/68_hires.png',
+            },
+        },
+        {
+            id: 'sv6-77',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/77.png',
+                large: 'https://images.pokemontcg.io/sv6/77_hires.png',
+            },
+        },
+        {
+            id: 'sv6-94',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/94.png',
+                large: 'https://images.pokemontcg.io/sv6/94_hires.png',
+            },
+        },
+        {
+            id: 'sv6-106',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/106.png',
+                large: 'https://images.pokemontcg.io/sv6/106_hires.png',
+            },
+        },
+        {
+            id: 'sv6-112',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/112.png',
+                large: 'https://images.pokemontcg.io/sv6/112_hires.png',
+            },
+        },
+        {
+            id: 'sv6-130',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/130.png',
+                large: 'https://images.pokemontcg.io/sv6/130_hires.png',
+            },
+        },
+        {
+            id: 'sv6-134',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/134.png',
+                large: 'https://images.pokemontcg.io/sv6/134_hires.png',
+            },
+        },
+        {
+            id: 'sv6-141',
+            images: {
+                small: 'https://images.pokemontcg.io/sv6/141.png',
+                large: 'https://images.pokemontcg.io/sv6/141_hires.png',
             },
         },
     ],

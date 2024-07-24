@@ -2,7 +2,7 @@ import { serverConfig } from '../../config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
 import { scarlet_violet } from '../data/drop.mjs';
-import { sv6Card } from '../data/sv6.mjs';
+import { sv6Card } from '../data/index.mjs';
 import { Hash } from '../util/hash.mjs';
 
 export class Invocation {
@@ -14,7 +14,7 @@ export class Invocation {
             return;
         }
 
-        if (!CheckAccess.checkPull(userInfo.last_time_pull)) {
+        if (!CheckAccess.checkPull(userInfo.lastTimePull)) {
             res.statusCode = 400;
             res.json({ message: 'Too soon' });
             return;
@@ -22,7 +22,7 @@ export class Invocation {
         let discordId = Hash.decrypt(req.headers.sessionid, serverConfig.hash);
 
         let results = [];
-        for (let dropRate of scarlet_violet.normal) {
+        for (let dropRate of scarlet_violet[this.getRandomDrop()]) {
             let rarity = this.getRandomRarity(dropRate);
             let card = this.getRandomCard(rarity);
             card.rarity = rarity;
@@ -32,6 +32,25 @@ export class Invocation {
         this.saveInPull(discordId, results);
         this.savePullDateTime(discordId);
         res.json(results);
+    }
+
+    getRandomDrop() {
+        const drops = {
+            hell: 0.001,
+            god: 0.001,
+            normal: 99.999,
+        };
+        const random = Math.random() * totalWeight;
+
+        // Determine which drop to return based on the random number
+        let cumulativeWeight = 0;
+        for (const [key, weight] of Object.entries(drops)) {
+            cumulativeWeight += weight;
+            if (random < cumulativeWeight) {
+                return key;
+            }
+        }
+        return 'normal';
     }
 
     getRandomRarity(rates) {
@@ -44,6 +63,10 @@ export class Invocation {
 
         let cumulativeRate = 0;
         for (const key in rates) {
+            if (!Object.keys(sv6Card).includes(key)) {
+                continue;
+            }
+
             cumulativeRate += rates[key];
             if (randomNum < cumulativeRate) {
                 return key;
@@ -61,13 +84,13 @@ export class Invocation {
     async saveInPull(discordId, cards) {
         for (let card of cards) {
             dbConnect.queryDB(
-                `INSERT INTO ptcg_cards (card_id, discord_id, rarity, image)
-                VALUES (':card_id', ':discord_id', ':rarity', ':image')`,
+                `INSERT INTO ptcg_cards (cardId, discordId, rarity, image)
+                VALUES (':cardId', ':discordId', ':rarity', ':image')`,
                 {
-                    card_id: card.id,
+                    cardId: card.id,
                     image: card.images.large,
                     rarity: card.rarity,
-                    discord_id: discordId,
+                    discordId: discordId,
                 }
             );
         }
@@ -75,7 +98,7 @@ export class Invocation {
 
     async savePullDateTime(discordId) {
         dbConnect.queryDB(
-            `UPDATE ptcg_users SET last_time_pull=:lastTimePull WHERE discord_id=':discordId'`,
+            `UPDATE ptcg_users SET lastTimePull=:lastTimePull WHERE discordId=':discordId'`,
             {
                 discordId,
                 lastTimePull: Math.floor(Date.now() / 1000),
