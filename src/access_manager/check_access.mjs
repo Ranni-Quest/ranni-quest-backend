@@ -23,6 +23,9 @@ export class CheckAccess {
     }
 
     static checkPull(lastTimePull) {
-        return 60 * 5 <= Math.floor(Date.now() / 1000) - (lastTimePull ?? 0);
+        return (
+            serverConfig.app.invocation <=
+            Math.floor(Date.now() / 1000) - (lastTimePull ?? 0)
+        );
     }
 }

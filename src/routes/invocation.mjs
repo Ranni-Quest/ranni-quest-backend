@@ -14,11 +14,11 @@ export class Invocation {
             return;
         }
 
-        // if (!CheckAccess.checkPull(userInfo.lastTimePull)) {
-        //     res.statusCode = 400;
-        //     res.json({ message: 'Too soon' });
-        //     return;
-        // }
+        if (!CheckAccess.checkPull(userInfo.lastTimePull)) {
+            res.statusCode = 400;
+            res.json({ message: 'Too soon' });
+            return;
+        }
 
         let discordId = Hash.decrypt(req.headers.sessionid, serverConfig.hash);
 
