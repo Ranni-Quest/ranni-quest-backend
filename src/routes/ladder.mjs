@@ -10,7 +10,6 @@ export class Ladder {
             return;
         }
         const output = await this.getLadder();
-        console.log(output);
         res.json(await output);
     }
 
