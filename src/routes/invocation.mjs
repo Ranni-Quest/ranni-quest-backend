@@ -2,7 +2,7 @@ import { serverConfig } from '../../../config/config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
 import { scarlet_violet } from '../data/drop.mjs';
-import { sv6Cards } from '../data/index.mjs';
+import { sv1Cards as cardsSet } from '../data/index.mjs';
 import { Hash } from '../util/hash.mjs';
 
 export class Invocation {
@@ -69,7 +69,7 @@ export class Invocation {
 
         let cumulativeRate = 0;
         for (const key in rates) {
-            if (!Object.keys(sv6Cards).includes(key)) {
+            if (!Object.keys(cardsSet).includes(key)) {
                 continue;
             }
 
@@ -83,7 +83,7 @@ export class Invocation {
     }
 
     getRandomCard(rarity = 'common') {
-        const cardsRarity = sv6Cards[rarity];
+        const cardsRarity = cardsSet[rarity];
         return cardsRarity[Math.floor(Math.random() * cardsRarity.length)];
     }
 
