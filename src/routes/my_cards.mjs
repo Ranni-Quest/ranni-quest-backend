@@ -12,7 +12,7 @@ export class MyCards {
 
         const output = await this.getMyCards(
             userInfo.discordId,
-            req.headers?.offset ?? 0
+            req.query?.offset ?? 0
         );
         res.json(await output);
     }
