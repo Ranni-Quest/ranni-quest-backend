@@ -85,7 +85,7 @@ export class DatabaseManager {
         } catch (error) {}
     }
 
-    async queryDB(text, values) {
+    async queryDB(text, values = {}) {
         await this.query(`USE ${this.defaultSchema}`, null);
         return await this.query(text, values);
     }

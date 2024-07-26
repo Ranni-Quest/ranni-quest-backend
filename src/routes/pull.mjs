@@ -5,7 +5,7 @@ import { scarlet_violet } from '../data/drop.mjs';
 import { sv1Cards as cardsSet } from '../data/index.mjs';
 import { Hash } from '../util/hash.mjs';
 
-export class Invocation {
+export class Pull {
     async init(req, res) {
         const userInfo = await CheckAccess.init(req, res);
         if (!userInfo) {
