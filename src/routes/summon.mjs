@@ -1,5 +1,6 @@
 import { dbConnect } from '../app.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
+import { serverConfig } from '../../../config/config.mjs';
 
 export class Summon {
     async init(req, res) {
@@ -16,14 +17,16 @@ export class Summon {
             return;
         }
 
-        const pokemonIds = await this.getPokemonAlreadySummon();
+        const pokemonIds = JSON.parse(
+            JSON.stringify(await this.getPokemonAlreadySummon())
+        ).map((packet) => packet.pokemonId);
 
         const pokemonId = this.getRandomPokemonId(pokemonIds);
 
         const name = await this.getFrenchName(pokemonId);
         this.upsertPokemonPending(userInfo.discordId, { pokemonId, name });
 
-        const isShiny = Math.floor(Math.random());
+        const isShiny = this.isShiny();
 
         res.json({
             name,
@@ -34,6 +37,11 @@ export class Summon {
                 isShiny ? 'shiny/' : ''
             }${pokemonId}.png`,
         });
+    }
+
+    isShiny() {
+        const probabilityFor001 = serverConfig.app.shinyOod;
+        return Math.random() < probabilityFor001 ? 1 : 0;
     }
 
     getRandomPokemonId(pokemonIds) {
@@ -74,6 +82,7 @@ export class Summon {
             discordId=':discordId', pokemonId=':pokemonId', name=':name'`,
             { discordId, ...pokemon }
         );
+
         dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimeSummon=:lastTimeSummon WHERE discordId=':discordId'`,
             {
