@@ -12,11 +12,11 @@ export class Summon {
             return;
         }
 
-        // if (!(await CheckAccess.checkSummon(userInfo.discordId))) {
-        //     res.statusCode = 400;
-        //     res.json({ message: 'Too soon' });
-        //     return;
-        // }
+        if (!(await CheckAccess.checkSummon(userInfo.discordId))) {
+            res.statusCode = 400;
+            res.json({ message: 'Too soon' });
+            return;
+        }
 
         const pokemonStatus = this.getRandomPokemonStatus();
         const alreadySummoned = JSON.parse(
@@ -106,7 +106,6 @@ export class Summon {
             discordId=':discordId', pokemonId=':pokemonId', name=':name'`,
             { discordId, ...pokemon }
         );
-        return;
 
         dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimeSummon=:lastTimeSummon WHERE discordId=':discordId'`,
