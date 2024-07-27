@@ -22,10 +22,20 @@ export class Pull {
 
         let discordId = Hash.decrypt(req.headers.sessionid, serverConfig.hash);
 
+        let alreadySummoned = await dbConnect.queryDB(
+            `SELECT DISTINCT(cardId)
+            FROM ptcg_cards
+            WHERE rarity NOT IN ('commun', 'uncommon', 'rare')`
+        );
+        alreadySummoned = JSON.parse(JSON.stringify(alreadySummoned)).map(
+            (card) => card.cardId
+        );
+
         let results = [];
         const pullRarity = this.getRandomDrop();
+
         for (let dropRate of scarlet_violet[pullRarity]) {
-            let card = await this.getRandomCard(dropRate);
+            let card = await this.getRandomCard(alreadySummoned, dropRate);
             results.push(card);
         }
 
@@ -50,7 +60,7 @@ export class Pull {
         return 'normal';
     }
 
-    async getRandomCard(dropRate, i = 0) {
+    async getRandomCard(alreadySummoned, dropRate, i = 0) {
         let rarity = 'rare';
         if (i !== 2) {
             rarity = this.getRandomRarity(dropRate);
@@ -60,14 +70,7 @@ export class Pull {
         const card =
             cardsRarity[Math.floor(Math.random() * cardsRarity.length)];
 
-        const isAlreadySummoned = await dbConnect.queryDB(
-            `SELECT DISTINCT(cardId)
-            FROM ptcg_cards
-            WHERE cardId LIKE ':cardId%' AND rarity NOT IN ('commun', 'uncommon', 'rare')`,
-            { cardId: card.id }
-        );
-
-        if (JSON.parse(JSON.stringify(isAlreadySummoned)).length >= 1) {
+        if (alreadySummoned.includes(card.id)) {
             this.getRandomCard(dropRate, i++);
         }
 
@@ -115,7 +118,7 @@ export class Pull {
     }
 
     async savePullDateTime(discordId) {
-        dbConnect.queryDB(
+        await dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimePull=:lastTimePull WHERE discordId=':discordId'`,
             {
                 discordId,
