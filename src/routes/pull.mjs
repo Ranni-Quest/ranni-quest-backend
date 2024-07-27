@@ -106,7 +106,9 @@ export class Pull {
         for (let card of cards) {
             dbConnect.queryDB(
                 `INSERT INTO ptcg_cards (cardId, discordId, rarity, image)
-                VALUES (':cardId', ':discordId', ':rarity', ':image')`,
+                VALUES (':cardId', ':discordId', ':rarity', ':image')
+                ON DUPLICATE KEY UPDATE
+                image=':image'`,
                 {
                     cardId: card.id,
                     image: card.images.large,

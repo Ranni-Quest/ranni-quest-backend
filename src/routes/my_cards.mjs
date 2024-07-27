@@ -33,7 +33,7 @@ export class MyCards {
                 WHEN rarity = 'rare' then 7
                 WHEN rarity = 'uncommon' then 8
                 WHEN rarity = 'common' then 9
-            END
+            END, cardId ASC
             LIMIT 20
             OFFSET :offset`,
             { discordId, offset }
