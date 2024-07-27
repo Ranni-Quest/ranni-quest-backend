@@ -20,6 +20,6 @@ export class Ladder {
             LEFT JOIN ptcg_users u ON c.discordId = u.discordId
             WHERE rarity != 'common' AND rarity != 'uncommon' AND rarity != 'rare' 
             ORDER BY id DESC 
-            LIMIT 20;`);
+            LIMIT 6;`);
     }
 }

@@ -1,4 +1,8 @@
 export const sv1Cards = {
+    name: {
+        id: 'sv1',
+        name: 'Scarlet & Violet',
+    },
     common: [
         {
             id: 'sv1-8',

@@ -1,7 +1,7 @@
 import { serverConfig } from '../../../config/config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
-import { scarlet_violet } from '../data/drop.mjs';
+import { scarlet_violet } from '../data/card_frop_rate.mjs';
 import { sv5Cards as cardsSet } from '../data/index.mjs';
 import { Hash } from '../util/hash.mjs';
 
@@ -23,10 +23,9 @@ export class Pull {
         let discordId = Hash.decrypt(req.headers.sessionid, serverConfig.hash);
 
         let results = [];
-        for (let dropRate of scarlet_violet[this.getRandomDrop()]) {
-            let rarity = this.getRandomRarity(dropRate);
-            let card = this.getRandomCard(rarity);
-            card.rarity = rarity;
+        const pullRarity = this.getRandomDrop();
+        for (let dropRate of scarlet_violet[pullRarity]) {
+            let card = await this.getRandomCard(dropRate);
             results.push(card);
         }
 
@@ -37,26 +36,44 @@ export class Pull {
 
     getRandomDrop() {
         const drops = {
-            hell: 0.001,
             god: 0.001,
+            hell: 0.002,
             normal: 99.999,
         };
-        const totalWeight = Object.values(drops).reduce(
-            (acc, value) => acc + value,
-            0
+        const rate = Math.random();
+        if (drops.god > rate) {
+            return 'god';
+        } else if (drops.hell > rate) {
+            return 'hell';
+        }
+
+        return 'normal';
+    }
+
+    async getRandomCard(dropRate, i = 0) {
+        let rarity = 'rare';
+        if (i !== 2) {
+            rarity = this.getRandomRarity(dropRate);
+        }
+
+        const cardsRarity = cardsSet[rarity];
+        const card =
+            cardsRarity[Math.floor(Math.random() * cardsRarity.length)];
+
+        const isAlreadySummoned = await dbConnect.queryDB(
+            `SELECT DISTINCT(cardId)
+            FROM ptcg_cards
+            WHERE cardId LIKE ':cardId%' AND rarity NOT IN ('commun', 'uncommon', 'rare')`,
+            { cardId: card.id }
         );
 
-        const random = Math.random() * totalWeight;
-
-        // Determine which drop to return based on the random number
-        let cumulativeWeight = 0;
-        for (const [key, weight] of Object.entries(drops)) {
-            cumulativeWeight += weight;
-            if (random < cumulativeWeight) {
-                return key;
-            }
+        if (JSON.parse(JSON.stringify(isAlreadySummoned)).length >= 1) {
+            this.getRandomCard(dropRate, i++);
         }
-        return 'normal';
+
+        card.rarity = rarity;
+
+        return card;
     }
 
     getRandomRarity(rates) {
@@ -80,11 +97,6 @@ export class Pull {
         }
 
         return 'common';
-    }
-
-    getRandomCard(rarity = 'common') {
-        const cardsRarity = cardsSet[rarity];
-        return cardsRarity[Math.floor(Math.random() * cardsRarity.length)];
     }
 
     async saveInPull(discordId, cards) {

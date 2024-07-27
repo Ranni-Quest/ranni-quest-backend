@@ -1,6 +1,7 @@
 import { dbConnect } from '../app.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { serverConfig } from '../../../config/config.mjs';
+import { dropRate } from '../data/pokemon_drop_rate.mjs';
 
 export class Summon {
     async init(req, res) {
@@ -11,25 +12,31 @@ export class Summon {
             return;
         }
 
-        if (!(await CheckAccess.checkSummon(userInfo.discordId))) {
-            res.statusCode = 400;
-            res.json({ message: 'Too soon' });
-            return;
-        }
+        // if (!(await CheckAccess.checkSummon(userInfo.discordId))) {
+        //     res.statusCode = 400;
+        //     res.json({ message: 'Too soon' });
+        //     return;
+        // }
 
-        const pokemonIds = JSON.parse(
+        const pokemonStatus = this.getRandomPokemonStatus();
+        const alreadySummoned = JSON.parse(
             JSON.stringify(await this.getPokemonAlreadySummon())
-        ).map((packet) => packet.pokemonId);
+        ).map((pokemon) => pokemon.pokemonId);
 
-        const pokemonId = this.getRandomPokemonId(pokemonIds);
+        const pokemonId = this.getRandomPokemonId(
+            alreadySummoned,
+            dropRate[pokemonStatus].pokemons
+        );
 
         const name = await this.getFrenchName(pokemonId);
+
         this.upsertPokemonPending(userInfo.discordId, { pokemonId, name });
 
         const isShiny = this.isShiny();
 
         res.json({
             name,
+            status: pokemonStatus,
             image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
                 isShiny ? 'shiny/' : ''
             }${pokemonId}.png`,
@@ -44,11 +51,28 @@ export class Summon {
         return Math.random() < probabilityFor001 ? 1 : 0;
     }
 
-    getRandomPokemonId(pokemonIds) {
-        const pokemonId = Math.floor(Math.random() * 889);
+    getRandomPokemonStatus() {
+        const rate = Math.random();
+        if (dropRate.legendary.rate > rate) {
+            return 'legendary';
+        } else if (dropRate.subLegendary.rate > rate) {
+            return 'subLegendary';
+        } else if (dropRate.fabulous.rate > rate) {
+            return 'fabulous';
+        }
+        return 'commun';
+    }
 
-        return pokemonIds.includes(pokemonId)
-            ? this.getRandomPokemonId(pokemonIds)
+    getRandomPokemonId(alreadySummoned, pokemondIds, i = 0) {
+        if (i === 2) {
+            pokemondIds = dropRate.commun.pokemons;
+        }
+
+        const pokemonId =
+            pokemondIds[Math.floor(Math.random() * pokemondIds.length)];
+
+        return alreadySummoned.includes(pokemonId)
+            ? this.getRandomPokemonId(alreadySummoned, pokemondIds, i++)
             : pokemonId;
     }
 
@@ -82,6 +106,7 @@ export class Summon {
             discordId=':discordId', pokemonId=':pokemonId', name=':name'`,
             { discordId, ...pokemon }
         );
+        return;
 
         dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimeSummon=:lastTimeSummon WHERE discordId=':discordId'`,
