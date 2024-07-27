@@ -53,13 +53,14 @@ export class Summon {
 
     getRandomPokemonStatus() {
         const rate = Math.random();
-        if (dropRate.legendary.rate > rate) {
+        if (dropRate.fabulous.rate > rate) {
+            return 'fabulous';
+        } else if (dropRate.legendary.rate > rate) {
             return 'legendary';
         } else if (dropRate.subLegendary.rate > rate) {
             return 'subLegendary';
-        } else if (dropRate.fabulous.rate > rate) {
-            return 'fabulous';
         }
+
         return 'commun';
     }
 
