@@ -2,7 +2,7 @@ import { serverConfig } from '../../../config/config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
 import { scarlet_violet } from '../data/card_frop_rate.mjs';
-import { sv5Cards as cardsSet } from '../data/index.mjs';
+import { sv4Cards as cardsSet } from '../data/index.mjs';
 import { Hash } from '../util/hash.mjs';
 
 export class Pull {
