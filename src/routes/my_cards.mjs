@@ -24,7 +24,7 @@ export class MyCards {
             FROM ptcg_cards
             WHERE discordId = ':discordId'
             ORDER BY CASE 
-                WHEN rarity = 'speciale_illustration_rare' then 1
+                WHEN rarity = 'special_illustration_rare' then 1
 				WHEN rarity = 'hyper_rare' then 2
                 WHEN rarity = 'ultra_rare' then 3
                 WHEN rarity = 'illustration_rare_chromatic' then 4

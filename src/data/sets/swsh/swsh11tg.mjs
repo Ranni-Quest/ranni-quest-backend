@@ -1,0 +1,343 @@
+export const swsh11tgCards = {
+    name: { id: 'swsh11tg', name: 'Lost Origin Trainer Gallery' },
+    rare_holo_v: [
+        {
+            id: 'swsh11tg-TG12',
+            name: 'Orbeetle V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG12.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG12_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG14',
+            name: 'Centiskorch V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG14.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG14_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG16',
+            name: 'Pikachu V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG16.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG16_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG18',
+            name: 'Enamorus V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG18.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG18_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG19',
+            name: 'Gallade V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG19.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG19_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG20',
+            name: 'Crobat V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG20.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG20_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG21',
+            name: 'Eternatus V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG21.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG21_hires.png',
+            },
+        },
+    ],
+    rare_holo_vmax: [
+        {
+            id: 'swsh11tg-TG13',
+            name: 'Orbeetle VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX'],
+            rarity: 'rare_holo_vmax',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG13.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG13_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG15',
+            name: 'Centiskorch VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX'],
+            rarity: 'rare_holo_vmax',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG15.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG15_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG17',
+            name: 'Pikachu VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX'],
+            rarity: 'rare_holo_vmax',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG17.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG17_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG22',
+            name: 'Eternatus VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX', 'Eternamax'],
+            rarity: 'rare_holo_vmax',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG22.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG22_hires.png',
+            },
+        },
+    ],
+    rare_secret: [
+        {
+            id: 'swsh11tg-TG29',
+            name: 'Pikachu VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX'],
+            rarity: 'rare_secret',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG29.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG29_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG30',
+            name: 'Mew VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX', 'Fusion Strike'],
+            rarity: 'rare_secret',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG30.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG30_hires.png',
+            },
+        },
+    ],
+    rare_ultra: [
+        {
+            id: 'swsh11tg-TG23',
+            name: "Adventurer's Discovery",
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG23.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG23_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG24',
+            name: "Boss's Orders",
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG24.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG24_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG25',
+            name: 'Cook',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG25.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG25_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG26',
+            name: 'Kabu',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG26.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG26_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG27',
+            name: 'Nessa',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG27.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG27_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG28',
+            name: 'Opal',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG28.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG28_hires.png',
+            },
+        },
+    ],
+    trainer_gallery_rare_holo: [
+        {
+            id: 'swsh11tg-TG01',
+            name: 'Parasect',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG01.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG01_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG02',
+            name: 'Roserade',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG02.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG02_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG03',
+            name: 'Charizard',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 2'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG03.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG03_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG04',
+            name: 'Chandelure',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 2'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG04.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG04_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG05',
+            name: 'Pikachu',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG05.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG05_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG06',
+            name: 'Gengar',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 2'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG06.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG06_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG07',
+            name: 'Banette',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1', 'Single Strike'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG07.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG07_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG08',
+            name: 'Hisuian Arcanine',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG08.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG08_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG09',
+            name: 'Spiritomb',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG09.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG09_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG10',
+            name: 'Snorlax',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG10.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG10_hires.png',
+            },
+        },
+        {
+            id: 'swsh11tg-TG11',
+            name: 'Castform',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh11tg/TG11.png',
+                large: 'https://images.pokemontcg.io/swsh11tg/TG11_hires.png',
+            },
+        },
+    ],
+};

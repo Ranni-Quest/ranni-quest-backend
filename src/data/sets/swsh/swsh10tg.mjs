@@ -1,0 +1,343 @@
+export const swsh10tgCards = {
+    name: { id: 'swsh10tg', name: 'Astral Radiance Trainer Gallery' },
+    rare_holo_v: [
+        {
+            id: 'swsh10tg-TG13',
+            name: 'Starmie V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG13.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG13_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG14',
+            name: 'Ice Rider Calyrex V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG14.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG14_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG16',
+            name: 'Galarian Articuno V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG16.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG16_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG17',
+            name: 'Shadow Rider Calyrex V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG17.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG17_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG19',
+            name: 'Galarian Zapdos V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG19.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG19_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG20',
+            name: 'Galarian Moltres V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG20.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG20_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG21',
+            name: 'Zacian V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG21.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG21_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG22',
+            name: 'Zamazenta V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG22.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG22_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG23',
+            name: 'Garchomp V',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'V'],
+            rarity: 'rare_holo_v',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG23.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG23_hires.png',
+            },
+        },
+    ],
+    rare_holo_vmax: [
+        {
+            id: 'swsh10tg-TG15',
+            name: 'Ice Rider Calyrex VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX'],
+            rarity: 'rare_holo_vmax',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG15.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG15_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG18',
+            name: 'Shadow Rider Calyrex VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX'],
+            rarity: 'rare_holo_vmax',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG18.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG18_hires.png',
+            },
+        },
+    ],
+    rare_secret: [
+        {
+            id: 'swsh10tg-TG29',
+            name: 'Ice Rider Calyrex VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX'],
+            rarity: 'rare_secret',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG29.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG29_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG30',
+            name: 'Shadow Rider Calyrex VMAX',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['VMAX'],
+            rarity: 'rare_secret',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG30.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG30_hires.png',
+            },
+        },
+    ],
+    rare_ultra: [
+        {
+            id: 'swsh10tg-TG24',
+            name: 'Allister',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG24.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG24_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG25',
+            name: 'Bea',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG25.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG25_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG26',
+            name: 'Melony',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG26.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG26_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG27',
+            name: 'Milo',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG27.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG27_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG28',
+            name: 'Piers',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'rare_ultra',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG28.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG28_hires.png',
+            },
+        },
+    ],
+    trainer_gallery_rare_holo: [
+        {
+            id: 'swsh10tg-TG01',
+            name: 'Abomasnow',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1', 'Single Strike'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG01.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG01_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG02',
+            name: 'Flapple',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG02.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG02_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG03',
+            name: 'Kingdra',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 2'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG03.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG03_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG04',
+            name: 'Frosmoth',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG04.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG04_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG05',
+            name: 'Gardevoir',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 2'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG05.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG05_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG06',
+            name: 'Wyrdeer',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG06.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG06_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG07',
+            name: 'Falinks',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic', 'Rapid Strike'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG07.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG07_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG08',
+            name: 'Kleavor',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG08.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG08_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG09',
+            name: 'Mightyena',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG09.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG09_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG10',
+            name: 'Galarian Obstagoon',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 2'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG10.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG10_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG11',
+            name: 'Bronzong',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Stage 1'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG11.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG11_hires.png',
+            },
+        },
+        {
+            id: 'swsh10tg-TG12',
+            name: 'Hoothoot',
+            supertype: 'Pok\u00e9mon',
+            subtypes: ['Basic'],
+            rarity: 'trainer_gallery_rare_holo',
+            images: {
+                small: 'https://images.pokemontcg.io/swsh10tg/TG12.png',
+                large: 'https://images.pokemontcg.io/swsh10tg/TG12_hires.png',
+            },
+        },
+    ],
+};

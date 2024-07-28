@@ -1,7 +1,7 @@
 import { dbConnect } from '../app.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { serverConfig } from '../../../config/config.mjs';
-import { dropRate } from '../data/pokemon_drop_rate.mjs';
+import { pokemonDropRate } from '../data/drop_rate.mjs';
 
 export class Summon {
     async init(req, res) {
@@ -25,7 +25,7 @@ export class Summon {
 
         const pokemonId = this.getRandomPokemonId(
             alreadySummoned,
-            dropRate[pokemonStatus].pokemons
+            pokemonDropRate[pokemonStatus].pokemons
         );
 
         const name = await this.getFrenchName(pokemonId);
@@ -53,11 +53,11 @@ export class Summon {
 
     getRandomPokemonStatus() {
         const rate = Math.random();
-        if (dropRate.fabulous.rate > rate) {
+        if (pokemonDropRate.fabulous.rate > rate) {
             return 'fabulous';
-        } else if (dropRate.legendary.rate > rate) {
+        } else if (pokemonDropRate.legendary.rate > rate) {
             return 'legendary';
-        } else if (dropRate.subLegendary.rate > rate) {
+        } else if (pokemonDropRate.subLegendary.rate > rate) {
             return 'subLegendary';
         }
 
@@ -66,7 +66,7 @@ export class Summon {
 
     getRandomPokemonId(alreadySummoned, pokemondIds, i = 0) {
         if (i === 2) {
-            pokemondIds = dropRate.commun.pokemons;
+            pokemondIds = pokemonDropRate.commun.pokemons;
         }
 
         const pokemonId =

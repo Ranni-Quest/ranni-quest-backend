@@ -1394,7 +1394,7 @@ export const sv3pt5Cards = {
             },
         },
     ],
-    speciale_illustration_rare: [
+    special_illustration_rare: [
         {
             id: 'sv3pt5-198',
             images: {

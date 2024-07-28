@@ -1,8 +1,11 @@
 import { serverConfig } from '../../../config/config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
-import { scarlet_violet } from '../data/card_frop_rate.mjs';
-import { sv4Cards as cardsSet } from '../data/index.mjs';
+import {
+    sv4Cards as cardsSet,
+    RarityEffect,
+    scarletPurpleDrop,
+} from '../data/index.mjs';
 import { Hash } from '../util/hash.mjs';
 
 export class Pull {
@@ -27,6 +30,7 @@ export class Pull {
             FROM ptcg_cards
             WHERE rarity NOT IN ('commun', 'uncommon', 'rare')`
         );
+
         alreadySummoned = JSON.parse(JSON.stringify(alreadySummoned)).map(
             (card) => card.cardId
         );
@@ -34,10 +38,13 @@ export class Pull {
         let results = [];
         const pullRarity = this.getRandomDrop();
 
-        for (let dropRate of scarlet_violet[pullRarity]) {
+        for (let dropRate of scarletPurpleDrop[pullRarity]) {
             let card = await this.getRandomCard(alreadySummoned, dropRate);
             results.push(card);
         }
+        const ill = cardsSet.special_illustration_rare[0];
+        ill.effect = RarityEffect.special_illustration_rare;
+        results.push(ill);
 
         this.saveInPull(discordId, results);
         this.savePullDateTime(discordId);
@@ -50,7 +57,9 @@ export class Pull {
             hell: 0.002,
             normal: 99.999,
         };
+
         const rate = Math.random();
+
         if (drops.god > rate) {
             return 'god';
         } else if (drops.hell > rate) {
@@ -67,14 +76,14 @@ export class Pull {
         }
 
         const cardsRarity = cardsSet[rarity];
-        const card =
-            cardsRarity[Math.floor(Math.random() * cardsRarity.length)];
+        let card = cardsRarity[Math.floor(Math.random() * cardsRarity.length)];
 
         if (alreadySummoned.includes(card.id)) {
-            this.getRandomCard(dropRate, i++);
+            i++;
+            card = this.getRandomCard(alreadySummoned, dropRate, i);
         }
 
-        card.rarity = rarity;
+        card.effect = RarityEffect[rarity];
 
         return card;
     }
@@ -105,8 +114,8 @@ export class Pull {
     async saveInPull(discordId, cards) {
         for (let card of cards) {
             dbConnect.queryDB(
-                `INSERT INTO ptcg_cards (cardId, discordId, rarity, image)
-                VALUES (':cardId', ':discordId', ':rarity', ':image')
+                `INSERT INTO ptcg_cards (cardId, discordId, rarity, image, type, supertype, effect)
+                VALUES (':cardId', ':discordId', ':rarity', ':image', :type, ':supertype', ':effect')
                 ON DUPLICATE KEY UPDATE
                 image=':image'`,
                 {
@@ -114,12 +123,17 @@ export class Pull {
                     image: card.images.large,
                     rarity: card.rarity,
                     discordId: discordId,
+                    type: card.types?.length > 0 ? `'${card.types[0]}'` : null,
+                    supertype: card.supertype,
+                    name: card.name,
+                    effect: card.effect,
                 }
             );
         }
     }
 
     async savePullDateTime(discordId) {
+        return;
         await dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimePull=:lastTimePull WHERE discordId=':discordId'`,
             {
