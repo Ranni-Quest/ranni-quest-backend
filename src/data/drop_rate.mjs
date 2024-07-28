@@ -1,7 +1,7 @@
 export const scarletPurpleDrop = {
     hell: [
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -12,7 +12,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -23,7 +23,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -34,7 +34,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -45,7 +45,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -56,7 +56,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -67,7 +67,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -78,7 +78,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -89,7 +89,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -100,7 +100,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -117,105 +117,105 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommonmmon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
         {
             common: 0,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 25,
-            ultra_rare: 25,
-            special_illustration_rare: 25,
-            hyper_rare: 25,
+            illustration_rare: 0.25,
+            ultra_rare: 0.25,
+            special_illustration_rare: 0.25,
+            hyper_rare: 0.25,
         },
     ],
     normal: [
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -226,7 +226,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -237,7 +237,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -248,7 +248,7 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -260,7 +260,7 @@ export const scarletPurpleDrop = {
         },
         {
             common: 0,
-            uncommon: 100,
+            uncommon: 1,
             rare: 0,
             double_rare: 0,
             illustration_rare: 0,
@@ -271,7 +271,7 @@ export const scarletPurpleDrop = {
         },
         {
             common: 0,
-            uncommon: 100,
+            uncommon: 1,
             rare: 0,
             double_rare: 0,
             illustration_rare: 0,
@@ -282,7 +282,7 @@ export const scarletPurpleDrop = {
         },
         {
             common: 0,
-            uncommon: 100,
+            uncommon: 1,
             rare: 0,
             double_rare: 0,
             illustration_rare: 0,
@@ -292,37 +292,37 @@ export const scarletPurpleDrop = {
             hyper_rare: 0,
         },
         {
-            common: 40,
-            uncommon: 40,
-            rare: 16.97,
-            double_rare: 0.73,
-            illustration_rare: 0.56,
-            illustration_rare_chromatic: 0.56,
-            ultra_rare: 0.53,
-            special_illustration_rare: 0.37,
-            hyper_rare: 0.28,
+            common: 1, // 40%
+            uncommon: 0.6, // 40%
+            rare: 0.2, // 16.97%
+            double_rare: 0.0303, // 0.73%
+            illustration_rare: 0.023, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            special_illustration_rare: 0.0065, // 0.37%
+            hyper_rare: 0.0028, // 0.28%
         },
         {
-            common: 40,
-            uncommon: 40,
-            rare: 16.97,
-            double_rare: 0.73,
-            illustration_rare: 0.56,
-            illustration_rare_chromatic: 0.56,
-            ultra_rare: 0.53,
-            special_illustration_rare: 0.37,
-            hyper_rare: 0.28,
+            common: 1, // 40%
+            uncommon: 0.6, // 40%
+            rare: 0.2, // 16.97%
+            double_rare: 0.0303, // 0.73%
+            illustration_rare: 0.023, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            special_illustration_rare: 0.0065, // 0.37%
+            hyper_rare: 0.0028, // 0.28%
         },
         {
             common: 0,
             uncommon: 0,
-            rare: 96.97,
-            double_rare: 0.73,
-            illustration_rare: 0.56,
-            illustration_rare_chromatic: 0.56,
-            ultra_rare: 0.53,
-            special_illustration_rare: 0.37,
-            hyper_rare: 0.28,
+            rare: 1, //  96.97%
+            double_rare: 0.0303, // 0.73%
+            illustration_rare: 0.023, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            special_illustration_rare: 0.0065, // 0.37%
+            hyper_rare: 0.0028, // 0.28%
         },
     ],
 };
@@ -330,7 +330,7 @@ export const scarletPurpleDrop = {
 export const swordAndShieldDrop = {
     normal: [
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -341,7 +341,7 @@ export const swordAndShieldDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -352,7 +352,7 @@ export const swordAndShieldDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -363,7 +363,7 @@ export const swordAndShieldDrop = {
             hyper_rare: 0,
         },
         {
-            common: 100,
+            common: 1,
             uncommon: 0,
             rare: 0,
             double_rare: 0,
@@ -375,7 +375,7 @@ export const swordAndShieldDrop = {
         },
         {
             common: 0,
-            uncommon: 100,
+            uncommon: 1,
             rare: 0,
             double_rare: 0,
             illustration_rare: 0,
@@ -386,7 +386,7 @@ export const swordAndShieldDrop = {
         },
         {
             common: 0,
-            uncommon: 100,
+            uncommon: 1,
             rare: 0,
             double_rare: 0,
             illustration_rare: 0,
@@ -397,7 +397,7 @@ export const swordAndShieldDrop = {
         },
         {
             common: 0,
-            uncommon: 100,
+            uncommon: 1,
             rare: 0,
             double_rare: 0,
             illustration_rare: 0,
@@ -407,40 +407,41 @@ export const swordAndShieldDrop = {
             hyper_rare: 0,
         },
         {
-            common: 40,
-            uncommon: 40,
-            rare: 16.97,
-            double_rare: 0.73,
-            illustration_rare: 0.56,
-            illustration_rare_chromatic: 0.56,
-            ultra_rare: 0.53,
-            special_illustration_rare: 0.37,
-            hyper_rare: 0.28,
+            common: 1, // 40%
+            uncommon: 0.6, // 40%
+            rare: 0.2, // 16.97%
+            double_rare: 0.0303, // 0.73%
+            illustration_rare: 0.023, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            special_illustration_rare: 0.0065, // 0.37%
+            hyper_rare: 0.0028, // 0.28%
         },
         {
-            common: 40,
-            uncommon: 40,
-            rare: 16.97,
-            double_rare: 0.73,
-            illustration_rare: 0.56,
-            illustration_rare_chromatic: 0.56,
-            ultra_rare: 0.53,
-            special_illustration_rare: 0.37,
-            hyper_rare: 0.28,
+            common: 1, // 40%
+            uncommon: 0.6, // 40%
+            rare: 0.2, // 16.97%
+            double_rare: 0.0303, // 0.73%
+            illustration_rare: 0.023, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            special_illustration_rare: 0.0065, // 0.37%
+            hyper_rare: 0.0028, // 0.28%
         },
         {
             common: 0,
             uncommon: 0,
-            rare: 96.97,
-            double_rare: 0.73,
-            illustration_rare: 0.56,
-            illustration_rare_chromatic: 0.56,
-            ultra_rare: 0.53,
-            special_illustration_rare: 0.37,
-            hyper_rare: 0.28,
+            rare: 1, //  96.97%
+            double_rare: 0.0303, // 0.73%
+            illustration_rare: 0.023, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            special_illustration_rare: 0.0065, // 0.37%
+            hyper_rare: 0.0028, // 0.28%
         },
     ],
 };
+
 export const pokemonDropRate = {
     commun: {
         rate: 0.97,

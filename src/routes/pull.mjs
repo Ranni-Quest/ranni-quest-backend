@@ -28,7 +28,7 @@ export class Pull {
         let alreadySummoned = await dbConnect.queryDB(
             `SELECT DISTINCT(cardId)
             FROM ptcg_cards
-            WHERE rarity NOT IN ('commun', 'uncommon', 'rare')`
+            WHERE rarity NOT IN ('common', 'uncommon', 'rare')`
         );
 
         alreadySummoned = JSON.parse(JSON.stringify(alreadySummoned)).map(
@@ -89,21 +89,13 @@ export class Pull {
     }
 
     getRandomRarity(rates) {
-        const totalRate = Object.values(rates).reduce(
-            (acc, rate) => acc + rate,
-            0
-        );
-
-        const randomNum = Math.random() * totalRate;
-
-        let cumulativeRate = 0;
+        const rate = Math.random();
         for (const key in rates) {
             if (!Object.keys(cardsSet).includes(key)) {
                 continue;
             }
 
-            cumulativeRate += rates[key];
-            if (randomNum < cumulativeRate) {
+            if (rate < rates[key]) {
                 return key;
             }
         }
