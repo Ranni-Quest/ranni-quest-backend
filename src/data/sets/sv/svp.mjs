@@ -1,5 +1,9 @@
 export const svpCards = {
-    name: { id: 'svp', name: 'Scarlet & Violet Black Star Promos' },
+    name: {
+        id: 'svp',
+        name: 'Scarlet & Violet Black Star Promos',
+        series: 'Scarlet & Violet',
+    },
     promo: [
         {
             id: 'svp-1',

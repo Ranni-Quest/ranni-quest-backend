@@ -1,5 +1,5 @@
 export const sv3Cards = {
-    name: { id: 'sv3', name: 'Obsidian Flames' },
+    name: { id: 'sv3', name: 'Obsidian Flames', series: 'Scarlet & Violet' },
     common: [
         {
             id: 'sv3-6',

@@ -1,5 +1,9 @@
 export const sveCards = {
-    name: { id: 'sve', name: 'Scarlet & Violet Energies' },
+    name: {
+        id: 'sve',
+        name: 'Scarlet & Violet Energies',
+        series: 'Scarlet & Violet',
+    },
     common: [
         {
             id: 'sve-3',

@@ -42,9 +42,6 @@ export class Pull {
             let card = await this.getRandomCard(alreadySummoned, dropRate);
             results.push(card);
         }
-        const ill = cardsSet.special_illustration_rare[0];
-        ill.effect = RarityEffect.special_illustration_rare;
-        results.push(ill);
 
         this.saveInPull(discordId, results);
         this.savePullDateTime(discordId);
@@ -80,10 +77,13 @@ export class Pull {
 
         if (alreadySummoned.includes(card.id)) {
             i++;
-            card = this.getRandomCard(alreadySummoned, dropRate, i);
+            card = await this.getRandomCard(alreadySummoned, dropRate, i);
         }
 
         card.effect = RarityEffect[rarity];
+        card.image = card.images.large;
+        card.set = cardsSet.name.name;
+        card.series = cardsSet.name.series;
 
         return card;
     }
@@ -127,13 +127,14 @@ export class Pull {
                     supertype: card.supertype,
                     name: card.name,
                     effect: card.effect,
+                    set: card.set,
+                    series: card.series,
                 }
             );
         }
     }
 
     async savePullDateTime(discordId) {
-        return;
         await dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimePull=:lastTimePull WHERE discordId=':discordId'`,
             {

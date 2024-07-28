@@ -20,7 +20,7 @@ export class MyCards {
     async getMyCards(discordId, offset = 0) {
         return await dbConnect.queryDB(
             `
-            SELECT cardId, image, rarity, effect
+            SELECT cardId, rarity, image, type, supertype, effect
             FROM ptcg_cards
             WHERE discordId = ':discordId'
             ORDER BY CASE 

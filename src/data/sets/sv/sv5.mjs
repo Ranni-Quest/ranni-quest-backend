@@ -1,5 +1,5 @@
 export const sv5Cards = {
-    name: { id: 'sv5', name: 'Temporal Forces' },
+    name: { id: 'sv5', name: 'Temporal Forces', series: 'Scarlet & Violet' },
     ace_spec_rare: [
         {
             id: 'sv5-141',

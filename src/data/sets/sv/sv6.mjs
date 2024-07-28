@@ -1,5 +1,9 @@
 export const sv6Cards = {
-    name: { id: 'sv6', name: 'Twilight Masquerade' },
+    name: {
+        id: 'sv6',
+        name: 'Twilight Masquerade',
+        series: 'Scarlet & Violet',
+    },
     ace_spec_rare: [
         {
             id: 'sv6-152',
