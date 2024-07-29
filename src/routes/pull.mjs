@@ -39,7 +39,15 @@ export class Pull {
         const pullRarity = this.getRandomDrop();
 
         for (let dropRate of scarletPurpleDrop[pullRarity]) {
-            let card = await this.getRandomCard(alreadySummoned, dropRate);
+            let items = Object.keys(dropRate).map(function (key) {
+                return [key, dropRate[key]];
+            });
+
+            items = items.sort(function (first, second) {
+                return first[1] - second[1];
+            });
+
+            let card = await this.getRandomCard(alreadySummoned, items);
             results.push(card);
         }
 
@@ -88,15 +96,15 @@ export class Pull {
         return card;
     }
 
-    getRandomRarity(rates) {
+    getRandomRarity(dropRates) {
         const rate = Math.random();
-        for (const key in rates) {
-            if (!Object.keys(cardsSet).includes(key)) {
+        for (const dropRate of dropRates) {
+            if (!Object.keys(cardsSet).includes(dropRate[0])) {
                 continue;
             }
 
-            if (rate < rates[key]) {
-                return key;
+            if (rate < dropRate[1]) {
+                return dropRate[0];
             }
         }
 

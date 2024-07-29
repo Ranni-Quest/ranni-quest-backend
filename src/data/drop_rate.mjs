@@ -137,6 +137,7 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
+
             illustration_rare: 0.25,
             ultra_rare: 0.25,
             special_illustration_rare: 0.25,
