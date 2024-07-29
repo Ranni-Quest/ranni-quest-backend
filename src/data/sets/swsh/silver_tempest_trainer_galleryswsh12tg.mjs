@@ -1,11 +1,16 @@
-export const swsh12tgCards = {
-    name: { id: 'swsh12tg', name: 'Silver Tempest Trainer Gallery' },
+export const silverTempestTrainerGallery = {
+    name: {
+        id: 'swsh12tg',
+        name: 'Silver Tempest Trainer Gallery',
+        series: 'Sword & Shield',
+    },
     rare_holo_v: [
         {
             id: 'swsh12tg-TG12',
             name: 'Kricketune V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Grass'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG12.png',
@@ -17,6 +22,7 @@ export const swsh12tgCards = {
             name: 'Serperior V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Grass'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG13.png',
@@ -28,6 +34,7 @@ export const swsh12tgCards = {
             name: 'Blaziken V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
+            types: ['Fire'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG14.png',
@@ -39,6 +46,7 @@ export const swsh12tgCards = {
             name: 'Zeraora V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
+            types: ['Lightning'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG16.png',
@@ -50,6 +58,7 @@ export const swsh12tgCards = {
             name: 'Mawile V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG17.png',
@@ -61,6 +70,7 @@ export const swsh12tgCards = {
             name: 'Corviknight V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Metal'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG18.png',
@@ -72,6 +82,7 @@ export const swsh12tgCards = {
             name: 'Blissey V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Colorless'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG22.png',
@@ -85,6 +96,7 @@ export const swsh12tgCards = {
             name: 'Blaziken VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX', 'Rapid Strike'],
+            types: ['Fire'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG15.png',
@@ -96,6 +108,7 @@ export const swsh12tgCards = {
             name: 'Corviknight VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Metal'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG19.png',
@@ -107,6 +120,7 @@ export const swsh12tgCards = {
             name: 'Rayquaza VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX', 'Rapid Strike'],
+            types: ['Dragon'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG20.png',
@@ -118,6 +132,7 @@ export const swsh12tgCards = {
             name: 'Duraludon VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX', 'Single Strike'],
+            types: ['Dragon'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG21.png',
@@ -131,6 +146,7 @@ export const swsh12tgCards = {
             name: 'Rayquaza VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX', 'Rapid Strike'],
+            types: ['Dragon'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG29.png',
@@ -142,6 +158,7 @@ export const swsh12tgCards = {
             name: 'Duraludon VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX', 'Single Strike'],
+            types: ['Dragon'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG30.png',
@@ -223,6 +240,7 @@ export const swsh12tgCards = {
             name: 'Braixen',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Fire'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG01.png',
@@ -234,6 +252,7 @@ export const swsh12tgCards = {
             name: 'Milotic',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG02.png',
@@ -245,6 +264,7 @@ export const swsh12tgCards = {
             name: 'Flaaffy',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG03.png',
@@ -256,6 +276,7 @@ export const swsh12tgCards = {
             name: 'Jynx',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG04.png',
@@ -267,6 +288,7 @@ export const swsh12tgCards = {
             name: 'Gardevoir',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG05.png',
@@ -278,6 +300,7 @@ export const swsh12tgCards = {
             name: 'Malamar',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1', 'Rapid Strike'],
+            types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG06.png',
@@ -289,6 +312,7 @@ export const swsh12tgCards = {
             name: 'Rockruff',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'Single Strike'],
+            types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG07.png',
@@ -300,6 +324,7 @@ export const swsh12tgCards = {
             name: 'Passimian',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'Rapid Strike'],
+            types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG08.png',
@@ -311,6 +336,7 @@ export const swsh12tgCards = {
             name: 'Druddigon',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Dragon'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG09.png',
@@ -322,6 +348,7 @@ export const swsh12tgCards = {
             name: 'Smeargle',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG10.png',
@@ -333,6 +360,7 @@ export const swsh12tgCards = {
             name: 'Altaria',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12tg/TG11.png',

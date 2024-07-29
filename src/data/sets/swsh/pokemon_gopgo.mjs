@@ -1,11 +1,12 @@
-export const pgoCards = {
-    name: { id: 'pgo', name: 'Pok\u00e9mon GO' },
+export const pokemonGo = {
+    name: { id: 'pgo', name: 'Pok\u00e9mon GO', series: 'Sword & Shield' },
     common: [
         {
             id: 'pgo-1',
             name: 'Bulbasaur',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Grass'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/1.png',
@@ -17,6 +18,7 @@ export const pgoCards = {
             name: 'Spinarak',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Grass'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/6.png',
@@ -28,6 +30,7 @@ export const pgoCards = {
             name: 'Charmander',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fire'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/8.png',
@@ -39,6 +42,7 @@ export const pgoCards = {
             name: 'Numel',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fire'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/13.png',
@@ -50,6 +54,7 @@ export const pgoCards = {
             name: 'Squirtle',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/15.png',
@@ -61,6 +66,7 @@ export const pgoCards = {
             name: 'Slowpoke',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/19.png',
@@ -72,6 +78,7 @@ export const pgoCards = {
             name: 'Magikarp',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/21.png',
@@ -83,6 +90,7 @@ export const pgoCards = {
             name: 'Wimpod',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/25.png',
@@ -94,6 +102,7 @@ export const pgoCards = {
             name: 'Pikachu',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Lightning'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/27.png',
@@ -105,6 +114,7 @@ export const pgoCards = {
             name: 'Natu',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Psychic'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/32.png',
@@ -116,6 +126,7 @@ export const pgoCards = {
             name: 'Onix',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fighting'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/36.png',
@@ -127,6 +138,7 @@ export const pgoCards = {
             name: 'Larvitar',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fighting'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/37.png',
@@ -138,6 +150,7 @@ export const pgoCards = {
             name: 'Alolan Rattata',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/41.png',
@@ -149,6 +162,7 @@ export const pgoCards = {
             name: 'Alolan Raticate',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/42.png',
@@ -160,6 +174,7 @@ export const pgoCards = {
             name: 'Meltan',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Metal'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/45.png',
@@ -171,6 +186,7 @@ export const pgoCards = {
             name: 'Eevee',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/54.png',
@@ -182,6 +198,7 @@ export const pgoCards = {
             name: 'Aipom',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/56.png',
@@ -193,6 +210,7 @@ export const pgoCards = {
             name: 'Ambipom',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Colorless'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/57.png',
@@ -204,6 +222,7 @@ export const pgoCards = {
             name: 'Bidoof',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/59.png',
@@ -215,6 +234,7 @@ export const pgoCards = {
             name: 'Bibarel',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Colorless'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/60.png',
@@ -226,6 +246,7 @@ export const pgoCards = {
             name: 'Pidove',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/61.png',
@@ -237,6 +258,7 @@ export const pgoCards = {
             name: 'Tranquill',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Colorless'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/62.png',
@@ -250,6 +272,7 @@ export const pgoCards = {
             name: 'Radiant Venusaur',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'Radiant'],
+            types: ['Grass'],
             rarity: 'radiant_rare',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/4.png',
@@ -261,6 +284,7 @@ export const pgoCards = {
             name: 'Radiant Charizard',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'Radiant'],
+            types: ['Fire'],
             rarity: 'radiant_rare',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/11.png',
@@ -272,6 +296,7 @@ export const pgoCards = {
             name: 'Radiant Blastoise',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'Radiant'],
+            types: ['Water'],
             rarity: 'radiant_rare',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/18.png',
@@ -285,6 +310,7 @@ export const pgoCards = {
             name: 'Venusaur',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Grass'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/3.png',
@@ -296,6 +322,7 @@ export const pgoCards = {
             name: 'Charizard',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Fire'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/10.png',
@@ -307,6 +334,7 @@ export const pgoCards = {
             name: 'Moltres',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fire'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/12.png',
@@ -318,6 +346,7 @@ export const pgoCards = {
             name: 'Blastoise',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Water'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/17.png',
@@ -329,6 +358,7 @@ export const pgoCards = {
             name: 'Gyarados',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Water'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/22.png',
@@ -340,6 +370,7 @@ export const pgoCards = {
             name: 'Lapras',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/23.png',
@@ -351,6 +382,7 @@ export const pgoCards = {
             name: 'Articuno',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/24.png',
@@ -362,6 +394,7 @@ export const pgoCards = {
             name: 'Golisopod',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Water'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/26.png',
@@ -373,6 +406,7 @@ export const pgoCards = {
             name: 'Pikachu',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Lightning'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/28.png',
@@ -384,6 +418,7 @@ export const pgoCards = {
             name: 'Zapdos',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Lightning'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/29.png',
@@ -395,6 +430,7 @@ export const pgoCards = {
             name: 'Sylveon',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Psychic'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/35.png',
@@ -406,6 +442,7 @@ export const pgoCards = {
             name: 'Tyranitar',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Darkness'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/43.png',
@@ -417,6 +454,7 @@ export const pgoCards = {
             name: 'Melmetal',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Metal'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/46.png',
@@ -428,6 +466,7 @@ export const pgoCards = {
             name: 'Blissey',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Colorless'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/52.png',
@@ -439,6 +478,7 @@ export const pgoCards = {
             name: 'Ditto',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/53.png',
@@ -450,6 +490,7 @@ export const pgoCards = {
             name: 'Snorlax',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/55.png',
@@ -463,6 +504,7 @@ export const pgoCards = {
             name: 'Alolan Exeggutor V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Grass'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/5.png',
@@ -474,6 +516,7 @@ export const pgoCards = {
             name: 'Mewtwo V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/30.png',
@@ -485,6 +528,7 @@ export const pgoCards = {
             name: 'Conkeldurr V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fighting'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/40.png',
@@ -496,6 +540,7 @@ export const pgoCards = {
             name: 'Melmetal V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Metal'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/47.png',
@@ -507,6 +552,7 @@ export const pgoCards = {
             name: 'Dragonite V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Dragon'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/49.png',
@@ -518,6 +564,7 @@ export const pgoCards = {
             name: 'Slaking V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Colorless'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/58.png',
@@ -531,6 +578,7 @@ export const pgoCards = {
             name: 'Melmetal VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Metal'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/48.png',
@@ -544,6 +592,7 @@ export const pgoCards = {
             name: 'Mewtwo VSTAR',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VSTAR'],
+            types: ['Psychic'],
             rarity: 'rare_holo_vstar',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/31.png',
@@ -555,6 +604,7 @@ export const pgoCards = {
             name: 'Dragonite VSTAR',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VSTAR'],
+            types: ['Dragon'],
             rarity: 'rare_holo_vstar',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/50.png',
@@ -568,6 +618,7 @@ export const pgoCards = {
             name: 'Mewtwo VSTAR',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VSTAR'],
+            types: ['Psychic'],
             rarity: 'rare_rainbow',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/79.png',
@@ -579,6 +630,7 @@ export const pgoCards = {
             name: 'Melmetal VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Metal'],
             rarity: 'rare_rainbow',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/80.png',
@@ -590,6 +642,7 @@ export const pgoCards = {
             name: 'Dragonite VSTAR',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VSTAR'],
+            types: ['Dragon'],
             rarity: 'rare_rainbow',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/81.png',
@@ -647,6 +700,7 @@ export const pgoCards = {
             name: 'Mewtwo VSTAR',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VSTAR'],
+            types: ['Psychic'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/86.png',
@@ -682,6 +736,7 @@ export const pgoCards = {
             name: 'Alolan Exeggutor V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Grass'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/71.png',
@@ -693,6 +748,7 @@ export const pgoCards = {
             name: 'Mewtwo V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/72.png',
@@ -704,6 +760,7 @@ export const pgoCards = {
             name: 'Conkeldurr V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fighting'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/73.png',
@@ -715,6 +772,7 @@ export const pgoCards = {
             name: 'Conkeldurr V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fighting'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/74.png',
@@ -726,6 +784,7 @@ export const pgoCards = {
             name: 'Melmetal V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Metal'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/75.png',
@@ -737,6 +796,7 @@ export const pgoCards = {
             name: 'Dragonite V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Dragon'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/76.png',
@@ -748,6 +808,7 @@ export const pgoCards = {
             name: 'Slaking V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Colorless'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/77.png',
@@ -772,6 +833,7 @@ export const pgoCards = {
             name: 'Ivysaur',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Grass'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/2.png',
@@ -783,6 +845,7 @@ export const pgoCards = {
             name: 'Ariados',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Grass'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/7.png',
@@ -794,6 +857,7 @@ export const pgoCards = {
             name: 'Charmeleon',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Fire'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/9.png',
@@ -805,6 +869,7 @@ export const pgoCards = {
             name: 'Camerupt',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Fire'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/14.png',
@@ -816,6 +881,7 @@ export const pgoCards = {
             name: 'Wartortle',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Water'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/16.png',
@@ -827,6 +893,7 @@ export const pgoCards = {
             name: 'Slowbro',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Water'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/20.png',
@@ -838,6 +905,7 @@ export const pgoCards = {
             name: 'Xatu',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Psychic'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/33.png',
@@ -849,6 +917,7 @@ export const pgoCards = {
             name: 'Lunatone',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Psychic'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/34.png',
@@ -860,6 +929,7 @@ export const pgoCards = {
             name: 'Pupitar',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Fighting'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/38.png',
@@ -871,6 +941,7 @@ export const pgoCards = {
             name: 'Solrock',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fighting'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/39.png',
@@ -882,6 +953,7 @@ export const pgoCards = {
             name: 'Steelix',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Metal'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/44.png',
@@ -893,6 +965,7 @@ export const pgoCards = {
             name: 'Chansey',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/51.png',
@@ -904,6 +977,7 @@ export const pgoCards = {
             name: 'Unfezant',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Colorless'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/pgo/63.png',

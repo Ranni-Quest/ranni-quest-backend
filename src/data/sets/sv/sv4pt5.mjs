@@ -1,4 +1,4 @@
-export const sv4pt5Cards = {
+export const paldeanFates = {
     name: { id: 'sv4pt5', name: 'Paldean Fates', series: 'Scarlet & Violet' },
     common: [
         {

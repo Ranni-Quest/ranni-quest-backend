@@ -1,4 +1,4 @@
-export const sv6Cards = {
+export const twilightMasquerade = {
     name: {
         id: 'sv6',
         name: 'Twilight Masquerade',

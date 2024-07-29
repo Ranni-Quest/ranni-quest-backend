@@ -1,4 +1,4 @@
-export const sv3Cards = {
+export const obsidianFlames = {
     name: { id: 'sv3', name: 'Obsidian Flames', series: 'Scarlet & Violet' },
     common: [
         {

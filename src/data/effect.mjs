@@ -3,6 +3,28 @@ export const RarityEffect = {
 
     uncommon: 'none',
 
+    rare: 'none',
+    rare_holo: 'none',
+
+    double_rare: 'silver',
+    amazing_rare: 'silver',
+    rare_ultra: 'silver',
+    hyper_rare: 'gold',
+    ultra_rare: 'gold',
+    illustration_rare: 'gold',
+    rare_holo_v: 'gold',
+    rare_holo_vmax: 'gold',
+    rare_secret: 'gold',
+    special_illustration_rare: 'rainbow',
+    rare_holo_vmax: 'rainbow',
+    rare_rainbow: 'rainbow',
+};
+
+export const RarityMovingEffect = {
+    common: 'none',
+
+    uncommon: 'none',
+
     rare: 'rare holo',
 
     double_rare: 'rare holo',
@@ -34,7 +56,7 @@ export const RarityEffect = {
     rare_shiny: 'rare shiny',
 };
 
-export const scarletPurpleEffect = {
+const scarletPurpleEffect = {
     common: 'none',
 
     uncommon: 'none',
@@ -56,7 +78,7 @@ export const scarletPurpleEffect = {
     shiny_ultra_rare: 'rare holo vstar',
 };
 
-export const swordAndShieldEffect = {
+const swordAndShieldEffect = {
     common: 'none',
     uncommon: 'none',
     rare: 'none',

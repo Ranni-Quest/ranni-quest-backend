@@ -75,4 +75,6 @@ export class LogIn {
         }
         return {};
     }
+
+    async _getSettings() {}
 }

@@ -2,9 +2,10 @@ import { serverConfig } from '../../../config/config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
 import {
-    sv4Cards as cardsSet,
+    cardsSet,
     RarityEffect,
-    scarletPurpleDrop,
+    cardsDrop,
+    RarityMovingEffect,
 } from '../data/index.mjs';
 import { Hash } from '../util/hash.mjs';
 
@@ -28,7 +29,7 @@ export class Pull {
         let alreadySummoned = await dbConnect.queryDB(
             `SELECT DISTINCT(cardId)
             FROM ptcg_cards
-            WHERE rarity NOT IN ('common', 'uncommon', 'rare')`
+            WHERE rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' )`
         );
 
         alreadySummoned = JSON.parse(JSON.stringify(alreadySummoned)).map(
@@ -38,7 +39,7 @@ export class Pull {
         let results = [];
         const pullRarity = this.getRandomDrop();
 
-        for (let dropRate of scarletPurpleDrop[pullRarity]) {
+        for (let dropRate of cardsDrop[pullRarity]) {
             let items = Object.keys(dropRate).map(function (key) {
                 return [key, dropRate[key]];
             });
@@ -88,7 +89,8 @@ export class Pull {
             card = await this.getRandomCard(alreadySummoned, dropRate, i);
         }
 
-        card.effect = RarityEffect[rarity];
+        card.effect = RarityMovingEffect[rarity];
+        card.rarityEffect = RarityEffect[rarity];
         card.image = card.images.large;
         card.set = cardsSet.name.name;
         card.series = cardsSet.name.series;
@@ -114,21 +116,16 @@ export class Pull {
     async saveInPull(discordId, cards) {
         for (let card of cards) {
             dbConnect.queryDB(
-                `INSERT INTO ptcg_cards (cardId, discordId, rarity, image, type, supertype, effect)
-                VALUES (':cardId', ':discordId', ':rarity', ':image', :type, ':supertype', ':effect')
+                `INSERT INTO ptcg_cards (cardId, discordId, rarity, image, type, supertype, effect, rarityEffect, series)
+                VALUES (':cardId', ':discordId', ':rarity', ':image', :type, ':supertype', ':effect', ':rarityEffect', ':series')
                 ON DUPLICATE KEY UPDATE
                 image=':image'`,
                 {
+                    discordId: discordId,
                     cardId: card.id,
                     image: card.images.large,
-                    rarity: card.rarity,
-                    discordId: discordId,
                     type: card.types?.length > 0 ? `'${card.types[0]}'` : null,
-                    supertype: card.supertype,
-                    name: card.name,
-                    effect: card.effect,
-                    set: card.set,
-                    series: card.series,
+                    ...card,
                 }
             );
         }

@@ -1,11 +1,12 @@
-export const cel25Cards = {
-    name: { id: 'cel25', name: 'Celebrations' },
+export const celebrationsClassicCollection = {
+    name: { id: 'cel25', name: 'Celebrations', series: 'Sword & Shield' },
     rare: [
         {
             id: 'cel25-1',
             name: 'Ho-Oh',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fire'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/1.png',
@@ -17,6 +18,7 @@ export const cel25Cards = {
             name: 'Palkia',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/4.png',
@@ -28,6 +30,7 @@ export const cel25Cards = {
             name: 'Reshiram',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fire'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/2.png',
@@ -39,6 +42,7 @@ export const cel25Cards = {
             name: 'Kyogre',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/3.png',
@@ -50,6 +54,7 @@ export const cel25Cards = {
             name: 'Xerneas',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Psychic'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/12.png',
@@ -61,6 +66,7 @@ export const cel25Cards = {
             name: 'Cosmoem',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Psychic'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/14.png',
@@ -72,6 +78,7 @@ export const cel25Cards = {
             name: 'Zekrom',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Lightning'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/10.png',
@@ -83,6 +90,7 @@ export const cel25Cards = {
             name: 'Groudon',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fighting'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/17.png',
@@ -94,6 +102,7 @@ export const cel25Cards = {
             name: 'Cosmog',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Psychic'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/13.png',
@@ -105,6 +114,7 @@ export const cel25Cards = {
             name: 'Dialga',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Metal'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/20.png',
@@ -116,6 +126,7 @@ export const cel25Cards = {
             name: 'Lugia',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/22.png',
@@ -127,6 +138,7 @@ export const cel25Cards = {
             name: 'Yveltal',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'rare',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/19.png',
@@ -140,6 +152,7 @@ export const cel25Cards = {
             name: 'Lunala',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Psychic'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/15.png',
@@ -162,6 +175,7 @@ export const cel25Cards = {
             name: 'Solgaleo',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Metal'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/21.png',
@@ -173,6 +187,7 @@ export const cel25Cards = {
             name: 'Pikachu',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Lightning'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/5.png',
@@ -184,6 +199,7 @@ export const cel25Cards = {
             name: 'Mew',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Psychic'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/11.png',
@@ -195,6 +211,7 @@ export const cel25Cards = {
             name: 'Mew',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Psychic'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/25.png',
@@ -208,6 +225,7 @@ export const cel25Cards = {
             name: 'Surfing Pikachu V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Lightning'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/8.png',
@@ -219,6 +237,7 @@ export const cel25Cards = {
             name: 'Flying Pikachu V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Lightning'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/6.png',
@@ -230,6 +249,7 @@ export const cel25Cards = {
             name: 'Zacian V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/16.png',
@@ -241,6 +261,7 @@ export const cel25Cards = {
             name: 'Zamazenta V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fighting'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/18.png',
@@ -254,6 +275,7 @@ export const cel25Cards = {
             name: 'Flying Pikachu VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Lightning'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/7.png',
@@ -265,6 +287,7 @@ export const cel25Cards = {
             name: 'Surfing Pikachu VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Lightning'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/cel25/9.png',

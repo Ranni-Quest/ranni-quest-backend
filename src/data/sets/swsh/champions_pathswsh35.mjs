@@ -1,11 +1,12 @@
-export const swsh35Cards = {
-    name: { id: 'swsh35', name: "Champion's Path" },
+export const championPath = {
+    name: { id: 'swsh35', name: "Champion's Path", series: 'Sword & Shield' },
     common: [
         {
             id: 'swsh35-2',
             name: 'Weedle',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Grass'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/2.png',
@@ -17,6 +18,7 @@ export const swsh35Cards = {
             name: 'Kakuna',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Grass'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/3.png',
@@ -28,6 +30,7 @@ export const swsh35Cards = {
             name: 'Vulpix',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fire'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/6.png',
@@ -39,6 +42,7 @@ export const swsh35Cards = {
             name: 'Sizzlipede',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fire'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/9.png',
@@ -50,6 +54,7 @@ export const swsh35Cards = {
             name: 'Carvanha',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Water'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/11.png',
@@ -61,6 +66,7 @@ export const swsh35Cards = {
             name: 'Hatenna',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Psychic'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/18.png',
@@ -72,6 +78,7 @@ export const swsh35Cards = {
             name: 'Machop',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fighting'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/24.png',
@@ -83,6 +90,7 @@ export const swsh35Cards = {
             name: 'Rockruff',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fighting'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/29.png',
@@ -94,6 +102,7 @@ export const swsh35Cards = {
             name: 'Rolycoly',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fighting'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/31.png',
@@ -105,6 +114,7 @@ export const swsh35Cards = {
             name: 'Ekans',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/33.png',
@@ -116,6 +126,7 @@ export const swsh35Cards = {
             name: 'Galarian Zigzagoon',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/35.png',
@@ -127,6 +138,7 @@ export const swsh35Cards = {
             name: 'Galarian Linoone',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/36.png',
@@ -138,6 +150,7 @@ export const swsh35Cards = {
             name: 'Purrloin',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/39.png',
@@ -149,6 +162,7 @@ export const swsh35Cards = {
             name: 'Scraggy',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/41.png',
@@ -160,6 +174,7 @@ export const swsh35Cards = {
             name: 'Trubbish',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/43.png',
@@ -171,6 +186,7 @@ export const swsh35Cards = {
             name: 'Inkay',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/44.png',
@@ -182,6 +198,7 @@ export const swsh35Cards = {
             name: 'Nickit',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/46.png',
@@ -193,6 +210,7 @@ export const swsh35Cards = {
             name: 'Swablu',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Colorless'],
             rarity: 'common',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/48.png',
@@ -228,6 +246,7 @@ export const swsh35Cards = {
             name: 'Centiskorch',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Fire'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/10.png',
@@ -239,6 +258,7 @@ export const swsh35Cards = {
             name: 'Hatterene',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Psychic'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/20.png',
@@ -250,6 +270,7 @@ export const swsh35Cards = {
             name: 'Machamp',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Fighting'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/26.png',
@@ -261,6 +282,7 @@ export const swsh35Cards = {
             name: 'Zygarde',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fighting'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/28.png',
@@ -272,6 +294,7 @@ export const swsh35Cards = {
             name: 'Lycanroc',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Fighting'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/30.png',
@@ -283,6 +306,7 @@ export const swsh35Cards = {
             name: 'Galarian Obstagoon',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Darkness'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/37.png',
@@ -294,6 +318,7 @@ export const swsh35Cards = {
             name: 'Scrafty',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Darkness'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/42.png',
@@ -305,6 +330,7 @@ export const swsh35Cards = {
             name: 'Altaria',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Colorless'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/49.png',
@@ -340,6 +366,7 @@ export const swsh35Cards = {
             name: 'Venusaur V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Grass'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/1.png',
@@ -351,6 +378,7 @@ export const swsh35Cards = {
             name: 'Eldegoss V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Grass'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/5.png',
@@ -362,6 +390,7 @@ export const swsh35Cards = {
             name: 'Incineroar V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fire'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/8.png',
@@ -373,6 +402,7 @@ export const swsh35Cards = {
             name: 'Wailord V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Water'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/13.png',
@@ -384,6 +414,7 @@ export const swsh35Cards = {
             name: 'Drednaw V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Water'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/14.png',
@@ -395,6 +426,7 @@ export const swsh35Cards = {
             name: 'Gardevoir V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/16.png',
@@ -406,6 +438,7 @@ export const swsh35Cards = {
             name: 'Galarian Cursola V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/21.png',
@@ -417,6 +450,7 @@ export const swsh35Cards = {
             name: 'Alcremie V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/22.png',
@@ -428,6 +462,7 @@ export const swsh35Cards = {
             name: 'Lucario V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fighting'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/27.png',
@@ -439,6 +474,7 @@ export const swsh35Cards = {
             name: 'Grapploct V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fighting'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/32.png',
@@ -450,6 +486,7 @@ export const swsh35Cards = {
             name: 'Duraludon V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Metal'],
             rarity: 'rare_holo_v',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/47.png',
@@ -463,6 +500,7 @@ export const swsh35Cards = {
             name: 'Drednaw VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Water'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/15.png',
@@ -474,6 +512,7 @@ export const swsh35Cards = {
             name: 'Gardevoir VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Psychic'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/17.png',
@@ -485,6 +524,7 @@ export const swsh35Cards = {
             name: 'Alcremie VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Psychic'],
             rarity: 'rare_holo_vmax',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/23.png',
@@ -498,6 +538,7 @@ export const swsh35Cards = {
             name: 'Charizard VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Fire'],
             rarity: 'rare_rainbow',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/74.png',
@@ -509,6 +550,7 @@ export const swsh35Cards = {
             name: 'Drednaw VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Water'],
             rarity: 'rare_rainbow',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/75.png',
@@ -520,6 +562,7 @@ export const swsh35Cards = {
             name: 'Gardevoir VMAX',
             supertype: 'Pok\u00e9mon',
             subtypes: ['VMAX'],
+            types: ['Psychic'],
             rarity: 'rare_rainbow',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/76.png',
@@ -555,6 +598,7 @@ export const swsh35Cards = {
             name: 'Charizard V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fire'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/79.png',
@@ -579,6 +623,7 @@ export const swsh35Cards = {
             name: 'Drednaw V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Water'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/69.png',
@@ -590,6 +635,7 @@ export const swsh35Cards = {
             name: 'Gardevoir V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/70.png',
@@ -601,6 +647,7 @@ export const swsh35Cards = {
             name: 'Galarian Cursola V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Psychic'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/71.png',
@@ -612,6 +659,7 @@ export const swsh35Cards = {
             name: 'Grapploct V',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic', 'V'],
+            types: ['Fighting'],
             rarity: 'rare_ultra',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/72.png',
@@ -636,6 +684,7 @@ export const swsh35Cards = {
             name: 'Beedrill',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 2'],
+            types: ['Grass'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/4.png',
@@ -647,6 +696,7 @@ export const swsh35Cards = {
             name: 'Victini',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Fire'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/7.png',
@@ -658,6 +708,7 @@ export const swsh35Cards = {
             name: 'Sharpedo',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Water'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/12.png',
@@ -669,6 +720,7 @@ export const swsh35Cards = {
             name: 'Hattrem',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Psychic'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/19.png',
@@ -680,6 +732,7 @@ export const swsh35Cards = {
             name: 'Machoke',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Fighting'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/25.png',
@@ -691,6 +744,7 @@ export const swsh35Cards = {
             name: 'Arbok',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Darkness'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/34.png',
@@ -702,6 +756,7 @@ export const swsh35Cards = {
             name: 'Absol',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Basic'],
+            types: ['Darkness'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/38.png',
@@ -713,6 +768,7 @@ export const swsh35Cards = {
             name: 'Liepard',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Darkness'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/40.png',
@@ -724,6 +780,7 @@ export const swsh35Cards = {
             name: 'Malamar',
             supertype: 'Pok\u00e9mon',
             subtypes: ['Stage 1'],
+            types: ['Darkness'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh35/45.png',

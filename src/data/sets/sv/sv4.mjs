@@ -1,4 +1,4 @@
-export const sv4Cards = {
+export const paradoxRift = {
     name: { id: 'sv4', name: 'Paradox Rift', series: 'Scarlet & Violet' },
     common: [
         {
@@ -2970,6 +2970,182 @@ export const sv4Cards = {
             images: {
                 small: 'https://images.pokemontcg.io/sv4/45.png',
                 large: 'https://images.pokemontcg.io/sv4/45_hires.png',
+            },
+        },
+        {
+            id: 'sv4-166',
+            name: 'Luxurious Cape',
+            supertype: 'Trainer',
+            subtypes: ['Pok\u00e9mon Tool'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/166.png',
+                large: 'https://images.pokemontcg.io/sv4/166_hires.png',
+            },
+        },
+        {
+            id: 'sv4-167',
+            name: 'Mela',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/167.png',
+                large: 'https://images.pokemontcg.io/sv4/167_hires.png',
+            },
+        },
+        {
+            id: 'sv4-168',
+            name: 'Norman',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/168.png',
+                large: 'https://images.pokemontcg.io/sv4/168_hires.png',
+            },
+        },
+        {
+            id: 'sv4-170',
+            name: "Professor Sada's Vitality",
+            supertype: 'Trainer',
+            subtypes: ['Supporter', 'Ancient'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/170.png',
+                large: 'https://images.pokemontcg.io/sv4/170_hires.png',
+            },
+        },
+        {
+            id: 'sv4-171',
+            name: "Professor Turo's Scenario",
+            supertype: 'Trainer',
+            subtypes: ['Supporter', 'Future'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/171.png',
+                large: 'https://images.pokemontcg.io/sv4/171_hires.png',
+            },
+        },
+        {
+            id: 'sv4-172',
+            name: 'Rika',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/172.png',
+                large: 'https://images.pokemontcg.io/sv4/172_hires.png',
+            },
+        },
+        {
+            id: 'sv4-173',
+            name: 'Roark',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/173.png',
+                large: 'https://images.pokemontcg.io/sv4/173_hires.png',
+            },
+        },
+        {
+            id: 'sv4-174',
+            name: 'Shauntal',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/174.png',
+                large: 'https://images.pokemontcg.io/sv4/174_hires.png',
+            },
+        },
+        {
+            id: 'sv4-175',
+            name: 'Snorlax Doll',
+            supertype: 'Trainer',
+            subtypes: ['Item'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/175.png',
+                large: 'https://images.pokemontcg.io/sv4/175_hires.png',
+            },
+        },
+        {
+            id: 'sv4-176',
+            name: 'Technical Machine: Blindside',
+            supertype: 'Trainer',
+            subtypes: ['Pok\u00e9mon Tool'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/176.png',
+                large: 'https://images.pokemontcg.io/sv4/176_hires.png',
+            },
+        },
+        {
+            id: 'sv4-177',
+            name: 'Technical Machine: Devolution',
+            supertype: 'Trainer',
+            subtypes: ['Pok\u00e9mon Tool'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/177.png',
+                large: 'https://images.pokemontcg.io/sv4/177_hires.png',
+            },
+        },
+        {
+            id: 'sv4-178',
+            name: 'Technical Machine: Evolution',
+            supertype: 'Trainer',
+            subtypes: ['Pok\u00e9mon Tool'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/178.png',
+                large: 'https://images.pokemontcg.io/sv4/178_hires.png',
+            },
+        },
+        {
+            id: 'sv4-179',
+            name: 'Technical Machine: Turbo Energize',
+            supertype: 'Trainer',
+            subtypes: ['Pok\u00e9mon Tool'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/179.png',
+                large: 'https://images.pokemontcg.io/sv4/179_hires.png',
+            },
+        },
+        {
+            id: 'sv4-180',
+            name: 'Techno Radar',
+            supertype: 'Trainer',
+            subtypes: ['Item', 'Future'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/180.png',
+                large: 'https://images.pokemontcg.io/sv4/180_hires.png',
+            },
+        },
+        {
+            id: 'sv4-181',
+            name: 'Tulip',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/181.png',
+                large: 'https://images.pokemontcg.io/sv4/181_hires.png',
+            },
+        },
+        {
+            id: 'sv4-182',
+            name: 'Medical Energy',
+            supertype: 'Energy',
+            subtypes: ['Special'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv4/182.png',
+                large: 'https://images.pokemontcg.io/sv4/182_hires.png',
             },
         },
     ],

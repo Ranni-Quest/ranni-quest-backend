@@ -15,10 +15,10 @@ export class Ladder {
 
     async getLadder() {
         return await dbConnect.queryDB(`
-            SELECT pseudo, cardId, rarity, image, type, supertype, effect
+            SELECT pseudo, cardId, rarity, image, type, supertype, effect, rarityEffect, series
             FROM ptcg_cards c
             LEFT JOIN ptcg_users u ON c.discordId = u.discordId
-            WHERE rarity != 'common' AND rarity != 'uncommon' AND rarity != 'rare' 
+            WHERE rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ) 
             ORDER BY id DESC 
             LIMIT 6;`);
     }

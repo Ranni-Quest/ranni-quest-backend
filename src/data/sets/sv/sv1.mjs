@@ -1,4 +1,4 @@
-export const sv1Cards = {
+export const scarletPurple = {
     name: { id: 'sv1', name: 'Scarlet & Violet', series: 'Scarlet & Violet' },
     common: [
         {
@@ -2964,6 +2964,94 @@ export const sv1Cards = {
             images: {
                 small: 'https://images.pokemontcg.io/sv1/114.png',
                 large: 'https://images.pokemontcg.io/sv1/114_hires.png',
+            },
+        },
+        {
+            id: 'sv1-183',
+            name: 'Penny',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv1/183.png',
+                large: 'https://images.pokemontcg.io/sv1/183_hires.png',
+            },
+        },
+        {
+            id: 'sv1-184',
+            name: 'Picnic Basket',
+            supertype: 'Trainer',
+            subtypes: ['Item'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv1/184.png',
+                large: 'https://images.pokemontcg.io/sv1/184_hires.png',
+            },
+        },
+        {
+            id: 'sv1-192',
+            name: 'Rock Chestplate',
+            supertype: 'Trainer',
+            subtypes: ['Pok\u00e9mon Tool'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv1/192.png',
+                large: 'https://images.pokemontcg.io/sv1/192_hires.png',
+            },
+        },
+        {
+            id: 'sv1-193',
+            name: 'Rocky Helmet',
+            supertype: 'Trainer',
+            subtypes: ['Pok\u00e9mon Tool'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv1/193.png',
+                large: 'https://images.pokemontcg.io/sv1/193_hires.png',
+            },
+        },
+        {
+            id: 'sv1-195',
+            name: 'Team Star Grunt',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv1/195.png',
+                large: 'https://images.pokemontcg.io/sv1/195_hires.png',
+            },
+        },
+        {
+            id: 'sv1-196',
+            name: 'Ultra Ball',
+            supertype: 'Trainer',
+            subtypes: ['Item'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv1/196.png',
+                large: 'https://images.pokemontcg.io/sv1/196_hires.png',
+            },
+        },
+        {
+            id: 'sv1-198',
+            name: 'Youngster',
+            supertype: 'Trainer',
+            subtypes: ['Supporter'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv1/198.png',
+                large: 'https://images.pokemontcg.io/sv1/198_hires.png',
+            },
+        },
+        {
+            id: 'sv1-197',
+            name: 'Vitality Band',
+            supertype: 'Trainer',
+            subtypes: ['Pok\u00e9mon Tool'],
+            rarity: 'uncommon',
+            images: {
+                small: 'https://images.pokemontcg.io/sv1/197.png',
+                large: 'https://images.pokemontcg.io/sv1/197_hires.png',
             },
         },
     ],
