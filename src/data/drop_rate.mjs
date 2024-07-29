@@ -117,9 +117,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -127,9 +127,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -137,10 +137,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -148,9 +147,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -158,9 +157,9 @@ export const scarletPurpleDrop = {
             uncommonmmon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -168,9 +167,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -178,9 +177,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -188,9 +187,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -198,9 +197,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
         {
@@ -208,9 +207,9 @@ export const scarletPurpleDrop = {
             uncommon: 0,
             rare: 0,
             double_rare: 0,
-            illustration_rare: 0.25,
-            ultra_rare: 0.25,
-            special_illustration_rare: 0.25,
+            illustration_rare: 1,
+            ultra_rare: 0.75,
+            special_illustration_rare: 0.5,
             hyper_rare: 0.25,
         },
     ],
@@ -295,35 +294,35 @@ export const scarletPurpleDrop = {
         {
             common: 1, // 40%
             uncommon: 0.6, // 40%
-            rare: 0.2, // 16.97%
-            double_rare: 0.0303, // 0.73%
-            illustration_rare: 0.023, // 0.56%
-            illustration_rare_chromatic: 0.0174, // 0.56%
-            ultra_rare: 0.0118, // 0.53%
-            special_illustration_rare: 0.0065, // 0.37%
-            hyper_rare: 0.0028, // 0.28%
+            rare: 0.4, // 16.97%, cumul x 2
+            double_rare: 0.0606, // 0.73%, cumul x 2
+            illustration_rare: 0.046, // 0.56%, cumul x 2
+            illustration_rare_chromatic: 0.0348, // 0.56%, cumul x 2
+            ultra_rare: 0.0236, // 0.53%, cumul x 2
+            hyper_rare: 0.013, // 0.37%, cumul x 2
+            special_illustration_rare: 0.0056, // 0.28%, cumul x 2
         },
         {
             common: 1, // 40%
             uncommon: 0.6, // 40%
-            rare: 0.2, // 16.97%
-            double_rare: 0.0303, // 0.73%
-            illustration_rare: 0.023, // 0.56%
-            illustration_rare_chromatic: 0.0174, // 0.56%
-            ultra_rare: 0.0118, // 0.53%
-            special_illustration_rare: 0.0065, // 0.37%
-            hyper_rare: 0.0028, // 0.28%
+            rare: 0.4, // 16.97%, cumul x 2
+            double_rare: 0.0606, // 0.73%, cumul x 2
+            illustration_rare: 0.046, // 0.56%, cumul x 2
+            illustration_rare_chromatic: 0.0348, // 0.56%, cumul x 2
+            ultra_rare: 0.0236, // 0.53%, cumul x 2
+            hyper_rare: 0.013, // 0.37%, cumul x 2
+            special_illustration_rare: 0.0056, // 0.28%, cumul x 2
         },
         {
             common: 0,
             uncommon: 0,
             rare: 1, //  96.97%
-            double_rare: 0.0303, // 0.73%
-            illustration_rare: 0.023, // 0.56%
-            illustration_rare_chromatic: 0.0174, // 0.56%
-            ultra_rare: 0.0118, // 0.53%
-            special_illustration_rare: 0.0065, // 0.37%
-            hyper_rare: 0.0028, // 0.28%
+            double_rare: 0.0606, // 0.73%, cumul x 2
+            illustration_rare: 0.046, // 0.56%, cumul x 2
+            illustration_rare_chromatic: 0.0348, // 0.56%, cumul x 2
+            ultra_rare: 0.0236, // 0.53%, cumul x 2
+            hyper_rare: 0.013, // 0.37%, cumul x 2
+            special_illustration_rare: 0.0056, // 0.28%, cumul x 2
         },
     ],
 };
