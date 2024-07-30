@@ -4,7 +4,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-3',
             name: 'Paras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-6',
             name: 'Pansage',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-8',
             name: 'Karrablast',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-9',
             name: 'Shelmet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-11',
             name: 'Rowlet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-14',
             name: 'Bounsweet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-17',
             name: 'Wimpod',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-22',
             name: 'Torchic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-26',
             name: 'Pansear',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-29',
             name: 'Larvesta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-35',
             name: 'Galarian Mr. Mime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-38',
             name: 'Feebas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-41',
             name: 'Panpour',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-43',
             name: 'Galarian Darumaka',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-45',
             name: 'Vanillite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-48',
             name: 'Cubchoo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-50',
             name: 'Wishiwashi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-51',
             name: 'Mareanie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-55',
             name: 'Mareep',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-58',
             name: 'Electrike',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-62',
             name: 'Toxel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-67',
             name: 'Jigglypuff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-70',
             name: 'Snubbull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-73',
             name: 'Gothita',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-76',
             name: 'Golett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-79',
             name: 'Morelull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-82',
             name: 'Sinistea',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-84',
             name: 'Diglett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-86',
             name: 'Larvitar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-89',
             name: 'Trapinch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-93',
             name: 'Hippopotas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-97',
             name: 'Passimian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-100',
             name: 'Grimer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-102',
             name: 'Spinarak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-106',
             name: 'Purrloin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-108',
             name: 'Deino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-112',
             name: 'Nickit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-120',
             name: 'Skarmory',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-121',
             name: 'Aron',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-125',
             name: 'Klink',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-129',
             name: 'Meltan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-131',
             name: 'Cufant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -508,7 +508,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-134',
             name: 'Tauros',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -520,7 +520,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-135',
             name: 'Sentret',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -532,7 +532,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-137',
             name: 'Dunsparce',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -544,7 +544,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-138',
             name: 'Teddiursa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -556,7 +556,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-141',
             name: 'Skitty',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -568,7 +568,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-145',
             name: 'Starly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -580,7 +580,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-148',
             name: 'Ducklett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -592,7 +592,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-150',
             name: 'Bunnelby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -604,7 +604,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-151',
             name: 'Fletchling',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -616,7 +616,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-152',
             name: 'Skwovet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -628,7 +628,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-154',
             name: 'Rookidee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -642,7 +642,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-10',
             name: 'Accelgor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -654,7 +654,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-16',
             name: 'Tsareena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -666,7 +666,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-28',
             name: 'Galarian Darmanitan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -678,7 +678,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-30',
             name: 'Volcarona',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -690,7 +690,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-32',
             name: 'Talonflame',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare',
@@ -702,7 +702,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-36',
             name: 'Galarian Mr. Rime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -714,7 +714,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-44',
             name: 'Galarian Darmanitan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -726,7 +726,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-47',
             name: 'Vanilluxe',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare',
@@ -738,7 +738,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-49',
             name: 'Beartic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -750,7 +750,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-54',
             name: 'Arctovish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -762,7 +762,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-57',
             name: 'Ampharos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -774,7 +774,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-59',
             name: 'Manectric',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -786,7 +786,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-65',
             name: 'Dracozolt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -798,7 +798,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-68',
             name: 'Wigglytuff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -810,7 +810,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-71',
             name: 'Granbull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -822,7 +822,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-75',
             name: 'Gothitelle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -834,7 +834,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-77',
             name: 'Golurk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -846,7 +846,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-81',
             name: 'Mimikyu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -858,7 +858,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-91',
             name: 'Flygon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -870,7 +870,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-94',
             name: 'Hippowdon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -882,7 +882,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-96',
             name: 'Diggersby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -894,7 +894,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-98',
             name: "Galarian Sirfetch'd",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -906,7 +906,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-101',
             name: 'Muk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -918,7 +918,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-107',
             name: 'Liepard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -930,7 +930,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-110',
             name: 'Hydreigon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -942,7 +942,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-113',
             name: 'Thievul',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -954,7 +954,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-124',
             name: 'Escavalier',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -966,7 +966,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-127',
             name: 'Klinklang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -978,7 +978,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-130',
             name: 'Melmetal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -990,7 +990,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-140',
             name: 'Lugia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1002,7 +1002,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-142',
             name: 'Delcatty',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1014,7 +1014,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-147',
             name: 'Staraptor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1026,7 +1026,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-149',
             name: 'Swanna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1038,7 +1038,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-153',
             name: 'Greedent',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1052,7 +1052,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-13',
             name: 'Decidueye',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1064,7 +1064,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-18',
             name: 'Golisopod',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1076,7 +1076,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-24',
             name: 'Blaziken',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -1088,7 +1088,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-25',
             name: 'Heatran',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -1100,7 +1100,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-37',
             name: 'Suicune',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1112,7 +1112,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-39',
             name: 'Milotic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1124,7 +1124,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-53',
             name: 'Dracovish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1136,7 +1136,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-61',
             name: 'Tapu Koko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1148,7 +1148,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-63',
             name: 'Toxtricity',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1160,7 +1160,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-64',
             name: 'Pincurchin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1172,7 +1172,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-66',
             name: 'Arctozolt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1184,7 +1184,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-88',
             name: 'Tyranitar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1196,7 +1196,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-105',
             name: 'Darkrai',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1208,7 +1208,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-111',
             name: 'Hoopa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1220,7 +1220,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-123',
             name: 'Aggron',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1232,7 +1232,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-132',
             name: 'Copperajah',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1244,7 +1244,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-133',
             name: 'Kangaskhan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1256,7 +1256,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-156',
             name: 'Corviknight',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1270,7 +1270,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-1',
             name: 'Butterfree V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1282,7 +1282,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-19',
             name: 'Charizard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1294,7 +1294,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-21',
             name: 'Houndoom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1306,7 +1306,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-33',
             name: 'Centiskorch V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1318,7 +1318,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-60',
             name: 'Vikavolt V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1330,7 +1330,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-69',
             name: 'Mew V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1342,7 +1342,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-95',
             name: 'Rhyperior V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1354,7 +1354,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-99',
             name: 'Galarian Slowbro V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1366,7 +1366,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-104',
             name: 'Crobat V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1378,7 +1378,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-114',
             name: 'Grimmsnarl V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1390,7 +1390,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-116',
             name: 'Eternatus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1402,7 +1402,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-118',
             name: 'Scizor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1414,7 +1414,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-128',
             name: 'Galarian Stunfisk V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1426,7 +1426,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-143',
             name: 'Salamence V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1440,7 +1440,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-2',
             name: 'Butterfree VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -1452,7 +1452,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-20',
             name: 'Charizard VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1464,7 +1464,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-34',
             name: 'Centiskorch VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1476,7 +1476,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-115',
             name: 'Grimmsnarl VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -1488,7 +1488,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-117',
             name: 'Eternatus VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -1500,7 +1500,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-119',
             name: 'Scizor VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_holo_vmax',
@@ -1512,7 +1512,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-144',
             name: 'Salamence VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_holo_vmax',
@@ -1526,7 +1526,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-190',
             name: 'Butterfree VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1538,7 +1538,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-191',
             name: 'Centiskorch VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -1550,7 +1550,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-192',
             name: 'Eternatus VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -1562,7 +1562,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-193',
             name: 'Scizor VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_rainbow',
@@ -1574,7 +1574,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-194',
             name: 'Salamence VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_rainbow',
@@ -1585,7 +1585,7 @@ export const darknessAblaze = {
         },
         {
             id: 'swsh3-195',
-            name: "Pok\u00e9mon Breeder's Nurturing",
+            name: "Pokémon Breeder's Nurturing",
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'rare_rainbow',
@@ -1610,7 +1610,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-197',
             name: 'Rillaboom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_secret',
@@ -1622,7 +1622,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-198',
             name: 'Coalossal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_secret',
@@ -1635,7 +1635,7 @@ export const darknessAblaze = {
             id: 'swsh3-199',
             name: 'Big Parasol',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh3/199.png',
@@ -1669,7 +1669,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-177',
             name: 'Butterfree V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1681,7 +1681,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-178',
             name: 'Houndoom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1693,7 +1693,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-179',
             name: 'Centiskorch V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1705,7 +1705,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-180',
             name: 'Vikavolt V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1717,7 +1717,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-181',
             name: 'Rhyperior V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1729,7 +1729,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-182',
             name: 'Crobat V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1741,7 +1741,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-183',
             name: 'Scizor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1753,7 +1753,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-184',
             name: 'Galarian Stunfisk V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1765,7 +1765,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-185',
             name: 'Salamence V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1798,7 +1798,7 @@ export const darknessAblaze = {
         },
         {
             id: 'swsh3-188',
-            name: "Pok\u00e9mon Breeder's Nurturing",
+            name: "Pokémon Breeder's Nurturing",
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'rare_ultra',
@@ -1823,7 +1823,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-4',
             name: 'Parasect',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1835,7 +1835,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-5',
             name: 'Carnivine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1847,7 +1847,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-7',
             name: 'Simisage',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1859,7 +1859,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-12',
             name: 'Dartrix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1871,7 +1871,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-15',
             name: 'Steenee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1883,7 +1883,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-23',
             name: 'Combusken',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1895,7 +1895,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-27',
             name: 'Simisear',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1907,7 +1907,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-31',
             name: 'Fletchinder',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1919,7 +1919,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-40',
             name: 'Relicanth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1931,7 +1931,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-42',
             name: 'Simipour',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1943,7 +1943,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-46',
             name: 'Vanillish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1955,7 +1955,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-52',
             name: 'Toxapex',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1967,7 +1967,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-56',
             name: 'Flaaffy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1979,7 +1979,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-72',
             name: 'Lunatone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1991,7 +1991,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-74',
             name: 'Gothorita',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2003,7 +2003,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-78',
             name: 'Dedenne',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2015,7 +2015,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-80',
             name: 'Shiinotic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2027,7 +2027,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-83',
             name: 'Polteageist',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2039,7 +2039,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-85',
             name: 'Dugtrio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2051,7 +2051,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-87',
             name: 'Pupitar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2063,7 +2063,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-90',
             name: 'Vibrava',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2075,7 +2075,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-92',
             name: 'Solrock',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2087,7 +2087,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-103',
             name: 'Ariados',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2099,7 +2099,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-109',
             name: 'Zweilous',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2111,7 +2111,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-122',
             name: 'Lairon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2123,7 +2123,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-126',
             name: 'Klang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2135,7 +2135,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-136',
             name: 'Furret',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2147,7 +2147,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-139',
             name: 'Ursaring',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2159,7 +2159,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-146',
             name: 'Staravia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2171,7 +2171,7 @@ export const darknessAblaze = {
         {
             id: 'swsh3-155',
             name: 'Corvisquire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2184,7 +2184,7 @@ export const darknessAblaze = {
             id: 'swsh3-157',
             name: 'Big Parasol',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh3/157.png',
@@ -2195,7 +2195,7 @@ export const darknessAblaze = {
             id: 'swsh3-158',
             name: 'Billowing Smoke',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh3/158.png',
@@ -2217,7 +2217,7 @@ export const darknessAblaze = {
             id: 'swsh3-160',
             name: 'Cape of Toughness',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh3/160.png',
@@ -2281,7 +2281,7 @@ export const darknessAblaze = {
         },
         {
             id: 'swsh3-166',
-            name: "Pok\u00e9mon Breeder's Nurturing",
+            name: "Pokémon Breeder's Nurturing",
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'uncommon',
@@ -2338,7 +2338,7 @@ export const darknessAblaze = {
             id: 'swsh3-171',
             name: 'Struggle Gloves',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh3/171.png',

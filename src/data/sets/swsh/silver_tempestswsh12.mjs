@@ -4,7 +4,7 @@ export const silverTempest = {
         {
             id: 'swsh12-1',
             name: 'Venonat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const silverTempest = {
         {
             id: 'swsh12-3',
             name: 'Spinarak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const silverTempest = {
         {
             id: 'swsh12-5',
             name: 'Sunkern',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const silverTempest = {
         {
             id: 'swsh12-9',
             name: 'Petilil',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const silverTempest = {
         {
             id: 'swsh12-11',
             name: 'Foongus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const silverTempest = {
         {
             id: 'swsh12-13',
             name: 'Durant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const silverTempest = {
         {
             id: 'swsh12-17',
             name: 'Vulpix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const silverTempest = {
         {
             id: 'swsh12-19',
             name: 'Growlithe',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const silverTempest = {
         {
             id: 'swsh12-21',
             name: 'Ponyta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const silverTempest = {
         {
             id: 'swsh12-25',
             name: 'Fennekin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const silverTempest = {
         {
             id: 'swsh12-30',
             name: 'Litten',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const silverTempest = {
         {
             id: 'swsh12-37',
             name: 'Wailmer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const silverTempest = {
         {
             id: 'swsh12-39',
             name: 'Feebas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const silverTempest = {
         {
             id: 'swsh12-41',
             name: 'Snorunt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const silverTempest = {
         {
             id: 'swsh12-44',
             name: 'Relicanth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const silverTempest = {
         {
             id: 'swsh12-47',
             name: 'Dewpider',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const silverTempest = {
         {
             id: 'swsh12-49',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const silverTempest = {
         {
             id: 'swsh12-51',
             name: 'Chinchou',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const silverTempest = {
         {
             id: 'swsh12-53',
             name: 'Rotom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const silverTempest = {
         {
             id: 'swsh12-54',
             name: 'Emolga',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const silverTempest = {
         {
             id: 'swsh12-55',
             name: 'Stunfisk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const silverTempest = {
         {
             id: 'swsh12-60',
             name: 'Drowzee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const silverTempest = {
         {
             id: 'swsh12-63',
             name: 'Misdreavus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const silverTempest = {
         {
             id: 'swsh12-67',
             name: 'Ralts',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const silverTempest = {
         {
             id: 'swsh12-72',
             name: 'Meditite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const silverTempest = {
         {
             id: 'swsh12-74',
             name: 'Chimecho',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const silverTempest = {
         {
             id: 'swsh12-76',
             name: 'Solosis',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const silverTempest = {
         {
             id: 'swsh12-79',
             name: 'Elgyem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const silverTempest = {
         {
             id: 'swsh12-81',
             name: 'Espurr',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const silverTempest = {
         {
             id: 'swsh12-83',
             name: 'Swirlix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const silverTempest = {
         {
             id: 'swsh12-86',
             name: 'Indeedee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const silverTempest = {
         {
             id: 'swsh12-87',
             name: 'Dreepy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const silverTempest = {
         {
             id: 'swsh12-91',
             name: 'Phanpy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const silverTempest = {
         {
             id: 'swsh12-93',
             name: 'Baltoy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const silverTempest = {
         {
             id: 'swsh12-98',
             name: 'Hawlucha',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const silverTempest = {
         {
             id: 'swsh12-99',
             name: 'Sandygast',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const silverTempest = {
         {
             id: 'swsh12-103',
             name: 'Zubat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const silverTempest = {
         {
             id: 'swsh12-106',
             name: 'Murkrow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const silverTempest = {
         {
             id: 'swsh12-109',
             name: 'Croagunk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const silverTempest = {
         {
             id: 'swsh12-111',
             name: 'Sandile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const silverTempest = {
         {
             id: 'swsh12-114',
             name: 'Mareanie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const silverTempest = {
         {
             id: 'swsh12-117',
             name: 'Beldum',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -508,7 +508,7 @@ export const silverTempest = {
         {
             id: 'swsh12-121',
             name: 'Ferroseed',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -520,7 +520,7 @@ export const silverTempest = {
         {
             id: 'swsh12-123',
             name: 'Klink',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -532,7 +532,7 @@ export const silverTempest = {
         {
             id: 'swsh12-127',
             name: 'Togedemaru',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -544,7 +544,7 @@ export const silverTempest = {
         {
             id: 'swsh12-129',
             name: 'Dratini',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'common',
@@ -556,7 +556,7 @@ export const silverTempest = {
         {
             id: 'swsh12-132',
             name: 'Noibat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'common',
@@ -568,7 +568,7 @@ export const silverTempest = {
         {
             id: 'swsh12-137',
             name: 'Smeargle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -580,7 +580,7 @@ export const silverTempest = {
         {
             id: 'swsh12-141',
             name: 'Spinda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -592,7 +592,7 @@ export const silverTempest = {
         {
             id: 'swsh12-142',
             name: 'Swablu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -604,7 +604,7 @@ export const silverTempest = {
         {
             id: 'swsh12-144',
             name: 'Buneary',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -616,7 +616,7 @@ export const silverTempest = {
         {
             id: 'swsh12-148',
             name: 'Rufflet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -628,7 +628,7 @@ export const silverTempest = {
         {
             id: 'swsh12-150',
             name: 'Fletchling',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -642,7 +642,7 @@ export const silverTempest = {
         {
             id: 'swsh12-16',
             name: 'Radiant Tsareena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Grass'],
             rarity: 'radiant_rare',
@@ -654,7 +654,7 @@ export const silverTempest = {
         {
             id: 'swsh12-59',
             name: 'Radiant Alakazam',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Psychic'],
             rarity: 'radiant_rare',
@@ -666,7 +666,7 @@ export const silverTempest = {
         {
             id: 'swsh12-120',
             name: 'Radiant Jirachi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Metal'],
             rarity: 'radiant_rare',
@@ -680,7 +680,7 @@ export const silverTempest = {
         {
             id: 'swsh12-10',
             name: 'Hisuian Lilligant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -692,7 +692,7 @@ export const silverTempest = {
         {
             id: 'swsh12-12',
             name: 'Amoonguss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -704,7 +704,7 @@ export const silverTempest = {
         {
             id: 'swsh12-14',
             name: 'Virizion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare',
@@ -716,7 +716,7 @@ export const silverTempest = {
         {
             id: 'swsh12-20',
             name: 'Arcanine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -728,7 +728,7 @@ export const silverTempest = {
         {
             id: 'swsh12-23',
             name: 'Victini',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare',
@@ -740,7 +740,7 @@ export const silverTempest = {
         {
             id: 'swsh12-27',
             name: 'Delphox',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare',
@@ -752,7 +752,7 @@ export const silverTempest = {
         {
             id: 'swsh12-29',
             name: 'Talonflame',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare',
@@ -764,7 +764,7 @@ export const silverTempest = {
         {
             id: 'swsh12-32',
             name: 'Incineroar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare',
@@ -776,7 +776,7 @@ export const silverTempest = {
         {
             id: 'swsh12-40',
             name: 'Milotic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -788,7 +788,7 @@ export const silverTempest = {
         {
             id: 'swsh12-43',
             name: 'Froslass',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -800,7 +800,7 @@ export const silverTempest = {
         {
             id: 'swsh12-45',
             name: 'Phione',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -812,7 +812,7 @@ export const silverTempest = {
         {
             id: 'swsh12-46',
             name: 'Keldeo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -824,7 +824,7 @@ export const silverTempest = {
         {
             id: 'swsh12-56',
             name: 'Zeraora',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -836,7 +836,7 @@ export const silverTempest = {
         {
             id: 'swsh12-64',
             name: 'Mismagius',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -848,7 +848,7 @@ export const silverTempest = {
         {
             id: 'swsh12-69',
             name: 'Gardevoir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -860,7 +860,7 @@ export const silverTempest = {
         {
             id: 'swsh12-96',
             name: 'Armaldo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -872,7 +872,7 @@ export const silverTempest = {
         {
             id: 'swsh12-125',
             name: 'Klinklang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -884,7 +884,7 @@ export const silverTempest = {
         {
             id: 'swsh12-126',
             name: 'Cobalion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare',
@@ -896,7 +896,7 @@ export const silverTempest = {
         {
             id: 'swsh12-133',
             name: 'Noivern',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -908,7 +908,7 @@ export const silverTempest = {
         {
             id: 'swsh12-134',
             name: 'Zygarde',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -920,7 +920,7 @@ export const silverTempest = {
         {
             id: 'swsh12-149',
             name: 'Hisuian Braviary',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -934,7 +934,7 @@ export const silverTempest = {
         {
             id: 'swsh12-4',
             name: 'Ariados',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -946,7 +946,7 @@ export const silverTempest = {
         {
             id: 'swsh12-22',
             name: 'Rapidash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -958,7 +958,7 @@ export const silverTempest = {
         {
             id: 'swsh12-36',
             name: 'Articuno',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -970,7 +970,7 @@ export const silverTempest = {
         {
             id: 'swsh12-73',
             name: 'Medicham',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -982,7 +982,7 @@ export const silverTempest = {
         {
             id: 'swsh12-78',
             name: 'Reuniclus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -994,7 +994,7 @@ export const silverTempest = {
         {
             id: 'swsh12-89',
             name: 'Dragapult',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1006,7 +1006,7 @@ export const silverTempest = {
         {
             id: 'swsh12-97',
             name: 'Terrakion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1018,7 +1018,7 @@ export const silverTempest = {
         {
             id: 'swsh12-105',
             name: 'Crobat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1030,7 +1030,7 @@ export const silverTempest = {
         {
             id: 'swsh12-113',
             name: 'Krookodile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1042,7 +1042,7 @@ export const silverTempest = {
         {
             id: 'swsh12-119',
             name: 'Metagross',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1054,7 +1054,7 @@ export const silverTempest = {
         {
             id: 'swsh12-131',
             name: 'Dragonite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -1066,7 +1066,7 @@ export const silverTempest = {
         {
             id: 'swsh12-147',
             name: 'Archeops',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1079,7 +1079,7 @@ export const silverTempest = {
             id: 'swsh12-154',
             name: 'Earthen Seal Stone',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12/154.png',
@@ -1090,7 +1090,7 @@ export const silverTempest = {
             id: 'swsh12-156',
             name: 'Forest Seal Stone',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12/156.png',
@@ -1102,7 +1102,7 @@ export const silverTempest = {
         {
             id: 'swsh12-7',
             name: 'Serperior V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1114,7 +1114,7 @@ export const silverTempest = {
         {
             id: 'swsh12-15',
             name: 'Chesnaught V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1126,7 +1126,7 @@ export const silverTempest = {
         {
             id: 'swsh12-24',
             name: 'Reshiram V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1138,7 +1138,7 @@ export const silverTempest = {
         {
             id: 'swsh12-33',
             name: 'Alolan Vulpix V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1150,7 +1150,7 @@ export const silverTempest = {
         {
             id: 'swsh12-35',
             name: 'Omastar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1162,7 +1162,7 @@ export const silverTempest = {
         {
             id: 'swsh12-57',
             name: 'Regieleki V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1174,7 +1174,7 @@ export const silverTempest = {
         {
             id: 'swsh12-65',
             name: 'Unown V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1186,7 +1186,7 @@ export const silverTempest = {
         {
             id: 'swsh12-70',
             name: 'Mawile V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1198,7 +1198,7 @@ export const silverTempest = {
         {
             id: 'swsh12-90',
             name: 'Hisuian Arcanine V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1210,7 +1210,7 @@ export const silverTempest = {
         {
             id: 'swsh12-102',
             name: 'Ursaluna V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1222,7 +1222,7 @@ export const silverTempest = {
         {
             id: 'swsh12-108',
             name: 'Skuntank V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1234,7 +1234,7 @@ export const silverTempest = {
         {
             id: 'swsh12-128',
             name: 'Magearna V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1246,7 +1246,7 @@ export const silverTempest = {
         {
             id: 'swsh12-135',
             name: 'Regidrago V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1258,7 +1258,7 @@ export const silverTempest = {
         {
             id: 'swsh12-138',
             name: 'Lugia V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1270,7 +1270,7 @@ export const silverTempest = {
         {
             id: 'swsh12-140',
             name: 'Ho-Oh V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1284,7 +1284,7 @@ export const silverTempest = {
         {
             id: 'swsh12-58',
             name: 'Regieleki VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1298,7 +1298,7 @@ export const silverTempest = {
         {
             id: 'swsh12-8',
             name: 'Serperior VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_holo_vstar',
@@ -1310,7 +1310,7 @@ export const silverTempest = {
         {
             id: 'swsh12-34',
             name: 'Alolan Vulpix VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'rare_holo_vstar',
@@ -1322,7 +1322,7 @@ export const silverTempest = {
         {
             id: 'swsh12-66',
             name: 'Unown VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_holo_vstar',
@@ -1334,7 +1334,7 @@ export const silverTempest = {
         {
             id: 'swsh12-71',
             name: 'Mawile VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_holo_vstar',
@@ -1346,7 +1346,7 @@ export const silverTempest = {
         {
             id: 'swsh12-136',
             name: 'Regidrago VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_holo_vstar',
@@ -1358,7 +1358,7 @@ export const silverTempest = {
         {
             id: 'swsh12-139',
             name: 'Lugia VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_holo_vstar',
@@ -1372,7 +1372,7 @@ export const silverTempest = {
         {
             id: 'swsh12-196',
             name: 'Serperior VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1384,7 +1384,7 @@ export const silverTempest = {
         {
             id: 'swsh12-197',
             name: 'Alolan Vulpix VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1396,7 +1396,7 @@ export const silverTempest = {
         {
             id: 'swsh12-198',
             name: 'Regieleki VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_rainbow',
@@ -1408,7 +1408,7 @@ export const silverTempest = {
         {
             id: 'swsh12-199',
             name: 'Unown VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1420,7 +1420,7 @@ export const silverTempest = {
         {
             id: 'swsh12-200',
             name: 'Mawile VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1432,7 +1432,7 @@ export const silverTempest = {
         {
             id: 'swsh12-201',
             name: 'Regidrago VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_rainbow',
@@ -1444,7 +1444,7 @@ export const silverTempest = {
         {
             id: 'swsh12-202',
             name: 'Lugia VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_rainbow',
@@ -1535,7 +1535,7 @@ export const silverTempest = {
         {
             id: 'swsh12-210',
             name: 'Serperior VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_secret',
@@ -1547,7 +1547,7 @@ export const silverTempest = {
         {
             id: 'swsh12-211',
             name: 'Lugia VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_secret',
@@ -1582,7 +1582,7 @@ export const silverTempest = {
             id: 'swsh12-214',
             name: 'Leafy Camo Poncho',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12/214.png',
@@ -1605,7 +1605,7 @@ export const silverTempest = {
         {
             id: 'swsh12-170',
             name: 'Serperior V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1617,7 +1617,7 @@ export const silverTempest = {
         {
             id: 'swsh12-171',
             name: 'Chesnaught V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1629,7 +1629,7 @@ export const silverTempest = {
         {
             id: 'swsh12-172',
             name: 'Reshiram V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1641,7 +1641,7 @@ export const silverTempest = {
         {
             id: 'swsh12-173',
             name: 'Alolan Vulpix V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1653,7 +1653,7 @@ export const silverTempest = {
         {
             id: 'swsh12-174',
             name: 'Omastar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1665,7 +1665,7 @@ export const silverTempest = {
         {
             id: 'swsh12-175',
             name: 'Regieleki V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1677,7 +1677,7 @@ export const silverTempest = {
         {
             id: 'swsh12-176',
             name: 'Unown V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1689,7 +1689,7 @@ export const silverTempest = {
         {
             id: 'swsh12-177',
             name: 'Unown V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1701,7 +1701,7 @@ export const silverTempest = {
         {
             id: 'swsh12-178',
             name: 'Mawile V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1713,7 +1713,7 @@ export const silverTempest = {
         {
             id: 'swsh12-179',
             name: 'Hisuian Arcanine V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1725,7 +1725,7 @@ export const silverTempest = {
         {
             id: 'swsh12-180',
             name: 'Skuntank V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1737,7 +1737,7 @@ export const silverTempest = {
         {
             id: 'swsh12-181',
             name: 'Skuntank V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1749,7 +1749,7 @@ export const silverTempest = {
         {
             id: 'swsh12-182',
             name: 'Magearna V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1761,7 +1761,7 @@ export const silverTempest = {
         {
             id: 'swsh12-183',
             name: 'Regidrago V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -1773,7 +1773,7 @@ export const silverTempest = {
         {
             id: 'swsh12-184',
             name: 'Regidrago V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -1785,7 +1785,7 @@ export const silverTempest = {
         {
             id: 'swsh12-185',
             name: 'Lugia V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1797,7 +1797,7 @@ export const silverTempest = {
         {
             id: 'swsh12-186',
             name: 'Lugia V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1809,7 +1809,7 @@ export const silverTempest = {
         {
             id: 'swsh12-187',
             name: 'Ho-Oh V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1911,7 +1911,7 @@ export const silverTempest = {
         {
             id: 'swsh12-2',
             name: 'Venomoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1923,7 +1923,7 @@ export const silverTempest = {
         {
             id: 'swsh12-6',
             name: 'Sunflora',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1935,7 +1935,7 @@ export const silverTempest = {
         {
             id: 'swsh12-18',
             name: 'Ninetales',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1947,7 +1947,7 @@ export const silverTempest = {
         {
             id: 'swsh12-26',
             name: 'Braixen',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1959,7 +1959,7 @@ export const silverTempest = {
         {
             id: 'swsh12-28',
             name: 'Fletchinder',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1971,7 +1971,7 @@ export const silverTempest = {
         {
             id: 'swsh12-31',
             name: 'Torracat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1983,7 +1983,7 @@ export const silverTempest = {
         {
             id: 'swsh12-38',
             name: 'Wailord',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1995,7 +1995,7 @@ export const silverTempest = {
         {
             id: 'swsh12-42',
             name: 'Glalie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2007,7 +2007,7 @@ export const silverTempest = {
         {
             id: 'swsh12-48',
             name: 'Araquanid',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2019,7 +2019,7 @@ export const silverTempest = {
         {
             id: 'swsh12-50',
             name: 'Raichu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2031,7 +2031,7 @@ export const silverTempest = {
         {
             id: 'swsh12-52',
             name: 'Lanturn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2043,7 +2043,7 @@ export const silverTempest = {
         {
             id: 'swsh12-61',
             name: 'Hypno',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2055,7 +2055,7 @@ export const silverTempest = {
         {
             id: 'swsh12-62',
             name: 'Jynx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2067,7 +2067,7 @@ export const silverTempest = {
         {
             id: 'swsh12-68',
             name: 'Kirlia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2079,7 +2079,7 @@ export const silverTempest = {
         {
             id: 'swsh12-75',
             name: 'Sigilyph',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2091,7 +2091,7 @@ export const silverTempest = {
         {
             id: 'swsh12-77',
             name: 'Duosion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2103,7 +2103,7 @@ export const silverTempest = {
         {
             id: 'swsh12-80',
             name: 'Beheeyem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2115,7 +2115,7 @@ export const silverTempest = {
         {
             id: 'swsh12-82',
             name: 'Meowstic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2127,7 +2127,7 @@ export const silverTempest = {
         {
             id: 'swsh12-84',
             name: 'Slurpuff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2139,7 +2139,7 @@ export const silverTempest = {
         {
             id: 'swsh12-85',
             name: 'Dedenne',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2151,7 +2151,7 @@ export const silverTempest = {
         {
             id: 'swsh12-88',
             name: 'Drakloak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2163,7 +2163,7 @@ export const silverTempest = {
         {
             id: 'swsh12-92',
             name: 'Donphan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2175,7 +2175,7 @@ export const silverTempest = {
         {
             id: 'swsh12-94',
             name: 'Claydol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2187,7 +2187,7 @@ export const silverTempest = {
         {
             id: 'swsh12-95',
             name: 'Anorith',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2199,7 +2199,7 @@ export const silverTempest = {
         {
             id: 'swsh12-100',
             name: 'Palossand',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2211,7 +2211,7 @@ export const silverTempest = {
         {
             id: 'swsh12-101',
             name: 'Stonjourner',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2223,7 +2223,7 @@ export const silverTempest = {
         {
             id: 'swsh12-104',
             name: 'Golbat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2235,7 +2235,7 @@ export const silverTempest = {
         {
             id: 'swsh12-107',
             name: 'Honchkrow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2247,7 +2247,7 @@ export const silverTempest = {
         {
             id: 'swsh12-110',
             name: 'Toxicroak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2259,7 +2259,7 @@ export const silverTempest = {
         {
             id: 'swsh12-112',
             name: 'Krokorok',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2271,7 +2271,7 @@ export const silverTempest = {
         {
             id: 'swsh12-115',
             name: 'Toxapex',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2283,7 +2283,7 @@ export const silverTempest = {
         {
             id: 'swsh12-116',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2295,7 +2295,7 @@ export const silverTempest = {
         {
             id: 'swsh12-118',
             name: 'Metang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2307,7 +2307,7 @@ export const silverTempest = {
         {
             id: 'swsh12-122',
             name: 'Ferrothorn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2319,7 +2319,7 @@ export const silverTempest = {
         {
             id: 'swsh12-124',
             name: 'Klang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2331,7 +2331,7 @@ export const silverTempest = {
         {
             id: 'swsh12-130',
             name: 'Dragonair',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -2343,7 +2343,7 @@ export const silverTempest = {
         {
             id: 'swsh12-143',
             name: 'Altaria',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2355,7 +2355,7 @@ export const silverTempest = {
         {
             id: 'swsh12-145',
             name: 'Lopunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2367,7 +2367,7 @@ export const silverTempest = {
         {
             id: 'swsh12-146',
             name: 'Archen',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2413,7 +2413,7 @@ export const silverTempest = {
             id: 'swsh12-155',
             name: 'Emergency Jelly',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12/155.png',
@@ -2457,7 +2457,7 @@ export const silverTempest = {
             id: 'swsh12-160',
             name: 'Leafy Camo Poncho',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12/160.png',

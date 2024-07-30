@@ -1,5 +1,6 @@
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
+import { UserActionLogger } from '../database/user_action_logger.mjs';
 
 export class KeepPokemon {
     async init(req, res) {
@@ -49,6 +50,8 @@ export class KeepPokemon {
                 ...pokemonData,
             }
         );
+
+        UserActionLogger.info('keep', this.discordId, pokemonData.name);
 
         await dbConnect.queryDB(
             `DELETE FROM ptcg_pending_pokemon

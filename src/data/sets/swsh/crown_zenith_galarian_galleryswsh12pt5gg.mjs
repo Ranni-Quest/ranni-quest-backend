@@ -8,7 +8,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG36',
             name: 'Entei V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -20,7 +20,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG38',
             name: 'Suicune V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -32,7 +32,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG39',
             name: 'Lumineon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -44,7 +44,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG41',
             name: 'Raikou V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -56,7 +56,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG48',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -68,7 +68,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG49',
             name: 'Drapion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -80,7 +80,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG51',
             name: 'Hisuian Samurott V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -92,7 +92,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG53',
             name: 'Hoopa V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -104,7 +104,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG54',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -118,7 +118,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG42',
             name: 'Zeraora VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -130,7 +130,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG45',
             name: 'Deoxys VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -142,7 +142,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG47',
             name: 'Hatterene VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -156,7 +156,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG35',
             name: 'Leafeon VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_holo_vstar',
@@ -168,7 +168,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG37',
             name: 'Simisear VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fire'],
             rarity: 'rare_holo_vstar',
@@ -180,7 +180,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG40',
             name: 'Glaceon VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'rare_holo_vstar',
@@ -192,7 +192,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG43',
             name: 'Zeraora VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Lightning'],
             rarity: 'rare_holo_vstar',
@@ -204,7 +204,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG44',
             name: 'Mewtwo VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_holo_vstar',
@@ -216,7 +216,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG46',
             name: 'Deoxys VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_holo_vstar',
@@ -228,7 +228,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG50',
             name: 'Darkrai VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Darkness'],
             rarity: 'rare_holo_vstar',
@@ -240,7 +240,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG52',
             name: 'Hisuian Samurott VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Darkness'],
             rarity: 'rare_holo_vstar',
@@ -252,7 +252,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG55',
             name: 'Regigigas VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_holo_vstar',
@@ -264,7 +264,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG56',
             name: 'Hisuian Zoroark VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_holo_vstar',
@@ -278,7 +278,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG67',
             name: 'Origin Forme Palkia VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'rare_secret',
@@ -290,7 +290,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG68',
             name: 'Origin Forme Dialga VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Metal'],
             rarity: 'rare_secret',
@@ -302,7 +302,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG69',
             name: 'Giratina VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_secret',
@@ -314,7 +314,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG70',
             name: 'Arceus VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_secret',
@@ -440,7 +440,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG01',
             name: 'Hisuian Voltorb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'trainer_gallery_rare_holo',
@@ -452,7 +452,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG02',
             name: 'Kricketune',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'trainer_gallery_rare_holo',
@@ -464,7 +464,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG03',
             name: 'Magmortar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'trainer_gallery_rare_holo',
@@ -476,7 +476,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG04',
             name: 'Oricorio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Fire'],
             rarity: 'trainer_gallery_rare_holo',
@@ -488,7 +488,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG05',
             name: 'Lapras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
@@ -500,7 +500,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG06',
             name: 'Manaphy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
@@ -512,7 +512,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG07',
             name: 'Keldeo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
@@ -524,7 +524,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG08',
             name: 'Electivire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',
@@ -536,7 +536,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG09',
             name: 'Toxtricity',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Fusion Strike'],
             types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',
@@ -548,7 +548,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG10',
             name: 'Mew',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -560,7 +560,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG11',
             name: 'Lunatone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -572,7 +572,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG12',
             name: 'Deoxys',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: [
                 'Basic',
                 'Fusion Strike',
@@ -589,7 +589,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG13',
             name: 'Diancie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -601,7 +601,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG14',
             name: 'Comfey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -613,7 +613,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG15',
             name: 'Solrock',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
@@ -625,7 +625,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG16',
             name: 'Absol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'trainer_gallery_rare_holo',
@@ -637,7 +637,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG17',
             name: 'Thievul',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'trainer_gallery_rare_holo',
@@ -649,7 +649,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG18',
             name: 'Magnezone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'trainer_gallery_rare_holo',
@@ -661,7 +661,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG19',
             name: 'Altaria',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'trainer_gallery_rare_holo',
@@ -673,7 +673,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG20',
             name: 'Latias',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Dragon'],
             rarity: 'trainer_gallery_rare_holo',
@@ -685,7 +685,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG21',
             name: 'Hisuian Goodra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Dragon'],
             rarity: 'trainer_gallery_rare_holo',
@@ -697,7 +697,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG22',
             name: 'Ditto',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -709,7 +709,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG23',
             name: 'Dunsparce',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -721,7 +721,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG24',
             name: 'Miltank',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -733,7 +733,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG25',
             name: 'Bibarel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -745,7 +745,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG26',
             name: 'Riolu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
@@ -757,7 +757,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG27',
             name: 'Swablu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -769,7 +769,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG28',
             name: 'Duskull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -781,7 +781,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG29',
             name: 'Bidoof',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -793,7 +793,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG30',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',
@@ -805,7 +805,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG31',
             name: 'Turtwig',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'trainer_gallery_rare_holo',
@@ -817,7 +817,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG32',
             name: 'Paras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'trainer_gallery_rare_holo',
@@ -829,7 +829,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG33',
             name: 'Poochyena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'trainer_gallery_rare_holo',
@@ -841,7 +841,7 @@ export const crownZenithGalarianGallery = {
         {
             id: 'swsh12pt5gg-GG34',
             name: 'Mareep',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',

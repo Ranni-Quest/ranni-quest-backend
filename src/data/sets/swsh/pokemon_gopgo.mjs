@@ -1,10 +1,10 @@
 export const pokemonGo = {
-    name: { id: 'pgo', name: 'Pok\u00e9mon GO', series: 'Sword & Shield' },
+    name: { id: 'pgo', name: 'Pokémon GO', series: 'Sword & Shield' },
     common: [
         {
             id: 'pgo-1',
             name: 'Bulbasaur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const pokemonGo = {
         {
             id: 'pgo-6',
             name: 'Spinarak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const pokemonGo = {
         {
             id: 'pgo-8',
             name: 'Charmander',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const pokemonGo = {
         {
             id: 'pgo-13',
             name: 'Numel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const pokemonGo = {
         {
             id: 'pgo-15',
             name: 'Squirtle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const pokemonGo = {
         {
             id: 'pgo-19',
             name: 'Slowpoke',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const pokemonGo = {
         {
             id: 'pgo-21',
             name: 'Magikarp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const pokemonGo = {
         {
             id: 'pgo-25',
             name: 'Wimpod',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const pokemonGo = {
         {
             id: 'pgo-27',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const pokemonGo = {
         {
             id: 'pgo-32',
             name: 'Natu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const pokemonGo = {
         {
             id: 'pgo-36',
             name: 'Onix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const pokemonGo = {
         {
             id: 'pgo-37',
             name: 'Larvitar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const pokemonGo = {
         {
             id: 'pgo-41',
             name: 'Alolan Rattata',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const pokemonGo = {
         {
             id: 'pgo-42',
             name: 'Alolan Raticate',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const pokemonGo = {
         {
             id: 'pgo-45',
             name: 'Meltan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const pokemonGo = {
         {
             id: 'pgo-54',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const pokemonGo = {
         {
             id: 'pgo-56',
             name: 'Aipom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const pokemonGo = {
         {
             id: 'pgo-57',
             name: 'Ambipom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const pokemonGo = {
         {
             id: 'pgo-59',
             name: 'Bidoof',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const pokemonGo = {
         {
             id: 'pgo-60',
             name: 'Bibarel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const pokemonGo = {
         {
             id: 'pgo-61',
             name: 'Pidove',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const pokemonGo = {
         {
             id: 'pgo-62',
             name: 'Tranquill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'common',
@@ -270,7 +270,7 @@ export const pokemonGo = {
         {
             id: 'pgo-4',
             name: 'Radiant Venusaur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Grass'],
             rarity: 'radiant_rare',
@@ -282,7 +282,7 @@ export const pokemonGo = {
         {
             id: 'pgo-11',
             name: 'Radiant Charizard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Fire'],
             rarity: 'radiant_rare',
@@ -294,7 +294,7 @@ export const pokemonGo = {
         {
             id: 'pgo-18',
             name: 'Radiant Blastoise',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Water'],
             rarity: 'radiant_rare',
@@ -308,7 +308,7 @@ export const pokemonGo = {
         {
             id: 'pgo-3',
             name: 'Venusaur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -320,7 +320,7 @@ export const pokemonGo = {
         {
             id: 'pgo-10',
             name: 'Charizard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -332,7 +332,7 @@ export const pokemonGo = {
         {
             id: 'pgo-12',
             name: 'Moltres',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -344,7 +344,7 @@ export const pokemonGo = {
         {
             id: 'pgo-17',
             name: 'Blastoise',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -356,7 +356,7 @@ export const pokemonGo = {
         {
             id: 'pgo-22',
             name: 'Gyarados',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -368,7 +368,7 @@ export const pokemonGo = {
         {
             id: 'pgo-23',
             name: 'Lapras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -380,7 +380,7 @@ export const pokemonGo = {
         {
             id: 'pgo-24',
             name: 'Articuno',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -392,7 +392,7 @@ export const pokemonGo = {
         {
             id: 'pgo-26',
             name: 'Golisopod',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -404,7 +404,7 @@ export const pokemonGo = {
         {
             id: 'pgo-28',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -416,7 +416,7 @@ export const pokemonGo = {
         {
             id: 'pgo-29',
             name: 'Zapdos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -428,7 +428,7 @@ export const pokemonGo = {
         {
             id: 'pgo-35',
             name: 'Sylveon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -440,7 +440,7 @@ export const pokemonGo = {
         {
             id: 'pgo-43',
             name: 'Tyranitar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -452,7 +452,7 @@ export const pokemonGo = {
         {
             id: 'pgo-46',
             name: 'Melmetal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -464,7 +464,7 @@ export const pokemonGo = {
         {
             id: 'pgo-52',
             name: 'Blissey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -476,7 +476,7 @@ export const pokemonGo = {
         {
             id: 'pgo-53',
             name: 'Ditto',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -488,7 +488,7 @@ export const pokemonGo = {
         {
             id: 'pgo-55',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -502,7 +502,7 @@ export const pokemonGo = {
         {
             id: 'pgo-5',
             name: 'Alolan Exeggutor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -514,7 +514,7 @@ export const pokemonGo = {
         {
             id: 'pgo-30',
             name: 'Mewtwo V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -526,7 +526,7 @@ export const pokemonGo = {
         {
             id: 'pgo-40',
             name: 'Conkeldurr V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -538,7 +538,7 @@ export const pokemonGo = {
         {
             id: 'pgo-47',
             name: 'Melmetal V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -550,7 +550,7 @@ export const pokemonGo = {
         {
             id: 'pgo-49',
             name: 'Dragonite V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -562,7 +562,7 @@ export const pokemonGo = {
         {
             id: 'pgo-58',
             name: 'Slaking V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -576,7 +576,7 @@ export const pokemonGo = {
         {
             id: 'pgo-48',
             name: 'Melmetal VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_holo_vmax',
@@ -590,7 +590,7 @@ export const pokemonGo = {
         {
             id: 'pgo-31',
             name: 'Mewtwo VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_holo_vstar',
@@ -602,7 +602,7 @@ export const pokemonGo = {
         {
             id: 'pgo-50',
             name: 'Dragonite VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_holo_vstar',
@@ -616,7 +616,7 @@ export const pokemonGo = {
         {
             id: 'pgo-79',
             name: 'Mewtwo VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -628,7 +628,7 @@ export const pokemonGo = {
         {
             id: 'pgo-80',
             name: 'Melmetal VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_rainbow',
@@ -640,7 +640,7 @@ export const pokemonGo = {
         {
             id: 'pgo-81',
             name: 'Dragonite VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_rainbow',
@@ -698,7 +698,7 @@ export const pokemonGo = {
         {
             id: 'pgo-86',
             name: 'Mewtwo VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_secret',
@@ -734,7 +734,7 @@ export const pokemonGo = {
         {
             id: 'pgo-71',
             name: 'Alolan Exeggutor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -746,7 +746,7 @@ export const pokemonGo = {
         {
             id: 'pgo-72',
             name: 'Mewtwo V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -758,7 +758,7 @@ export const pokemonGo = {
         {
             id: 'pgo-73',
             name: 'Conkeldurr V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -770,7 +770,7 @@ export const pokemonGo = {
         {
             id: 'pgo-74',
             name: 'Conkeldurr V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -782,7 +782,7 @@ export const pokemonGo = {
         {
             id: 'pgo-75',
             name: 'Melmetal V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -794,7 +794,7 @@ export const pokemonGo = {
         {
             id: 'pgo-76',
             name: 'Dragonite V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -806,7 +806,7 @@ export const pokemonGo = {
         {
             id: 'pgo-77',
             name: 'Slaking V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -831,7 +831,7 @@ export const pokemonGo = {
         {
             id: 'pgo-2',
             name: 'Ivysaur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -843,7 +843,7 @@ export const pokemonGo = {
         {
             id: 'pgo-7',
             name: 'Ariados',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -855,7 +855,7 @@ export const pokemonGo = {
         {
             id: 'pgo-9',
             name: 'Charmeleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -867,7 +867,7 @@ export const pokemonGo = {
         {
             id: 'pgo-14',
             name: 'Camerupt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -879,7 +879,7 @@ export const pokemonGo = {
         {
             id: 'pgo-16',
             name: 'Wartortle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -891,7 +891,7 @@ export const pokemonGo = {
         {
             id: 'pgo-20',
             name: 'Slowbro',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -903,7 +903,7 @@ export const pokemonGo = {
         {
             id: 'pgo-33',
             name: 'Xatu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -915,7 +915,7 @@ export const pokemonGo = {
         {
             id: 'pgo-34',
             name: 'Lunatone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -927,7 +927,7 @@ export const pokemonGo = {
         {
             id: 'pgo-38',
             name: 'Pupitar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -939,7 +939,7 @@ export const pokemonGo = {
         {
             id: 'pgo-39',
             name: 'Solrock',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -951,7 +951,7 @@ export const pokemonGo = {
         {
             id: 'pgo-44',
             name: 'Steelix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -963,7 +963,7 @@ export const pokemonGo = {
         {
             id: 'pgo-51',
             name: 'Chansey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -975,7 +975,7 @@ export const pokemonGo = {
         {
             id: 'pgo-63',
             name: 'Unfezant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -1030,7 +1030,7 @@ export const pokemonGo = {
         },
         {
             id: 'pgo-68',
-            name: 'Pok\u00e9Stop',
+            name: 'PokéStop',
             supertype: 'Trainer',
             subtypes: ['Stadium'],
             rarity: 'uncommon',

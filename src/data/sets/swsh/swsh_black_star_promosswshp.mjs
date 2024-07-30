@@ -8,7 +8,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH161',
             name: 'Mewtwo V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -20,7 +20,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH191',
             name: 'Leafeon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'promo',
@@ -32,7 +32,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH091',
             name: 'Bronzong',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'promo',
@@ -44,7 +44,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH143',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -56,7 +56,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH223',
             name: 'Mewtwo V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -68,7 +68,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH081',
             name: 'Polteageist',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -80,7 +80,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH179',
             name: 'Flareon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fire'],
             rarity: 'promo',
@@ -92,7 +92,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH047',
             name: 'Drednaw',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'promo',
@@ -104,7 +104,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH219',
             name: 'Boltund V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -116,7 +116,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH114',
             name: 'Cresselia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -128,7 +128,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH135',
             name: 'Zacian LV.X',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Level-Up'],
             types: ['Metal'],
             rarity: 'promo',
@@ -140,7 +140,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH153',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -152,7 +152,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH073',
             name: 'Sobble',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -164,7 +164,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH151',
             name: 'Jolteon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -176,7 +176,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH039',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -188,7 +188,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH169',
             name: 'Pyukumuku',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -200,7 +200,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH097',
             name: 'Dragapult VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -212,7 +212,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH196',
             name: 'Glaceon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'promo',
@@ -224,7 +224,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH023',
             name: 'Luxray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -236,7 +236,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH203',
             name: 'Umbreon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -248,7 +248,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH107',
             name: 'Rapid Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -260,7 +260,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH208',
             name: 'Magnezone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'promo',
@@ -272,7 +272,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH055',
             name: 'Hatterene V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -284,7 +284,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH231',
             name: 'Bulbasaur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'promo',
@@ -307,7 +307,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH062',
             name: 'Pikachu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -319,7 +319,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH245',
             name: 'Croagunk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -331,7 +331,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH069',
             name: 'Lugia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -343,7 +343,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH139',
             name: 'Pikachu V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -355,7 +355,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH035',
             name: 'Decidueye',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'promo',
@@ -367,7 +367,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH147',
             name: 'Rayquaza V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -379,7 +379,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH077',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -391,7 +391,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH157',
             name: 'Greninja V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Water'],
             rarity: 'promo',
@@ -403,7 +403,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH019',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -415,7 +415,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH165',
             name: 'Zacian V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Metal'],
             rarity: 'promo',
@@ -427,7 +427,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH085',
             name: 'Boltund V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -439,7 +439,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH173',
             name: 'Blitzle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -451,7 +451,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH043',
             name: "Galarian Sirfetch'd V",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -463,7 +463,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH183',
             name: 'Jolteon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -475,7 +475,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH101',
             name: 'Blastoise V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'promo',
@@ -487,7 +487,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH187',
             name: 'Liepard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -499,7 +499,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH011',
             name: 'Wooloo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -511,7 +511,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH199',
             name: 'Lycanroc V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -523,7 +523,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH095',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -535,7 +535,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH215',
             name: 'Morpeko V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -547,7 +547,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH051',
             name: 'Lapras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -559,7 +559,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH177',
             name: 'Special Delivery Bidoof',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -571,7 +571,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH109',
             name: 'Tyranitar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -583,7 +583,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH212',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -595,7 +595,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH027',
             name: 'Noctowl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -618,7 +618,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH118',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -630,7 +630,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH237',
             name: 'Hisuian Typhlosion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -642,7 +642,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH059',
             name: 'Galarian Obstagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -654,7 +654,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH241',
             name: 'Gengar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -677,7 +677,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH110',
             name: 'Crobat V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -689,7 +689,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH252',
             name: 'Infernape V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'promo',
@@ -701,7 +701,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH067',
             name: 'Donphan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -713,7 +713,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH133',
             name: "Lance's Charizard V",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'promo',
@@ -725,7 +725,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH033',
             name: 'Zacian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'promo',
@@ -737,7 +737,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH137',
             name: 'Light Toxtricity',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -749,7 +749,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH071',
             name: 'Scorbunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'promo',
@@ -761,7 +761,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH141',
             name: 'Pikachu V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -773,7 +773,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH017',
             name: 'Toxtricity V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -785,7 +785,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH145',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -797,7 +797,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH061',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -809,7 +809,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH149',
             name: 'Flareon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fire'],
             rarity: 'promo',
@@ -821,7 +821,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH037',
             name: 'Hydreigon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -833,7 +833,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH155',
             name: 'Greninja V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Water'],
             rarity: 'promo',
@@ -845,7 +845,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH079',
             name: 'Galarian Mr. Rime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'promo',
@@ -857,7 +857,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH159',
             name: 'Mewtwo V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -869,7 +869,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH009',
             name: 'Cinccino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -881,7 +881,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH163',
             name: 'Zacian V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Metal'],
             rarity: 'promo',
@@ -893,7 +893,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH083',
             name: 'Alakazam V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -916,7 +916,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH041',
             name: 'Flareon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'promo',
@@ -928,7 +928,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH171',
             name: 'Latias',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -940,7 +940,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH087',
             name: 'Eevee VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -952,7 +952,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH175',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -964,7 +964,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH021',
             name: 'Polteageist V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -976,7 +976,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH181',
             name: 'Vaporeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'promo',
@@ -988,7 +988,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH099',
             name: 'Crobat VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1000,7 +1000,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH194',
             name: 'Leafeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'promo',
@@ -1012,7 +1012,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH045',
             name: 'Eternatus VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1024,7 +1024,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH185',
             name: 'Moltres',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'promo',
@@ -1036,7 +1036,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH089',
             name: 'Octillery',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'promo',
@@ -1048,7 +1048,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH189',
             name: 'Flapple',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -1060,7 +1060,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH005',
             name: 'Meowth VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1072,7 +1072,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH193',
             name: 'Galarian Obstagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1084,7 +1084,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH093',
             name: 'Arrokuda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -1096,7 +1096,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH201',
             name: 'Espeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1108,7 +1108,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH049',
             name: 'Dubwool V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1120,7 +1120,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH213',
             name: 'Lucario V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -1132,7 +1132,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH103',
             name: 'Blastoise VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'promo',
@@ -1144,7 +1144,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH217',
             name: 'Morpeko V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -1156,7 +1156,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH025',
             name: 'Garbodor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1168,7 +1168,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH221',
             name: 'Cyndaquil',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'promo',
@@ -1180,7 +1180,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH105',
             name: 'Gardevoir V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1192,7 +1192,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH206',
             name: 'Wyrdeer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1204,7 +1204,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH053',
             name: 'Machamp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -1216,7 +1216,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH210',
             name: 'Oricorio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1228,7 +1228,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH112',
             name: 'Cinderace',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Single Strike'],
             types: ['Fire'],
             rarity: 'promo',
@@ -1240,7 +1240,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH249',
             name: 'Kleavor VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -1252,7 +1252,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH013',
             name: 'Galarian Ponyta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1264,7 +1264,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH225',
             name: 'Alolan Exeggutor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'promo',
@@ -1276,7 +1276,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH116',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -1288,7 +1288,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH229',
             name: 'Mewtwo V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1300,7 +1300,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH057',
             name: 'Grimmsnarl V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1312,7 +1312,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH233',
             name: 'Squirtle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -1335,7 +1335,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH239',
             name: 'Hisuian Samurott V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1347,7 +1347,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH029',
             name: 'Rayquaza',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1359,7 +1359,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH236',
             name: 'Dragonite VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -1371,7 +1371,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH131',
             name: 'Shadow Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1383,7 +1383,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH243',
             name: 'Machamp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -1395,7 +1395,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH063',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -1407,7 +1407,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH247',
             name: 'Regigigas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1419,7 +1419,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH128',
             name: 'Eiscue',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -1431,7 +1431,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH124',
             name: 'Galarian Zapdos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -1443,7 +1443,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH125',
             name: 'Galarian Moltres',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1455,7 +1455,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH066',
             name: 'Charizard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'promo',
@@ -1467,7 +1467,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH126',
             name: 'Galarian Slowpoke',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1479,7 +1479,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH032',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1491,7 +1491,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH132',
             name: 'Dragapult',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Prime'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1503,7 +1503,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH068',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1515,7 +1515,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH134',
             name: 'Dark Sylveon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1527,7 +1527,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH016',
             name: 'Inteleon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'promo',
@@ -1539,7 +1539,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH136',
             name: 'Mimikyu \u03b4',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -1551,7 +1551,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH070',
             name: 'Grookey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'promo',
@@ -1563,7 +1563,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH138',
             name: 'Hydreigon C',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'SP'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1575,7 +1575,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH034',
             name: 'Zamazenta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'promo',
@@ -1587,7 +1587,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH140',
             name: 'Pikachu V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -1599,7 +1599,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH072',
             name: 'Vaporeon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'promo',
@@ -1611,7 +1611,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH142',
             name: 'Pikachu V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -1623,7 +1623,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH008',
             name: 'Galarian Perrserker',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'promo',
@@ -1635,7 +1635,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH144',
             name: 'Greninja \u2605',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Star'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -1647,7 +1647,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH074',
             name: 'Special Delivery Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -1658,7 +1658,7 @@ export const swshBlackStarPromos = {
         },
         {
             id: 'swshp-SWSH146',
-            name: 'Pok\u00e9 Ball',
+            name: 'Poké Ball',
             supertype: 'Trainer',
             subtypes: ['Item'],
             rarity: 'promo',
@@ -1670,7 +1670,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH036',
             name: 'Arctozolt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -1682,7 +1682,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH148',
             name: 'Noivern V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -1694,7 +1694,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH076',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -1706,7 +1706,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH150',
             name: 'Vaporeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'promo',
@@ -1718,7 +1718,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH018',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -1730,7 +1730,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH154',
             name: 'Dragonite V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -1742,7 +1742,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH078',
             name: 'Orbeetle V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'promo',
@@ -1754,7 +1754,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH156',
             name: 'Greninja V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Water'],
             rarity: 'promo',
@@ -1766,7 +1766,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH038',
             name: 'Kangaskhan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1778,7 +1778,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH158',
             name: 'Greninja V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Water'],
             rarity: 'promo',
@@ -1790,7 +1790,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH080',
             name: 'Dedenne',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1802,7 +1802,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH160',
             name: 'Mewtwo V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1814,7 +1814,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH004',
             name: 'Meowth V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1826,7 +1826,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH162',
             name: 'Mewtwo V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1838,7 +1838,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH082',
             name: 'Bunnelby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1850,7 +1850,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH164',
             name: 'Zacian V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Metal'],
             rarity: 'promo',
@@ -1862,7 +1862,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH040',
             name: 'Hatenna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1874,7 +1874,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH166',
             name: 'Zacian V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Metal'],
             rarity: 'promo',
@@ -1886,7 +1886,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH084',
             name: 'Eldegoss V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'promo',
@@ -1898,7 +1898,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH168',
             name: 'Oricorio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Fire'],
             rarity: 'promo',
@@ -1910,7 +1910,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH020',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -1922,7 +1922,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH170',
             name: 'Deoxys',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: [
                 'Basic',
                 'Fusion Strike',
@@ -1939,7 +1939,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH086',
             name: 'Cramorant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1951,7 +1951,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH172',
             name: 'Tepig',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fire'],
             rarity: 'promo',
@@ -1963,7 +1963,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH042',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -1975,7 +1975,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH174',
             name: 'Espeon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1987,7 +1987,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH096',
             name: 'Dragapult V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -1999,7 +1999,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH176',
             name: 'Hoopa V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -2011,7 +2011,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH010',
             name: 'Gossifleur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2023,7 +2023,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH180',
             name: 'Flareon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2035,7 +2035,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH098',
             name: 'Crobat V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -2047,7 +2047,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH182',
             name: 'Vaporeon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'promo',
@@ -2059,7 +2059,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH044',
             name: 'Eternatus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -2071,7 +2071,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH184',
             name: 'Jolteon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2083,7 +2083,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH100',
             name: 'Venusaur V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2095,7 +2095,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH195',
             name: 'Leafeon VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2107,7 +2107,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH022',
             name: 'Flapple',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2119,7 +2119,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH197',
             name: 'Glaceon VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'promo',
@@ -2131,7 +2131,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH088',
             name: 'Cherrim',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2143,7 +2143,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH186',
             name: 'Lucario',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2155,7 +2155,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH046',
             name: 'Eldegoss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2167,7 +2167,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH188',
             name: 'Bibarel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -2179,7 +2179,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH090',
             name: 'Houndoom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -2191,7 +2191,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH190',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -2203,7 +2203,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH002',
             name: 'Scorbunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2215,7 +2215,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH192',
             name: 'Glaceon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'promo',
@@ -2227,7 +2227,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH092',
             name: 'Charmander',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2239,7 +2239,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH198',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2251,7 +2251,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH048',
             name: 'Centiskorch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2263,7 +2263,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH200',
             name: 'Corviknight V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -2275,7 +2275,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH094',
             name: 'Jolteon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2287,7 +2287,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH202',
             name: 'Sylveon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -2299,7 +2299,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH024',
             name: 'Coalossal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2311,7 +2311,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH204',
             name: 'Arceus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -2323,7 +2323,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH102',
             name: 'Venusaur VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2335,7 +2335,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH214',
             name: 'Lucario VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2347,7 +2347,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH050',
             name: 'Charizard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2359,7 +2359,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH216',
             name: 'Morpeko V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2371,7 +2371,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH106',
             name: 'Single Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2383,7 +2383,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH218',
             name: 'Morpeko V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2395,7 +2395,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH012',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2407,7 +2407,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH220',
             name: 'Rowlet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2419,7 +2419,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH104',
             name: 'Victini V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2431,7 +2431,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH222',
             name: 'Oshawott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -2443,7 +2443,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH052',
             name: 'Gengar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -2455,7 +2455,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH205',
             name: 'Hisuian Basculegion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'promo',
@@ -2467,7 +2467,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH108',
             name: 'Empoleon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'promo',
@@ -2479,7 +2479,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH207',
             name: 'Hisuian Samurott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -2491,7 +2491,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH026',
             name: 'Mantine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -2503,7 +2503,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH209',
             name: 'Toxel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2515,7 +2515,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH111',
             name: 'Galarian Rapidash V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -2527,7 +2527,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH211',
             name: 'Sylveon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -2539,7 +2539,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH054',
             name: 'Coalossal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2551,7 +2551,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH248',
             name: 'Kleavor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2563,7 +2563,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH113',
             name: 'Inteleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'promo',
@@ -2586,7 +2586,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH006',
             name: 'Rillaboom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2598,7 +2598,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH224',
             name: 'Melmetal V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -2610,7 +2610,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH115',
             name: 'Passimian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2633,7 +2633,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH056',
             name: 'Morpeko V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2656,7 +2656,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH117',
             name: 'Phanpy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2668,7 +2668,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH230',
             name: 'Radiant Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -2680,7 +2680,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH028',
             name: 'Duraludon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'promo',
@@ -2692,7 +2692,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH232',
             name: 'Charmander',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2704,7 +2704,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH119',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -2716,7 +2716,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH234',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2728,7 +2728,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH058',
             name: 'Alcremie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -2740,7 +2740,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH238',
             name: 'Hisuian Decidueye V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -2752,7 +2752,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH129',
             name: 'Umbreon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -2764,7 +2764,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH250',
             name: 'Lumineon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'promo',
@@ -2776,7 +2776,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH014',
             name: 'Rillaboom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2788,7 +2788,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH235',
             name: 'Dragonite V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -2800,7 +2800,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH127',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -2812,7 +2812,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH240',
             name: 'Finneon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -2824,7 +2824,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH060',
             name: 'Duraludon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'promo',
@@ -2836,7 +2836,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH242',
             name: 'Comfey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -2848,7 +2848,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH123',
             name: 'Galarian Articuno',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -2860,7 +2860,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH244',
             name: 'Scorbunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2872,7 +2872,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH030',
             name: 'Copperajah V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -2884,7 +2884,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH246',
             name: 'Weavile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -2896,7 +2896,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH122',
             name: 'Flaaffy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2908,7 +2908,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH064',
             name: 'Eternatus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -2920,7 +2920,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH001',
             name: 'Grookey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'promo',
@@ -2932,7 +2932,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH003',
             name: 'Sobble',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -2944,7 +2944,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH007',
             name: 'Frosmoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'promo',
@@ -2956,7 +2956,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH015',
             name: 'Cinderace V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'promo',
@@ -2968,7 +2968,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH031',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -2980,7 +2980,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH065',
             name: 'Eevee V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -2992,7 +2992,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH130',
             name: 'Ice Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'promo',
@@ -3004,7 +3004,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH253',
             name: 'Origin Forme Palkia V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'promo',
@@ -3016,7 +3016,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH254',
             name: 'Origin Forme Palkia VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'promo',
@@ -3028,7 +3028,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH255',
             name: 'Origin Forme Dialga V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -3040,7 +3040,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH256',
             name: 'Origin Forme Dialga VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Metal'],
             rarity: 'promo',
@@ -3052,7 +3052,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH257',
             name: 'Rotom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3064,7 +3064,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH258',
             name: 'Gallade V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -3076,7 +3076,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH259',
             name: 'Giratina V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -3088,7 +3088,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH260',
             name: 'Charizard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'promo',
@@ -3100,7 +3100,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH261',
             name: 'Charizard VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'promo',
@@ -3112,7 +3112,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH262',
             name: 'Charizard VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fire'],
             rarity: 'promo',
@@ -3124,7 +3124,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH263',
             name: 'Zeraora V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3136,7 +3136,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH264',
             name: 'Zeraora VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3148,7 +3148,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH265',
             name: 'Zeraora VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3160,7 +3160,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH266',
             name: 'Deoxys V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -3172,7 +3172,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH267',
             name: 'Deoxys VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -3184,7 +3184,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH268',
             name: 'Deoxys VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -3196,7 +3196,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH269',
             name: 'Sunflora',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'promo',
@@ -3208,7 +3208,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH270',
             name: 'Rapidash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'promo',
@@ -3220,7 +3220,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH271',
             name: 'Kirlia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -3232,7 +3232,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH272',
             name: 'Archeops',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -3244,7 +3244,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH273',
             name: 'Hisuian Basculin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -3256,7 +3256,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH274',
             name: 'Cranidos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -3268,7 +3268,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH275',
             name: 'Manaphy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'promo',
@@ -3280,7 +3280,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH276',
             name: 'Togetic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -3292,7 +3292,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH294',
             name: 'Hisuian Electrode V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'promo',
@@ -3304,7 +3304,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH295',
             name: 'Virizion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'promo',
@@ -3327,7 +3327,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH297',
             name: 'Hisuian Zoroark V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -3339,7 +3339,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH298',
             name: 'Hisuian Zoroark VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -3351,7 +3351,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH277',
             name: 'Rillaboom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'promo',
@@ -3363,7 +3363,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH278',
             name: 'Cinderace',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Single Strike'],
             types: ['Fire'],
             rarity: 'promo',
@@ -3375,7 +3375,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH279',
             name: 'Inteleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'promo',
@@ -3387,7 +3387,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH280',
             name: 'Regieleki V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3399,7 +3399,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH281',
             name: 'Regidrago V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'promo',
@@ -3411,7 +3411,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH291',
             name: 'Lucario VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -3423,7 +3423,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH285',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3435,7 +3435,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH286',
             name: 'Pikachu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3447,7 +3447,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH075',
             name: 'Special Delivery Charizard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'promo',
@@ -3459,7 +3459,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH282',
             name: 'Galarian Articuno',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'promo',
@@ -3482,7 +3482,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH305',
             name: 'Greninja',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'promo',
@@ -3494,7 +3494,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH288',
             name: 'Morpeko V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3506,7 +3506,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH306',
             name: 'Arceus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -3518,7 +3518,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH287',
             name: 'Morpeko V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3530,7 +3530,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH292',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -3542,7 +3542,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH293',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'promo',
@@ -3554,7 +3554,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH307',
             name: 'Arceus VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'promo',
@@ -3577,7 +3577,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH283',
             name: 'Galarian Zapdos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'promo',
@@ -3589,7 +3589,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH284',
             name: 'Galarian Moltres',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'promo',
@@ -3601,7 +3601,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH289',
             name: 'Morpeko V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3613,7 +3613,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH290',
             name: 'Morpeko V-UNION',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['V-UNION'],
             types: ['Lightning'],
             rarity: 'promo',
@@ -3625,7 +3625,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH303',
             name: 'Bulbasaur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'promo',
@@ -3637,7 +3637,7 @@ export const swshBlackStarPromos = {
         {
             id: 'swshp-SWSH304',
             name: 'Arcanine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'promo',

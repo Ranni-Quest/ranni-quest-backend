@@ -8,7 +8,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG13',
             name: 'Starmie V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -20,7 +20,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG14',
             name: 'Ice Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -32,7 +32,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG16',
             name: 'Galarian Articuno V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -44,7 +44,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG17',
             name: 'Shadow Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -56,7 +56,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG19',
             name: 'Galarian Zapdos V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -68,7 +68,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG20',
             name: 'Galarian Moltres V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -80,7 +80,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG21',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -92,7 +92,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG22',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -104,7 +104,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG23',
             name: 'Garchomp V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -118,7 +118,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG15',
             name: 'Ice Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -130,7 +130,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG18',
             name: 'Shadow Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -144,7 +144,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG29',
             name: 'Ice Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_secret',
@@ -156,7 +156,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG30',
             name: 'Shadow Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_secret',
@@ -227,7 +227,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG01',
             name: 'Abomasnow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Grass'],
             rarity: 'trainer_gallery_rare_holo',
@@ -239,7 +239,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG02',
             name: 'Flapple',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'trainer_gallery_rare_holo',
@@ -251,7 +251,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG03',
             name: 'Kingdra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
@@ -263,7 +263,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG04',
             name: 'Frosmoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
@@ -275,7 +275,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG05',
             name: 'Gardevoir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -287,7 +287,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG06',
             name: 'Wyrdeer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -299,7 +299,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG07',
             name: 'Falinks',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
@@ -311,7 +311,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG08',
             name: 'Kleavor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
@@ -323,7 +323,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG09',
             name: 'Mightyena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'trainer_gallery_rare_holo',
@@ -335,7 +335,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG10',
             name: 'Galarian Obstagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'trainer_gallery_rare_holo',
@@ -347,7 +347,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG11',
             name: 'Bronzong',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'trainer_gallery_rare_holo',
@@ -359,7 +359,7 @@ export const astralRadianceTrainerGallery = {
         {
             id: 'swsh10tg-TG12',
             name: 'Hoothoot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',

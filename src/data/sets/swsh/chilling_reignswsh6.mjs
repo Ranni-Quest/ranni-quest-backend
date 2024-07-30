@@ -4,7 +4,7 @@ export const chillingReign = {
         {
             id: 'swsh6-1',
             name: 'Weedle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const chillingReign = {
         {
             id: 'swsh6-4',
             name: 'Ledyba',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const chillingReign = {
         {
             id: 'swsh6-6',
             name: 'Heracross',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const chillingReign = {
         {
             id: 'swsh6-9',
             name: 'Snover',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const chillingReign = {
         {
             id: 'swsh6-11',
             name: 'Deerling',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const chillingReign = {
         {
             id: 'swsh6-13',
             name: 'Bounsweet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const chillingReign = {
         {
             id: 'swsh6-16',
             name: 'Grookey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const chillingReign = {
         {
             id: 'swsh6-22',
             name: 'Castform Sunny Form',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const chillingReign = {
         {
             id: 'swsh6-23',
             name: 'Larvesta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const chillingReign = {
         {
             id: 'swsh6-26',
             name: 'Scorbunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fire'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const chillingReign = {
         {
             id: 'swsh6-29',
             name: 'Lapras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const chillingReign = {
         {
             id: 'swsh6-30',
             name: 'Sneasel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const chillingReign = {
         {
             id: 'swsh6-32',
             name: 'Delibird',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const chillingReign = {
         {
             id: 'swsh6-33',
             name: 'Castform Rainy Form',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const chillingReign = {
         {
             id: 'swsh6-34',
             name: 'Castform Snowy Form',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const chillingReign = {
         {
             id: 'swsh6-35',
             name: 'Snorunt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const chillingReign = {
         {
             id: 'swsh6-37',
             name: 'Spheal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const chillingReign = {
         {
             id: 'swsh6-41',
             name: 'Sobble',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const chillingReign = {
         {
             id: 'swsh6-47',
             name: 'Mareep',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const chillingReign = {
         {
             id: 'swsh6-50',
             name: 'Blitzle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const chillingReign = {
         {
             id: 'swsh6-54',
             name: 'Galarian Slowpoke',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const chillingReign = {
         {
             id: 'swsh6-55',
             name: 'Gastly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const chillingReign = {
         {
             id: 'swsh6-59',
             name: 'Ralts',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const chillingReign = {
         {
             id: 'swsh6-62',
             name: 'Shuppet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Psychic'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const chillingReign = {
         {
             id: 'swsh6-65',
             name: 'Golett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const chillingReign = {
         {
             id: 'swsh6-67',
             name: 'Swirlix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const chillingReign = {
         {
             id: 'swsh6-69',
             name: 'Inkay',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const chillingReign = {
         {
             id: 'swsh6-71',
             name: 'Hatenna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const chillingReign = {
         {
             id: 'swsh6-76',
             name: 'Diglett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const chillingReign = {
         {
             id: 'swsh6-78',
             name: "Galarian Farfetch'd",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const chillingReign = {
         {
             id: 'swsh6-82',
             name: 'Galarian Yamask',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const chillingReign = {
         {
             id: 'swsh6-84',
             name: 'Crabrawler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const chillingReign = {
         {
             id: 'swsh6-86',
             name: 'Rockruff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const chillingReign = {
         {
             id: 'swsh6-91',
             name: 'Clobbopus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const chillingReign = {
         {
             id: 'swsh6-93',
             name: 'Kubfu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const chillingReign = {
         {
             id: 'swsh6-94',
             name: 'Koffing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const chillingReign = {
         {
             id: 'swsh6-101',
             name: 'Qwilfish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const chillingReign = {
         {
             id: 'swsh6-105',
             name: 'Venipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const chillingReign = {
         {
             id: 'swsh6-109',
             name: 'Aron',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const chillingReign = {
         {
             id: 'swsh6-116',
             name: 'Porygon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const chillingReign = {
         {
             id: 'swsh6-121',
             name: 'Castform',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const chillingReign = {
         {
             id: 'swsh6-126',
             name: 'Furfrou',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -508,7 +508,7 @@ export const chillingReign = {
         {
             id: 'swsh6-127',
             name: 'Skwovet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -522,7 +522,7 @@ export const chillingReign = {
         {
             id: 'swsh6-10',
             name: 'Abomasnow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Grass'],
             rarity: 'rare',
@@ -534,7 +534,7 @@ export const chillingReign = {
         {
             id: 'swsh6-12',
             name: 'Sawsbuck',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -546,7 +546,7 @@ export const chillingReign = {
         {
             id: 'swsh6-15',
             name: 'Tsareena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -558,7 +558,7 @@ export const chillingReign = {
         {
             id: 'swsh6-24',
             name: 'Volcarona',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -570,7 +570,7 @@ export const chillingReign = {
         {
             id: 'swsh6-39',
             name: 'Walrein',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare',
@@ -582,7 +582,7 @@ export const chillingReign = {
         {
             id: 'swsh6-49',
             name: 'Ampharos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -594,7 +594,7 @@ export const chillingReign = {
         {
             id: 'swsh6-51',
             name: 'Zebstrika',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -606,7 +606,7 @@ export const chillingReign = {
         {
             id: 'swsh6-63',
             name: 'Banette',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -618,7 +618,7 @@ export const chillingReign = {
         {
             id: 'swsh6-66',
             name: 'Golurk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -630,7 +630,7 @@ export const chillingReign = {
         {
             id: 'swsh6-68',
             name: 'Slurpuff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -642,7 +642,7 @@ export const chillingReign = {
         {
             id: 'swsh6-70',
             name: 'Malamar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -654,7 +654,7 @@ export const chillingReign = {
         {
             id: 'swsh6-77',
             name: 'Dugtrio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -666,7 +666,7 @@ export const chillingReign = {
         {
             id: 'swsh6-79',
             name: "Galarian Sirfetch'd",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -678,7 +678,7 @@ export const chillingReign = {
         {
             id: 'swsh6-81',
             name: 'Gallade',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -690,7 +690,7 @@ export const chillingReign = {
         {
             id: 'swsh6-88',
             name: 'Passimian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -702,7 +702,7 @@ export const chillingReign = {
         {
             id: 'swsh6-95',
             name: 'Weezing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -714,7 +714,7 @@ export const chillingReign = {
         {
             id: 'swsh6-96',
             name: 'Galarian Weezing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -726,7 +726,7 @@ export const chillingReign = {
         {
             id: 'swsh6-102',
             name: 'Seviper',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -738,7 +738,7 @@ export const chillingReign = {
         {
             id: 'swsh6-103',
             name: 'Spiritomb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -750,7 +750,7 @@ export const chillingReign = {
         {
             id: 'swsh6-107',
             name: 'Scolipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -762,7 +762,7 @@ export const chillingReign = {
         {
             id: 'swsh6-111',
             name: 'Aggron',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -774,7 +774,7 @@ export const chillingReign = {
         {
             id: 'swsh6-120',
             name: 'Zangoose',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -786,7 +786,7 @@ export const chillingReign = {
         {
             id: 'swsh6-122',
             name: 'Kecleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -800,7 +800,7 @@ export const chillingReign = {
         {
             id: 'swsh6-3',
             name: 'Beedrill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Single Strike'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -812,7 +812,7 @@ export const chillingReign = {
         {
             id: 'swsh6-18',
             name: 'Rillaboom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -824,7 +824,7 @@ export const chillingReign = {
         {
             id: 'swsh6-19',
             name: 'Zarude',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -836,7 +836,7 @@ export const chillingReign = {
         {
             id: 'swsh6-28',
             name: 'Cinderace',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -848,7 +848,7 @@ export const chillingReign = {
         {
             id: 'swsh6-31',
             name: 'Weavile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -860,7 +860,7 @@ export const chillingReign = {
         {
             id: 'swsh6-36',
             name: 'Froslass',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -872,7 +872,7 @@ export const chillingReign = {
         {
             id: 'swsh6-40',
             name: 'Tapu Fini',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -884,7 +884,7 @@ export const chillingReign = {
         {
             id: 'swsh6-43',
             name: 'Inteleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -896,7 +896,7 @@ export const chillingReign = {
         {
             id: 'swsh6-44',
             name: 'Rapid Strike Urshifu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -908,7 +908,7 @@ export const chillingReign = {
         {
             id: 'swsh6-52',
             name: 'Thundurus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -920,7 +920,7 @@ export const chillingReign = {
         {
             id: 'swsh6-57',
             name: 'Gengar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -932,7 +932,7 @@ export const chillingReign = {
         {
             id: 'swsh6-61',
             name: 'Gardevoir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -944,7 +944,7 @@ export const chillingReign = {
         {
             id: 'swsh6-64',
             name: 'Cresselia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -956,7 +956,7 @@ export const chillingReign = {
         {
             id: 'swsh6-73',
             name: 'Hatterene',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -968,7 +968,7 @@ export const chillingReign = {
         {
             id: 'swsh6-83',
             name: 'Galarian Runerigus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -980,7 +980,7 @@ export const chillingReign = {
         {
             id: 'swsh6-87',
             name: 'Lycanroc',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -992,7 +992,7 @@ export const chillingReign = {
         {
             id: 'swsh6-92',
             name: 'Grapploct',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1004,7 +1004,7 @@ export const chillingReign = {
         {
             id: 'swsh6-98',
             name: 'Galarian Slowking',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1016,7 +1016,7 @@ export const chillingReign = {
         {
             id: 'swsh6-108',
             name: 'Single Strike Urshifu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1028,7 +1028,7 @@ export const chillingReign = {
         {
             id: 'swsh6-114',
             name: 'Cobalion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1040,7 +1040,7 @@ export const chillingReign = {
         {
             id: 'swsh6-115',
             name: 'Tauros',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1052,7 +1052,7 @@ export const chillingReign = {
         {
             id: 'swsh6-118',
             name: 'Porygon-Z',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1064,7 +1064,7 @@ export const chillingReign = {
         {
             id: 'swsh6-123',
             name: 'Shaymin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1076,7 +1076,7 @@ export const chillingReign = {
         {
             id: 'swsh6-128',
             name: 'Greedent',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1090,7 +1090,7 @@ export const chillingReign = {
         {
             id: 'swsh6-7',
             name: 'Celebi V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1102,7 +1102,7 @@ export const chillingReign = {
         {
             id: 'swsh6-20',
             name: 'Blaziken V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1114,7 +1114,7 @@ export const chillingReign = {
         {
             id: 'swsh6-25',
             name: 'Volcanion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1126,7 +1126,7 @@ export const chillingReign = {
         {
             id: 'swsh6-45',
             name: 'Ice Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1138,7 +1138,7 @@ export const chillingReign = {
         {
             id: 'swsh6-53',
             name: 'Zeraora V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1150,7 +1150,7 @@ export const chillingReign = {
         {
             id: 'swsh6-58',
             name: 'Galarian Articuno V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1162,7 +1162,7 @@ export const chillingReign = {
         {
             id: 'swsh6-74',
             name: 'Shadow Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1174,7 +1174,7 @@ export const chillingReign = {
         {
             id: 'swsh6-80',
             name: 'Galarian Zapdos V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1186,7 +1186,7 @@ export const chillingReign = {
         {
             id: 'swsh6-89',
             name: 'Sandaconda V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1198,7 +1198,7 @@ export const chillingReign = {
         {
             id: 'swsh6-97',
             name: 'Galarian Moltres V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1210,7 +1210,7 @@ export const chillingReign = {
         {
             id: 'swsh6-99',
             name: 'Galarian Slowking V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1222,7 +1222,7 @@ export const chillingReign = {
         {
             id: 'swsh6-104',
             name: 'Liepard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1234,7 +1234,7 @@ export const chillingReign = {
         {
             id: 'swsh6-112',
             name: 'Metagross V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1246,7 +1246,7 @@ export const chillingReign = {
         {
             id: 'swsh6-119',
             name: 'Blissey V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1258,7 +1258,7 @@ export const chillingReign = {
         {
             id: 'swsh6-124',
             name: 'Tornadus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1272,7 +1272,7 @@ export const chillingReign = {
         {
             id: 'swsh6-8',
             name: 'Celebi VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -1284,7 +1284,7 @@ export const chillingReign = {
         {
             id: 'swsh6-21',
             name: 'Blaziken VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1296,7 +1296,7 @@ export const chillingReign = {
         {
             id: 'swsh6-46',
             name: 'Ice Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1308,7 +1308,7 @@ export const chillingReign = {
         {
             id: 'swsh6-75',
             name: 'Shadow Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -1320,7 +1320,7 @@ export const chillingReign = {
         {
             id: 'swsh6-90',
             name: 'Sandaconda VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -1332,7 +1332,7 @@ export const chillingReign = {
         {
             id: 'swsh6-100',
             name: 'Galarian Slowking VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -1344,7 +1344,7 @@ export const chillingReign = {
         {
             id: 'swsh6-113',
             name: 'Metagross VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Metal'],
             rarity: 'rare_holo_vmax',
@@ -1356,7 +1356,7 @@ export const chillingReign = {
         {
             id: 'swsh6-125',
             name: 'Tornadus VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'rare_holo_vmax',
@@ -1370,7 +1370,7 @@ export const chillingReign = {
         {
             id: 'swsh6-199',
             name: 'Celebi VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1382,7 +1382,7 @@ export const chillingReign = {
         {
             id: 'swsh6-200',
             name: 'Blaziken VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -1394,7 +1394,7 @@ export const chillingReign = {
         {
             id: 'swsh6-201',
             name: 'Blaziken VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -1406,7 +1406,7 @@ export const chillingReign = {
         {
             id: 'swsh6-202',
             name: 'Ice Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1418,7 +1418,7 @@ export const chillingReign = {
         {
             id: 'swsh6-203',
             name: 'Ice Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1430,7 +1430,7 @@ export const chillingReign = {
         {
             id: 'swsh6-204',
             name: 'Shadow Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1442,7 +1442,7 @@ export const chillingReign = {
         {
             id: 'swsh6-205',
             name: 'Shadow Rider Calyrex VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1454,7 +1454,7 @@ export const chillingReign = {
         {
             id: 'swsh6-206',
             name: 'Sandaconda VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1466,7 +1466,7 @@ export const chillingReign = {
         {
             id: 'swsh6-207',
             name: 'Galarian Slowking VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -1478,7 +1478,7 @@ export const chillingReign = {
         {
             id: 'swsh6-208',
             name: 'Metagross VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Metal'],
             rarity: 'rare_rainbow',
@@ -1490,7 +1490,7 @@ export const chillingReign = {
         {
             id: 'swsh6-209',
             name: 'Tornadus VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'rare_rainbow',
@@ -1636,7 +1636,7 @@ export const chillingReign = {
         {
             id: 'swsh6-222',
             name: 'Electrode',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_secret',
@@ -1648,7 +1648,7 @@ export const chillingReign = {
         {
             id: 'swsh6-223',
             name: 'Bronzong',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_secret',
@@ -1660,7 +1660,7 @@ export const chillingReign = {
         {
             id: 'swsh6-224',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_secret',
@@ -1706,7 +1706,7 @@ export const chillingReign = {
             id: 'swsh6-228',
             name: 'Rugged Helmet',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/228.png',
@@ -1773,7 +1773,7 @@ export const chillingReign = {
         {
             id: 'swsh6-160',
             name: 'Celebi V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1785,7 +1785,7 @@ export const chillingReign = {
         {
             id: 'swsh6-161',
             name: 'Blaziken V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1797,7 +1797,7 @@ export const chillingReign = {
         {
             id: 'swsh6-162',
             name: 'Volcanion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1809,7 +1809,7 @@ export const chillingReign = {
         {
             id: 'swsh6-163',
             name: 'Ice Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1821,7 +1821,7 @@ export const chillingReign = {
         {
             id: 'swsh6-164',
             name: 'Ice Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1833,7 +1833,7 @@ export const chillingReign = {
         {
             id: 'swsh6-165',
             name: 'Zeraora V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1845,7 +1845,7 @@ export const chillingReign = {
         {
             id: 'swsh6-166',
             name: 'Zeraora V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1857,7 +1857,7 @@ export const chillingReign = {
         {
             id: 'swsh6-167',
             name: 'Galarian Rapidash V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1869,7 +1869,7 @@ export const chillingReign = {
         {
             id: 'swsh6-168',
             name: 'Galarian Rapidash V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1881,7 +1881,7 @@ export const chillingReign = {
         {
             id: 'swsh6-169',
             name: 'Galarian Articuno V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1893,7 +1893,7 @@ export const chillingReign = {
         {
             id: 'swsh6-170',
             name: 'Galarian Articuno V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1905,7 +1905,7 @@ export const chillingReign = {
         {
             id: 'swsh6-171',
             name: 'Shadow Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1917,7 +1917,7 @@ export const chillingReign = {
         {
             id: 'swsh6-172',
             name: 'Shadow Rider Calyrex V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1929,7 +1929,7 @@ export const chillingReign = {
         {
             id: 'swsh6-173',
             name: 'Galarian Zapdos V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1941,7 +1941,7 @@ export const chillingReign = {
         {
             id: 'swsh6-174',
             name: 'Galarian Zapdos V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1953,7 +1953,7 @@ export const chillingReign = {
         {
             id: 'swsh6-175',
             name: 'Sandaconda V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1965,7 +1965,7 @@ export const chillingReign = {
         {
             id: 'swsh6-176',
             name: 'Galarian Moltres V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1977,7 +1977,7 @@ export const chillingReign = {
         {
             id: 'swsh6-177',
             name: 'Galarian Moltres V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1989,7 +1989,7 @@ export const chillingReign = {
         {
             id: 'swsh6-178',
             name: 'Galarian Slowking V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -2001,7 +2001,7 @@ export const chillingReign = {
         {
             id: 'swsh6-179',
             name: 'Galarian Slowking V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -2013,7 +2013,7 @@ export const chillingReign = {
         {
             id: 'swsh6-180',
             name: 'Liepard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -2025,7 +2025,7 @@ export const chillingReign = {
         {
             id: 'swsh6-181',
             name: 'Metagross V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -2037,7 +2037,7 @@ export const chillingReign = {
         {
             id: 'swsh6-182',
             name: 'Blissey V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -2049,7 +2049,7 @@ export const chillingReign = {
         {
             id: 'swsh6-183',
             name: 'Blissey V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -2061,7 +2061,7 @@ export const chillingReign = {
         {
             id: 'swsh6-184',
             name: 'Tornadus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -2073,7 +2073,7 @@ export const chillingReign = {
         {
             id: 'swsh6-185',
             name: 'Tornadus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -2230,7 +2230,7 @@ export const chillingReign = {
         {
             id: 'swsh6-2',
             name: 'Kakuna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2242,7 +2242,7 @@ export const chillingReign = {
         {
             id: 'swsh6-5',
             name: 'Ledian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2254,7 +2254,7 @@ export const chillingReign = {
         {
             id: 'swsh6-14',
             name: 'Steenee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2266,7 +2266,7 @@ export const chillingReign = {
         {
             id: 'swsh6-17',
             name: 'Thwackey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2278,7 +2278,7 @@ export const chillingReign = {
         {
             id: 'swsh6-27',
             name: 'Raboot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2290,7 +2290,7 @@ export const chillingReign = {
         {
             id: 'swsh6-38',
             name: 'Sealeo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2302,7 +2302,7 @@ export const chillingReign = {
         {
             id: 'swsh6-42',
             name: 'Drizzile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2314,7 +2314,7 @@ export const chillingReign = {
         {
             id: 'swsh6-48',
             name: 'Flaaffy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2326,7 +2326,7 @@ export const chillingReign = {
         {
             id: 'swsh6-56',
             name: 'Haunter',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2338,7 +2338,7 @@ export const chillingReign = {
         {
             id: 'swsh6-60',
             name: 'Kirlia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2350,7 +2350,7 @@ export const chillingReign = {
         {
             id: 'swsh6-72',
             name: 'Hattrem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2362,7 +2362,7 @@ export const chillingReign = {
         {
             id: 'swsh6-85',
             name: 'Crabominable',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2374,7 +2374,7 @@ export const chillingReign = {
         {
             id: 'swsh6-106',
             name: 'Whirlipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2386,7 +2386,7 @@ export const chillingReign = {
         {
             id: 'swsh6-110',
             name: 'Lairon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2398,7 +2398,7 @@ export const chillingReign = {
         {
             id: 'swsh6-117',
             name: 'Porygon2',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2455,7 +2455,7 @@ export const chillingReign = {
             id: 'swsh6-133',
             name: 'Crushing Gloves',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/133.png',
@@ -2510,7 +2510,7 @@ export const chillingReign = {
             id: 'swsh6-138',
             name: 'Fire-Resistant Gloves',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/138.png',
@@ -2543,7 +2543,7 @@ export const chillingReign = {
             id: 'swsh6-141',
             name: 'Galarian Chestplate',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/141.png',
@@ -2565,7 +2565,7 @@ export const chillingReign = {
             id: 'swsh6-143',
             name: 'Justified Gloves',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/143.png',
@@ -2653,7 +2653,7 @@ export const chillingReign = {
             id: 'swsh6-151',
             name: 'Rapid Strike Scroll of the Skies',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool', 'Rapid Strike'],
+            subtypes: ['Pokémon Tool', 'Rapid Strike'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/151.png',
@@ -2664,7 +2664,7 @@ export const chillingReign = {
             id: 'swsh6-152',
             name: 'Rugged Helmet',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/152.png',
@@ -2686,7 +2686,7 @@ export const chillingReign = {
             id: 'swsh6-154',
             name: 'Single Strike Scroll of Piercing',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool', 'Single Strike'],
+            subtypes: ['Pokémon Tool', 'Single Strike'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/154.png',
@@ -2697,7 +2697,7 @@ export const chillingReign = {
             id: 'swsh6-155',
             name: 'Weeding Gloves',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh6/155.png',

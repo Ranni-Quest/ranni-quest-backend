@@ -4,7 +4,7 @@ export const shiningFates = {
         {
             id: 'swsh45-17',
             name: 'Reshiram',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'amazing_rare',
@@ -16,7 +16,7 @@ export const shiningFates = {
         {
             id: 'swsh45-21',
             name: 'Kyogre',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'amazing_rare',
@@ -28,7 +28,7 @@ export const shiningFates = {
         {
             id: 'swsh45-46',
             name: 'Yveltal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'amazing_rare',
@@ -42,7 +42,7 @@ export const shiningFates = {
         {
             id: 'swsh45-1',
             name: 'Yanma',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -54,7 +54,7 @@ export const shiningFates = {
         {
             id: 'swsh45-4',
             name: 'Cacnea',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -66,7 +66,7 @@ export const shiningFates = {
         {
             id: 'swsh45-6',
             name: 'Rowlet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -78,7 +78,7 @@ export const shiningFates = {
         {
             id: 'swsh45-11',
             name: 'Grookey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -90,7 +90,7 @@ export const shiningFates = {
         {
             id: 'swsh45-14',
             name: 'Gossifleur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -102,7 +102,7 @@ export const shiningFates = {
         {
             id: 'swsh45-20',
             name: 'Horsea',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -114,7 +114,7 @@ export const shiningFates = {
         {
             id: 'swsh45-22',
             name: 'Buizel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -126,7 +126,7 @@ export const shiningFates = {
         {
             id: 'swsh45-26',
             name: 'Chewtle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -138,7 +138,7 @@ export const shiningFates = {
         {
             id: 'swsh45-29',
             name: 'Snom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -150,7 +150,7 @@ export const shiningFates = {
         {
             id: 'swsh45-31',
             name: 'Shinx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -162,7 +162,7 @@ export const shiningFates = {
         {
             id: 'swsh45-35',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -174,7 +174,7 @@ export const shiningFates = {
         {
             id: 'swsh45-36',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -186,7 +186,7 @@ export const shiningFates = {
         {
             id: 'swsh45-40',
             name: 'Trapinch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -198,7 +198,7 @@ export const shiningFates = {
         {
             id: 'swsh45-41',
             name: 'Koffing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -210,7 +210,7 @@ export const shiningFates = {
         {
             id: 'swsh45-43',
             name: 'Spinarak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -222,7 +222,7 @@ export const shiningFates = {
         {
             id: 'swsh45-47',
             name: 'Nickit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -234,7 +234,7 @@ export const shiningFates = {
         {
             id: 'swsh45-49',
             name: 'Cufant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -246,7 +246,7 @@ export const shiningFates = {
         {
             id: 'swsh45-52',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -260,7 +260,7 @@ export const shiningFates = {
         {
             id: 'swsh45-2',
             name: 'Yanmega',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -272,7 +272,7 @@ export const shiningFates = {
         {
             id: 'swsh45-3',
             name: 'Celebi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare',
@@ -284,7 +284,7 @@ export const shiningFates = {
         {
             id: 'swsh45-16',
             name: 'Zarude',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare',
@@ -296,7 +296,7 @@ export const shiningFates = {
         {
             id: 'swsh45-24',
             name: 'Manaphy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -308,7 +308,7 @@ export const shiningFates = {
         {
             id: 'swsh45-25',
             name: 'Volcanion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -320,7 +320,7 @@ export const shiningFates = {
         {
             id: 'swsh45-27',
             name: 'Drednaw',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -356,7 +356,7 @@ export const shiningFates = {
         {
             id: 'swsh45-8',
             name: 'Decidueye',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -368,7 +368,7 @@ export const shiningFates = {
         {
             id: 'swsh45-13',
             name: 'Rillaboom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -380,7 +380,7 @@ export const shiningFates = {
         {
             id: 'swsh45-30',
             name: 'Frosmoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -392,7 +392,7 @@ export const shiningFates = {
         {
             id: 'swsh45-33',
             name: 'Luxray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -404,7 +404,7 @@ export const shiningFates = {
         {
             id: 'swsh45-42',
             name: 'Galarian Weezing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -416,7 +416,7 @@ export const shiningFates = {
         {
             id: 'swsh45-48',
             name: 'Thievul',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -428,7 +428,7 @@ export const shiningFates = {
         {
             id: 'swsh45-56',
             name: 'Indeedee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -442,7 +442,7 @@ export const shiningFates = {
         {
             id: 'swsh45-9',
             name: 'Dhelmise V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -454,7 +454,7 @@ export const shiningFates = {
         {
             id: 'swsh45-18',
             name: 'Cinderace V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -466,7 +466,7 @@ export const shiningFates = {
         {
             id: 'swsh45-37',
             name: 'Morpeko V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -478,7 +478,7 @@ export const shiningFates = {
         {
             id: 'swsh45-39',
             name: 'Indeedee V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -490,7 +490,7 @@ export const shiningFates = {
         {
             id: 'swsh45-44',
             name: 'Crobat V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -502,7 +502,7 @@ export const shiningFates = {
         {
             id: 'swsh45-50',
             name: 'Ditto V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -514,7 +514,7 @@ export const shiningFates = {
         {
             id: 'swsh45-53',
             name: 'Greedent V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -526,7 +526,7 @@ export const shiningFates = {
         {
             id: 'swsh45-54',
             name: 'Cramorant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -540,7 +540,7 @@ export const shiningFates = {
         {
             id: 'swsh45-10',
             name: 'Dhelmise VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -552,7 +552,7 @@ export const shiningFates = {
         {
             id: 'swsh45-19',
             name: 'Cinderace VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -564,7 +564,7 @@ export const shiningFates = {
         {
             id: 'swsh45-38',
             name: 'Morpeko VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -576,7 +576,7 @@ export const shiningFates = {
         {
             id: 'swsh45-45',
             name: 'Crobat VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -588,7 +588,7 @@ export const shiningFates = {
         {
             id: 'swsh45-51',
             name: 'Ditto VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_holo_vmax',
@@ -600,7 +600,7 @@ export const shiningFates = {
         {
             id: 'swsh45-55',
             name: 'Cramorant VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_holo_vmax',
@@ -614,7 +614,7 @@ export const shiningFates = {
         {
             id: 'swsh45-73',
             name: 'Alcremie VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -628,7 +628,7 @@ export const shiningFates = {
         {
             id: 'swsh45-64',
             name: 'Alcremie V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -694,7 +694,7 @@ export const shiningFates = {
         },
         {
             id: 'swsh45-70',
-            name: 'Pok\u00e9 Kid',
+            name: 'Poké Kid',
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'rare_ultra',
@@ -730,7 +730,7 @@ export const shiningFates = {
         {
             id: 'swsh45-5',
             name: 'Tropius',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -742,7 +742,7 @@ export const shiningFates = {
         {
             id: 'swsh45-7',
             name: 'Dartrix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -754,7 +754,7 @@ export const shiningFates = {
         {
             id: 'swsh45-12',
             name: 'Thwackey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -766,7 +766,7 @@ export const shiningFates = {
         {
             id: 'swsh45-15',
             name: 'Eldegoss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -778,7 +778,7 @@ export const shiningFates = {
         {
             id: 'swsh45-23',
             name: 'Floatzel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -790,7 +790,7 @@ export const shiningFates = {
         {
             id: 'swsh45-28',
             name: 'Cramorant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -802,7 +802,7 @@ export const shiningFates = {
         {
             id: 'swsh45-32',
             name: 'Luxio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -814,7 +814,7 @@ export const shiningFates = {
         {
             id: 'swsh45-34',
             name: 'Rotom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -849,7 +849,7 @@ export const shiningFates = {
             id: 'swsh45-61',
             name: 'Rusted Shield',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh45/61.png',
@@ -860,7 +860,7 @@ export const shiningFates = {
             id: 'swsh45-62',
             name: 'Rusted Sword',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh45/62.png',

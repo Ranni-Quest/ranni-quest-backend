@@ -4,7 +4,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-1',
             name: 'Exeggcute',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-3',
             name: 'Shroomish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-6',
             name: 'Turtwig',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-9',
             name: 'Burmy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-12',
             name: 'Cherubi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-15',
             name: 'Karrablast',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-19',
             name: 'Magmar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-24',
             name: 'Chimchar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-30',
             name: 'Staryu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-32',
             name: 'Corphish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-34',
             name: 'Snorunt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-35',
             name: 'Piplup',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-38',
             name: 'Buizel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-42',
             name: 'Cubchoo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-46',
             name: 'Electabuzz',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-49',
             name: 'Shinx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-53',
             name: 'Clefairy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-58',
             name: 'Baltoy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-60',
             name: 'Duskull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-63',
             name: 'Chimecho',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-67',
             name: 'Dedenne',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-70',
             name: 'Milcery',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-73',
             name: 'Nosepass',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-74',
             name: 'Trapinch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-78',
             name: 'Riolu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-80',
             name: 'Throh',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-81',
             name: 'Sawk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-82',
             name: 'Golett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-84',
             name: 'Grimer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-86',
             name: 'Sneasel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-89',
             name: 'Spiritomb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-90',
             name: 'Purrloin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-92',
             name: 'Impidimp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-102',
             name: 'Klink',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-107',
             name: 'Gible',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-110',
             name: 'Axew',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-115',
             name: "Farfetch'd",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-116',
             name: 'Castform',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-117',
             name: 'Starly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-120',
             name: 'Bidoof',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-124',
             name: 'Minccino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-127',
             name: 'Hawlucha',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -510,7 +510,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-4',
             name: 'Breloom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -522,7 +522,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-10',
             name: 'Wormadam',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -534,7 +534,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-11',
             name: 'Mothim',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -546,7 +546,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-20',
             name: 'Magmortar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -558,7 +558,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-31',
             name: 'Lapras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -570,7 +570,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-41',
             name: 'Manaphy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -582,7 +582,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-44',
             name: 'Eiscue',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Water'],
             rarity: 'rare',
@@ -594,7 +594,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-47',
             name: 'Electivire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -606,7 +606,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-51',
             name: 'Luxray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -618,7 +618,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-54',
             name: 'Clefable',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -630,7 +630,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-56',
             name: 'Mewtwo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -642,7 +642,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-71',
             name: 'Alcremie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -654,7 +654,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-76',
             name: 'Flygon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -666,7 +666,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-77',
             name: 'Wormadam',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -678,7 +678,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-83',
             name: 'Golurk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -690,7 +690,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-85',
             name: 'Muk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -702,7 +702,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-91',
             name: 'Liepard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -714,7 +714,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-94',
             name: 'Grimmsnarl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -726,7 +726,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-98',
             name: 'Wormadam',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -738,7 +738,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-100',
             name: 'Heatran',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare',
@@ -750,7 +750,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-101',
             name: 'Escavalier',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -762,7 +762,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-104',
             name: 'Klinklang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -774,7 +774,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-112',
             name: 'Haxorus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -786,7 +786,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-113',
             name: 'Druddigon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -798,7 +798,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-119',
             name: 'Staraptor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -810,7 +810,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-126',
             name: 'Tornadus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -824,7 +824,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-8',
             name: 'Torterra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -836,7 +836,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-21',
             name: 'Moltres',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -848,7 +848,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-26',
             name: 'Infernape',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -860,7 +860,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-37',
             name: 'Empoleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -872,7 +872,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-62',
             name: 'Dusknoir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -884,7 +884,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-79',
             name: 'Lucario',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -896,7 +896,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-109',
             name: 'Garchomp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -908,7 +908,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-121',
             name: 'Bibarel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -944,7 +944,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-13',
             name: 'Shaymin V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -956,7 +956,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-16',
             name: 'Zarude V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -968,7 +968,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-17',
             name: 'Charizard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -980,7 +980,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-22',
             name: 'Entei V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -992,7 +992,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-27',
             name: 'Simisear V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1004,7 +1004,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-28',
             name: 'Kingler V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1016,7 +1016,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-40',
             name: 'Lumineon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1028,7 +1028,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-45',
             name: 'Raichu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1040,7 +1040,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-48',
             name: 'Raikou V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1052,7 +1052,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-57',
             name: 'Granbull V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1064,7 +1064,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-64',
             name: 'Whimsicott V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1076,7 +1076,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-68',
             name: 'Mimikyu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1088,7 +1088,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-88',
             name: 'Honchkrow V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1100,7 +1100,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-95',
             name: 'Morpeko V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1112,7 +1112,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-96',
             name: 'Aggron V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1124,7 +1124,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-105',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1136,7 +1136,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-106',
             name: 'Flygon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1148,7 +1148,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-114',
             name: 'Dracovish V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1160,7 +1160,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-122',
             name: 'Arceus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1172,7 +1172,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-128',
             name: 'Drampa V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1186,7 +1186,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-29',
             name: 'Kingler VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1198,7 +1198,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-69',
             name: 'Mimikyu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -1210,7 +1210,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-97',
             name: 'Aggron VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_holo_vmax',
@@ -1224,7 +1224,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-14',
             name: 'Shaymin VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_holo_vstar',
@@ -1236,7 +1236,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-18',
             name: 'Charizard VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fire'],
             rarity: 'rare_holo_vstar',
@@ -1248,7 +1248,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-65',
             name: 'Whimsicott VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_holo_vstar',
@@ -1260,7 +1260,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-123',
             name: 'Arceus VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_holo_vstar',
@@ -1274,7 +1274,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-173',
             name: 'Shaymin VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1286,7 +1286,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-174',
             name: 'Charizard VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -1298,7 +1298,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-175',
             name: 'Whimsicott VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1310,7 +1310,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-176',
             name: 'Arceus VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_rainbow',
@@ -1368,7 +1368,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-181',
             name: 'Galarian Articuno V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_secret',
@@ -1380,7 +1380,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-182',
             name: 'Galarian Zapdos V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_secret',
@@ -1392,7 +1392,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-183',
             name: 'Galarian Moltres V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_secret',
@@ -1404,7 +1404,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-184',
             name: 'Arceus VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_secret',
@@ -1440,7 +1440,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-152',
             name: 'Shaymin V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1452,7 +1452,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-153',
             name: 'Charizard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1464,7 +1464,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-154',
             name: 'Charizard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1476,7 +1476,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-155',
             name: 'Lumineon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1488,7 +1488,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-156',
             name: 'Lumineon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1500,7 +1500,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-157',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1512,7 +1512,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-158',
             name: 'Raichu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1524,7 +1524,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-159',
             name: 'Granbull V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1536,7 +1536,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-160',
             name: 'Whimsicott V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1548,7 +1548,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-161',
             name: 'Honchkrow V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1560,7 +1560,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-162',
             name: 'Honchkrow V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1572,7 +1572,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-163',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1584,7 +1584,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-164',
             name: 'Flygon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -1596,7 +1596,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-165',
             name: 'Arceus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1608,7 +1608,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-166',
             name: 'Arceus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1688,7 +1688,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-2',
             name: 'Exeggutor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1700,7 +1700,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-5',
             name: 'Tropius',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1712,7 +1712,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-7',
             name: 'Grotle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1724,7 +1724,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-23',
             name: 'Torkoal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1736,7 +1736,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-25',
             name: 'Monferno',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1748,7 +1748,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-33',
             name: 'Crawdaunt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1760,7 +1760,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-36',
             name: 'Prinplup',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1772,7 +1772,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-39',
             name: 'Floatzel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1784,7 +1784,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-43',
             name: 'Beartic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1796,7 +1796,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-50',
             name: 'Luxio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1808,7 +1808,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-52',
             name: 'Pachirisu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1820,7 +1820,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-55',
             name: 'Starmie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1832,7 +1832,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-59',
             name: 'Claydol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1844,7 +1844,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-61',
             name: 'Dusclops',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1856,7 +1856,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-66',
             name: 'Sigilyph',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1868,7 +1868,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-72',
             name: 'Hitmontop',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -1880,7 +1880,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-75',
             name: 'Vibrava',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -1892,7 +1892,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-87',
             name: 'Weavile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -1904,7 +1904,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-93',
             name: 'Morgrem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -1916,7 +1916,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-99',
             name: 'Probopass',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -1928,7 +1928,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-103',
             name: 'Klang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -1940,7 +1940,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-108',
             name: 'Gabite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -1952,7 +1952,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-111',
             name: 'Fraxure',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -1964,7 +1964,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-118',
             name: 'Staravia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -1976,7 +1976,7 @@ export const brilliantStars = {
         {
             id: 'swsh9-125',
             name: 'Cinccino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2011,7 +2011,7 @@ export const brilliantStars = {
             id: 'swsh9-131',
             name: 'Blunder Policy',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh9/131.png',
@@ -2020,7 +2020,7 @@ export const brilliantStars = {
         },
         {
             id: 'swsh9-133',
-            name: 'Caf\u00e9 Master',
+            name: 'Café Master',
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'uncommon',
@@ -2044,7 +2044,7 @@ export const brilliantStars = {
             id: 'swsh9-135',
             name: 'Choice Belt',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh9/135.png',
@@ -2055,7 +2055,7 @@ export const brilliantStars = {
             id: 'swsh9-136',
             name: 'Cleansing Gloves',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh9/136.png',
@@ -2121,7 +2121,7 @@ export const brilliantStars = {
             id: 'swsh9-142',
             name: 'Hunting Gloves',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh9/142.png',
@@ -2165,7 +2165,7 @@ export const brilliantStars = {
             id: 'swsh9-146',
             name: 'Pot Helmet',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh9/146.png',

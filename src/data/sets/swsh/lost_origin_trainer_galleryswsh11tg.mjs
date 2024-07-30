@@ -8,7 +8,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG12',
             name: 'Orbeetle V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -20,7 +20,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG14',
             name: 'Centiskorch V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -32,7 +32,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG16',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -44,7 +44,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG18',
             name: 'Enamorus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -56,7 +56,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG19',
             name: 'Gallade V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -68,7 +68,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG20',
             name: 'Crobat V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -80,7 +80,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG21',
             name: 'Eternatus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -94,7 +94,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG13',
             name: 'Orbeetle VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -106,7 +106,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG15',
             name: 'Centiskorch VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -118,7 +118,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG17',
             name: 'Pikachu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -130,7 +130,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG22',
             name: 'Eternatus VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Eternamax'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -144,7 +144,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG29',
             name: 'Pikachu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_secret',
@@ -156,7 +156,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG30',
             name: 'Mew VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_secret',
@@ -238,7 +238,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG01',
             name: 'Parasect',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'trainer_gallery_rare_holo',
@@ -250,7 +250,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG02',
             name: 'Roserade',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'trainer_gallery_rare_holo',
@@ -262,7 +262,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG03',
             name: 'Charizard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'trainer_gallery_rare_holo',
@@ -274,7 +274,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG04',
             name: 'Chandelure',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'trainer_gallery_rare_holo',
@@ -286,7 +286,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG05',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',
@@ -298,7 +298,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG06',
             name: 'Gengar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -310,7 +310,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG07',
             name: 'Banette',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -322,7 +322,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG08',
             name: 'Hisuian Arcanine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
@@ -334,7 +334,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG09',
             name: 'Spiritomb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'trainer_gallery_rare_holo',
@@ -346,7 +346,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG10',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -358,7 +358,7 @@ export const lostOriginTrainerGallery = {
         {
             id: 'swsh11tg-TG11',
             name: 'Castform',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',

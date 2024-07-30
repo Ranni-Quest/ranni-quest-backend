@@ -4,7 +4,7 @@ export const rebelClash = {
         {
             id: 'swsh2-1',
             name: 'Caterpie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const rebelClash = {
         {
             id: 'swsh2-4',
             name: 'Scyther',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const rebelClash = {
         {
             id: 'swsh2-7',
             name: 'Lotad',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const rebelClash = {
         {
             id: 'swsh2-10',
             name: 'Surskit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const rebelClash = {
         {
             id: 'swsh2-12',
             name: 'Snover',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const rebelClash = {
         {
             id: 'swsh2-14',
             name: 'Phantump',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const rebelClash = {
         {
             id: 'swsh2-16',
             name: 'Grubbin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const rebelClash = {
         {
             id: 'swsh2-20',
             name: 'Applin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const rebelClash = {
         {
             id: 'swsh2-21',
             name: 'Applin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const rebelClash = {
         {
             id: 'swsh2-24',
             name: 'Vulpix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const rebelClash = {
         {
             id: 'swsh2-27',
             name: 'Growlithe',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const rebelClash = {
         {
             id: 'swsh2-29',
             name: 'Magmar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const rebelClash = {
         {
             id: 'swsh2-31',
             name: 'Litwick',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const rebelClash = {
         {
             id: 'swsh2-37',
             name: 'Galarian Mr. Mime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const rebelClash = {
         {
             id: 'swsh2-39',
             name: 'Magikarp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const rebelClash = {
         {
             id: 'swsh2-41',
             name: 'Wingull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const rebelClash = {
         {
             id: 'swsh2-44',
             name: 'Tympole',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const rebelClash = {
         {
             id: 'swsh2-47',
             name: 'Galarian Darumaka',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const rebelClash = {
         {
             id: 'swsh2-52',
             name: 'Arrokuda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const rebelClash = {
         {
             id: 'swsh2-56',
             name: 'Voltorb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const rebelClash = {
         {
             id: 'swsh2-58',
             name: 'Electabuzz',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const rebelClash = {
         {
             id: 'swsh2-60',
             name: 'Shinx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const rebelClash = {
         {
             id: 'swsh2-63',
             name: 'Helioptile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const rebelClash = {
         {
             id: 'swsh2-68',
             name: 'Toxel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const rebelClash = {
         {
             id: 'swsh2-74',
             name: 'Clefairy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const rebelClash = {
         {
             id: 'swsh2-76',
             name: 'Natu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const rebelClash = {
         {
             id: 'swsh2-78',
             name: 'Galarian Corsola',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const rebelClash = {
         {
             id: 'swsh2-81',
             name: 'Sandygast',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const rebelClash = {
         {
             id: 'swsh2-83',
             name: 'Hatenna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const rebelClash = {
         {
             id: 'swsh2-86',
             name: 'Milcery',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const rebelClash = {
         {
             id: 'swsh2-89',
             name: 'Dreepy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const rebelClash = {
         {
             id: 'swsh2-94',
             name: "Galarian Farfetch'd",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const rebelClash = {
         {
             id: 'swsh2-96',
             name: 'Nosepass',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const rebelClash = {
         {
             id: 'swsh2-97',
             name: 'Meditite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const rebelClash = {
         {
             id: 'swsh2-99',
             name: 'Barboach',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const rebelClash = {
         {
             id: 'swsh2-101',
             name: 'Galarian Yamask',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const rebelClash = {
         {
             id: 'swsh2-103',
             name: 'Binacle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const rebelClash = {
         {
             id: 'swsh2-105',
             name: 'Rolycoly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const rebelClash = {
         {
             id: 'swsh2-112',
             name: 'Koffing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const rebelClash = {
         {
             id: 'swsh2-114',
             name: 'Stunky',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const rebelClash = {
         {
             id: 'swsh2-117',
             name: 'Trubbish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const rebelClash = {
         {
             id: 'swsh2-119',
             name: 'Vullaby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -508,7 +508,7 @@ export const rebelClash = {
         {
             id: 'swsh2-123',
             name: 'Impidimp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -520,7 +520,7 @@ export const rebelClash = {
         {
             id: 'swsh2-126',
             name: 'Galarian Meowth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -532,7 +532,7 @@ export const rebelClash = {
         {
             id: 'swsh2-129',
             name: 'Bronzor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -544,7 +544,7 @@ export const rebelClash = {
         {
             id: 'swsh2-133',
             name: 'Honedge',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -556,7 +556,7 @@ export const rebelClash = {
         {
             id: 'swsh2-143',
             name: 'Pidove',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -568,7 +568,7 @@ export const rebelClash = {
         {
             id: 'swsh2-146',
             name: 'Bunnelby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -580,7 +580,7 @@ export const rebelClash = {
         {
             id: 'swsh2-149',
             name: 'Stufful',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -592,7 +592,7 @@ export const rebelClash = {
         {
             id: 'swsh2-151',
             name: 'Skwovet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -606,7 +606,7 @@ export const rebelClash = {
         {
             id: 'swsh2-3',
             name: 'Butterfree',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -618,7 +618,7 @@ export const rebelClash = {
         {
             id: 'swsh2-9',
             name: 'Ludicolo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -630,7 +630,7 @@ export const rebelClash = {
         {
             id: 'swsh2-13',
             name: 'Abomasnow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -642,7 +642,7 @@ export const rebelClash = {
         {
             id: 'swsh2-15',
             name: 'Trevenant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -654,7 +654,7 @@ export const rebelClash = {
         {
             id: 'swsh2-25',
             name: 'Ninetales',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -666,7 +666,7 @@ export const rebelClash = {
         {
             id: 'swsh2-28',
             name: 'Arcanine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -678,7 +678,7 @@ export const rebelClash = {
         {
             id: 'swsh2-30',
             name: 'Magmortar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -690,7 +690,7 @@ export const rebelClash = {
         {
             id: 'swsh2-38',
             name: 'Galarian Mr. Rime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -702,7 +702,7 @@ export const rebelClash = {
         {
             id: 'swsh2-46',
             name: 'Seismitoad',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare',
@@ -714,7 +714,7 @@ export const rebelClash = {
         {
             id: 'swsh2-48',
             name: 'Galarian Darmanitan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -726,7 +726,7 @@ export const rebelClash = {
         {
             id: 'swsh2-51',
             name: 'Cramorant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -738,7 +738,7 @@ export const rebelClash = {
         {
             id: 'swsh2-53',
             name: 'Barraskewda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -750,7 +750,7 @@ export const rebelClash = {
         {
             id: 'swsh2-59',
             name: 'Electivire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -762,7 +762,7 @@ export const rebelClash = {
         {
             id: 'swsh2-69',
             name: 'Toxtricity',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -774,7 +774,7 @@ export const rebelClash = {
         {
             id: 'swsh2-80',
             name: 'Sigilyph',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -786,7 +786,7 @@ export const rebelClash = {
         {
             id: 'swsh2-87',
             name: 'Alcremie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -798,7 +798,7 @@ export const rebelClash = {
         {
             id: 'swsh2-100',
             name: 'Whiscash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -810,7 +810,7 @@ export const rebelClash = {
         {
             id: 'swsh2-102',
             name: 'Galarian Runerigus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -822,7 +822,7 @@ export const rebelClash = {
         {
             id: 'swsh2-104',
             name: 'Barbaracle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -834,7 +834,7 @@ export const rebelClash = {
         {
             id: 'swsh2-116',
             name: 'Spiritomb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -846,7 +846,7 @@ export const rebelClash = {
         {
             id: 'swsh2-118',
             name: 'Garbodor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -858,7 +858,7 @@ export const rebelClash = {
         {
             id: 'swsh2-120',
             name: 'Mandibuzz',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -870,7 +870,7 @@ export const rebelClash = {
         {
             id: 'swsh2-127',
             name: 'Galarian Perrserker',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -882,7 +882,7 @@ export const rebelClash = {
         {
             id: 'swsh2-128',
             name: 'Scizor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -894,7 +894,7 @@ export const rebelClash = {
         {
             id: 'swsh2-131',
             name: 'Probopass',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -906,7 +906,7 @@ export const rebelClash = {
         {
             id: 'swsh2-135',
             name: 'Aegislash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -918,7 +918,7 @@ export const rebelClash = {
         {
             id: 'swsh2-139',
             name: 'Zacian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare',
@@ -930,7 +930,7 @@ export const rebelClash = {
         {
             id: 'swsh2-140',
             name: 'Zamazenta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare',
@@ -942,7 +942,7 @@ export const rebelClash = {
         {
             id: 'swsh2-141',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -954,7 +954,7 @@ export const rebelClash = {
         {
             id: 'swsh2-145',
             name: 'Unfezant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -966,7 +966,7 @@ export const rebelClash = {
         {
             id: 'swsh2-147',
             name: 'Diggersby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -978,7 +978,7 @@ export const rebelClash = {
         {
             id: 'swsh2-152',
             name: 'Greedent',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -992,7 +992,7 @@ export const rebelClash = {
         {
             id: 'swsh2-22',
             name: 'Flapple',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1004,7 +1004,7 @@ export const rebelClash = {
         {
             id: 'swsh2-23',
             name: 'Appletun',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1016,7 +1016,7 @@ export const rebelClash = {
         {
             id: 'swsh2-33',
             name: 'Chandelure',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -1028,7 +1028,7 @@ export const rebelClash = {
         {
             id: 'swsh2-40',
             name: 'Gyarados',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1040,7 +1040,7 @@ export const rebelClash = {
         {
             id: 'swsh2-54',
             name: 'Eiscue',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1052,7 +1052,7 @@ export const rebelClash = {
         {
             id: 'swsh2-62',
             name: 'Luxray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1064,7 +1064,7 @@ export const rebelClash = {
         {
             id: 'swsh2-66',
             name: 'Vikavolt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1076,7 +1076,7 @@ export const rebelClash = {
         {
             id: 'swsh2-75',
             name: 'Clefable',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1088,7 +1088,7 @@ export const rebelClash = {
         {
             id: 'swsh2-79',
             name: 'Galarian Cursola',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1100,7 +1100,7 @@ export const rebelClash = {
         {
             id: 'swsh2-85',
             name: 'Hatterene',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1112,7 +1112,7 @@ export const rebelClash = {
         {
             id: 'swsh2-91',
             name: 'Dragapult',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1124,7 +1124,7 @@ export const rebelClash = {
         {
             id: 'swsh2-95',
             name: "Galarian Sirfetch'd",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1136,7 +1136,7 @@ export const rebelClash = {
         {
             id: 'swsh2-107',
             name: 'Coalossal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1148,7 +1148,7 @@ export const rebelClash = {
         {
             id: 'swsh2-111',
             name: 'Stonjourner',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1160,7 +1160,7 @@ export const rebelClash = {
         {
             id: 'swsh2-113',
             name: 'Galarian Weezing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1172,7 +1172,7 @@ export const rebelClash = {
         {
             id: 'swsh2-125',
             name: 'Grimmsnarl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1184,7 +1184,7 @@ export const rebelClash = {
         {
             id: 'swsh2-138',
             name: 'Duraludon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1209,7 +1209,7 @@ export const rebelClash = {
         {
             id: 'swsh2-17',
             name: 'Rillaboom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1221,7 +1221,7 @@ export const rebelClash = {
         {
             id: 'swsh2-19',
             name: 'Eldegoss V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1233,7 +1233,7 @@ export const rebelClash = {
         {
             id: 'swsh2-26',
             name: 'Ninetales V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1245,7 +1245,7 @@ export const rebelClash = {
         {
             id: 'swsh2-35',
             name: 'Cinderace V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1257,7 +1257,7 @@ export const rebelClash = {
         {
             id: 'swsh2-43',
             name: 'Milotic V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1269,7 +1269,7 @@ export const rebelClash = {
         {
             id: 'swsh2-49',
             name: 'Inteleon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1281,7 +1281,7 @@ export const rebelClash = {
         {
             id: 'swsh2-55',
             name: 'Eiscue V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1293,7 +1293,7 @@ export const rebelClash = {
         {
             id: 'swsh2-67',
             name: 'Boltund V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1305,7 +1305,7 @@ export const rebelClash = {
         {
             id: 'swsh2-70',
             name: 'Toxtricity V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1317,7 +1317,7 @@ export const rebelClash = {
         {
             id: 'swsh2-72',
             name: 'Pincurchin V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1329,7 +1329,7 @@ export const rebelClash = {
         {
             id: 'swsh2-92',
             name: 'Dragapult V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1341,7 +1341,7 @@ export const rebelClash = {
         {
             id: 'swsh2-108',
             name: 'Sandaconda V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1353,7 +1353,7 @@ export const rebelClash = {
         {
             id: 'swsh2-110',
             name: 'Falinks V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1365,7 +1365,7 @@ export const rebelClash = {
         {
             id: 'swsh2-121',
             name: 'Malamar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1377,7 +1377,7 @@ export const rebelClash = {
         {
             id: 'swsh2-136',
             name: 'Copperajah V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1389,7 +1389,7 @@ export const rebelClash = {
         {
             id: 'swsh2-153',
             name: 'Dubwool V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1403,7 +1403,7 @@ export const rebelClash = {
         {
             id: 'swsh2-18',
             name: 'Rillaboom VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -1415,7 +1415,7 @@ export const rebelClash = {
         {
             id: 'swsh2-36',
             name: 'Cinderace VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1427,7 +1427,7 @@ export const rebelClash = {
         {
             id: 'swsh2-50',
             name: 'Inteleon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1439,7 +1439,7 @@ export const rebelClash = {
         {
             id: 'swsh2-71',
             name: 'Toxtricity VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1451,7 +1451,7 @@ export const rebelClash = {
         {
             id: 'swsh2-93',
             name: 'Dragapult VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -1463,7 +1463,7 @@ export const rebelClash = {
         {
             id: 'swsh2-122',
             name: 'Malamar VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -1475,7 +1475,7 @@ export const rebelClash = {
         {
             id: 'swsh2-137',
             name: 'Copperajah VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_holo_vmax',
@@ -1489,7 +1489,7 @@ export const rebelClash = {
         {
             id: 'swsh2-193',
             name: 'Rillaboom VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1501,7 +1501,7 @@ export const rebelClash = {
         {
             id: 'swsh2-194',
             name: 'Cinderace VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -1513,7 +1513,7 @@ export const rebelClash = {
         {
             id: 'swsh2-195',
             name: 'Inteleon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1525,7 +1525,7 @@ export const rebelClash = {
         {
             id: 'swsh2-196',
             name: 'Toxtricity VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_rainbow',
@@ -1537,7 +1537,7 @@ export const rebelClash = {
         {
             id: 'swsh2-197',
             name: 'Dragapult VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1549,7 +1549,7 @@ export const rebelClash = {
         {
             id: 'swsh2-198',
             name: 'Malamar VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -1561,7 +1561,7 @@ export const rebelClash = {
         {
             id: 'swsh2-199',
             name: 'Copperajah VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_rainbow',
@@ -1619,7 +1619,7 @@ export const rebelClash = {
         {
             id: 'swsh2-204',
             name: 'Frosmoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_secret',
@@ -1631,7 +1631,7 @@ export const rebelClash = {
         {
             id: 'swsh2-205',
             name: 'Galarian Perrserker',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_secret',
@@ -1644,7 +1644,7 @@ export const rebelClash = {
             id: 'swsh2-206',
             name: 'Big Charm',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh2/206.png',
@@ -1689,7 +1689,7 @@ export const rebelClash = {
         {
             id: 'swsh2-175',
             name: 'Rillaboom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1701,7 +1701,7 @@ export const rebelClash = {
         {
             id: 'swsh2-176',
             name: 'Eldegoss V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1713,7 +1713,7 @@ export const rebelClash = {
         {
             id: 'swsh2-177',
             name: 'Ninetales V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1725,7 +1725,7 @@ export const rebelClash = {
         {
             id: 'swsh2-178',
             name: 'Cinderace V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1737,7 +1737,7 @@ export const rebelClash = {
         {
             id: 'swsh2-179',
             name: 'Milotic V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1749,7 +1749,7 @@ export const rebelClash = {
         {
             id: 'swsh2-180',
             name: 'Inteleon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1761,7 +1761,7 @@ export const rebelClash = {
         {
             id: 'swsh2-181',
             name: 'Boltund V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1773,7 +1773,7 @@ export const rebelClash = {
         {
             id: 'swsh2-182',
             name: 'Toxtricity V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1785,7 +1785,7 @@ export const rebelClash = {
         {
             id: 'swsh2-183',
             name: 'Dragapult V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1797,7 +1797,7 @@ export const rebelClash = {
         {
             id: 'swsh2-184',
             name: 'Sandaconda V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1809,7 +1809,7 @@ export const rebelClash = {
         {
             id: 'swsh2-185',
             name: 'Falinks V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1821,7 +1821,7 @@ export const rebelClash = {
         {
             id: 'swsh2-186',
             name: 'Malamar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1833,7 +1833,7 @@ export const rebelClash = {
         {
             id: 'swsh2-187',
             name: 'Copperajah V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1845,7 +1845,7 @@ export const rebelClash = {
         {
             id: 'swsh2-188',
             name: 'Dubwool V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1903,7 +1903,7 @@ export const rebelClash = {
         {
             id: 'swsh2-2',
             name: 'Metapod',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1915,7 +1915,7 @@ export const rebelClash = {
         {
             id: 'swsh2-5',
             name: 'Shuckle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1927,7 +1927,7 @@ export const rebelClash = {
         {
             id: 'swsh2-6',
             name: 'Heracross',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1939,7 +1939,7 @@ export const rebelClash = {
         {
             id: 'swsh2-8',
             name: 'Lombre',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1951,7 +1951,7 @@ export const rebelClash = {
         {
             id: 'swsh2-11',
             name: 'Masquerain',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1963,7 +1963,7 @@ export const rebelClash = {
         {
             id: 'swsh2-32',
             name: 'Lampent',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1975,7 +1975,7 @@ export const rebelClash = {
         {
             id: 'swsh2-34',
             name: 'Heatmor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1987,7 +1987,7 @@ export const rebelClash = {
         {
             id: 'swsh2-42',
             name: 'Pelipper',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1999,7 +1999,7 @@ export const rebelClash = {
         {
             id: 'swsh2-45',
             name: 'Palpitoad',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2011,7 +2011,7 @@ export const rebelClash = {
         {
             id: 'swsh2-57',
             name: 'Electrode',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2023,7 +2023,7 @@ export const rebelClash = {
         {
             id: 'swsh2-61',
             name: 'Luxio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2035,7 +2035,7 @@ export const rebelClash = {
         {
             id: 'swsh2-64',
             name: 'Heliolisk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2047,7 +2047,7 @@ export const rebelClash = {
         {
             id: 'swsh2-65',
             name: 'Charjabug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2059,7 +2059,7 @@ export const rebelClash = {
         {
             id: 'swsh2-73',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2071,7 +2071,7 @@ export const rebelClash = {
         {
             id: 'swsh2-77',
             name: 'Xatu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2083,7 +2083,7 @@ export const rebelClash = {
         {
             id: 'swsh2-82',
             name: 'Palossand',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2095,7 +2095,7 @@ export const rebelClash = {
         {
             id: 'swsh2-84',
             name: 'Hattrem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2107,7 +2107,7 @@ export const rebelClash = {
         {
             id: 'swsh2-88',
             name: 'Indeedee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2119,7 +2119,7 @@ export const rebelClash = {
         {
             id: 'swsh2-90',
             name: 'Drakloak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2131,7 +2131,7 @@ export const rebelClash = {
         {
             id: 'swsh2-98',
             name: 'Medicham',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2143,7 +2143,7 @@ export const rebelClash = {
         {
             id: 'swsh2-106',
             name: 'Carkol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2155,7 +2155,7 @@ export const rebelClash = {
         {
             id: 'swsh2-109',
             name: 'Falinks',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2167,7 +2167,7 @@ export const rebelClash = {
         {
             id: 'swsh2-115',
             name: 'Skuntank',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2179,7 +2179,7 @@ export const rebelClash = {
         {
             id: 'swsh2-124',
             name: 'Morgrem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2191,7 +2191,7 @@ export const rebelClash = {
         {
             id: 'swsh2-130',
             name: 'Bronzong',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2203,7 +2203,7 @@ export const rebelClash = {
         {
             id: 'swsh2-132',
             name: 'Durant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2215,7 +2215,7 @@ export const rebelClash = {
         {
             id: 'swsh2-134',
             name: 'Doublade',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2227,7 +2227,7 @@ export const rebelClash = {
         {
             id: 'swsh2-142',
             name: 'Chatot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2239,7 +2239,7 @@ export const rebelClash = {
         {
             id: 'swsh2-144',
             name: 'Tranquill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2251,7 +2251,7 @@ export const rebelClash = {
         {
             id: 'swsh2-148',
             name: 'Hawlucha',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2263,7 +2263,7 @@ export const rebelClash = {
         {
             id: 'swsh2-150',
             name: 'Bewear',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2276,7 +2276,7 @@ export const rebelClash = {
             id: 'swsh2-155',
             name: 'Burning Scarf',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh2/155.png',
@@ -2298,7 +2298,7 @@ export const rebelClash = {
             id: 'swsh2-157',
             name: 'Cursed Shovel',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh2/157.png',
@@ -2373,7 +2373,7 @@ export const rebelClash = {
         },
         {
             id: 'swsh2-164',
-            name: 'Pok\u00e9 Ball',
+            name: 'Poké Ball',
             supertype: 'Trainer',
             subtypes: ['Item'],
             rarity: 'uncommon',

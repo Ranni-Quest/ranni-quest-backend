@@ -4,7 +4,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-1',
             name: 'Ho-Oh',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare',
@@ -16,7 +16,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-4',
             name: 'Palkia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -28,7 +28,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-2',
             name: 'Reshiram',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare',
@@ -40,7 +40,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-3',
             name: 'Kyogre',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -52,7 +52,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-12',
             name: 'Xerneas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -64,7 +64,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-14',
             name: 'Cosmoem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -76,7 +76,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-10',
             name: 'Zekrom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -88,7 +88,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-17',
             name: 'Groudon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -100,7 +100,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-13',
             name: 'Cosmog',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -112,7 +112,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-20',
             name: 'Dialga',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare',
@@ -124,7 +124,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-22',
             name: 'Lugia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -136,7 +136,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-19',
             name: 'Yveltal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -150,7 +150,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-15',
             name: 'Lunala',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -173,7 +173,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-21',
             name: 'Solgaleo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -185,7 +185,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-5',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -197,7 +197,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-11',
             name: 'Mew',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -209,7 +209,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-25',
             name: 'Mew',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -223,7 +223,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-8',
             name: 'Surfing Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -235,7 +235,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-6',
             name: 'Flying Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -247,7 +247,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-16',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -259,7 +259,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-18',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -273,7 +273,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-7',
             name: 'Flying Pikachu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -285,7 +285,7 @@ export const celebrationsClassicCollection = {
         {
             id: 'cel25-9',
             name: 'Surfing Pikachu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',

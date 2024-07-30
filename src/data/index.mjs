@@ -1,11 +1,13 @@
-export { twilightMasquerade } from './sets/sv/sv6.mjs';
-export { temporalForces as cardsSet } from './sets/sv/sv5.mjs';
-export { paradoxRift } from './sets/sv/sv4.mjs';
-export { paldeanFates } from './sets/sv/sv4pt5.mjs';
-export { obsidianFlames } from './sets/sv/sv3.mjs';
-export { sv151 } from './sets/sv/sv3pt5.mjs';
-export { paldeaEvolved } from './sets/sv/sv2.mjs';
-export { scarletPurple } from './sets/sv/sv1.mjs';
+export { scarletViolet } from './sets/sv/scarletVioletSv1.mjs';
+export { scarletVioletBlackStarPromos } from './sets/sv/scarletVioletBlackStarPromosSvp.mjs';
+export { paldeaEvolved } from './sets/sv/paldeaEvolvedSv2.mjs';
+export { scarletVioletEnergies } from './sets/sv/scarletVioletEnergiesSve.mjs';
+export { obsidianFlames } from './sets/sv/obsidianFlamesSv3.mjs';
+export { sv151 } from './sets/sv/151Sv3Pt5.mjs';
+export { paradoxRift } from './sets/sv/paradoxRiftSv4.mjs';
+export { paldeanFates } from './sets/sv/paldeanFatesSv4Pt5.mjs';
+export { temporalForces as cardsSet } from './sets/sv/temporalForcesSv5.mjs';
+export { twilightMasquerade } from './sets/sv/twilightMasqueradeSv6.mjs';
 
 export { swshBlackStarPromos } from './sets/swsh/swsh_black_star_promosswshp.mjs';
 export { swordShield } from './sets/swsh/sword_shieldswsh1.mjs';

@@ -4,7 +4,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-9',
             name: 'Celebi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'amazing_rare',
@@ -16,7 +16,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-50',
             name: 'Raikou',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'amazing_rare',
@@ -28,7 +28,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-82',
             name: 'Zacian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'amazing_rare',
@@ -40,7 +40,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-102',
             name: 'Zamazenta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'amazing_rare',
@@ -52,7 +52,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-119',
             name: 'Jirachi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'amazing_rare',
@@ -64,7 +64,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-138',
             name: 'Rayquaza',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'amazing_rare',
@@ -78,7 +78,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-1',
             name: 'Weedle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -90,7 +90,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-4',
             name: 'Exeggcute',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -102,7 +102,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-6',
             name: 'Yanma',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -114,7 +114,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-8',
             name: 'Pineco',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -126,7 +126,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-10',
             name: 'Seedot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -138,7 +138,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-13',
             name: 'Nincada',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -150,7 +150,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-17',
             name: 'Skiddo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -162,7 +162,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-23',
             name: 'Charmander',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -174,7 +174,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-27',
             name: 'Slugma',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -186,7 +186,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-31',
             name: 'Wailmer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -198,7 +198,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-33',
             name: 'Oshawott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -210,7 +210,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-38',
             name: 'Chewtle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -222,7 +222,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-41',
             name: 'Arrokuda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -234,7 +234,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-45',
             name: 'Voltorb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -246,7 +246,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-51',
             name: 'Electrike',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -258,7 +258,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-53',
             name: 'Blitzle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -270,7 +270,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-55',
             name: 'Joltik',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -282,7 +282,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-57',
             name: 'Tynamo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -294,7 +294,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-63',
             name: 'Clefairy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -306,7 +306,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-67',
             name: 'Shuppet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -318,7 +318,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-69',
             name: 'Duskull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -330,7 +330,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-72',
             name: 'Chimecho',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -342,7 +342,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-73',
             name: 'Woobat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -354,7 +354,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-75',
             name: 'Cottonee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -366,7 +366,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-77',
             name: 'Dedenne',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -378,7 +378,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-80',
             name: 'Milcery',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -390,7 +390,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-83',
             name: 'Wooper',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -402,7 +402,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-86',
             name: 'Phanpy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -414,7 +414,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-90',
             name: 'Riolu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -426,7 +426,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-91',
             name: 'Drilbur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -438,7 +438,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-94',
             name: 'Rockruff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -450,7 +450,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-96',
             name: 'Mudbray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -462,7 +462,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-100',
             name: 'Clobbopus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -474,7 +474,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-103',
             name: 'Poochyena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -486,7 +486,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-107',
             name: 'Sandile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -498,7 +498,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-110',
             name: 'Trubbish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -510,7 +510,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-112',
             name: 'Galarian Meowth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -522,7 +522,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-116',
             name: 'Beldum',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -534,7 +534,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-123',
             name: 'Ferroseed',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -546,7 +546,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-130',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -558,7 +558,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-133',
             name: 'Taillow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -570,7 +570,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-135',
             name: 'Whismur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -582,7 +582,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-139',
             name: 'Chatot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -594,7 +594,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-143',
             name: 'Pikipek',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -608,7 +608,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-3',
             name: 'Beedrill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -620,7 +620,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-5',
             name: 'Exeggutor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -632,7 +632,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-7',
             name: 'Yanmega',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -644,7 +644,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-12',
             name: 'Shiftry',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -656,7 +656,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-14',
             name: 'Ninjask',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -668,7 +668,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-25',
             name: 'Charizard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare',
@@ -680,7 +680,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-26',
             name: 'Flareon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -692,7 +692,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-30',
             name: 'Vaporeon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -704,7 +704,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-35',
             name: 'Samurott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare',
@@ -716,7 +716,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-39',
             name: 'Drednaw',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -728,7 +728,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-42',
             name: 'Barraskewda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -740,7 +740,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-47',
             name: 'Jolteon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -752,7 +752,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-52',
             name: 'Manectric',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -764,7 +764,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-59',
             name: 'Eelektross',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -776,7 +776,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-64',
             name: 'Clefable',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -788,7 +788,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-66',
             name: 'Shedinja',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -800,7 +800,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-68',
             name: 'Banette',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -812,7 +812,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-76',
             name: 'Whimsicott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -824,7 +824,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-81',
             name: 'Alcremie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -836,7 +836,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-84',
             name: 'Quagsire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -848,7 +848,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-87',
             name: 'Donphan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -860,7 +860,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-92',
             name: 'Terrakion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -872,7 +872,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-95',
             name: 'Lycanroc',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -884,7 +884,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-97',
             name: 'Mudsdale',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -896,7 +896,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-101',
             name: 'Grapploct',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -908,7 +908,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-109',
             name: 'Krookodile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -920,7 +920,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-111',
             name: 'Garbodor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -932,7 +932,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-113',
             name: 'Galarian Perrserker',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -944,7 +944,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-114',
             name: 'Forretress',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -956,7 +956,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-118',
             name: 'Metagross',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -968,7 +968,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-120',
             name: 'Lucario',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -980,7 +980,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-137',
             name: 'Exploud',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -992,7 +992,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-145',
             name: 'Toucannon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1006,7 +1006,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-15',
             name: 'Shaymin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1018,7 +1018,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-16',
             name: 'Genesect',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1030,7 +1030,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-32',
             name: 'Wailord',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1042,7 +1042,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-46',
             name: 'Electrode',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1054,7 +1054,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-48',
             name: 'Zapdos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1066,7 +1066,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-60',
             name: 'Zekrom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1078,7 +1078,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-61',
             name: 'Zeraora',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1090,7 +1090,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-71',
             name: 'Dusknoir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1102,7 +1102,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-78',
             name: 'Xerneas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1114,7 +1114,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-79',
             name: 'Diancie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1126,7 +1126,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-89',
             name: 'Regirock',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1138,7 +1138,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-93',
             name: 'Zygarde',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1150,7 +1150,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-121',
             name: 'Dialga',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1162,7 +1162,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-128',
             name: 'Magearna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1174,7 +1174,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-129',
             name: 'Duraludon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1186,7 +1186,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-131',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1198,7 +1198,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-132',
             name: 'Lugia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1210,7 +1210,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-142',
             name: 'Tornadus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1235,7 +1235,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-20',
             name: 'Orbeetle V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1247,7 +1247,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-22',
             name: 'Zarude V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1259,7 +1259,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-29',
             name: 'Talonflame V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1271,7 +1271,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-36',
             name: 'Galarian Darmanitan V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1283,7 +1283,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-43',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1295,7 +1295,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-49',
             name: 'Ampharos V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1307,7 +1307,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-98',
             name: 'Coalossal V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1319,7 +1319,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-106',
             name: 'Drapion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1331,7 +1331,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-115',
             name: 'Steelix V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1343,7 +1343,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-126',
             name: 'Aegislash V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1355,7 +1355,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-140',
             name: 'Togekiss V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1369,7 +1369,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-21',
             name: 'Orbeetle VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -1381,7 +1381,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-37',
             name: 'Galarian Darmanitan VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1393,7 +1393,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-44',
             name: 'Pikachu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1405,7 +1405,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-99',
             name: 'Coalossal VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -1417,7 +1417,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-127',
             name: 'Aegislash VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_holo_vmax',
@@ -1429,7 +1429,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-141',
             name: 'Togekiss VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_holo_vmax',
@@ -1443,7 +1443,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-186',
             name: 'Orbeetle VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1455,7 +1455,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-187',
             name: 'Galarian Darmanitan VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1467,7 +1467,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-188',
             name: 'Pikachu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_rainbow',
@@ -1479,7 +1479,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-189',
             name: 'Coalossal VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1491,7 +1491,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-190',
             name: 'Aegislash VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_rainbow',
@@ -1503,7 +1503,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-191',
             name: 'Togekiss VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_rainbow',
@@ -1583,7 +1583,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-198',
             name: 'Galarian Obstagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_secret',
@@ -1595,7 +1595,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-199',
             name: 'Oranguru',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_secret',
@@ -1608,7 +1608,7 @@ export const vividVoltage = {
             id: 'swsh4-200',
             name: 'Cape of Toughness',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh4/200.png',
@@ -1619,7 +1619,7 @@ export const vividVoltage = {
             id: 'swsh4-201',
             name: "Hero's Medal",
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh4/201.png',
@@ -1630,7 +1630,7 @@ export const vividVoltage = {
             id: 'swsh4-202',
             name: 'Memory Capsule',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh4/202.png',
@@ -1641,7 +1641,7 @@ export const vividVoltage = {
             id: 'swsh4-203',
             name: 'Telescopic Sight',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh4/203.png',
@@ -1653,7 +1653,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-166',
             name: 'Orbeetle V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1665,7 +1665,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-167',
             name: 'Zarude V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1677,7 +1677,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-168',
             name: 'Talonflame V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1689,7 +1689,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-169',
             name: 'Galarian Darmanitan V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1701,7 +1701,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-170',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1713,7 +1713,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-171',
             name: 'Ampharos V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1725,7 +1725,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-172',
             name: 'Alakazam V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1737,7 +1737,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-173',
             name: 'Coalossal V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1749,7 +1749,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-174',
             name: "Galarian Sirfetch'd V",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1761,7 +1761,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-175',
             name: 'Drapion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1773,7 +1773,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-176',
             name: 'Steelix V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1785,7 +1785,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-177',
             name: 'Aegislash V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1797,7 +1797,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-178',
             name: 'Togekiss V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1874,7 +1874,7 @@ export const vividVoltage = {
         },
         {
             id: 'swsh4-185',
-            name: 'Pok\u00e9mon Center Lady',
+            name: 'Pokémon Center Lady',
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'rare_ultra',
@@ -1888,7 +1888,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-2',
             name: 'Kakuna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1900,7 +1900,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-11',
             name: 'Nuzleaf',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1912,7 +1912,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-18',
             name: 'Gogoat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1924,7 +1924,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-19',
             name: 'Dhelmise',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1936,7 +1936,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-24',
             name: 'Charmeleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1948,7 +1948,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-28',
             name: 'Magcargo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1960,7 +1960,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-34',
             name: 'Dewott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1972,7 +1972,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-40',
             name: 'Cramorant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1984,7 +1984,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-54',
             name: 'Zebstrika',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1996,7 +1996,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-56',
             name: 'Galvantula',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2008,7 +2008,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-58',
             name: 'Eelektrik',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2020,7 +2020,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-62',
             name: 'Pincurchin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2032,7 +2032,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-65',
             name: 'Girafarig',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2044,7 +2044,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-70',
             name: 'Dusclops',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2056,7 +2056,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-74',
             name: 'Swoobat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2068,7 +2068,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-85',
             name: 'Shuckle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2080,7 +2080,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-88',
             name: 'Hitmontop',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2092,7 +2092,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-104',
             name: 'Mightyena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2104,7 +2104,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-105',
             name: 'Sableye',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2116,7 +2116,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-108',
             name: 'Krokorok',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2128,7 +2128,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-117',
             name: 'Metang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2140,7 +2140,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-122',
             name: 'Excadrill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2152,7 +2152,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-124',
             name: 'Ferrothorn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2164,7 +2164,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-125',
             name: 'Galarian Stunfisk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2176,7 +2176,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-134',
             name: 'Swellow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2188,7 +2188,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-136',
             name: 'Loudred',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2200,7 +2200,7 @@ export const vividVoltage = {
         {
             id: 'swsh4-144',
             name: 'Trumbeak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2279,7 +2279,7 @@ export const vividVoltage = {
             id: 'swsh4-152',
             name: "Hero's Medal",
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh4/152.png',
@@ -2301,7 +2301,7 @@ export const vividVoltage = {
             id: 'swsh4-155',
             name: 'Memory Capsule',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh4/155.png',
@@ -2345,7 +2345,7 @@ export const vividVoltage = {
             id: 'swsh4-159',
             name: 'Rocky Helmet',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh4/159.png',
@@ -2356,7 +2356,7 @@ export const vividVoltage = {
             id: 'swsh4-160',
             name: 'Telescopic Sight',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh4/160.png',

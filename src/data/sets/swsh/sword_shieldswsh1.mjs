@@ -4,7 +4,7 @@ export const swordShield = {
         {
             id: 'swsh1-2',
             name: 'Roselia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const swordShield = {
         {
             id: 'swsh1-3',
             name: 'Roselia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const swordShield = {
         {
             id: 'swsh1-5',
             name: 'Cottonee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const swordShield = {
         {
             id: 'swsh1-7',
             name: 'Maractus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const swordShield = {
         {
             id: 'swsh1-10',
             name: 'Grookey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const swordShield = {
         {
             id: 'swsh1-11',
             name: 'Grookey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const swordShield = {
         {
             id: 'swsh1-16',
             name: 'Blipbug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const swordShield = {
         {
             id: 'swsh1-17',
             name: 'Blipbug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const swordShield = {
         {
             id: 'swsh1-20',
             name: 'Gossifleur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const swordShield = {
         {
             id: 'swsh1-22',
             name: 'Vulpix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const swordShield = {
         {
             id: 'swsh1-27',
             name: 'Salandit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const swordShield = {
         {
             id: 'swsh1-30',
             name: 'Scorbunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const swordShield = {
         {
             id: 'swsh1-31',
             name: 'Scorbunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const swordShield = {
         {
             id: 'swsh1-37',
             name: 'Sizzlipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const swordShield = {
         {
             id: 'swsh1-38',
             name: 'Sizzlipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const swordShield = {
         {
             id: 'swsh1-40',
             name: 'Shellder',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const swordShield = {
         {
             id: 'swsh1-42',
             name: 'Krabby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const swordShield = {
         {
             id: 'swsh1-43',
             name: 'Krabby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const swordShield = {
         {
             id: 'swsh1-45',
             name: 'Goldeen',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const swordShield = {
         {
             id: 'swsh1-46',
             name: 'Goldeen',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const swordShield = {
         {
             id: 'swsh1-54',
             name: 'Sobble',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const swordShield = {
         {
             id: 'swsh1-55',
             name: 'Sobble',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const swordShield = {
         {
             id: 'swsh1-60',
             name: 'Chewtle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const swordShield = {
         {
             id: 'swsh1-63',
             name: 'Snom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const swordShield = {
         {
             id: 'swsh1-65',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const swordShield = {
         {
             id: 'swsh1-67',
             name: 'Chinchou',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const swordShield = {
         {
             id: 'swsh1-68',
             name: 'Chinchou',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const swordShield = {
         {
             id: 'swsh1-70',
             name: 'Joltik',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const swordShield = {
         {
             id: 'swsh1-73',
             name: 'Yamper',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const swordShield = {
         {
             id: 'swsh1-74',
             name: 'Yamper',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const swordShield = {
         {
             id: 'swsh1-77',
             name: 'Pincurchin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const swordShield = {
         {
             id: 'swsh1-81',
             name: 'Galarian Ponyta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const swordShield = {
         {
             id: 'swsh1-83',
             name: 'Gastly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const swordShield = {
         {
             id: 'swsh1-87',
             name: 'Munna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const swordShield = {
         {
             id: 'swsh1-89',
             name: 'Sinistea',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const swordShield = {
         {
             id: 'swsh1-92',
             name: 'Diglett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const swordShield = {
         {
             id: 'swsh1-96',
             name: 'Rhyhorn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const swordShield = {
         {
             id: 'swsh1-97',
             name: 'Rhyhorn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const swordShield = {
         {
             id: 'swsh1-101',
             name: 'Baltoy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const swordShield = {
         {
             id: 'swsh1-102',
             name: 'Baltoy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const swordShield = {
         {
             id: 'swsh1-105',
             name: 'Mudbray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const swordShield = {
         {
             id: 'swsh1-107',
             name: 'Silicobra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -508,7 +508,7 @@ export const swordShield = {
         {
             id: 'swsh1-108',
             name: 'Silicobra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -520,7 +520,7 @@ export const swordShield = {
         {
             id: 'swsh1-111',
             name: 'Clobbopus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -532,7 +532,7 @@ export const swordShield = {
         {
             id: 'swsh1-112',
             name: 'Clobbopus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -544,7 +544,7 @@ export const swordShield = {
         {
             id: 'swsh1-117',
             name: 'Galarian Zigzagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -556,7 +556,7 @@ export const swordShield = {
         {
             id: 'swsh1-121',
             name: 'Skorupi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -568,7 +568,7 @@ export const swordShield = {
         {
             id: 'swsh1-123',
             name: 'Croagunk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -580,7 +580,7 @@ export const swordShield = {
         {
             id: 'swsh1-125',
             name: 'Nickit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -592,7 +592,7 @@ export const swordShield = {
         {
             id: 'swsh1-127',
             name: 'Galarian Meowth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -604,7 +604,7 @@ export const swordShield = {
         {
             id: 'swsh1-129',
             name: 'Mawile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -616,7 +616,7 @@ export const swordShield = {
         {
             id: 'swsh1-130',
             name: 'Ferroseed',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -628,7 +628,7 @@ export const swordShield = {
         {
             id: 'swsh1-133',
             name: 'Pawniard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -640,7 +640,7 @@ export const swordShield = {
         {
             id: 'swsh1-136',
             name: 'Cufant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -652,7 +652,7 @@ export const swordShield = {
         {
             id: 'swsh1-143',
             name: 'Hoothoot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -664,7 +664,7 @@ export const swordShield = {
         {
             id: 'swsh1-145',
             name: 'Minccino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -676,7 +676,7 @@ export const swordShield = {
         {
             id: 'swsh1-146',
             name: 'Minccino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -688,7 +688,7 @@ export const swordShield = {
         {
             id: 'swsh1-150',
             name: 'Rookidee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -700,7 +700,7 @@ export const swordShield = {
         {
             id: 'swsh1-152',
             name: 'Wooloo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -712,7 +712,7 @@ export const swordShield = {
         {
             id: 'swsh1-153',
             name: 'Wooloo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -726,7 +726,7 @@ export const swordShield = {
         {
             id: 'swsh1-4',
             name: 'Roserade',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -738,7 +738,7 @@ export const swordShield = {
         {
             id: 'swsh1-6',
             name: 'Whimsicott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -750,7 +750,7 @@ export const swordShield = {
         {
             id: 'swsh1-8',
             name: 'Durant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare',
@@ -762,7 +762,7 @@ export const swordShield = {
         {
             id: 'swsh1-15',
             name: 'Rillaboom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -774,7 +774,7 @@ export const swordShield = {
         {
             id: 'swsh1-19',
             name: 'Orbeetle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -786,7 +786,7 @@ export const swordShield = {
         {
             id: 'swsh1-23',
             name: 'Ninetales',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -798,7 +798,7 @@ export const swordShield = {
         {
             id: 'swsh1-29',
             name: 'Turtonator',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare',
@@ -810,7 +810,7 @@ export const swordShield = {
         {
             id: 'swsh1-36',
             name: 'Cinderace',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare',
@@ -822,7 +822,7 @@ export const swordShield = {
         {
             id: 'swsh1-39',
             name: 'Centiskorch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -834,7 +834,7 @@ export const swordShield = {
         {
             id: 'swsh1-41',
             name: 'Cloyster',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -846,7 +846,7 @@ export const swordShield = {
         {
             id: 'swsh1-48',
             name: 'Lapras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -858,7 +858,7 @@ export const swordShield = {
         {
             id: 'swsh1-59',
             name: 'Inteleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare',
@@ -870,7 +870,7 @@ export const swordShield = {
         {
             id: 'swsh1-61',
             name: 'Drednaw',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -882,7 +882,7 @@ export const swordShield = {
         {
             id: 'swsh1-62',
             name: 'Cramorant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -894,7 +894,7 @@ export const swordShield = {
         {
             id: 'swsh1-66',
             name: 'Raichu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -906,7 +906,7 @@ export const swordShield = {
         {
             id: 'swsh1-69',
             name: 'Lanturn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -918,7 +918,7 @@ export const swordShield = {
         {
             id: 'swsh1-78',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -930,7 +930,7 @@ export const swordShield = {
         {
             id: 'swsh1-82',
             name: 'Galarian Rapidash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -942,7 +942,7 @@ export const swordShield = {
         {
             id: 'swsh1-88',
             name: 'Musharna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -954,7 +954,7 @@ export const swordShield = {
         {
             id: 'swsh1-90',
             name: 'Polteageist',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -966,7 +966,7 @@ export const swordShield = {
         {
             id: 'swsh1-103',
             name: 'Claydol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -978,7 +978,7 @@ export const swordShield = {
         {
             id: 'swsh1-106',
             name: 'Mudsdale',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -990,7 +990,7 @@ export const swordShield = {
         {
             id: 'swsh1-109',
             name: 'Sandaconda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -1002,7 +1002,7 @@ export const swordShield = {
         {
             id: 'swsh1-113',
             name: 'Grapploct',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -1014,7 +1014,7 @@ export const swordShield = {
         {
             id: 'swsh1-114',
             name: 'Stonjourner',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -1026,7 +1026,7 @@ export const swordShield = {
         {
             id: 'swsh1-122',
             name: 'Drapion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -1038,7 +1038,7 @@ export const swordShield = {
         {
             id: 'swsh1-126',
             name: 'Thievul',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -1050,7 +1050,7 @@ export const swordShield = {
         {
             id: 'swsh1-135',
             name: 'Corviknight',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -1062,7 +1062,7 @@ export const swordShield = {
         {
             id: 'swsh1-140',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1074,7 +1074,7 @@ export const swordShield = {
         {
             id: 'swsh1-144',
             name: 'Noctowl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1086,7 +1086,7 @@ export const swordShield = {
         {
             id: 'swsh1-147',
             name: 'Cinccino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1098,7 +1098,7 @@ export const swordShield = {
         {
             id: 'swsh1-149',
             name: 'Drampa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1112,7 +1112,7 @@ export const swordShield = {
         {
             id: 'swsh1-14',
             name: 'Rillaboom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1124,7 +1124,7 @@ export const swordShield = {
         {
             id: 'swsh1-34',
             name: 'Cinderace',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -1136,7 +1136,7 @@ export const swordShield = {
         {
             id: 'swsh1-35',
             name: 'Cinderace',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -1148,7 +1148,7 @@ export const swordShield = {
         {
             id: 'swsh1-58',
             name: 'Inteleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1160,7 +1160,7 @@ export const swordShield = {
         {
             id: 'swsh1-64',
             name: 'Frosmoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1172,7 +1172,7 @@ export const swordShield = {
         {
             id: 'swsh1-75',
             name: 'Boltund',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1184,7 +1184,7 @@ export const swordShield = {
         {
             id: 'swsh1-76',
             name: 'Boltund',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1196,7 +1196,7 @@ export const swordShield = {
         {
             id: 'swsh1-85',
             name: 'Gengar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1208,7 +1208,7 @@ export const swordShield = {
         {
             id: 'swsh1-99',
             name: 'Rhyperior',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1220,7 +1220,7 @@ export const swordShield = {
         {
             id: 'swsh1-110',
             name: 'Sandaconda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1232,7 +1232,7 @@ export const swordShield = {
         {
             id: 'swsh1-119',
             name: 'Galarian Obstagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1244,7 +1244,7 @@ export const swordShield = {
         {
             id: 'swsh1-124',
             name: 'Toxicroak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1256,7 +1256,7 @@ export const swordShield = {
         {
             id: 'swsh1-128',
             name: 'Galarian Perrserker',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1268,7 +1268,7 @@ export const swordShield = {
         {
             id: 'swsh1-137',
             name: 'Copperajah',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1280,7 +1280,7 @@ export const swordShield = {
         {
             id: 'swsh1-148',
             name: 'Oranguru',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1316,7 +1316,7 @@ export const swordShield = {
         {
             id: 'swsh1-1',
             name: 'Celebi V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1328,7 +1328,7 @@ export const swordShield = {
         {
             id: 'swsh1-9',
             name: 'Dhelmise V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1340,7 +1340,7 @@ export const swordShield = {
         {
             id: 'swsh1-24',
             name: 'Torkoal V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1352,7 +1352,7 @@ export const swordShield = {
         {
             id: 'swsh1-25',
             name: 'Victini V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1364,7 +1364,7 @@ export const swordShield = {
         {
             id: 'swsh1-49',
             name: 'Lapras V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1376,7 +1376,7 @@ export const swordShield = {
         {
             id: 'swsh1-53',
             name: 'Keldeo V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1388,7 +1388,7 @@ export const swordShield = {
         {
             id: 'swsh1-72',
             name: 'Tapu Koko V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1400,7 +1400,7 @@ export const swordShield = {
         {
             id: 'swsh1-79',
             name: 'Morpeko V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1412,7 +1412,7 @@ export const swordShield = {
         {
             id: 'swsh1-86',
             name: 'Wobbuffet V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1424,7 +1424,7 @@ export const swordShield = {
         {
             id: 'swsh1-91',
             name: 'Indeedee V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1436,7 +1436,7 @@ export const swordShield = {
         {
             id: 'swsh1-104',
             name: 'Regirock V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1448,7 +1448,7 @@ export const swordShield = {
         {
             id: 'swsh1-115',
             name: 'Stonjourner V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1460,7 +1460,7 @@ export const swordShield = {
         {
             id: 'swsh1-120',
             name: 'Sableye V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1472,7 +1472,7 @@ export const swordShield = {
         {
             id: 'swsh1-138',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1484,7 +1484,7 @@ export const swordShield = {
         {
             id: 'swsh1-139',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1496,7 +1496,7 @@ export const swordShield = {
         {
             id: 'swsh1-141',
             name: 'Snorlax V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1508,7 +1508,7 @@ export const swordShield = {
         {
             id: 'swsh1-155',
             name: 'Cramorant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1522,7 +1522,7 @@ export const swordShield = {
         {
             id: 'swsh1-50',
             name: 'Lapras VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1534,7 +1534,7 @@ export const swordShield = {
         {
             id: 'swsh1-80',
             name: 'Morpeko VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1546,7 +1546,7 @@ export const swordShield = {
         {
             id: 'swsh1-116',
             name: 'Stonjourner VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -1558,7 +1558,7 @@ export const swordShield = {
         {
             id: 'swsh1-142',
             name: 'Snorlax VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_holo_vmax',
@@ -1572,7 +1572,7 @@ export const swordShield = {
         {
             id: 'swsh1-203',
             name: 'Lapras VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1584,7 +1584,7 @@ export const swordShield = {
         {
             id: 'swsh1-204',
             name: 'Morpeko VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_rainbow',
@@ -1596,7 +1596,7 @@ export const swordShield = {
         {
             id: 'swsh1-205',
             name: 'Stonjourner VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1608,7 +1608,7 @@ export const swordShield = {
         {
             id: 'swsh1-206',
             name: 'Snorlax VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_rainbow',
@@ -1666,7 +1666,7 @@ export const swordShield = {
         {
             id: 'swsh1-211',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_secret',
@@ -1678,7 +1678,7 @@ export const swordShield = {
         {
             id: 'swsh1-212',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_secret',
@@ -1691,7 +1691,7 @@ export const swordShield = {
             id: 'swsh1-213',
             name: 'Air Balloon',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh1/213.png',
@@ -1736,7 +1736,7 @@ export const swordShield = {
         {
             id: 'swsh1-187',
             name: 'Dhelmise V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1748,7 +1748,7 @@ export const swordShield = {
         {
             id: 'swsh1-188',
             name: 'Torkoal V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1760,7 +1760,7 @@ export const swordShield = {
         {
             id: 'swsh1-189',
             name: 'Lapras V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1772,7 +1772,7 @@ export const swordShield = {
         {
             id: 'swsh1-190',
             name: 'Morpeko V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1784,7 +1784,7 @@ export const swordShield = {
         {
             id: 'swsh1-191',
             name: 'Wobbuffet V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1796,7 +1796,7 @@ export const swordShield = {
         {
             id: 'swsh1-192',
             name: 'Indeedee V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1808,7 +1808,7 @@ export const swordShield = {
         {
             id: 'swsh1-193',
             name: 'Stonjourner V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1820,7 +1820,7 @@ export const swordShield = {
         {
             id: 'swsh1-194',
             name: 'Sableye V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1832,7 +1832,7 @@ export const swordShield = {
         {
             id: 'swsh1-195',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1844,7 +1844,7 @@ export const swordShield = {
         {
             id: 'swsh1-196',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1856,7 +1856,7 @@ export const swordShield = {
         {
             id: 'swsh1-197',
             name: 'Snorlax V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1868,7 +1868,7 @@ export const swordShield = {
         {
             id: 'swsh1-198',
             name: 'Cramorant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1926,7 +1926,7 @@ export const swordShield = {
         {
             id: 'swsh1-12',
             name: 'Thwackey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1938,7 +1938,7 @@ export const swordShield = {
         {
             id: 'swsh1-13',
             name: 'Thwackey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1950,7 +1950,7 @@ export const swordShield = {
         {
             id: 'swsh1-18',
             name: 'Dottler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1962,7 +1962,7 @@ export const swordShield = {
         {
             id: 'swsh1-21',
             name: 'Eldegoss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1974,7 +1974,7 @@ export const swordShield = {
         {
             id: 'swsh1-26',
             name: 'Heatmor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1986,7 +1986,7 @@ export const swordShield = {
         {
             id: 'swsh1-28',
             name: 'Salazzle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1998,7 +1998,7 @@ export const swordShield = {
         {
             id: 'swsh1-32',
             name: 'Raboot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2010,7 +2010,7 @@ export const swordShield = {
         {
             id: 'swsh1-33',
             name: 'Raboot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2022,7 +2022,7 @@ export const swordShield = {
         {
             id: 'swsh1-44',
             name: 'Kingler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2034,7 +2034,7 @@ export const swordShield = {
         {
             id: 'swsh1-47',
             name: 'Seaking',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2046,7 +2046,7 @@ export const swordShield = {
         {
             id: 'swsh1-51',
             name: 'Qwilfish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2058,7 +2058,7 @@ export const swordShield = {
         {
             id: 'swsh1-52',
             name: 'Mantine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2070,7 +2070,7 @@ export const swordShield = {
         {
             id: 'swsh1-56',
             name: 'Drizzile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2082,7 +2082,7 @@ export const swordShield = {
         {
             id: 'swsh1-57',
             name: 'Drizzile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2094,7 +2094,7 @@ export const swordShield = {
         {
             id: 'swsh1-71',
             name: 'Galvantula',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2106,7 +2106,7 @@ export const swordShield = {
         {
             id: 'swsh1-84',
             name: 'Haunter',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2118,7 +2118,7 @@ export const swordShield = {
         {
             id: 'swsh1-93',
             name: 'Dugtrio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2130,7 +2130,7 @@ export const swordShield = {
         {
             id: 'swsh1-94',
             name: 'Hitmonlee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2142,7 +2142,7 @@ export const swordShield = {
         {
             id: 'swsh1-95',
             name: 'Hitmonchan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2154,7 +2154,7 @@ export const swordShield = {
         {
             id: 'swsh1-98',
             name: 'Rhydon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2166,7 +2166,7 @@ export const swordShield = {
         {
             id: 'swsh1-100',
             name: 'Sudowoodo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2178,7 +2178,7 @@ export const swordShield = {
         {
             id: 'swsh1-118',
             name: 'Galarian Linoone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2190,7 +2190,7 @@ export const swordShield = {
         {
             id: 'swsh1-131',
             name: 'Ferrothorn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2202,7 +2202,7 @@ export const swordShield = {
         {
             id: 'swsh1-132',
             name: 'Galarian Stunfisk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2214,7 +2214,7 @@ export const swordShield = {
         {
             id: 'swsh1-134',
             name: 'Bisharp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2226,7 +2226,7 @@ export const swordShield = {
         {
             id: 'swsh1-151',
             name: 'Corvisquire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2238,7 +2238,7 @@ export const swordShield = {
         {
             id: 'swsh1-154',
             name: 'Dubwool',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2251,7 +2251,7 @@ export const swordShield = {
             id: 'swsh1-156',
             name: 'Air Balloon',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh1/156.png',
@@ -2273,7 +2273,7 @@ export const swordShield = {
             id: 'swsh1-158',
             name: 'Big Charm',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh1/158.png',
@@ -2372,7 +2372,7 @@ export const swordShield = {
             id: 'swsh1-167',
             name: 'Lucky Egg',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh1/167.png',
@@ -2383,7 +2383,7 @@ export const swordShield = {
             id: 'swsh1-168',
             name: 'Lum Berry',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh1/168.png',
@@ -2425,7 +2425,7 @@ export const swordShield = {
         },
         {
             id: 'swsh1-173',
-            name: 'Pok\u00e9 Kid',
+            name: 'Poké Kid',
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'uncommon',
@@ -2436,7 +2436,7 @@ export const swordShield = {
         },
         {
             id: 'swsh1-174',
-            name: 'Pok\u00e9gear 3.0',
+            name: 'Pokégear 3.0',
             supertype: 'Trainer',
             subtypes: ['Item'],
             rarity: 'uncommon',
@@ -2447,7 +2447,7 @@ export const swordShield = {
         },
         {
             id: 'swsh1-175',
-            name: 'Pok\u00e9mon Catcher',
+            name: 'Pokémon Catcher',
             supertype: 'Trainer',
             subtypes: ['Item'],
             rarity: 'uncommon',
@@ -2458,7 +2458,7 @@ export const swordShield = {
         },
         {
             id: 'swsh1-176',
-            name: 'Pok\u00e9mon Center Lady',
+            name: 'Pokémon Center Lady',
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'uncommon',
@@ -2515,7 +2515,7 @@ export const swordShield = {
             id: 'swsh1-182',
             name: 'Sitrus Berry',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh1/182.png',
@@ -2548,7 +2548,7 @@ export const swordShield = {
             id: 'swsh1-185',
             name: 'Vitality Band',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh1/185.png',

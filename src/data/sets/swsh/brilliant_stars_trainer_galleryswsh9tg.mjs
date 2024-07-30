@@ -8,7 +8,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG13',
             name: 'Boltund V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -20,7 +20,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG14',
             name: 'Sylveon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -32,7 +32,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG16',
             name: 'Mimikyu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -44,7 +44,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG18',
             name: 'Single Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -56,7 +56,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG20',
             name: 'Rapid Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -68,7 +68,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG22',
             name: 'Umbreon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -82,7 +82,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG15',
             name: 'Sylveon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -94,7 +94,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG17',
             name: 'Mimikyu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -106,7 +106,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG19',
             name: 'Single Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -118,7 +118,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG21',
             name: 'Rapid Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -130,7 +130,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG23',
             name: 'Umbreon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -144,7 +144,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG29',
             name: 'Single Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_secret',
@@ -156,7 +156,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG30',
             name: 'Rapid Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_secret',
@@ -180,7 +180,7 @@ export const brilliantStarsTrainerGallery = {
         },
         {
             id: 'swsh9tg-TG25',
-            name: 'Caf\u00e9 Master',
+            name: 'Café Master',
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'rare_ultra',
@@ -227,7 +227,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG01',
             name: 'Flareon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'trainer_gallery_rare_holo',
@@ -239,7 +239,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG02',
             name: 'Vaporeon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
@@ -251,7 +251,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG03',
             name: 'Octillery',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
@@ -263,7 +263,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG04',
             name: 'Jolteon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',
@@ -275,7 +275,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG05',
             name: 'Zekrom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',
@@ -287,7 +287,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG06',
             name: 'Dusknoir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -299,7 +299,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG07',
             name: 'Dedenne',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -311,7 +311,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG08',
             name: 'Alcremie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -323,7 +323,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG09',
             name: 'Ariados',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'trainer_gallery_rare_holo',
@@ -335,7 +335,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG10',
             name: 'Houndoom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'trainer_gallery_rare_holo',
@@ -347,7 +347,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG11',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -359,7 +359,7 @@ export const brilliantStarsTrainerGallery = {
         {
             id: 'swsh9tg-TG12',
             name: 'Oranguru',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',

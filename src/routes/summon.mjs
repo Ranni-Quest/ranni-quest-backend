@@ -2,6 +2,7 @@ import { dbConnect } from '../app.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { serverConfig } from '../../../config/config.mjs';
 import { pokemonDropRate } from '../data/drop_rate.mjs';
+import { UserActionLogger } from '../database/user_action_logger.mjs';
 
 export class Summon {
     async init(req, res) {
@@ -29,14 +30,18 @@ export class Summon {
         );
 
         const name = await this.getFrenchName(pokemonId);
-
-        this.upsertPokemonPending(userInfo.discordId, { pokemonId, name });
-
         const isShiny = this.isShiny();
+
+        this.upsertPokemonPending(userInfo.discordId, {
+            pokemonId,
+            name,
+            isShiny,
+        });
 
         res.json({
             name,
             status: pokemonStatus,
+            isShiny: isShiny ? true : false,
             image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
                 isShiny ? 'shiny/' : ''
             }${pokemonId}.png`,
@@ -47,8 +52,8 @@ export class Summon {
     }
 
     isShiny() {
-        const probabilityFor001 = serverConfig.app.shinyOod;
-        return Math.random() < probabilityFor001 ? 1 : 0;
+        const rate = Math.random();
+        return rate < serverConfig.app.shinyOod ? 1 : 0;
     }
 
     getRandomPokemonStatus() {
@@ -101,12 +106,14 @@ export class Summon {
     async upsertPokemonPending(discordId, pokemon) {
         await dbConnect.queryDB(
             `INSERT INTO ptcg_pending_pokemon
-            (discordId, pokemonId, name)
-            VALUES (':discordId' , :pokemonId, ':name')
+            (discordId, pokemonId, name, isShiny)
+            VALUES (':discordId' , :pokemonId, ':name', ':isShiny')
             ON DUPLICATE KEY UPDATE
-            discordId=':discordId', pokemonId=':pokemonId', name=':name'`,
+            discordId=':discordId', pokemonId=':pokemonId', name=':name', isShiny=:isShiny`,
             { discordId, ...pokemon }
         );
+
+        UserActionLogger.info('summon', this.discordId, ``);
 
         dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimeSummon=:lastTimeSummon WHERE discordId=':discordId'`,

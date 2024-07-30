@@ -4,7 +4,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-2',
             name: 'Hoppip',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-5',
             name: 'Seedot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-9',
             name: 'Petilil',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-11',
             name: 'Dwebble',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-44',
             name: 'Bergmite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-35',
             name: 'Carvanha',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-43',
             name: 'Cryogonal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-42',
             name: 'Tympole',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-49',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-24',
             name: 'Psyduck',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-26',
             name: 'Tentacool',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-32',
             name: 'Lotad',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-39',
             name: 'Luvdisc',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-22',
             name: 'Litleo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-52',
             name: 'Chinchou',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-54',
             name: 'Mareep',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-17',
             name: 'Applin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-37',
             name: 'Feebas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-57',
             name: 'Emolga',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-15',
             name: 'Gossifleur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-61',
             name: 'Drowzee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-66',
             name: 'Wobbuffet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Psychic'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-67',
             name: 'Sableye',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-68',
             name: 'Woobat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -291,8 +291,8 @@ export const evolvingSkies = {
         },
         {
             id: 'swsh7-71',
-            name: 'Flab\u00e9b\u00e9',
-            supertype: 'Pok\u00e9mon',
+            name: 'Flabébé',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-76',
             name: 'Pumpkaboo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-78',
             name: 'Cutiefly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-81',
             name: 'Hitmonchan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-84',
             name: 'Hippopotas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-86',
             name: 'Roggenrola',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-98',
             name: 'Scraggy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-102',
             name: 'Zorua',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-104',
             name: 'Nickit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-107',
             name: 'Bagon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-113',
             name: 'Deino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-126',
             name: 'Teddiursa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-129',
             name: 'Slakoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-125',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-132',
             name: 'Swablu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-138',
             name: 'Fletchling',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-133',
             name: 'Lillipup',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-136',
             name: 'Rufflet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -510,7 +510,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-6',
             name: 'Tropius',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare',
@@ -522,7 +522,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-1',
             name: 'Pinsir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Grass'],
             rarity: 'rare',
@@ -534,7 +534,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-10',
             name: 'Lilligant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -546,7 +546,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-36',
             name: 'Sharpedo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -558,7 +558,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-46',
             name: 'Wishiwashi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare',
@@ -570,7 +570,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-38',
             name: 'Milotic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare',
@@ -582,7 +582,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-56',
             name: 'Ampharos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -594,7 +594,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-77',
             name: 'Gourgeist',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -606,7 +606,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-88',
             name: 'Gigalith',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -618,7 +618,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-90',
             name: 'Seismitoad',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -630,7 +630,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-97',
             name: 'Shiftry',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -642,7 +642,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-106',
             name: 'Altaria',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -654,7 +654,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-105',
             name: 'Thievul',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -666,7 +666,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-119',
             name: 'Drampa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -678,7 +678,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-120',
             name: 'Flapple',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -690,7 +690,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-121',
             name: 'Appletun',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -702,7 +702,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-128',
             name: 'Smeargle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -714,7 +714,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-135',
             name: 'Stoutland',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -726,7 +726,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-140',
             name: 'Talonflame',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -740,7 +740,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-4',
             name: 'Jumpluff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -752,7 +752,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-34',
             name: 'Ludicolo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -764,7 +764,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-16',
             name: 'Eldegoss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -776,7 +776,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-50',
             name: 'Raichu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -788,7 +788,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-19',
             name: 'Entei',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -800,7 +800,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-20',
             name: 'Victini',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -812,7 +812,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-63',
             name: 'Galarian Articuno',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -824,7 +824,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-60',
             name: 'Regieleki',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -836,7 +836,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-73',
             name: 'Florges',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -848,7 +848,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-80',
             name: 'Marshadow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -860,7 +860,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-82',
             name: 'Galarian Zapdos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -872,7 +872,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-93',
             name: 'Galarian Moltres',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -884,7 +884,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-103',
             name: 'Zoroark',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -896,7 +896,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-109',
             name: 'Salamence',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -908,7 +908,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-112',
             name: 'Dialga',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -920,7 +920,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-116',
             name: 'Kyurem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -932,7 +932,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-115',
             name: 'Hydreigon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -944,7 +944,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-118',
             name: 'Zygarde',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -956,7 +956,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-124',
             name: 'Regidrago',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -968,7 +968,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-131',
             name: 'Slaking',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -982,7 +982,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-13',
             name: 'Trevenant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -994,7 +994,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-7',
             name: 'Leafeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1006,7 +1006,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-58',
             name: 'Dracozolt V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1018,7 +1018,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-28',
             name: 'Gyarados V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1030,7 +1030,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-31',
             name: 'Suicune V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1042,7 +1042,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-40',
             name: 'Glaceon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1054,7 +1054,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-21',
             name: 'Volcarona V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1066,7 +1066,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-48',
             name: 'Arctovish V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1078,7 +1078,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-64',
             name: 'Espeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1090,7 +1090,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-70',
             name: 'Golurk V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1102,7 +1102,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-74',
             name: 'Sylveon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1114,7 +1114,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-83',
             name: 'Medicham V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1126,7 +1126,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-91',
             name: 'Lycanroc V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1138,7 +1138,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-94',
             name: 'Umbreon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1150,7 +1150,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-100',
             name: 'Garbodor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1162,7 +1162,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-110',
             name: 'Rayquaza V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1174,7 +1174,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-117',
             name: 'Noivern V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1186,7 +1186,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-122',
             name: 'Duraludon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1200,7 +1200,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-8',
             name: 'Leafeon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -1212,7 +1212,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-14',
             name: 'Trevenant VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -1224,7 +1224,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-41',
             name: 'Glaceon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1236,7 +1236,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-59',
             name: 'Dracozolt VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1248,7 +1248,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-30',
             name: 'Vaporeon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1260,7 +1260,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-29',
             name: 'Gyarados VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1272,7 +1272,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-18',
             name: 'Flareon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1284,7 +1284,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-51',
             name: 'Jolteon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1296,7 +1296,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-65',
             name: 'Espeon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -1308,7 +1308,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-75',
             name: 'Sylveon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -1320,7 +1320,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-92',
             name: 'Lycanroc VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -1332,7 +1332,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-95',
             name: 'Umbreon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -1344,7 +1344,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-101',
             name: 'Garbodor VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -1356,7 +1356,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-111',
             name: 'Rayquaza VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_vmax',
@@ -1368,7 +1368,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-123',
             name: 'Duraludon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_vmax',
@@ -1382,7 +1382,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-205',
             name: 'Leafeon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1394,7 +1394,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-204',
             name: 'Leafeon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1406,7 +1406,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-206',
             name: 'Trevenant VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1418,7 +1418,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-208',
             name: 'Glaceon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1430,7 +1430,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-207',
             name: 'Gyarados VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1442,7 +1442,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-212',
             name: 'Sylveon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1454,7 +1454,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-210',
             name: 'Dracozolt VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_rainbow',
@@ -1466,7 +1466,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-211',
             name: 'Sylveon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1478,7 +1478,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-209',
             name: 'Glaceon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1490,7 +1490,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-213',
             name: 'Lycanroc VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1502,7 +1502,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-214',
             name: 'Umbreon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -1514,7 +1514,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-218',
             name: 'Rayquaza VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_rainbow',
@@ -1526,7 +1526,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-216',
             name: 'Garbodor VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -1538,7 +1538,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-215',
             name: 'Umbreon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -1550,7 +1550,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-217',
             name: 'Rayquaza VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_rainbow',
@@ -1562,7 +1562,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-219',
             name: 'Duraludon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_rainbow',
@@ -1574,7 +1574,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-220',
             name: 'Duraludon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_rainbow',
@@ -1643,7 +1643,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-228',
             name: 'Cresselia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_secret',
@@ -1655,7 +1655,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-226',
             name: 'Froslass',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_secret',
@@ -1667,7 +1667,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-227',
             name: 'Inteleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_secret',
@@ -1735,7 +1735,7 @@ export const evolvingSkies = {
             id: 'swsh7-231',
             name: 'Full Face Guard',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/231.png',
@@ -1780,7 +1780,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-166',
             name: 'Leafeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1792,7 +1792,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-167',
             name: 'Leafeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1804,7 +1804,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-168',
             name: 'Trevenant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1816,7 +1816,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-169',
             name: 'Flareon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1828,7 +1828,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-173',
             name: 'Suicune V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1840,7 +1840,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-170',
             name: 'Volcarona V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1852,7 +1852,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-171',
             name: 'Gyarados V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1864,7 +1864,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-172',
             name: 'Vaporeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1876,7 +1876,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-178',
             name: 'Dracozolt V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1888,7 +1888,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-177',
             name: 'Jolteon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1900,7 +1900,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-174',
             name: 'Glaceon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1912,7 +1912,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-175',
             name: 'Glaceon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1924,7 +1924,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-176',
             name: 'Arctovish V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1936,7 +1936,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-180',
             name: 'Espeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1948,7 +1948,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-181',
             name: 'Golurk V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1960,7 +1960,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-179',
             name: 'Espeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1972,7 +1972,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-184',
             name: 'Sylveon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1984,7 +1984,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-182',
             name: 'Golurk V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1996,7 +1996,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-185',
             name: 'Medicham V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -2008,7 +2008,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-186',
             name: 'Medicham V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -2020,7 +2020,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-183',
             name: 'Sylveon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -2032,7 +2032,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-187',
             name: 'Lycanroc V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -2044,7 +2044,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-188',
             name: 'Umbreon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -2056,7 +2056,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-189',
             name: 'Umbreon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -2068,7 +2068,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-191',
             name: 'Dragonite V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -2080,7 +2080,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-190',
             name: 'Garbodor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -2092,7 +2092,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-193',
             name: 'Rayquaza V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -2104,7 +2104,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-192',
             name: 'Dragonite V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -2116,7 +2116,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-195',
             name: 'Noivern V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -2128,7 +2128,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-194',
             name: 'Rayquaza V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -2140,7 +2140,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-196',
             name: 'Noivern V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -2163,7 +2163,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-197',
             name: 'Duraludon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -2186,7 +2186,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-198',
             name: 'Duraludon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -2233,7 +2233,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-3',
             name: 'Skiploom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2245,7 +2245,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-12',
             name: 'Crustle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2257,7 +2257,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-47',
             name: 'Eiscue',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2269,7 +2269,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-25',
             name: 'Golduck',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2281,7 +2281,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-27',
             name: 'Tentacruel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2293,7 +2293,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-53',
             name: 'Lanturn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2305,7 +2305,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-23',
             name: 'Pyroar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2317,7 +2317,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-45',
             name: 'Avalugg',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2329,7 +2329,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-55',
             name: 'Flaaffy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2341,7 +2341,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-33',
             name: 'Lombre',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2353,7 +2353,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-62',
             name: 'Hypno',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2365,7 +2365,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-69',
             name: 'Swoobat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2377,7 +2377,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-72',
             name: 'Floette',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2389,7 +2389,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-79',
             name: 'Ribombee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2401,7 +2401,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-85',
             name: 'Hippowdon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2413,7 +2413,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-87',
             name: 'Boldore',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2425,7 +2425,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-89',
             name: 'Palpitoad',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2437,7 +2437,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-96',
             name: 'Nuzleaf',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2449,7 +2449,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-99',
             name: 'Scrafty',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2461,7 +2461,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-108',
             name: 'Shelgon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -2473,7 +2473,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-114',
             name: 'Zweilous',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -2485,7 +2485,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-130',
             name: 'Vigoroth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2497,7 +2497,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-127',
             name: 'Ursaring',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2509,7 +2509,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-134',
             name: 'Herdier',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2521,7 +2521,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-137',
             name: 'Braviary',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2533,7 +2533,7 @@ export const evolvingSkies = {
         {
             id: 'swsh7-139',
             name: 'Fletchinder',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2568,7 +2568,7 @@ export const evolvingSkies = {
             id: 'swsh7-145',
             name: 'Digging Gloves',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/145.png',
@@ -2601,7 +2601,7 @@ export const evolvingSkies = {
             id: 'swsh7-147',
             name: 'Elemental Badge',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/147.png',
@@ -2612,7 +2612,7 @@ export const evolvingSkies = {
             id: 'swsh7-148',
             name: 'Full Face Guard',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/148.png',
@@ -2656,7 +2656,7 @@ export const evolvingSkies = {
             id: 'swsh7-151',
             name: 'Moon & Sun Badge',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/151.png',
@@ -2667,7 +2667,7 @@ export const evolvingSkies = {
             id: 'swsh7-156',
             name: 'Rubber Gloves',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/156.png',
@@ -2700,7 +2700,7 @@ export const evolvingSkies = {
             id: 'swsh7-155',
             name: 'Ribbon Badge',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/155.png',
@@ -2711,7 +2711,7 @@ export const evolvingSkies = {
             id: 'swsh7-153',
             name: 'Rapid Strike Scroll of the Flying Dragon',
             supertype: 'Trainer',
-            subtypes: ['Rapid Strike', 'Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Rapid Strike', 'Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/153.png',
@@ -2733,7 +2733,7 @@ export const evolvingSkies = {
             id: 'swsh7-158',
             name: 'Single Strike Scroll of the Fanged Dragon',
             supertype: 'Trainer',
-            subtypes: ['Single Strike', 'Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Single Strike', 'Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/158.png',
@@ -2744,7 +2744,7 @@ export const evolvingSkies = {
             id: 'swsh7-160',
             name: 'Spirit Mask',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/160.png',
@@ -2755,7 +2755,7 @@ export const evolvingSkies = {
             id: 'swsh7-159',
             name: 'Snow Leaf Badge',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh7/159.png',

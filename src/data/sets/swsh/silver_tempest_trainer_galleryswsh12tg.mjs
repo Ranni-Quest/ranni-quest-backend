@@ -8,7 +8,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG12',
             name: 'Kricketune V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -20,7 +20,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG13',
             name: 'Serperior V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -32,7 +32,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG14',
             name: 'Blaziken V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -44,7 +44,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG16',
             name: 'Zeraora V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -56,7 +56,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG17',
             name: 'Mawile V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -68,7 +68,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG18',
             name: 'Corviknight V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -80,7 +80,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG22',
             name: 'Blissey V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -94,7 +94,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG15',
             name: 'Blaziken VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -106,7 +106,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG19',
             name: 'Corviknight VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_holo_vmax',
@@ -118,7 +118,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG20',
             name: 'Rayquaza VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_vmax',
@@ -130,7 +130,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG21',
             name: 'Duraludon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_vmax',
@@ -144,7 +144,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG29',
             name: 'Rayquaza VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_secret',
@@ -156,7 +156,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG30',
             name: 'Duraludon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_secret',
@@ -238,7 +238,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG01',
             name: 'Braixen',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'trainer_gallery_rare_holo',
@@ -250,7 +250,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG02',
             name: 'Milotic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'trainer_gallery_rare_holo',
@@ -262,7 +262,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG03',
             name: 'Flaaffy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'trainer_gallery_rare_holo',
@@ -274,7 +274,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG04',
             name: 'Jynx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -286,7 +286,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG05',
             name: 'Gardevoir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -298,7 +298,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG06',
             name: 'Malamar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Psychic'],
             rarity: 'trainer_gallery_rare_holo',
@@ -310,7 +310,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG07',
             name: 'Rockruff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
@@ -322,7 +322,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG08',
             name: 'Passimian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'trainer_gallery_rare_holo',
@@ -334,7 +334,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG09',
             name: 'Druddigon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'trainer_gallery_rare_holo',
@@ -346,7 +346,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG10',
             name: 'Smeargle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',
@@ -358,7 +358,7 @@ export const silverTempestTrainerGallery = {
         {
             id: 'swsh12tg-TG11',
             name: 'Altaria',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'trainer_gallery_rare_holo',

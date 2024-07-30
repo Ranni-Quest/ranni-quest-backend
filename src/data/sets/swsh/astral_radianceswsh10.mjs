@@ -4,7 +4,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-2',
             name: 'Hisuian Voltorb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-4',
             name: 'Scyther',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-5',
             name: 'Scyther',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-6',
             name: 'Yanma',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-8',
             name: 'Heracross',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-9',
             name: 'Kricketot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-11',
             name: 'Combee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-15',
             name: 'Petilil',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-19',
             name: 'Rowlet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-21',
             name: 'Ponyta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-23',
             name: 'Cyndaquil',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-28',
             name: 'Psyduck',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-31',
             name: 'Swinub',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-34',
             name: 'Mantine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-35',
             name: 'Barboach',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-41',
             name: 'Oshawott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-43',
             name: 'Hisuian Basculin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-47',
             name: 'Bergmite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-55',
             name: 'Togepi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-58',
             name: 'Misdreavus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-60',
             name: 'Ralts',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-63',
             name: 'Drifloon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-70',
             name: 'Hisuian Growlithe',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-74',
             name: 'Sudowoodo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-79',
             name: 'Hippopotas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-88',
             name: 'Hisuian Qwilfish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-89',
             name: 'Hisuian Qwilfish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-92',
             name: 'Hisuian Sneasel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-95',
             name: 'Poochyena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-103',
             name: 'Nickit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-105',
             name: 'Magnemite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-111',
             name: 'Bronzor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-115',
             name: 'Pawniard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-119',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-120',
             name: 'Hoothoot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-122',
             name: 'Teddiursa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-125',
             name: 'Stantler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-127',
             name: 'Glameow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-129',
             name: 'Chatot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-131',
             name: 'Rufflet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -486,7 +486,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-27',
             name: 'Radiant Heatran',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Fire'],
             rarity: 'radiant_rare',
@@ -498,7 +498,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-46',
             name: 'Radiant Greninja',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Water'],
             rarity: 'radiant_rare',
@@ -510,7 +510,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-81',
             name: 'Radiant Hawlucha',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Fighting'],
             rarity: 'radiant_rare',
@@ -524,7 +524,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-12',
             name: 'Vespiquen',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -536,7 +536,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-13',
             name: 'Leafeon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -548,7 +548,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-14',
             name: 'Shaymin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare',
@@ -560,7 +560,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-22',
             name: 'Rapidash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -572,7 +572,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-33',
             name: 'Mamoswine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare',
@@ -584,7 +584,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-37',
             name: 'Regice',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -596,7 +596,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-38',
             name: 'Glaceon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -608,7 +608,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-44',
             name: 'Hisuian Basculegion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -620,7 +620,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-48',
             name: 'Hisuian Avalugg',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -632,7 +632,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-51',
             name: 'Regieleki',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -644,7 +644,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-59',
             name: 'Mismagius',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -656,7 +656,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-71',
             name: 'Hisuian Arcanine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -668,7 +668,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-75',
             name: 'Regirock',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -680,7 +680,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-85',
             name: 'Kleavor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -692,7 +692,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-91',
             name: 'Hisuian Overqwil',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -704,7 +704,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-96',
             name: 'Mightyena',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -716,7 +716,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-104',
             name: 'Thievul',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -728,7 +728,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-108',
             name: 'Registeel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare',
@@ -740,7 +740,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-118',
             name: 'Regidrago',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -752,7 +752,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-124',
             name: 'Ursaluna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -764,7 +764,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-132',
             name: 'Hisuian Braviary',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -778,7 +778,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-16',
             name: 'Hisuian Lilligant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -790,7 +790,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-45',
             name: 'Keldeo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -802,7 +802,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-52',
             name: 'Hisuian Typhlosion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -814,7 +814,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-57',
             name: 'Togekiss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -826,7 +826,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-62',
             name: 'Gallade',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -838,7 +838,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-66',
             name: 'Mesprit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -850,7 +850,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-68',
             name: 'Diancie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -862,7 +862,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-69',
             name: 'Wyrdeer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -874,7 +874,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-77',
             name: 'Rampardos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -886,7 +886,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-82',
             name: 'Hisuian Decidueye',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -898,7 +898,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-86',
             name: 'Kleavor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -910,7 +910,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-93',
             name: 'Hisuian Sneasler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -922,7 +922,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-97',
             name: 'Absol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -934,7 +934,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-100',
             name: 'Hisuian Samurott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -946,7 +946,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-107',
             name: 'Magnezone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -958,7 +958,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-110',
             name: 'Bastiodon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -970,7 +970,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-126',
             name: 'Miltank',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -982,7 +982,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-130',
             name: 'Regigigas',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1018,7 +1018,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-1',
             name: 'Beedrill V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1030,7 +1030,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-17',
             name: 'Hisuian Lilligant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1042,7 +1042,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-25',
             name: 'Heatran V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1054,7 +1054,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-30',
             name: 'Starmie V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1066,7 +1066,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-39',
             name: 'Origin Forme Palkia V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1078,7 +1078,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-49',
             name: 'Galarian Mr. Rime V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1090,7 +1090,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-50',
             name: 'Luxray V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1102,7 +1102,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-53',
             name: 'Hisuian Typhlosion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1114,7 +1114,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-72',
             name: 'Machamp V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1126,7 +1126,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-78',
             name: 'Lucario V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1138,7 +1138,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-83',
             name: 'Hisuian Decidueye V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1150,7 +1150,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-87',
             name: 'Kleavor V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1162,7 +1162,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-94',
             name: 'Hisuian Sneasler V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1174,7 +1174,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-98',
             name: 'Darkrai V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1186,7 +1186,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-101',
             name: 'Hisuian Samurott V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1198,7 +1198,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-113',
             name: 'Origin Forme Dialga V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1210,7 +1210,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-117',
             name: 'Garchomp V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1222,7 +1222,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-133',
             name: 'Oranguru V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1234,7 +1234,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-134',
             name: 'Wyrdeer V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1248,7 +1248,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-26',
             name: 'Heatran VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1260,7 +1260,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-73',
             name: 'Machamp VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -1274,7 +1274,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-18',
             name: 'Hisuian Lilligant VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_holo_vstar',
@@ -1286,7 +1286,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-40',
             name: 'Origin Forme Palkia VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'rare_holo_vstar',
@@ -1298,7 +1298,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-54',
             name: 'Hisuian Typhlosion VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_holo_vstar',
@@ -1310,7 +1310,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-84',
             name: 'Hisuian Decidueye VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fighting'],
             rarity: 'rare_holo_vstar',
@@ -1322,7 +1322,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-99',
             name: 'Darkrai VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Darkness'],
             rarity: 'rare_holo_vstar',
@@ -1334,7 +1334,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-102',
             name: 'Hisuian Samurott VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Darkness'],
             rarity: 'rare_holo_vstar',
@@ -1346,7 +1346,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-114',
             name: 'Origin Forme Dialga VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Metal'],
             rarity: 'rare_holo_vstar',
@@ -1360,7 +1360,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-190',
             name: 'Hisuian Lilligant VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1372,7 +1372,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-191',
             name: 'Heatran VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -1384,7 +1384,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-192',
             name: 'Origin Forme Palkia VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1396,7 +1396,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-193',
             name: 'Hisuian Typhlosion VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -1408,7 +1408,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-194',
             name: 'Machamp VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1420,7 +1420,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-195',
             name: 'Hisuian Decidueye VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1432,7 +1432,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-196',
             name: 'Kleavor VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1444,7 +1444,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-197',
             name: 'Hisuian Samurott VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -1456,7 +1456,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-198',
             name: 'Origin Forme Dialga VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Metal'],
             rarity: 'rare_rainbow',
@@ -1569,7 +1569,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-208',
             name: 'Origin Forme Palkia VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Water'],
             rarity: 'rare_secret',
@@ -1581,7 +1581,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-209',
             name: 'Hisuian Samurott VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Darkness'],
             rarity: 'rare_secret',
@@ -1593,7 +1593,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-210',
             name: 'Origin Forme Dialga VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Metal'],
             rarity: 'rare_secret',
@@ -1606,7 +1606,7 @@ export const astralRadiance = {
             id: 'swsh10-211',
             name: 'Choice Belt',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh10/211.png',
@@ -1673,7 +1673,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-160',
             name: 'Beedrill V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1685,7 +1685,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-161',
             name: 'Beedrill V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1697,7 +1697,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-162',
             name: 'Hisuian Lilligant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1709,7 +1709,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-163',
             name: 'Hisuian Lilligant V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1721,7 +1721,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-164',
             name: 'Virizion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1733,7 +1733,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-165',
             name: 'Heatran V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1745,7 +1745,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-166',
             name: 'Starmie V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1757,7 +1757,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-167',
             name: 'Origin Forme Palkia V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1769,7 +1769,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-168',
             name: 'Luxray V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1781,7 +1781,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-169',
             name: 'Hisuian Typhlosion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1793,7 +1793,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-170',
             name: 'Jirachi V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1805,7 +1805,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-171',
             name: 'Machamp V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1817,7 +1817,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-172',
             name: 'Machamp V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1829,7 +1829,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-173',
             name: 'Hisuian Decidueye V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1841,7 +1841,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-174',
             name: 'Hisuian Sneasler V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1853,7 +1853,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-175',
             name: 'Hisuian Sneasler V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1865,7 +1865,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-176',
             name: 'Hisuian Samurott V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1877,7 +1877,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-177',
             name: 'Origin Forme Dialga V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1889,7 +1889,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-178',
             name: 'Garchomp V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -1901,7 +1901,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-179',
             name: 'Oranguru V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1913,7 +1913,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-180',
             name: 'Wyrdeer V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -2026,7 +2026,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-3',
             name: 'Hisuian Electrode',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2038,7 +2038,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-7',
             name: 'Yanmega',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2050,7 +2050,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-10',
             name: 'Kricketune',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2062,7 +2062,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-20',
             name: 'Dartrix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2074,7 +2074,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-24',
             name: 'Quilava',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2086,7 +2086,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-29',
             name: 'Golduck',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2098,7 +2098,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-32',
             name: 'Piloswine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2110,7 +2110,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-36',
             name: 'Whiscash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2122,7 +2122,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-42',
             name: 'Dewott',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2134,7 +2134,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-56',
             name: 'Togetic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2146,7 +2146,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-61',
             name: 'Kirlia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2158,7 +2158,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-64',
             name: 'Drifblim',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2170,7 +2170,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-65',
             name: 'Uxie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2182,7 +2182,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-67',
             name: 'Azelf',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2194,7 +2194,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-76',
             name: 'Cranidos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2206,7 +2206,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-80',
             name: 'Hippowdon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2218,7 +2218,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-90',
             name: 'Hisuian Overqwil',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2230,7 +2230,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-106',
             name: 'Magneton',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2242,7 +2242,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-109',
             name: 'Shieldon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2254,7 +2254,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-112',
             name: 'Bronzong',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2266,7 +2266,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-116',
             name: 'Bisharp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2278,7 +2278,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-121',
             name: 'Noctowl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2290,7 +2290,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-123',
             name: 'Ursaring',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2302,7 +2302,7 @@ export const astralRadiance = {
         {
             id: 'swsh10-128',
             name: 'Purugly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2480,7 +2480,7 @@ export const astralRadiance = {
             id: 'swsh10-152',
             name: 'Supereffective Glasses',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh10/152.png',

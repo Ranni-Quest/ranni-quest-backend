@@ -9,12 +9,14 @@ export const RarityEffect = {
     double_rare: 'silver',
     amazing_rare: 'silver',
     rare_ultra: 'silver',
+
     hyper_rare: 'gold',
     ultra_rare: 'gold',
     illustration_rare: 'gold',
     rare_holo_v: 'gold',
     rare_holo_vmax: 'gold',
     rare_secret: 'gold',
+
     special_illustration_rare: 'rainbow',
     rare_holo_vmax: 'rainbow',
     rare_rainbow: 'rainbow',

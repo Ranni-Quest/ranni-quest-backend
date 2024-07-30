@@ -4,7 +4,7 @@ export const battleStyles = {
         {
             id: 'swsh5-1',
             name: 'Bellsprout',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const battleStyles = {
         {
             id: 'swsh5-4',
             name: 'Cacnea',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const battleStyles = {
         {
             id: 'swsh5-7',
             name: 'Cherubi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const battleStyles = {
         {
             id: 'swsh5-11',
             name: 'Scatterbug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const battleStyles = {
         {
             id: 'swsh5-14',
             name: 'Fomantis',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const battleStyles = {
         {
             id: 'swsh5-17',
             name: 'Blipbug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const battleStyles = {
         {
             id: 'swsh5-23',
             name: 'Tepig',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fire'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const battleStyles = {
         {
             id: 'swsh5-27',
             name: 'Salandit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const battleStyles = {
         {
             id: 'swsh5-29',
             name: 'Sizzlipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const battleStyles = {
         {
             id: 'swsh5-31',
             name: 'Horsea',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const battleStyles = {
         {
             id: 'swsh5-34',
             name: 'Galarian Mr. Mime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const battleStyles = {
         {
             id: 'swsh5-36',
             name: 'Remoraid',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const battleStyles = {
         {
             id: 'swsh5-38',
             name: 'Corphish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const battleStyles = {
         {
             id: 'swsh5-41',
             name: 'Frillish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const battleStyles = {
         {
             id: 'swsh5-44',
             name: 'Electabuzz',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const battleStyles = {
         {
             id: 'swsh5-46',
             name: 'Shinx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const battleStyles = {
         {
             id: 'swsh5-49',
             name: 'Pachirisu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const battleStyles = {
         {
             id: 'swsh5-52',
             name: 'Yamper',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const battleStyles = {
         {
             id: 'swsh5-54',
             name: 'Galarian Slowpoke',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const battleStyles = {
         {
             id: 'swsh5-55',
             name: 'Spoink',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const battleStyles = {
         {
             id: 'swsh5-57',
             name: 'Baltoy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const battleStyles = {
         {
             id: 'swsh5-59',
             name: 'Chimecho',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const battleStyles = {
         {
             id: 'swsh5-60',
             name: 'Espurr',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const battleStyles = {
         {
             id: 'swsh5-66',
             name: 'Mankey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const battleStyles = {
         {
             id: 'swsh5-68',
             name: 'Onix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const battleStyles = {
         {
             id: 'swsh5-69',
             name: 'Cubone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const battleStyles = {
         {
             id: 'swsh5-71',
             name: 'Gligar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const battleStyles = {
         {
             id: 'swsh5-73',
             name: 'Timburr',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const battleStyles = {
         {
             id: 'swsh5-76',
             name: 'Mienfoo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const battleStyles = {
         {
             id: 'swsh5-78',
             name: 'Rolycoly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const battleStyles = {
         {
             id: 'swsh5-81',
             name: 'Silicobra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const battleStyles = {
         {
             id: 'swsh5-89',
             name: 'Zubat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const battleStyles = {
         {
             id: 'swsh5-93',
             name: 'Murkrow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const battleStyles = {
         {
             id: 'swsh5-95',
             name: 'Houndour',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const battleStyles = {
         {
             id: 'swsh5-100',
             name: 'Mawile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Metal'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const battleStyles = {
         {
             id: 'swsh5-101',
             name: 'Bronzor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const battleStyles = {
         {
             id: 'swsh5-103',
             name: 'Pawniard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const battleStyles = {
         {
             id: 'swsh5-105',
             name: 'Honedge',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const battleStyles = {
         {
             id: 'swsh5-111',
             name: 'Spearow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const battleStyles = {
         {
             id: 'swsh5-113',
             name: 'Lickitung',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const battleStyles = {
         {
             id: 'swsh5-115',
             name: 'Glameow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -498,7 +498,7 @@ export const battleStyles = {
         {
             id: 'swsh5-3',
             name: 'Victreebel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -510,7 +510,7 @@ export const battleStyles = {
         {
             id: 'swsh5-13',
             name: 'Vivillon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -522,7 +522,7 @@ export const battleStyles = {
         {
             id: 'swsh5-15',
             name: 'Lurantis',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -534,7 +534,7 @@ export const battleStyles = {
         {
             id: 'swsh5-28',
             name: 'Salazzle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -546,7 +546,7 @@ export const battleStyles = {
         {
             id: 'swsh5-30',
             name: 'Centiskorch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -558,7 +558,7 @@ export const battleStyles = {
         {
             id: 'swsh5-35',
             name: 'Galarian Mr. Rime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -570,7 +570,7 @@ export const battleStyles = {
         {
             id: 'swsh5-42',
             name: 'Jellicent',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -582,7 +582,7 @@ export const battleStyles = {
         {
             id: 'swsh5-45',
             name: 'Electivire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -594,7 +594,7 @@ export const battleStyles = {
         {
             id: 'swsh5-53',
             name: 'Boltund',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -606,7 +606,7 @@ export const battleStyles = {
         {
             id: 'swsh5-58',
             name: 'Claydol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -618,7 +618,7 @@ export const battleStyles = {
         {
             id: 'swsh5-67',
             name: 'Primeape',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -630,7 +630,7 @@ export const battleStyles = {
         {
             id: 'swsh5-70',
             name: 'Marowak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -642,7 +642,7 @@ export const battleStyles = {
         {
             id: 'swsh5-75',
             name: 'Conkeldurr',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -654,7 +654,7 @@ export const battleStyles = {
         {
             id: 'swsh5-77',
             name: 'Mienshao',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -666,7 +666,7 @@ export const battleStyles = {
         {
             id: 'swsh5-83',
             name: 'Falinks',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -678,7 +678,7 @@ export const battleStyles = {
         {
             id: 'swsh5-84',
             name: 'Stonjourner',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -690,7 +690,7 @@ export const battleStyles = {
         {
             id: 'swsh5-92',
             name: 'Galarian Slowbro',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -702,7 +702,7 @@ export const battleStyles = {
         {
             id: 'swsh5-108',
             name: 'Aegislash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -714,7 +714,7 @@ export const battleStyles = {
         {
             id: 'swsh5-114',
             name: 'Lickilicky',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -726,7 +726,7 @@ export const battleStyles = {
         {
             id: 'swsh5-119',
             name: 'Drampa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -740,7 +740,7 @@ export const battleStyles = {
         {
             id: 'swsh5-8',
             name: 'Cherrim',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -752,7 +752,7 @@ export const battleStyles = {
         {
             id: 'swsh5-16',
             name: 'Tapu Bulu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -764,7 +764,7 @@ export const battleStyles = {
         {
             id: 'swsh5-20',
             name: 'Entei',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -776,7 +776,7 @@ export const battleStyles = {
         {
             id: 'swsh5-25',
             name: 'Emboar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -788,7 +788,7 @@ export const battleStyles = {
         {
             id: 'swsh5-33',
             name: 'Kingdra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -800,7 +800,7 @@ export const battleStyles = {
         {
             id: 'swsh5-37',
             name: 'Octillery',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -812,7 +812,7 @@ export const battleStyles = {
         {
             id: 'swsh5-48',
             name: 'Luxray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -824,7 +824,7 @@ export const battleStyles = {
         {
             id: 'swsh5-61',
             name: 'Meowstic',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -836,7 +836,7 @@ export const battleStyles = {
         {
             id: 'swsh5-65',
             name: 'Orbeetle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -848,7 +848,7 @@ export const battleStyles = {
         {
             id: 'swsh5-80',
             name: 'Coalossal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -860,7 +860,7 @@ export const battleStyles = {
         {
             id: 'swsh5-82',
             name: 'Sandaconda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -872,7 +872,7 @@ export const battleStyles = {
         {
             id: 'swsh5-91',
             name: 'Crobat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -884,7 +884,7 @@ export const battleStyles = {
         {
             id: 'swsh5-96',
             name: 'Houndoom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -896,7 +896,7 @@ export const battleStyles = {
         {
             id: 'swsh5-99',
             name: 'Steelix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -908,7 +908,7 @@ export const battleStyles = {
         {
             id: 'swsh5-102',
             name: 'Bronzong',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -920,7 +920,7 @@ export const battleStyles = {
         {
             id: 'swsh5-107',
             name: 'Aegislash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -934,7 +934,7 @@ export const battleStyles = {
         {
             id: 'swsh5-6',
             name: 'Kricketune V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -946,7 +946,7 @@ export const battleStyles = {
         {
             id: 'swsh5-18',
             name: 'Flapple V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -958,7 +958,7 @@ export const battleStyles = {
         {
             id: 'swsh5-21',
             name: 'Victini V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -970,7 +970,7 @@ export const battleStyles = {
         {
             id: 'swsh5-40',
             name: 'Empoleon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -982,7 +982,7 @@ export const battleStyles = {
         {
             id: 'swsh5-50',
             name: 'Tapu Koko V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -994,7 +994,7 @@ export const battleStyles = {
         {
             id: 'swsh5-62',
             name: 'Mimikyu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1006,7 +1006,7 @@ export const battleStyles = {
         {
             id: 'swsh5-63',
             name: 'Necrozma V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1018,7 +1018,7 @@ export const battleStyles = {
         {
             id: 'swsh5-85',
             name: 'Single Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1030,7 +1030,7 @@ export const battleStyles = {
         {
             id: 'swsh5-87',
             name: 'Rapid Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1042,7 +1042,7 @@ export const battleStyles = {
         {
             id: 'swsh5-97',
             name: 'Tyranitar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1054,7 +1054,7 @@ export const battleStyles = {
         {
             id: 'swsh5-109',
             name: 'Corviknight V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1066,7 +1066,7 @@ export const battleStyles = {
         {
             id: 'swsh5-117',
             name: 'Stoutland V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1080,7 +1080,7 @@ export const battleStyles = {
         {
             id: 'swsh5-19',
             name: 'Flapple VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -1092,7 +1092,7 @@ export const battleStyles = {
         {
             id: 'swsh5-22',
             name: 'Victini VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1104,7 +1104,7 @@ export const battleStyles = {
         {
             id: 'swsh5-51',
             name: 'Tapu Koko VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1116,7 +1116,7 @@ export const battleStyles = {
         {
             id: 'swsh5-86',
             name: 'Single Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -1128,7 +1128,7 @@ export const battleStyles = {
         {
             id: 'swsh5-88',
             name: 'Rapid Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_holo_vmax',
@@ -1140,7 +1140,7 @@ export const battleStyles = {
         {
             id: 'swsh5-110',
             name: 'Corviknight VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_holo_vmax',
@@ -1154,7 +1154,7 @@ export const battleStyles = {
         {
             id: 'swsh5-168',
             name: 'Single Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1166,7 +1166,7 @@ export const battleStyles = {
         {
             id: 'swsh5-170',
             name: 'Rapid Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1178,7 +1178,7 @@ export const battleStyles = {
         {
             id: 'swsh5-164',
             name: 'Flapple VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_rainbow',
@@ -1190,7 +1190,7 @@ export const battleStyles = {
         {
             id: 'swsh5-165',
             name: 'Victini VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -1202,7 +1202,7 @@ export const battleStyles = {
         {
             id: 'swsh5-166',
             name: 'Tapu Koko VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_rainbow',
@@ -1214,7 +1214,7 @@ export const battleStyles = {
         {
             id: 'swsh5-167',
             name: 'Single Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1226,7 +1226,7 @@ export const battleStyles = {
         {
             id: 'swsh5-169',
             name: 'Rapid Strike Urshifu VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1238,7 +1238,7 @@ export const battleStyles = {
         {
             id: 'swsh5-171',
             name: 'Corviknight VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Metal'],
             rarity: 'rare_rainbow',
@@ -1318,7 +1318,7 @@ export const battleStyles = {
         {
             id: 'swsh5-178',
             name: 'Octillery',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_secret',
@@ -1330,7 +1330,7 @@ export const battleStyles = {
         {
             id: 'swsh5-179',
             name: 'Houndoom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_secret',
@@ -1343,7 +1343,7 @@ export const battleStyles = {
             id: 'swsh5-180',
             name: 'Exp. Share',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh5/180.png',
@@ -1388,7 +1388,7 @@ export const battleStyles = {
         {
             id: 'swsh5-142',
             name: 'Kricketune V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1400,7 +1400,7 @@ export const battleStyles = {
         {
             id: 'swsh5-143',
             name: 'Flapple V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1412,7 +1412,7 @@ export const battleStyles = {
         {
             id: 'swsh5-144',
             name: 'Victini V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1424,7 +1424,7 @@ export const battleStyles = {
         {
             id: 'swsh5-145',
             name: 'Empoleon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1436,7 +1436,7 @@ export const battleStyles = {
         {
             id: 'swsh5-146',
             name: 'Empoleon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1448,7 +1448,7 @@ export const battleStyles = {
         {
             id: 'swsh5-147',
             name: 'Tapu Koko V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1460,7 +1460,7 @@ export const battleStyles = {
         {
             id: 'swsh5-148',
             name: 'Mimikyu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1472,7 +1472,7 @@ export const battleStyles = {
         {
             id: 'swsh5-149',
             name: 'Necrozma V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1484,7 +1484,7 @@ export const battleStyles = {
         {
             id: 'swsh5-150',
             name: 'Single Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1496,7 +1496,7 @@ export const battleStyles = {
         {
             id: 'swsh5-151',
             name: 'Single Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1508,7 +1508,7 @@ export const battleStyles = {
         {
             id: 'swsh5-152',
             name: 'Rapid Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1520,7 +1520,7 @@ export const battleStyles = {
         {
             id: 'swsh5-153',
             name: 'Rapid Strike Urshifu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1532,7 +1532,7 @@ export const battleStyles = {
         {
             id: 'swsh5-154',
             name: 'Tyranitar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1544,7 +1544,7 @@ export const battleStyles = {
         {
             id: 'swsh5-155',
             name: 'Tyranitar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1556,7 +1556,7 @@ export const battleStyles = {
         {
             id: 'swsh5-156',
             name: 'Corviknight V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1568,7 +1568,7 @@ export const battleStyles = {
         {
             id: 'swsh5-157',
             name: 'Stoutland V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -1648,7 +1648,7 @@ export const battleStyles = {
         {
             id: 'swsh5-2',
             name: 'Weepinbell',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1660,7 +1660,7 @@ export const battleStyles = {
         {
             id: 'swsh5-5',
             name: 'Cacturne',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1672,7 +1672,7 @@ export const battleStyles = {
         {
             id: 'swsh5-9',
             name: 'Carnivine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1684,7 +1684,7 @@ export const battleStyles = {
         {
             id: 'swsh5-10',
             name: 'Durant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1696,7 +1696,7 @@ export const battleStyles = {
         {
             id: 'swsh5-12',
             name: 'Spewpa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1708,7 +1708,7 @@ export const battleStyles = {
         {
             id: 'swsh5-24',
             name: 'Pignite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1720,7 +1720,7 @@ export const battleStyles = {
         {
             id: 'swsh5-26',
             name: 'Heatmor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1732,7 +1732,7 @@ export const battleStyles = {
         {
             id: 'swsh5-32',
             name: 'Seadra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1744,7 +1744,7 @@ export const battleStyles = {
         {
             id: 'swsh5-39',
             name: 'Crawdaunt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1756,7 +1756,7 @@ export const battleStyles = {
         {
             id: 'swsh5-43',
             name: 'Bruxish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -1768,7 +1768,7 @@ export const battleStyles = {
         {
             id: 'swsh5-47',
             name: 'Luxio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1780,7 +1780,7 @@ export const battleStyles = {
         {
             id: 'swsh5-56',
             name: 'Grumpig',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1792,7 +1792,7 @@ export const battleStyles = {
         {
             id: 'swsh5-64',
             name: 'Dottler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1804,7 +1804,7 @@ export const battleStyles = {
         {
             id: 'swsh5-72',
             name: 'Gliscor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -1816,7 +1816,7 @@ export const battleStyles = {
         {
             id: 'swsh5-74',
             name: 'Gurdurr',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -1828,7 +1828,7 @@ export const battleStyles = {
         {
             id: 'swsh5-79',
             name: 'Carkol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -1840,7 +1840,7 @@ export const battleStyles = {
         {
             id: 'swsh5-90',
             name: 'Golbat',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -1852,7 +1852,7 @@ export const battleStyles = {
         {
             id: 'swsh5-94',
             name: 'Honchkrow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -1864,7 +1864,7 @@ export const battleStyles = {
         {
             id: 'swsh5-98',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -1876,7 +1876,7 @@ export const battleStyles = {
         {
             id: 'swsh5-104',
             name: 'Bisharp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -1888,7 +1888,7 @@ export const battleStyles = {
         {
             id: 'swsh5-106',
             name: 'Doublade',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -1900,7 +1900,7 @@ export const battleStyles = {
         {
             id: 'swsh5-112',
             name: 'Fearow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -1912,7 +1912,7 @@ export const battleStyles = {
         {
             id: 'swsh5-116',
             name: 'Purugly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -1924,7 +1924,7 @@ export const battleStyles = {
         {
             id: 'swsh5-118',
             name: 'Bouffalant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -1936,7 +1936,7 @@ export const battleStyles = {
         {
             id: 'swsh5-120',
             name: 'Indeedee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2004,7 +2004,7 @@ export const battleStyles = {
             id: 'swsh5-126',
             name: 'Exp. Share',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh5/126.png',
@@ -2059,7 +2059,7 @@ export const battleStyles = {
             id: 'swsh5-131',
             name: 'Rapid Strike Scroll of Swirls',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool', 'Rapid Strike'],
+            subtypes: ['Pokémon Tool', 'Rapid Strike'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh5/131.png',
@@ -2081,7 +2081,7 @@ export const battleStyles = {
             id: 'swsh5-133',
             name: 'Single Strike Scroll of Scorn',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool', 'Single Strike'],
+            subtypes: ['Pokémon Tool', 'Single Strike'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh5/133.png',
@@ -2114,7 +2114,7 @@ export const battleStyles = {
             id: 'swsh5-136',
             name: 'Tool Jammer',
             supertype: 'Trainer',
-            subtypes: ['Pok\u00e9mon Tool'],
+            subtypes: ['Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh5/136.png',

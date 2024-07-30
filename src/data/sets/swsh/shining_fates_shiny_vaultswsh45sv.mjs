@@ -8,7 +8,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV105',
             name: 'Rillaboom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -20,7 +20,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV108',
             name: 'Centiskorch V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -32,7 +32,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV110',
             name: 'Lapras V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -44,7 +44,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV112',
             name: 'Toxtricity V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -56,7 +56,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV114',
             name: 'Indeedee V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -68,7 +68,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV115',
             name: 'Falinks V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -80,7 +80,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV116',
             name: 'Grimmsnarl V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -92,7 +92,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV118',
             name: 'Ditto V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -104,7 +104,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV120',
             name: 'Dubwool V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -118,7 +118,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV106',
             name: 'Rillaboom VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -130,7 +130,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV107',
             name: 'Charizard VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -142,7 +142,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV109',
             name: 'Centiskorch VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -154,7 +154,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV111',
             name: 'Lapras VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -166,7 +166,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV113',
             name: 'Toxtricity VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -178,7 +178,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV117',
             name: 'Grimmsnarl VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -190,7 +190,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV119',
             name: 'Ditto VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_holo_vmax',
@@ -204,7 +204,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV121',
             name: 'Eternatus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_secret',
@@ -216,7 +216,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV122',
             name: 'Eternatus VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Darkness'],
             rarity: 'rare_secret',
@@ -230,7 +230,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV001',
             name: 'Rowlet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -242,7 +242,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV002',
             name: 'Dartrix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -254,7 +254,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV003',
             name: 'Decidueye',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -266,7 +266,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV004',
             name: 'Grookey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -278,7 +278,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV005',
             name: 'Thwackey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -290,7 +290,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV006',
             name: 'Rillaboom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -302,7 +302,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV007',
             name: 'Blipbug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -314,7 +314,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV008',
             name: 'Dottler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -326,7 +326,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV009',
             name: 'Orbeetle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -338,7 +338,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV010',
             name: 'Gossifleur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -350,7 +350,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV011',
             name: 'Eldegoss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -362,7 +362,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV012',
             name: 'Applin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -374,7 +374,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV013',
             name: 'Flapple',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -386,7 +386,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV014',
             name: 'Appletun',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_shiny',
@@ -398,7 +398,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV015',
             name: 'Scorbunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_shiny',
@@ -410,7 +410,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV016',
             name: 'Raboot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare_shiny',
@@ -422,7 +422,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV017',
             name: 'Cinderace',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare_shiny',
@@ -434,7 +434,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV018',
             name: 'Sizzlipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_shiny',
@@ -446,7 +446,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV019',
             name: 'Centiskorch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare_shiny',
@@ -458,7 +458,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV020',
             name: 'Galarian Mr. Mime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -470,7 +470,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV021',
             name: 'Galarian Mr. Rime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -482,7 +482,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV022',
             name: 'Suicune',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -494,7 +494,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV023',
             name: 'Galarian Darumaka',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -506,7 +506,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV024',
             name: 'Galarian Darmanitan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -518,7 +518,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV025',
             name: 'Sobble',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -530,7 +530,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV026',
             name: 'Drizzile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -542,7 +542,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV027',
             name: 'Inteleon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -554,7 +554,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV028',
             name: 'Chewtle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -566,7 +566,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV029',
             name: 'Drednaw',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -578,7 +578,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV030',
             name: 'Cramorant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -590,7 +590,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV031',
             name: 'Arrokuda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -602,7 +602,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV032',
             name: 'Barraskewda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -614,7 +614,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV033',
             name: 'Snom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -626,7 +626,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV034',
             name: 'Frosmoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -638,7 +638,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV035',
             name: 'Eiscue',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -650,7 +650,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV036',
             name: 'Dracovish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -662,7 +662,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV037',
             name: 'Arctovish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_shiny',
@@ -674,7 +674,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV038',
             name: 'Rotom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -686,7 +686,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV039',
             name: 'Yamper',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -698,7 +698,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV040',
             name: 'Boltund',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -710,7 +710,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV041',
             name: 'Toxel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -722,7 +722,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV042',
             name: 'Toxtricity',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -734,7 +734,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV043',
             name: 'Pincurchin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -746,7 +746,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV044',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -758,7 +758,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV045',
             name: 'Dracozolt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -770,7 +770,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV046',
             name: 'Arctozolt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_shiny',
@@ -782,7 +782,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV047',
             name: 'Galarian Ponyta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -794,7 +794,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV048',
             name: 'Galarian Rapidash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -806,7 +806,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV049',
             name: 'Galarian Corsola',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -818,7 +818,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV050',
             name: 'Galarian Cursola',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -830,7 +830,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV051',
             name: 'Dedenne',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -842,7 +842,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV052',
             name: 'Sinistea',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -854,7 +854,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV053',
             name: 'Polteageist',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -866,7 +866,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV054',
             name: 'Hatenna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -878,7 +878,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV055',
             name: 'Hattrem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -890,7 +890,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV056',
             name: 'Hatterene',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -902,7 +902,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV057',
             name: 'Milcery',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -914,7 +914,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV058',
             name: 'Alcremie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -926,7 +926,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV059',
             name: 'Indeedee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -938,7 +938,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV060',
             name: 'Dreepy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -950,7 +950,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV061',
             name: 'Drakloak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -962,7 +962,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV062',
             name: 'Dragapult',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_shiny',
@@ -974,7 +974,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV063',
             name: "Galarian Farfetch'd",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -986,7 +986,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV064',
             name: "Galarian Sirfetch'd",
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -998,7 +998,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV065',
             name: 'Galarian Yamask',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1010,7 +1010,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV066',
             name: 'Galarian Runerigus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1022,7 +1022,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV067',
             name: 'Rolycoly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1034,7 +1034,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV068',
             name: 'Carkol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1046,7 +1046,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV069',
             name: 'Coalossal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1058,7 +1058,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV070',
             name: 'Silicobra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1070,7 +1070,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV071',
             name: 'Sandaconda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1082,7 +1082,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV072',
             name: 'Clobbopus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1094,7 +1094,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV073',
             name: 'Grapploct',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1106,7 +1106,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV074',
             name: 'Falinks',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1118,7 +1118,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV075',
             name: 'Stonjourner',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_shiny',
@@ -1130,7 +1130,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV076',
             name: 'Koffing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1142,7 +1142,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV077',
             name: 'Galarian Weezing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1154,7 +1154,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV078',
             name: 'Galarian Zigzagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1166,7 +1166,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV079',
             name: 'Galarian Linoone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1178,7 +1178,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV080',
             name: 'Galarian Obstagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1190,7 +1190,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV081',
             name: 'Nickit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1202,7 +1202,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV082',
             name: 'Thievul',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1214,7 +1214,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV083',
             name: 'Impidimp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1226,7 +1226,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV084',
             name: 'Morgrem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1238,7 +1238,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV085',
             name: 'Grimmsnarl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_shiny',
@@ -1250,7 +1250,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV086',
             name: 'Galarian Meowth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_shiny',
@@ -1262,7 +1262,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV087',
             name: 'Galarian Perrserker',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_shiny',
@@ -1274,7 +1274,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV088',
             name: 'Galarian Stunfisk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_shiny',
@@ -1286,7 +1286,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV089',
             name: 'Corviknight',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare_shiny',
@@ -1298,7 +1298,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV090',
             name: 'Cufant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_shiny',
@@ -1310,7 +1310,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV091',
             name: 'Copperajah',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare_shiny',
@@ -1322,7 +1322,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV092',
             name: 'Duraludon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_shiny',
@@ -1334,7 +1334,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV093',
             name: 'Minccino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1346,7 +1346,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV094',
             name: 'Cinccino',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1358,7 +1358,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV095',
             name: 'Ducklett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1370,7 +1370,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV096',
             name: 'Swanna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1382,7 +1382,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV097',
             name: 'Bunnelby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1394,7 +1394,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV098',
             name: 'Oranguru',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1406,7 +1406,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV099',
             name: 'Skwovet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1418,7 +1418,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV100',
             name: 'Greedent',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1430,7 +1430,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV101',
             name: 'Rookidee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1442,7 +1442,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV102',
             name: 'Corvisquire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1454,7 +1454,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV103',
             name: 'Wooloo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_shiny',
@@ -1466,7 +1466,7 @@ export const shiningFatesShinyVault = {
         {
             id: 'swsh45sv-SV104',
             name: 'Dubwool',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_shiny',

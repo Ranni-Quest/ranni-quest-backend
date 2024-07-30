@@ -4,7 +4,7 @@ export const championPath = {
         {
             id: 'swsh35-2',
             name: 'Weedle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const championPath = {
         {
             id: 'swsh35-3',
             name: 'Kakuna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const championPath = {
         {
             id: 'swsh35-6',
             name: 'Vulpix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const championPath = {
         {
             id: 'swsh35-9',
             name: 'Sizzlipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const championPath = {
         {
             id: 'swsh35-11',
             name: 'Carvanha',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const championPath = {
         {
             id: 'swsh35-18',
             name: 'Hatenna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const championPath = {
         {
             id: 'swsh35-24',
             name: 'Machop',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const championPath = {
         {
             id: 'swsh35-29',
             name: 'Rockruff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const championPath = {
         {
             id: 'swsh35-31',
             name: 'Rolycoly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const championPath = {
         {
             id: 'swsh35-33',
             name: 'Ekans',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const championPath = {
         {
             id: 'swsh35-35',
             name: 'Galarian Zigzagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const championPath = {
         {
             id: 'swsh35-36',
             name: 'Galarian Linoone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const championPath = {
         {
             id: 'swsh35-39',
             name: 'Purrloin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const championPath = {
         {
             id: 'swsh35-41',
             name: 'Scraggy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const championPath = {
         {
             id: 'swsh35-43',
             name: 'Trubbish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const championPath = {
         {
             id: 'swsh35-44',
             name: 'Inkay',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const championPath = {
         {
             id: 'swsh35-46',
             name: 'Nickit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const championPath = {
         {
             id: 'swsh35-48',
             name: 'Swablu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -219,7 +219,7 @@ export const championPath = {
         },
         {
             id: 'swsh35-59',
-            name: 'Pok\u00e9 Ball',
+            name: 'Poké Ball',
             supertype: 'Trainer',
             subtypes: ['Item'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const championPath = {
         {
             id: 'swsh35-10',
             name: 'Centiskorch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -256,7 +256,7 @@ export const championPath = {
         {
             id: 'swsh35-20',
             name: 'Hatterene',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -268,7 +268,7 @@ export const championPath = {
         {
             id: 'swsh35-26',
             name: 'Machamp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -280,7 +280,7 @@ export const championPath = {
         {
             id: 'swsh35-28',
             name: 'Zygarde',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -292,7 +292,7 @@ export const championPath = {
         {
             id: 'swsh35-30',
             name: 'Lycanroc',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -304,7 +304,7 @@ export const championPath = {
         {
             id: 'swsh35-37',
             name: 'Galarian Obstagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -316,7 +316,7 @@ export const championPath = {
         {
             id: 'swsh35-42',
             name: 'Scrafty',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -328,7 +328,7 @@ export const championPath = {
         {
             id: 'swsh35-49',
             name: 'Altaria',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -364,7 +364,7 @@ export const championPath = {
         {
             id: 'swsh35-1',
             name: 'Venusaur V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -376,7 +376,7 @@ export const championPath = {
         {
             id: 'swsh35-5',
             name: 'Eldegoss V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -388,7 +388,7 @@ export const championPath = {
         {
             id: 'swsh35-8',
             name: 'Incineroar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -400,7 +400,7 @@ export const championPath = {
         {
             id: 'swsh35-13',
             name: 'Wailord V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -412,7 +412,7 @@ export const championPath = {
         {
             id: 'swsh35-14',
             name: 'Drednaw V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -424,7 +424,7 @@ export const championPath = {
         {
             id: 'swsh35-16',
             name: 'Gardevoir V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -436,7 +436,7 @@ export const championPath = {
         {
             id: 'swsh35-21',
             name: 'Galarian Cursola V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -448,7 +448,7 @@ export const championPath = {
         {
             id: 'swsh35-22',
             name: 'Alcremie V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -460,7 +460,7 @@ export const championPath = {
         {
             id: 'swsh35-27',
             name: 'Lucario V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -472,7 +472,7 @@ export const championPath = {
         {
             id: 'swsh35-32',
             name: 'Grapploct V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -484,7 +484,7 @@ export const championPath = {
         {
             id: 'swsh35-47',
             name: 'Duraludon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -498,7 +498,7 @@ export const championPath = {
         {
             id: 'swsh35-15',
             name: 'Drednaw VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -510,7 +510,7 @@ export const championPath = {
         {
             id: 'swsh35-17',
             name: 'Gardevoir VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -522,7 +522,7 @@ export const championPath = {
         {
             id: 'swsh35-23',
             name: 'Alcremie VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -536,7 +536,7 @@ export const championPath = {
         {
             id: 'swsh35-74',
             name: 'Charizard VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -548,7 +548,7 @@ export const championPath = {
         {
             id: 'swsh35-75',
             name: 'Drednaw VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -560,7 +560,7 @@ export const championPath = {
         {
             id: 'swsh35-76',
             name: 'Gardevoir VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -596,7 +596,7 @@ export const championPath = {
         {
             id: 'swsh35-79',
             name: 'Charizard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_secret',
@@ -621,7 +621,7 @@ export const championPath = {
         {
             id: 'swsh35-69',
             name: 'Drednaw V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -633,7 +633,7 @@ export const championPath = {
         {
             id: 'swsh35-70',
             name: 'Gardevoir V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -645,7 +645,7 @@ export const championPath = {
         {
             id: 'swsh35-71',
             name: 'Galarian Cursola V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -657,7 +657,7 @@ export const championPath = {
         {
             id: 'swsh35-72',
             name: 'Grapploct V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -682,7 +682,7 @@ export const championPath = {
         {
             id: 'swsh35-4',
             name: 'Beedrill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -694,7 +694,7 @@ export const championPath = {
         {
             id: 'swsh35-7',
             name: 'Victini',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -706,7 +706,7 @@ export const championPath = {
         {
             id: 'swsh35-12',
             name: 'Sharpedo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -718,7 +718,7 @@ export const championPath = {
         {
             id: 'swsh35-19',
             name: 'Hattrem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -730,7 +730,7 @@ export const championPath = {
         {
             id: 'swsh35-25',
             name: 'Machoke',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -742,7 +742,7 @@ export const championPath = {
         {
             id: 'swsh35-34',
             name: 'Arbok',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -754,7 +754,7 @@ export const championPath = {
         {
             id: 'swsh35-38',
             name: 'Absol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -766,7 +766,7 @@ export const championPath = {
         {
             id: 'swsh35-40',
             name: 'Liepard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -778,7 +778,7 @@ export const championPath = {
         {
             id: 'swsh35-45',
             name: 'Malamar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -877,7 +877,7 @@ export const championPath = {
         },
         {
             id: 'swsh35-60',
-            name: 'Pok\u00e9mon Center Lady',
+            name: 'Pokémon Center Lady',
             supertype: 'Trainer',
             subtypes: ['Supporter'],
             rarity: 'uncommon',

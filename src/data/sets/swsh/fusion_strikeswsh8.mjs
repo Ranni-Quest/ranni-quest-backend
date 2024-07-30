@@ -4,7 +4,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-147',
             name: 'Drilbur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-106',
             name: 'Toxel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Lightning'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-105',
             name: 'Toxel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-144',
             name: 'Baltoy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-222',
             name: 'Wooloo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-128',
             name: 'Dreepy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-9',
             name: 'Sewaddle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-221',
             name: 'Wooloo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-90',
             name: 'Minun',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-52',
             name: 'Staryu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-32',
             name: 'Growlithe',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-119',
             name: 'Mawile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-109',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-206',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-202',
             name: 'Chansey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-62',
             name: 'Mudkip',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-214',
             name: 'Bunnelby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-91',
             name: 'Shinx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-172',
             name: 'Vullaby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-47',
             name: 'Sizzlipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-152',
             name: 'Clobbopus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-61',
             name: 'Mantine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-117',
             name: 'Galarian Corsola',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-188',
             name: 'Meltan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Metal'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-13',
             name: 'Shelmet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Grass'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-210',
             name: 'Skitty',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-123',
             name: 'Sigilyph',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-28',
             name: 'Vulpix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-138',
             name: 'Onix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-180',
             name: 'Galarian Meowth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-142',
             name: 'Makuhita',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-70',
             name: 'Basculin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-74',
             name: 'Clauncher',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-125',
             name: 'Sandygast',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-80',
             name: 'Chewtle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-34',
             name: 'Slugma',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-115',
             name: 'Snubbull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-131',
             name: 'Sandshrew',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-37',
             name: 'Pansear',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-155',
             name: 'Falinks',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-112',
             name: 'Jynx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-135',
             name: 'Geodude',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -508,7 +508,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-195',
             name: 'Goomy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'common',
@@ -520,7 +520,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-24',
             name: 'Gossifleur',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -532,7 +532,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-162',
             name: 'Carvanha',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -544,7 +544,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-46',
             name: 'Sizzlipede',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -556,7 +556,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-84',
             name: 'Snom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -568,7 +568,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-19',
             name: 'Dewpider',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -580,7 +580,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-89',
             name: 'Plusle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'common',
@@ -592,7 +592,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-121',
             name: 'Munna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -604,7 +604,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-186',
             name: 'Klefki',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -616,7 +616,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-182',
             name: 'Skarmory',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Metal'],
             rarity: 'common',
@@ -628,7 +628,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-191',
             name: 'Cufant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Metal'],
             rarity: 'common',
@@ -640,7 +640,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-87',
             name: 'Voltorb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Lightning'],
             rarity: 'common',
@@ -652,7 +652,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-60',
             name: 'Qwilfish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -664,7 +664,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-7',
             name: 'Pansage',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -676,7 +676,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-94',
             name: 'Rotom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -688,7 +688,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-29',
             name: 'Vulpix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -700,7 +700,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-179',
             name: 'Morpeko',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'common',
@@ -712,7 +712,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-209',
             name: 'Smeargle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Colorless'],
             rarity: 'common',
@@ -724,7 +724,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-18',
             name: 'Grubbin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -736,7 +736,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-58',
             name: 'Marill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -748,7 +748,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-219',
             name: 'Rookidee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -760,7 +760,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-140',
             name: 'Gligar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -772,7 +772,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-98',
             name: 'Helioptile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -784,7 +784,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-71',
             name: 'Galarian Darumaka',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -796,7 +796,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-159',
             name: 'Galarian Zigzagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -808,7 +808,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-150',
             name: 'Stufful',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -820,7 +820,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-16',
             name: 'Phantump',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -832,7 +832,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-205',
             name: 'Eevee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -844,7 +844,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-212',
             name: 'Buneary',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Colorless'],
             rarity: 'common',
@@ -856,7 +856,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-68',
             name: 'Panpour',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -868,7 +868,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-65',
             name: 'Clamperl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Water'],
             rarity: 'common',
@@ -880,7 +880,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-82',
             name: 'Arrokuda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -892,7 +892,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-149',
             name: 'Pancham',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -904,7 +904,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-133',
             name: 'Mankey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -916,7 +916,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-110',
             name: 'Jigglypuff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -928,7 +928,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-170',
             name: 'Zorua',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -940,7 +940,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-55',
             name: 'Totodile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -952,7 +952,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-165',
             name: 'Croagunk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -964,7 +964,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-50',
             name: 'Shellder',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'common',
@@ -976,7 +976,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-168',
             name: 'Trubbish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -988,7 +988,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-176',
             name: 'Impidimp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'common',
@@ -1000,7 +1000,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-184',
             name: 'Durant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -1012,7 +1012,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-95',
             name: 'Tynamo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -1024,7 +1024,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-1',
             name: 'Caterpie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -1036,7 +1036,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-4',
             name: 'Shroomish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -1048,7 +1048,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-199',
             name: 'Meowth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -1060,7 +1060,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-127',
             name: 'Indeedee',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -1074,7 +1074,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-12',
             name: 'Maractus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare',
@@ -1086,7 +1086,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-66',
             name: 'Huntail',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Fusion Strike'],
             types: ['Water'],
             rarity: 'rare',
@@ -1098,7 +1098,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-14',
             name: 'Accelgor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Fusion Strike'],
             types: ['Grass'],
             rarity: 'rare',
@@ -1110,7 +1110,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-137',
             name: 'Golem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -1122,7 +1122,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-33',
             name: 'Arcanine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -1134,7 +1134,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-15',
             name: 'Virizion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare',
@@ -1146,7 +1146,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-67',
             name: 'Gorebyss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Fusion Strike'],
             types: ['Water'],
             rarity: 'rare',
@@ -1158,7 +1158,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-42',
             name: 'Oricorio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Fire'],
             rarity: 'rare',
@@ -1170,7 +1170,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-145',
             name: 'Claydol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -1182,7 +1182,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-20',
             name: 'Araquanid',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -1194,7 +1194,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-102',
             name: 'Zeraora',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -1206,7 +1206,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-164',
             name: 'Absol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -1218,7 +1218,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-166',
             name: 'Toxicroak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -1230,7 +1230,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-48',
             name: 'Centiskorch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Fire'],
             rarity: 'rare',
@@ -1242,7 +1242,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-88',
             name: 'Electrode',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -1254,7 +1254,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-175',
             name: 'Yveltal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -1266,7 +1266,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-11',
             name: 'Leavanny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -1278,7 +1278,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-93',
             name: 'Luxray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -1290,7 +1290,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-118',
             name: 'Galarian Cursola',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -1302,7 +1302,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-190',
             name: 'Corviknight',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare',
@@ -1314,7 +1314,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-193',
             name: 'Latias',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -1326,7 +1326,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-194',
             name: 'Latios',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -1338,7 +1338,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-197',
             name: 'Goodra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Dragon'],
             rarity: 'rare',
@@ -1350,7 +1350,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-101',
             name: 'Vikavolt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -1362,7 +1362,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-97',
             name: 'Eelektross',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -1374,7 +1374,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-203',
             name: 'Blissey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1386,7 +1386,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-204',
             name: 'Kangaskhan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -1398,7 +1398,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-51',
             name: 'Cloyster',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare',
@@ -1410,7 +1410,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-116',
             name: 'Granbull',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -1422,7 +1422,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-59',
             name: 'Azumarill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -1434,7 +1434,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-124',
             name: 'Meloetta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -1446,7 +1446,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-126',
             name: 'Palossand',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -1460,7 +1460,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-130',
             name: 'Dragapult',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1472,7 +1472,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-64',
             name: 'Swampert',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1484,7 +1484,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-139',
             name: 'Steelix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1496,7 +1496,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-148',
             name: 'Landorus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1508,7 +1508,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-107',
             name: 'Toxtricity',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1520,7 +1520,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-161',
             name: 'Galarian Obstagoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1532,7 +1532,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-57',
             name: 'Feraligatr',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1544,7 +1544,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-178',
             name: 'Grimmsnarl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1556,7 +1556,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-108',
             name: 'Toxtricity',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Fusion Strike'],
             types: ['Lightning'],
             rarity: 'rare_holo',
@@ -1568,7 +1568,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-189',
             name: 'Melmetal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -1580,7 +1580,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-120',
             name: 'Deoxys',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: [
                 'Basic',
                 'Fusion Strike',
@@ -1597,7 +1597,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-53',
             name: 'Starmie',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1609,7 +1609,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-3',
             name: 'Butterfree',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1623,7 +1623,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-73',
             name: 'Greninja V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1635,7 +1635,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-146',
             name: 'Lucario V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1647,7 +1647,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-78',
             name: 'Inteleon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1659,7 +1659,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-217',
             name: 'Greedent V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1671,7 +1671,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-76',
             name: 'Crabominable V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1683,7 +1683,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-113',
             name: 'Mew V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1695,7 +1695,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-156',
             name: 'Gengar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1707,7 +1707,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-39',
             name: 'Chandelure V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1719,7 +1719,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-158',
             name: 'Tyranitar V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1731,7 +1731,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-43',
             name: 'Cinderace V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1743,7 +1743,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-86',
             name: 'Pikachu V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1755,7 +1755,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-22',
             name: 'Rillaboom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1767,7 +1767,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-21',
             name: 'Tsareena V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1779,7 +1779,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-44',
             name: 'Cinderace V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1791,7 +1791,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-6',
             name: 'Breloom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1803,7 +1803,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-185',
             name: 'Genesect V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1815,7 +1815,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-201',
             name: 'Dodrio V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1827,7 +1827,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-103',
             name: 'Boltund V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1839,7 +1839,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-26',
             name: 'Appletun V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1853,7 +1853,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-157',
             name: 'Gengar VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_holo_vmax',
@@ -1865,7 +1865,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-79',
             name: 'Inteleon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1877,7 +1877,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-40',
             name: 'Chandelure VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1889,7 +1889,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-114',
             name: 'Mew VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -1901,7 +1901,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-45',
             name: 'Cinderace VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Fire'],
             rarity: 'rare_holo_vmax',
@@ -1913,7 +1913,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-23',
             name: 'Rillaboom VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Grass'],
             rarity: 'rare_holo_vmax',
@@ -1925,7 +1925,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-104',
             name: 'Boltund VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1937,7 +1937,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-218',
             name: 'Greedent VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_holo_vmax',
@@ -1962,7 +1962,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-265',
             name: 'Chandelure VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Fire'],
             rarity: 'rare_rainbow',
@@ -2018,7 +2018,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-272',
             name: 'Greedent VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Colorless'],
             rarity: 'rare_rainbow',
@@ -2030,7 +2030,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-269',
             name: 'Mew VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -2042,7 +2042,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-268',
             name: 'Mew VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -2054,7 +2054,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-270',
             name: 'Espeon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_rainbow',
@@ -2066,7 +2066,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-266',
             name: 'Inteleon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -2089,7 +2089,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-267',
             name: 'Boltund VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_rainbow',
@@ -2101,7 +2101,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-271',
             name: 'Gengar VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -2137,7 +2137,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-280',
             name: 'Flaaffy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare_secret',
@@ -2195,7 +2195,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-255',
             name: 'Genesect V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -2262,7 +2262,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-256',
             name: 'Greedent V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -2274,7 +2274,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-257',
             name: 'Greedent V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -2286,7 +2286,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-252',
             name: 'Sandaconda V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -2298,7 +2298,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-246',
             name: 'Tsareena V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -2310,7 +2310,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-251',
             name: 'Mew V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -2322,7 +2322,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-245',
             name: 'Celebi V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -2334,7 +2334,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-250',
             name: 'Mew V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -2346,7 +2346,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-247',
             name: 'Chandelure V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -2369,7 +2369,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-254',
             name: 'Genesect V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -2381,7 +2381,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-253',
             name: 'Hoopa V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -2393,7 +2393,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-248',
             name: 'Crabominable V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -2405,7 +2405,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-249',
             name: 'Boltund V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -2419,7 +2419,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-129',
             name: 'Drakloak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2431,7 +2431,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-132',
             name: 'Sandslash',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2443,7 +2443,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-69',
             name: 'Simipour',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2455,7 +2455,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-134',
             name: 'Primeape',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2467,7 +2467,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-136',
             name: 'Graveler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2479,7 +2479,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-8',
             name: 'Simisage',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2491,7 +2491,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-35',
             name: 'Magcargo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2503,7 +2503,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-141',
             name: 'Gliscor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2515,7 +2515,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-143',
             name: 'Hariyama',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2527,7 +2527,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-72',
             name: 'Galarian Darmanitan',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2539,7 +2539,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-75',
             name: 'Clawitzer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2551,7 +2551,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-151',
             name: 'Bewear',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2563,7 +2563,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-38',
             name: 'Simisear',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2575,7 +2575,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-153',
             name: 'Grapploct',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2587,7 +2587,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-154',
             name: 'Falinks',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2599,7 +2599,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-77',
             name: 'Pyukumuku',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2611,7 +2611,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-160',
             name: 'Galarian Linoone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2623,7 +2623,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-163',
             name: 'Sharpedo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2635,7 +2635,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-81',
             name: 'Drednaw',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2647,7 +2647,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-83',
             name: 'Barraskewda',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2659,7 +2659,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-167',
             name: 'Darkrai',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2671,7 +2671,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-169',
             name: 'Garbodor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2683,7 +2683,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-36',
             name: 'Victini',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2695,7 +2695,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-85',
             name: 'Frosmoth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2707,7 +2707,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-171',
             name: 'Zoroark',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2719,7 +2719,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-10',
             name: 'Swadloon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2731,7 +2731,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-173',
             name: 'Mandibuzz',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2743,7 +2743,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-41',
             name: 'Heatmor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2755,7 +2755,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-174',
             name: 'Pangoro',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2767,7 +2767,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-177',
             name: 'Morgrem',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2779,7 +2779,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-181',
             name: 'Galarian Perrserker',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2791,7 +2791,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-2',
             name: 'Metapod',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2803,7 +2803,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-92',
             name: 'Luxio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2815,7 +2815,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-183',
             name: 'Excadrill',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2827,7 +2827,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-49',
             name: 'Centiskorch',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2839,7 +2839,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-187',
             name: 'Togedemaru',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2851,7 +2851,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-96',
             name: 'Eelektrik',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2863,7 +2863,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-192',
             name: 'Copperajah',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2875,7 +2875,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-196',
             name: 'Sliggoo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -2887,7 +2887,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-25',
             name: 'Eldegoss',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2899,7 +2899,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-200',
             name: 'Persian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2911,7 +2911,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-99',
             name: 'Heliolisk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2923,7 +2923,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-198',
             name: 'Turtonator',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -2935,7 +2935,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-100',
             name: 'Charjabug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2947,7 +2947,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-207',
             name: 'Dunsparce',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2959,7 +2959,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-208',
             name: 'Stantler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2971,7 +2971,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-211',
             name: 'Delcatty',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2983,7 +2983,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-213',
             name: 'Lopunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2995,7 +2995,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-215',
             name: 'Diggersby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3007,7 +3007,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-187',
             name: 'Togedemaru',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -3019,7 +3019,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-192',
             name: 'Copperajah',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Single Strike'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -3031,7 +3031,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-196',
             name: 'Sliggoo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -3043,7 +3043,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-200',
             name: 'Persian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3055,7 +3055,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-198',
             name: 'Turtonator',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -3067,7 +3067,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-207',
             name: 'Dunsparce',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3079,7 +3079,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-208',
             name: 'Stantler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3091,7 +3091,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-211',
             name: 'Delcatty',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3103,7 +3103,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-213',
             name: 'Lopunny',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3115,7 +3115,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-215',
             name: 'Diggersby',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3127,7 +3127,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-216',
             name: 'Hawlucha',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3139,7 +3139,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-220',
             name: 'Corvisquire',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3151,7 +3151,7 @@ export const fusionStrike = {
         {
             id: 'swsh8-223',
             name: 'Dubwool',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -3263,7 +3263,7 @@ export const fusionStrike = {
             id: 'swsh8-234',
             name: 'Farewell Bell',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh8/234.png',
@@ -3373,7 +3373,7 @@ export const fusionStrike = {
             id: 'swsh8-243',
             name: 'Spongy Gloves',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh8/243.png',

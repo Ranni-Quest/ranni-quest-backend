@@ -7,6 +7,7 @@ import {
     cardsDrop,
     RarityMovingEffect,
 } from '../data/index.mjs';
+import { UserActionLogger } from '../database/user_action_logger.mjs';
 import { Hash } from '../util/hash.mjs';
 
 export class Pull {
@@ -89,17 +90,17 @@ export class Pull {
             card = await this.getRandomCard(alreadySummoned, dropRate, i);
         }
 
-        card.effect = RarityMovingEffect[rarity];
-        card.rarityEffect = RarityEffect[rarity];
+        card.effect = RarityMovingEffect[card.rarity];
+        card.rarityEffect = RarityEffect[card.rarity];
         card.image = card.images.large;
-        card.set = cardsSet.name.name;
+        card.set = cardsSet.name.id;
         card.series = cardsSet.name.series;
 
         return card;
     }
 
     getRandomRarity(dropRates) {
-        const rate = Math.random();
+        const rate = Math.random() * 0.02;
         for (const dropRate of dropRates) {
             if (!Object.keys(cardsSet).includes(dropRate[0])) {
                 continue;
@@ -116,8 +117,8 @@ export class Pull {
     async saveInPull(discordId, cards) {
         for (let card of cards) {
             dbConnect.queryDB(
-                `INSERT INTO ptcg_cards (cardId, discordId, rarity, image, type, supertype, effect, rarityEffect, series)
-                VALUES (':cardId', ':discordId', ':rarity', ':image', :type, ':supertype', ':effect', ':rarityEffect', ':series')
+                `INSERT INTO ptcg_cards (discordId, cardId, rarity, image, \`type\`, subtype, supertype, effect, rarityEffect, \`set\`, series)
+                VALUES (':discordId', ':cardId', ':rarity', ':image', ':type', ':subtype', ':supertype', ':effect', ':rarityEffect', ':set', ':series')
                 ON DUPLICATE KEY UPDATE
                 image=':image'`,
                 {
@@ -132,6 +133,7 @@ export class Pull {
     }
 
     async savePullDateTime(discordId) {
+        UserActionLogger.info('pull', this.discordId, ``);
         await dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimePull=:lastTimePull WHERE discordId=':discordId'`,
             {

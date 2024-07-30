@@ -4,7 +4,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-1',
             name: 'Oddish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-4',
             name: 'Tangela',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-6',
             name: 'Scyther',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-7',
             name: 'Sunkern',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-8',
             name: 'Yanma',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-10',
             name: 'Kricketot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-11',
             name: 'Cherubi',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-15',
             name: 'Grubbin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-24',
             name: 'Larvesta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-27',
             name: 'Salandit',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-29',
             name: 'Seel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-30',
             name: 'Galarian Mr. Mime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-31',
             name: 'Wailmer',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-33',
             name: 'Corphish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-34',
             name: 'Snorunt',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-35',
             name: 'Luvdisc',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-39',
             name: 'Shinx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-40',
             name: 'Shinx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-47',
             name: 'Emolga',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-49',
             name: 'Helioptile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-57',
             name: 'Exeggcute',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-70',
             name: 'Baltoy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-71',
             name: 'Riolu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-72',
             name: 'Pancham',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-73',
             name: 'Rockruff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-75',
             name: 'Koffing',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-77',
             name: 'Purrloin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-81',
             name: 'Skrelp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-84',
             name: 'Galarian Meowth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-87',
             name: 'Aron',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-91',
             name: 'Pawniard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-92',
             name: 'Pawniard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-110',
             name: 'Starly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-111',
             name: 'Bidoof',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-112',
             name: 'Chatot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-117',
             name: 'Yungoos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-121',
             name: 'Wooloo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -469,7 +469,7 @@ export const crownZenith = {
         },
         {
             id: 'swsh12pt5-137',
-            name: 'Pok\u00e9 Ball',
+            name: 'Poké Ball',
             supertype: 'Trainer',
             subtypes: ['Item'],
             rarity: 'common',
@@ -505,7 +505,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-20',
             name: 'Radiant Charizard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Fire'],
             rarity: 'radiant_rare',
@@ -517,7 +517,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-51',
             name: 'Radiant Charjabug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Lightning'],
             rarity: 'radiant_rare',
@@ -529,7 +529,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-105',
             name: 'Radiant Eternatus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Dragon'],
             rarity: 'radiant_rare',
@@ -543,7 +543,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-3',
             name: 'Bellossom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -555,7 +555,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-5',
             name: 'Tangrowth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -567,7 +567,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-9',
             name: 'Yanmega',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -579,7 +579,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-25',
             name: 'Volcarona',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -591,7 +591,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-32',
             name: 'Wailord',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -603,7 +603,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-43',
             name: 'Luxray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -615,7 +615,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-44',
             name: 'Luxray',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -627,7 +627,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-50',
             name: 'Heliolisk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -639,7 +639,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-52',
             name: 'Zeraora',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -651,7 +651,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-58',
             name: 'Exeggutor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -663,7 +663,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-67',
             name: 'Enamorus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -675,7 +675,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-74',
             name: 'Lycanroc',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -687,7 +687,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-78',
             name: 'Liepard',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -699,7 +699,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-80',
             name: 'Pangoro',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -711,7 +711,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-82',
             name: 'Dragalge',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -723,7 +723,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-85',
             name: 'Galarian Perrserker',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -735,7 +735,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-86',
             name: 'Scizor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'rare',
@@ -747,7 +747,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-106',
             name: 'Tauros',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -759,7 +759,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-109',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -771,7 +771,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-118',
             name: 'Gumshoos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -783,7 +783,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-119',
             name: 'Oranguru',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -795,7 +795,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-122',
             name: 'Dubwool',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -809,7 +809,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-16',
             name: 'Zarude',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -821,7 +821,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-17',
             name: 'Calyrex',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -833,7 +833,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-21',
             name: 'Entei',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -845,7 +845,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-26',
             name: 'Volcanion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -857,7 +857,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-36',
             name: 'Kyogre',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -869,7 +869,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-59',
             name: 'Mewtwo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -881,7 +881,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-64',
             name: 'Tapu Lele',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -893,7 +893,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-76',
             name: 'Absol',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -905,7 +905,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-83',
             name: 'Hoopa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -917,7 +917,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-89',
             name: 'Aggron',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -929,7 +929,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-94',
             name: 'Zacian',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -941,7 +941,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-97',
             name: 'Zamazenta',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare_holo',
@@ -953,7 +953,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-107',
             name: 'Ditto',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1032,7 +1032,7 @@ export const crownZenith = {
             id: 'swsh12pt5-143',
             name: 'Sky Seal Stone',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'rare_holo',
             images: {
                 small: 'https://images.pokemontcg.io/swsh12pt5/143.png',
@@ -1044,7 +1044,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-13',
             name: 'Leafeon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_holo_v',
@@ -1056,7 +1056,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-18',
             name: 'Charizard V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1068,7 +1068,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-22',
             name: 'Simisear V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1080,7 +1080,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-37',
             name: 'Kyogre V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1092,7 +1092,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-38',
             name: 'Glaceon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1104,7 +1104,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-45',
             name: 'Rotom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1116,7 +1116,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-53',
             name: 'Zeraora V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1128,7 +1128,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-60',
             name: 'Mew V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Fusion Strike'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1140,7 +1140,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-65',
             name: 'Hatterene V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1152,7 +1152,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-95',
             name: 'Zacian V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1164,7 +1164,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-98',
             name: 'Zamazenta V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1176,7 +1176,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-100',
             name: 'Rayquaza V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1188,7 +1188,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-103',
             name: 'Duraludon V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1200,7 +1200,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-108',
             name: 'Eevee V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1212,7 +1212,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-113',
             name: 'Regigigas V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1224,7 +1224,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-116',
             name: 'Stoutland V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1236,7 +1236,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-120',
             name: 'Greedent V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1250,7 +1250,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-54',
             name: 'Zeraora VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Lightning'],
             rarity: 'rare_holo_vmax',
@@ -1262,7 +1262,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-66',
             name: 'Hatterene VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Psychic'],
             rarity: 'rare_holo_vmax',
@@ -1274,7 +1274,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-101',
             name: 'Rayquaza VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_vmax',
@@ -1286,7 +1286,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-102',
             name: 'Rayquaza VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Rapid Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_vmax',
@@ -1298,7 +1298,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-104',
             name: 'Duraludon VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX', 'Single Strike'],
             types: ['Dragon'],
             rarity: 'rare_holo_vmax',
@@ -1312,7 +1312,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-14',
             name: 'Leafeon VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Grass'],
             rarity: 'rare_holo_vstar',
@@ -1324,7 +1324,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-19',
             name: 'Charizard VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fire'],
             rarity: 'rare_holo_vstar',
@@ -1336,7 +1336,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-23',
             name: 'Simisear VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fire'],
             rarity: 'rare_holo_vstar',
@@ -1348,7 +1348,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-46',
             name: 'Rotom VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Lightning'],
             rarity: 'rare_holo_vstar',
@@ -1360,7 +1360,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-55',
             name: 'Zeraora VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Lightning'],
             rarity: 'rare_holo_vstar',
@@ -1372,7 +1372,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-96',
             name: 'Zacian VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Metal'],
             rarity: 'rare_holo_vstar',
@@ -1384,7 +1384,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-99',
             name: 'Zamazenta VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Metal'],
             rarity: 'rare_holo_vstar',
@@ -1396,7 +1396,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-114',
             name: 'Regigigas VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_holo_vstar',
@@ -1410,7 +1410,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-160',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'rare_secret',
@@ -1569,7 +1569,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-2',
             name: 'Gloom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1581,7 +1581,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-12',
             name: 'Carnivine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -1593,7 +1593,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-28',
             name: 'Salazzle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -1605,7 +1605,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-41',
             name: 'Luxio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1', 'Rapid Strike'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1617,7 +1617,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-42',
             name: 'Luxio',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1629,7 +1629,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-48',
             name: 'Eelektrik',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1641,7 +1641,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-56',
             name: 'Pincurchin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -1653,7 +1653,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-61',
             name: 'Girafarig',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1665,7 +1665,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-62',
             name: 'Lunatone',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1677,7 +1677,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-63',
             name: 'Dusclops',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -1689,7 +1689,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-68',
             name: 'Graveler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -1701,7 +1701,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-69',
             name: 'Solrock',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -1713,7 +1713,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-79',
             name: 'Krokorok',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -1725,7 +1725,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-88',
             name: 'Lairon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -1737,7 +1737,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-90',
             name: 'Metang',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -1749,7 +1749,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-93',
             name: 'Bisharp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -1761,7 +1761,7 @@ export const crownZenith = {
         {
             id: 'swsh12pt5-115',
             name: 'Shaymin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -1849,7 +1849,7 @@ export const crownZenith = {
         },
         {
             id: 'swsh12pt5-138',
-            name: 'Pok\u00e9mon Catcher',
+            name: 'Pokémon Catcher',
             supertype: 'Trainer',
             subtypes: ['Item'],
             rarity: 'uncommon',

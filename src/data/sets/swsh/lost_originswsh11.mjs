@@ -4,7 +4,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-1',
             name: 'Oddish',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -16,7 +16,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-4',
             name: 'Paras',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -28,7 +28,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-6',
             name: 'Wurmple',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -40,7 +40,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-11',
             name: 'Seedot',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -52,7 +52,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-14',
             name: 'Roselia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -64,7 +64,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-16',
             name: 'Phantump',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -76,7 +76,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-18',
             name: 'Blipbug',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Grass'],
             rarity: 'common',
@@ -88,7 +88,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-21',
             name: 'Slugma',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -100,7 +100,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-24',
             name: 'Litwick',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -112,7 +112,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-28',
             name: 'Litleo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'common',
@@ -124,7 +124,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-30',
             name: 'Poliwag',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -136,7 +136,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-33',
             name: 'Seel',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -148,7 +148,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-35',
             name: 'Horsea',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -160,7 +160,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-38',
             name: 'Luvdisc',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -172,7 +172,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-39',
             name: 'Shellos',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -184,7 +184,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-40',
             name: 'Finneon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -196,7 +196,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-42',
             name: 'Snover',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -208,7 +208,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-44',
             name: 'Hisuian Basculin',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -220,7 +220,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-46',
             name: 'Ducklett',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'common',
@@ -232,7 +232,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-52',
             name: 'Pikachu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -244,7 +244,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-54',
             name: 'Electrike',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -256,7 +256,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-59',
             name: 'Tynamo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Lightning'],
             rarity: 'common',
@@ -268,7 +268,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-62',
             name: 'Clefairy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -280,7 +280,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-64',
             name: 'Gastly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -292,7 +292,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-68',
             name: 'Jynx',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -304,7 +304,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-71',
             name: 'Mawile',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -316,7 +316,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-72',
             name: 'Shuppet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -328,7 +328,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-75',
             name: 'Hisuian Zorua',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -340,7 +340,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-77',
             name: 'Inkay',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'common',
@@ -352,7 +352,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-83',
             name: 'Hisuian Growlithe',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -364,7 +364,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-86',
             name: 'Machop',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -376,7 +376,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-89',
             name: 'Rhyhorn',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -388,7 +388,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-94',
             name: 'Sudowoodo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -400,7 +400,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-95',
             name: 'Gligar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -412,7 +412,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-97',
             name: 'Makuhita',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -424,7 +424,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-99',
             name: 'Meditite',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -436,7 +436,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-103',
             name: 'Mienfoo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -448,7 +448,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-106',
             name: 'Binacle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -460,7 +460,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-109',
             name: 'Rockruff',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -472,7 +472,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-110',
             name: 'Falinks',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'common',
@@ -484,7 +484,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-112',
             name: 'Spinarak',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -496,7 +496,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-114',
             name: 'Murkrow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -508,7 +508,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-121',
             name: 'Inkay',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'common',
@@ -520,7 +520,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-125',
             name: 'Bronzor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'common',
@@ -532,7 +532,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-132',
             name: 'Goomy',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Dragon'],
             rarity: 'common',
@@ -544,7 +544,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-138',
             name: 'Lickitung',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -556,7 +556,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-140',
             name: 'Porygon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -568,7 +568,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-144',
             name: 'Aipom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -580,7 +580,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-150',
             name: 'Skwovet',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'common',
@@ -594,7 +594,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-69',
             name: 'Radiant Gardevoir',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Psychic'],
             rarity: 'radiant_rare',
@@ -606,7 +606,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-123',
             name: 'Radiant Hisuian Sneasler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Darkness'],
             rarity: 'radiant_rare',
@@ -618,7 +618,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-124',
             name: 'Radiant Steelix',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'Radiant'],
             types: ['Metal'],
             rarity: 'radiant_rare',
@@ -632,7 +632,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-5',
             name: 'Parasect',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare',
@@ -644,7 +644,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-10',
             name: 'Dustox',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare',
@@ -656,7 +656,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-22',
             name: 'Magcargo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare',
@@ -668,7 +668,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-32',
             name: 'Politoed',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare',
@@ -680,7 +680,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-34',
             name: 'Dewgong',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare',
@@ -692,7 +692,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-50',
             name: 'Cramorant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare',
@@ -704,7 +704,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-53',
             name: 'Raichu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -716,7 +716,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-55',
             name: 'Manectric',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -728,7 +728,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-61',
             name: 'Eelektross',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Lightning'],
             rarity: 'rare',
@@ -740,7 +740,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-63',
             name: 'Clefable',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -752,7 +752,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-67',
             name: 'Mr. Mime',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -764,7 +764,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-73',
             name: 'Banette',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -776,7 +776,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-78',
             name: 'Malamar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -788,7 +788,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-79',
             name: 'Comfey',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -800,7 +800,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-80',
             name: 'Mimikyu',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare',
@@ -812,7 +812,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-85',
             name: 'Poliwrath',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -824,7 +824,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-91',
             name: 'Rhyperior',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -836,7 +836,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-96',
             name: 'Gliscor',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -848,7 +848,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-105',
             name: 'Landorus',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -860,7 +860,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-111',
             name: 'Stonjourner',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'rare',
@@ -872,7 +872,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-113',
             name: 'Ariados',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -884,7 +884,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-115',
             name: 'Honchkrow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -896,7 +896,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-117',
             name: 'Spiritomb',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -908,7 +908,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-122',
             name: 'Hoopa',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare',
@@ -920,7 +920,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-128',
             name: 'Magearna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'rare',
@@ -932,7 +932,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-142',
             name: 'Porygon-Z',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -944,7 +944,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-148',
             name: 'Bouffalant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -956,7 +956,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-151',
             name: 'Greedent',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'rare',
@@ -970,7 +970,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-3',
             name: 'Vileplume',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -982,7 +982,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-8',
             name: 'Beautifly',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -994,7 +994,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-13',
             name: 'Shiftry',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1006,7 +1006,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-17',
             name: 'Trevenant',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1018,7 +1018,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-20',
             name: 'Orbeetle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Grass'],
             rarity: 'rare_holo',
@@ -1030,7 +1030,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-26',
             name: 'Chandelure',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -1042,7 +1042,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-29',
             name: 'Pyroar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'rare_holo',
@@ -1054,7 +1054,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-37',
             name: 'Kingdra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1066,7 +1066,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-45',
             name: 'Hisuian Basculegion',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1078,7 +1078,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-51',
             name: 'Glastrier',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Water'],
             rarity: 'rare_holo',
@@ -1090,7 +1090,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-66',
             name: 'Gengar',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1102,7 +1102,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-70',
             name: 'Sableye',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1114,7 +1114,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-74',
             name: 'Cresselia',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1126,7 +1126,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-76',
             name: 'Hisuian Zoroark',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1138,7 +1138,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-81',
             name: 'Spectrier',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Psychic'],
             rarity: 'rare_holo',
@@ -1150,7 +1150,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-84',
             name: 'Hisuian Arcanine',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1162,7 +1162,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-88',
             name: 'Machamp',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1174,7 +1174,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-107',
             name: 'Barbaracle',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'rare_holo',
@@ -1186,7 +1186,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-120',
             name: 'Darkrai',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'rare_holo',
@@ -1198,7 +1198,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-134',
             name: 'Hisuian Goodra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 2'],
             types: ['Dragon'],
             rarity: 'rare_holo',
@@ -1210,7 +1210,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-143',
             name: 'Snorlax',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'rare_holo',
@@ -1235,7 +1235,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-27',
             name: 'Delphox V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_holo_v',
@@ -1247,7 +1247,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-48',
             name: 'Kyurem V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_holo_v',
@@ -1259,7 +1259,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-56',
             name: 'Magnezone V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1271,7 +1271,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-58',
             name: 'Rotom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_holo_v',
@@ -1283,7 +1283,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-82',
             name: 'Enamorus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_holo_v',
@@ -1295,7 +1295,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-92',
             name: 'Aerodactyl V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_holo_v',
@@ -1307,7 +1307,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-118',
             name: 'Drapion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_holo_v',
@@ -1319,7 +1319,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-129',
             name: 'Galarian Perrserker V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_holo_v',
@@ -1331,7 +1331,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-130',
             name: 'Giratina V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1343,7 +1343,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-135',
             name: 'Hisuian Goodra V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_holo_v',
@@ -1355,7 +1355,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-137',
             name: 'Pidgeot V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1367,7 +1367,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-146',
             name: 'Hisuian Zoroark V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_holo_v',
@@ -1381,7 +1381,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-49',
             name: 'Kyurem VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_holo_vmax',
@@ -1395,7 +1395,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-57',
             name: 'Magnezone VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Lightning'],
             rarity: 'rare_holo_vstar',
@@ -1407,7 +1407,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-93',
             name: 'Aerodactyl VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fighting'],
             rarity: 'rare_holo_vstar',
@@ -1419,7 +1419,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-119',
             name: 'Drapion VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Darkness'],
             rarity: 'rare_holo_vstar',
@@ -1431,7 +1431,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-131',
             name: 'Giratina VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_holo_vstar',
@@ -1443,7 +1443,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-136',
             name: 'Hisuian Goodra VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_holo_vstar',
@@ -1455,7 +1455,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-147',
             name: 'Hisuian Zoroark VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_holo_vstar',
@@ -1469,7 +1469,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-197',
             name: 'Kyurem VMAX',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VMAX'],
             types: ['Water'],
             rarity: 'rare_rainbow',
@@ -1481,7 +1481,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-198',
             name: 'Magnezone VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Lightning'],
             rarity: 'rare_rainbow',
@@ -1493,7 +1493,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-199',
             name: 'Aerodactyl VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Fighting'],
             rarity: 'rare_rainbow',
@@ -1505,7 +1505,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-200',
             name: 'Drapion VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Darkness'],
             rarity: 'rare_rainbow',
@@ -1517,7 +1517,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-201',
             name: 'Giratina VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_rainbow',
@@ -1529,7 +1529,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-202',
             name: 'Hisuian Goodra VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_rainbow',
@@ -1541,7 +1541,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-203',
             name: 'Hisuian Zoroark VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_rainbow',
@@ -1643,7 +1643,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-212',
             name: 'Giratina VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Dragon'],
             rarity: 'rare_secret',
@@ -1655,7 +1655,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-213',
             name: 'Hisuian Zoroark VSTAR',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['VSTAR'],
             types: ['Colorless'],
             rarity: 'rare_secret',
@@ -1668,7 +1668,7 @@ export const lostOrigin = {
             id: 'swsh11-214',
             name: 'Box of Disaster',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'rare_secret',
             images: {
                 small: 'https://images.pokemontcg.io/swsh11/214.png',
@@ -1713,7 +1713,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-172',
             name: 'Hisuian Electrode V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Grass'],
             rarity: 'rare_ultra',
@@ -1725,7 +1725,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-173',
             name: 'Delphox V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fire'],
             rarity: 'rare_ultra',
@@ -1737,7 +1737,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-174',
             name: 'Kyurem V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Water'],
             rarity: 'rare_ultra',
@@ -1749,7 +1749,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-175',
             name: 'Magnezone V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1761,7 +1761,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-176',
             name: 'Rotom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1773,7 +1773,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-177',
             name: 'Rotom V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Lightning'],
             rarity: 'rare_ultra',
@@ -1785,7 +1785,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-178',
             name: 'Enamorus V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Psychic'],
             rarity: 'rare_ultra',
@@ -1797,7 +1797,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-179',
             name: 'Aerodactyl V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1809,7 +1809,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-180',
             name: 'Aerodactyl V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1821,7 +1821,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-181',
             name: 'Gallade V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Fighting'],
             rarity: 'rare_ultra',
@@ -1833,7 +1833,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-182',
             name: 'Drapion V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Darkness'],
             rarity: 'rare_ultra',
@@ -1845,7 +1845,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-183',
             name: 'Galarian Perrserker V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1857,7 +1857,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-184',
             name: 'Galarian Perrserker V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Metal'],
             rarity: 'rare_ultra',
@@ -1869,7 +1869,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-185',
             name: 'Giratina V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -1881,7 +1881,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-186',
             name: 'Giratina V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -1893,7 +1893,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-187',
             name: 'Hisuian Goodra V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Dragon'],
             rarity: 'rare_ultra',
@@ -1905,7 +1905,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-188',
             name: 'Pidgeot V',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic', 'V'],
             types: ['Colorless'],
             rarity: 'rare_ultra',
@@ -2007,7 +2007,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-2',
             name: 'Gloom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2019,7 +2019,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-7',
             name: 'Silcoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2031,7 +2031,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-9',
             name: 'Cascoon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2043,7 +2043,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-12',
             name: 'Nuzleaf',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2055,7 +2055,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-15',
             name: 'Roserade',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2067,7 +2067,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-19',
             name: 'Dottler',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Grass'],
             rarity: 'uncommon',
@@ -2079,7 +2079,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-23',
             name: 'Torkoal',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2091,7 +2091,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-25',
             name: 'Lampent',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fire'],
             rarity: 'uncommon',
@@ -2103,7 +2103,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-31',
             name: 'Poliwhirl',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2115,7 +2115,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-36',
             name: 'Seadra',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2127,7 +2127,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-41',
             name: 'Lumineon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2139,7 +2139,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-43',
             name: 'Abomasnow',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2151,7 +2151,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-47',
             name: 'Swanna',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Water'],
             rarity: 'uncommon',
@@ -2163,7 +2163,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-60',
             name: 'Eelektrik',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Lightning'],
             rarity: 'uncommon',
@@ -2175,7 +2175,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-65',
             name: 'Haunter',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Psychic'],
             rarity: 'uncommon',
@@ -2187,7 +2187,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-87',
             name: 'Machoke',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2199,7 +2199,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-90',
             name: 'Rhydon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2211,7 +2211,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-98',
             name: 'Hariyama',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2223,7 +2223,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-100',
             name: 'Medicham',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2235,7 +2235,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-101',
             name: 'Relicanth',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2247,7 +2247,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-102',
             name: 'Gastrodon',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2259,7 +2259,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-104',
             name: 'Mienshao',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2271,7 +2271,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-108',
             name: 'Carbink',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Fighting'],
             rarity: 'uncommon',
@@ -2283,7 +2283,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-116',
             name: 'Seviper',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Darkness'],
             rarity: 'uncommon',
@@ -2295,7 +2295,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-126',
             name: 'Bronzong',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2307,7 +2307,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-127',
             name: 'Galarian Stunfisk',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Metal'],
             rarity: 'uncommon',
@@ -2319,7 +2319,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-133',
             name: 'Hisuian Sliggoo',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Dragon'],
             rarity: 'uncommon',
@@ -2331,7 +2331,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-139',
             name: 'Lickilicky',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2343,7 +2343,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-141',
             name: 'Porygon2',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2355,7 +2355,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-145',
             name: 'Ambipom',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Stage 1'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2367,7 +2367,7 @@ export const lostOrigin = {
         {
             id: 'swsh11-149',
             name: 'Komala',
-            supertype: 'Pok\u00e9mon',
+            supertype: 'Pokémon',
             subtypes: ['Basic'],
             types: ['Colorless'],
             rarity: 'uncommon',
@@ -2402,7 +2402,7 @@ export const lostOrigin = {
             id: 'swsh11-154',
             name: 'Box of Disaster',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh11/154.png',
@@ -2523,7 +2523,7 @@ export const lostOrigin = {
             id: 'swsh11-165',
             name: 'Panic Mask',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh11/165.png',
@@ -2567,7 +2567,7 @@ export const lostOrigin = {
             id: 'swsh11-170',
             name: 'Windup Arm',
             supertype: 'Trainer',
-            subtypes: ['Item', 'Pok\u00e9mon Tool'],
+            subtypes: ['Item', 'Pokémon Tool'],
             rarity: 'uncommon',
             images: {
                 small: 'https://images.pokemontcg.io/swsh11/170.png',
