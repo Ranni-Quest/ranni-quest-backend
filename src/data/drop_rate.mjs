@@ -295,34 +295,34 @@ export const scarletPurpleDrop = {
             common: 1, // 40%
             uncommon: 0.6, // 40%
             rare: 0.4, // 16.97%, cumul x 2
-            double_rare: 0.0606, // 0.73%, cumul x 2
-            illustration_rare: 0.046, // 0.56%, cumul x 2
-            illustration_rare_chromatic: 0.0348, // 0.56%, cumul x 2
-            ultra_rare: 0.0236, // 0.53%, cumul x 2
-            hyper_rare: 0.013, // 0.37%, cumul x 2
-            special_illustration_rare: 0.0056, // 0.28%, cumul x 2
+            double_rare: 0.0311, // 0.73%,
+            illustration_rare: 0.0238, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            hyper_rare: 0.0065, // 0.37%
+            special_illustration_rare: 0.0028, // 0.28%
         },
         {
             common: 1, // 40%
             uncommon: 0.6, // 40%
-            rare: 0.4, // 16.97%, cumul x 2
-            double_rare: 0.0606, // 0.73%, cumul x 2
-            illustration_rare: 0.046, // 0.56%, cumul x 2
-            illustration_rare_chromatic: 0.0348, // 0.56%, cumul x 2
-            ultra_rare: 0.0236, // 0.53%, cumul x 2
-            hyper_rare: 0.013, // 0.37%, cumul x 2
-            special_illustration_rare: 0.0056, // 0.28%, cumul x 2
+            rare: 0.4, // 16.97%
+            double_rare: 0.0311, // 0.73%,
+            illustration_rare: 0.0238, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            hyper_rare: 0.0065, // 0.37%
+            special_illustration_rare: 0.0028, // 0.28%
         },
         {
             common: 0,
             uncommon: 0,
             rare: 1, //  96.97%
-            double_rare: 0.0606, // 0.73%, cumul x 2
-            illustration_rare: 0.046, // 0.56%, cumul x 2
-            illustration_rare_chromatic: 0.0348, // 0.56%, cumul x 2
-            ultra_rare: 0.0236, // 0.53%, cumul x 2
-            hyper_rare: 0.013, // 0.37%, cumul x 2
-            special_illustration_rare: 0.0056, // 0.28%, cumul x 2
+            double_rare: 0.0311, // 0.73%,
+            illustration_rare: 0.0238, // 0.56%
+            illustration_rare_chromatic: 0.0174, // 0.56%
+            ultra_rare: 0.0118, // 0.53%
+            hyper_rare: 0.0065, // 0.37%
+            special_illustration_rare: 0.0028, // 0.28%
         },
     ],
 };
@@ -663,36 +663,36 @@ export const swordAndShieldDrop = {
             uncommon: 0.8, // 80%
             rare: 0.6, // 60%,
             rare_holo: 0.4, // 40%
-            amazing_rare: 0.06, // 0.73%, cumul x 2
-            rare_ultra: 0.046, // 0.56%, cumul x 2
-            rare_holo_v: 0.0348, // 0.56%, cumul x 2
-            rare_holo_vmax: 0.0236, // 0.53%, cumul x 2
-            rare_rainbow: 0.013, // 0.37%, cumul x 2
-            rare_secret: 0.0056, // 0.28%, cumul x 2
+            amazing_rare: 0.0311, // 0.73%,
+            rare_ultra: 0.0238, // 0.56%
+            rare_holo_v: 0.0174, // 0.56%
+            rare_holo_vmax: 0.0118, // 0.53%
+            rare_rainbow: 0.0065, // 0.37%
+            rare_secret: 0.0028, // 0.28%
         },
         {
             common: 1,
             uncommon: 0.8, // 80%
             rare: 0.6, // 60%,
             rare_holo: 0.4, // 40%
-            amazing_rare: 0.06, // 0.73%, cumul x 2
-            rare_ultra: 0.046, // 0.56%, cumul x 2
-            rare_holo_v: 0.0348, // 0.56%, cumul x 2
-            rare_holo_vmax: 0.0236, // 0.53%, cumul x 2
-            rare_rainbow: 0.013, // 0.37%, cumul x 2
-            rare_secret: 0.0056, // 0.28%, cumul x 2
+            amazing_rare: 0.0311, // 0.73%,
+            rare_ultra: 0.0238, // 0.56%
+            rare_holo_v: 0.0174, // 0.56%
+            rare_holo_vmax: 0.0118, // 0.53%
+            rare_rainbow: 0.0065, // 0.37%
+            rare_secret: 0.0028, // 0.28%
         },
         {
             common: 0,
             uncommon: 0,
             rare: 1, //  96.97%
             rare_holo: 0.7, // 70%
-            amazing_rare: 0.06, // 0.73%, cumul x 2
-            rare_ultra: 0.046, // 0.56%, cumul x 2
-            rare_holo_v: 0.0348, // 0.56%, cumul x 2
-            rare_holo_vmax: 0.0236, // 0.53%, cumul x 2
-            rare_rainbow: 0.013, // 0.37%, cumul x 2
-            rare_secret: 0.0056, // 0.28%, cumul x 2
+            amazing_rare: 0.0311, // 0.73%,
+            rare_ultra: 0.0238, // 0.56%
+            rare_holo_v: 0.0174, // 0.56%
+            rare_holo_vmax: 0.0118, // 0.53%
+            rare_rainbow: 0.0065, // 0.37%
+            rare_secret: 0.0028, // 0.28%
         },
     ],
 };
