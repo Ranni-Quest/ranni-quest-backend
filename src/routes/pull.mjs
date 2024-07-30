@@ -100,7 +100,7 @@ export class Pull {
     }
 
     getRandomRarity(dropRates) {
-        const rate = Math.random() * 0.02;
+        const rate = Math.random();
         for (const dropRate of dropRates) {
             if (!Object.keys(cardsSet).includes(dropRate[0])) {
                 continue;
