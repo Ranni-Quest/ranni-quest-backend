@@ -134,7 +134,6 @@ export class Summon {
         );
 
         UserActionLogger.info('summon', discordId, ``);
-        return;
 
         dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimeSummon=:lastTimeSummon WHERE discordId=':discordId'`,
