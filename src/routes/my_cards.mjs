@@ -20,27 +20,29 @@ export class MyCards {
     async getMyCards(discordId, offset = 0) {
         return await dbConnect.queryDB(
             `
-            SELECT  cardId, rarity, image, \`type\`, subtype, supertype, effect, rarityEffect, \`set\`, series
-            FROM ptcg_cards
+            SELECT  uc.cardId, c.rarity, largeImage, c.\`type\`, c.subtype, c.supertype, e.effect, e.rarityEffect, c.setId, c.series
+            FROM ptcg_users_cards uc
+            LEFT JOIN ptcg_cards c ON uc.cardId = c.cardId
+            LEFT JOIN ptcg_effect e ON c.rarity = e.rarity
             WHERE discordId = ':discordId'
             ORDER BY CASE 
-                WHEN rarity = 'special_illustration_rare' then 1
-                WHEN rarity = 'rare_secret' then 1
-				WHEN rarity = 'hyper_rare' then 2
-                WHEN rarity = 'rare_rainbow' then 2
-                WHEN rarity = 'ultra_rare' then 3
-                WHEN rarity = 'rare_holo_vmax' then 3
-                WHEN rarity = 'illustration_rare_chromatic' then 4
-                WHEN rarity = 'rare_holo_v' then 4 
-                WHEN rarity = 'illustration_rare' then 5
-                WHEN rarity = 'rare_ultra' then 5 
-                WHEN rarity = 'double_rare' then 6
-                WHEN rarity = 'amazing_rare' then 6
-                WHEN rarity = 'rare' then 7
-                WHEN rarity = 'rare_holo' then 7
-                WHEN rarity = 'uncommon' then 8
-                WHEN rarity = 'common' then 9
-            END, cardId ASC
+                WHEN c.rarity = 'special_illustration_rare' then 1
+                WHEN c.rarity = 'rare_secret' then 1
+				WHEN c.rarity = 'hyper_rare' then 2
+                WHEN c.rarity = 'rare_rainbow' then 2
+                WHEN c.rarity = 'ultra_rare' then 3
+                WHEN c.rarity = 'rare_holo_vmax' then 3
+                WHEN c.rarity = 'illustration_rare_chromatic' then 4
+                WHEN c.rarity = 'rare_holo_v' then 4 
+                WHEN c.rarity = 'illustration_rare' then 5
+                WHEN c.rarity = 'rare_ultra' then 5 
+                WHEN c.rarity = 'double_rare' then 6
+                WHEN c.rarity = 'amazing_rare' then 6
+                WHEN c.rarity = 'rare' then 7
+                WHEN c.rarity = 'rare_holo' then 7
+                WHEN c.rarity = 'uncommon' then 8
+                WHEN c.rarity = 'common' then 9
+            END, uc.cardId ASC
             LIMIT 20
             OFFSET :offset`,
             { discordId, offset }

@@ -15,11 +15,13 @@ export class Ladder {
 
     async getLadder() {
         return await dbConnect.queryDB(`
-            SELECT pseudo, cardId, rarity, image, \`type\`, subtype, supertype, effect, rarityEffect, \`set\`, series
-            FROM ptcg_cards c
-            LEFT JOIN ptcg_users u ON c.discordId = u.discordId
-            WHERE rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ) 
-            ORDER BY id DESC 
+            SELECT pseudo, c.cardId, c.rarity, largeImage, c.\`type\`, c.subtype, c.supertype, e.effect, e.rarityEffect, c.setId, c.series
+            FROM ptcg_users_cards uc
+            LEFT JOIN ptcg_cards c ON uc.cardId = c.cardId
+            LEFT JOIN ptcg_effect e ON c.rarity = e.rarity
+            LEFT JOIN ptcg_users u ON uc.discordId = u.discordId
+            WHERE c.rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ) AND uc.cardId is NOT NULL
+            ORDER BY uc.id DESC 
             LIMIT 6;`);
     }
 }
