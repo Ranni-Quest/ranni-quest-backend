@@ -185,7 +185,6 @@ export class Pull {
     }
 
     async saveInPull(discordId, cards) {
-        return;
         for (let card of cards) {
             dbConnect.queryDB(
                 `INSERT INTO ptcg_users_cards (discordId, cardId)
@@ -201,7 +200,6 @@ export class Pull {
     }
 
     async savePullDateTime(discordId) {
-        return;
         UserActionLogger.info('pull', this.discordId, ``);
 
         await dbConnect.queryDB(
