@@ -13,54 +13,174 @@ import { DatabaseManager } from './database/manager.mjs';
 export const dbConnect = new DatabaseManager(logger);
 await dbConnect.init();
 
-const output = await dbConnect.queryDB(`
-    SELECT distinct(cardId), rarity FROM pokemontcg.ptcg_cards where image = 'https://images.pokemontcg.io/sv1/114_hires.png' ORDER BY cardId;
-    `);
+import { RarityEffect, RarityMovingEffect } from './data/index.mjs';
+
+const addEffect = () => {
+    for (let rarity of Object.keys(RarityMovingEffect)) {
+        dbConnect.queryDB(
+            `
+            INSERT INTO ptcg_effect (type, rarity, effect) VALUES (':type', ':rarity', ':effect')`,
+            {
+                type: 'moving',
+                rarity,
+                effect: RarityMovingEffect[rarity],
+            }
+        );
+    }
+
+    console.log('done effect');
+};
 
 import {
     scarletViolet,
+    scarletVioletBlackStarPromos,
+    paldeaEvolved,
+    scarletVioletEnergies,
+    obsidianFlames,
+    cardsSet as sv151,
     paradoxRift,
-    // temporalForces,
+    paldeanFates,
+    temporalForces,
     twilightMasquerade,
-    RarityMovingEffect,
-    RarityEffect,
+    swshBlackStarPromos,
+    swordShield,
+    rebelClash,
+    darknessAblaze,
+    championSPath,
+    vividVoltage,
+    shiningFates,
+    shiningFatesShinyVault,
+    battleStyles,
+    chillingReign,
+    evolvingSkies,
+    celebrationsClassicCollection,
+    fusionStrike,
+    brilliantStars,
+    brilliantStarsTrainerGallery,
+    astralRadiance,
+    astralRadianceTrainerGallery,
+    pokmonGo,
+    lostOrigin,
+    lostOriginTrainerGallery,
+    silverTempest,
+    silverTempestTrainerGallery,
+    crownZenith,
+    crownZenithGalarianGallery,
 } from './data/index.mjs';
-for (let row of output) {
-    let cardsSet = '';
-    if (row.cardId.includes('sv1')) {
-        cardsSet = scarletViolet;
-    } else if (row.cardId.includes('sv4')) {
-        cardsSet = paradoxRift;
-    } else if (row.cardId.includes('sv5')) {
-        cardsSet = temporalForces;
-    } else if (row.cardId.includes('sv6')) {
-        cardsSet = twilightMasquerade;
-    } else {
-        console.log('continue');
-        continue;
-    }
-    console.log(row);
-    for (let rarity of Object.keys(cardsSet)) {
-        if (rarity === 'name') {
-            continue;
-        }
-        for (let card of cardsSet[rarity]) {
-            if (card.id === row.cardId) {
-                card.effect = RarityMovingEffect[card.rarity];
-                card.rarityEffect = RarityEffect[card.rarity];
-                card.image = card.images.large;
-                card.set = cardsSet.name.id;
-                card.series = cardsSet.name.series;
-                console.log(card.image);
-                await dbConnect.query(
+
+const sets = [
+    scarletViolet,
+    scarletVioletBlackStarPromos,
+    paldeaEvolved,
+    scarletVioletEnergies,
+    obsidianFlames,
+    sv151, // sv151
+    paradoxRift,
+    paldeanFates,
+    temporalForces,
+    twilightMasquerade,
+    swshBlackStarPromos,
+    swordShield,
+    rebelClash,
+    darknessAblaze,
+    championSPath,
+    vividVoltage,
+    shiningFates,
+    shiningFatesShinyVault,
+    battleStyles,
+    chillingReign,
+    evolvingSkies,
+    celebrationsClassicCollection,
+    fusionStrike,
+    brilliantStars,
+    brilliantStarsTrainerGallery,
+    astralRadiance,
+    astralRadianceTrainerGallery,
+    pokmonGo,
+    lostOrigin,
+    lostOriginTrainerGallery,
+    silverTempest,
+    silverTempestTrainerGallery,
+    crownZenith,
+    crownZenithGalarianGallery,
+];
+
+const addCard = () => {
+    for (let set of sets) {
+        for (let rarity of Object.keys(set)) {
+            if (rarity === 'name') {
+                continue;
+            }
+            for (let card of set[rarity]) {
+                dbConnect.queryDB(
                     `
-                UPDATE ptcg_cards set rarity=':rarity', image=':image', \`type\`=':type', subtype=':subtype', supertype=':supertype', effect=':effect', rarityEffect=':rarityEffect', \`set\`=':set', series=':series'
-                WHERE cardId = ':cardId'`,
-                    { ...card, cardId: card.id }
+                    INSERT INTO ptcg_cards (cardId, \`name\`, setId, setName , series, rarity, largeImage, smallImage, \`type\`, subtype, supertype ) 
+                    VALUES (':cardId', ":name", ':setId', ':setName', ':series', ':rarity', ':largeImage', ':smallImage', ':type', ':subtype', ':supertype')
+                    ON DUPLICATE KEY UPDATE cardId=':cardId'`,
+                    {
+                        ...card,
+                        cardId: card.id,
+                        setId: set.name.id,
+                        setName: set.name.name,
+                        series: set.name.series,
+                        largeImage: card.images.large,
+                        smallImage: card.images.small,
+                        type: card.type ? card.type.toLowerCase() : null,
+                        subtype: card.subtype
+                            ? card.subtype.toLowerCase()
+                            : null,
+                        supertype: card.supertype
+                            ? card.supertype.toLowerCase()
+                            : null,
+                    }
                 );
             }
         }
     }
-}
 
-console.log('done 3');
+    console.log('done addCard');
+};
+
+import {
+    cardsDrop as scarletPurpleDrop,
+    swordAndShieldDrop,
+} from './data/index.mjs';
+
+const addDropRates = () => {
+    for (let rarity of Object.keys(swordAndShieldDrop)) {
+        for (let dropRateOrder of swordAndShieldDrop[rarity].keys()) {
+            dbConnect.queryDB(
+                `
+                INSERT INTO ptcg_card_drop_rate (series, rarity, \`values\`, \`order\`) VALUES (':series', ':rarity', ':values', :order)`,
+                {
+                    series: 'swordAndShield',
+                    rarity,
+                    values: JSON.stringify(
+                        swordAndShieldDrop[rarity][dropRateOrder]
+                    ),
+                    order: dropRateOrder + 1,
+                }
+            );
+        }
+    }
+    console.log('done addDropRates');
+};
+
+import { pokemonDropRate } from './data/index.mjs';
+
+const addPokemon = () => {
+    for (let rarity of Object.keys(pokemonDropRate)) {
+        dbConnect.queryDB(
+            `
+            INSERT INTO ptcg_pokemon_drop_rate (rarity, rate, pokemons ) VALUES (':rarity', :rate, ':pokemons')`,
+            {
+                rate: pokemonDropRate[rarity].rate,
+                pokemons: JSON.stringify(pokemonDropRate[rarity].pokemons),
+                rarity,
+            }
+        );
+    }
+    console.log('done addDropRates');
+};
+
+addPokemon();

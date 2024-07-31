@@ -1,12 +1,6 @@
 import { serverConfig } from '../../../config/config.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
 import { dbConnect } from '../app.mjs';
-import {
-    cardsSet,
-    RarityEffect,
-    cardsDrop,
-    RarityMovingEffect,
-} from '../data/index.mjs';
 import { UserActionLogger } from '../database/user_action_logger.mjs';
 import { Hash } from '../util/hash.mjs';
 
@@ -18,68 +12,66 @@ export class Pull {
             res.json({ message: 'Unauthorized' });
             return;
         }
+        const settings = await this.getSettings();
 
-        if (!CheckAccess.checkPull(userInfo.lastTimePull)) {
+        if (!CheckAccess.checkPull(userInfo.lastTimePull, settings.pullTimer)) {
             res.statusCode = 400;
             res.json({ message: 'Too soon' });
             return;
         }
 
         let discordId = Hash.decrypt(req.headers.sessionid, serverConfig.hash);
-
-        let alreadySummoned = await dbConnect.queryDB(
-            `SELECT DISTINCT(cardId)
-            FROM ptcg_cards
-            WHERE rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' )`
+        let alreadySummoned = this.formatAlreadySummoned(
+            await this.getAlreadySummoned()
+        );
+        let packRarity = this.getRandomDrop(await this.getPackRarityRates());
+        let cardsSet = this.formatCardsSet(
+            await this.getCardsSet(),
+            alreadySummoned
+        );
+        const summonedCards = await this.generateCards(
+            alreadySummoned,
+            packRarity,
+            cardsSet
         );
 
-        alreadySummoned = JSON.parse(JSON.stringify(alreadySummoned)).map(
-            (card) => card.cardId
-        );
-
-        let results = [];
-        const pullRarity = this.getRandomDrop();
-
-        for (let dropRate of cardsDrop[pullRarity]) {
-            let items = Object.keys(dropRate).map(function (key) {
-                return [key, dropRate[key]];
-            });
-
-            items = items.sort(function (first, second) {
-                return first[1] - second[1];
-            });
-
-            let card = await this.getRandomCard(alreadySummoned, items);
-            results.push(card);
-        }
-
-        this.saveInPull(discordId, results);
+        this.saveInPull(discordId, summonedCards);
         this.savePullDateTime(discordId);
-        res.json(results);
+
+        res.json(summonedCards);
     }
 
-    getRandomDrop() {
-        const drops = {
-            god: 0.001,
-            hell: 0.002,
-            normal: 99.999,
-        };
-
+    getRandomDrop(packRarityRates) {
         const rate = Math.random();
 
-        if (drops.god > rate) {
-            return 'god';
-        } else if (drops.hell > rate) {
-            return 'hell';
+        for (let rarity of Object.keys(packRarityRates)) {
+            if (packRarityRates[rarity] > rate) {
+                return rarity;
+            }
         }
-
         return 'normal';
     }
 
-    async getRandomCard(alreadySummoned, dropRate, i = 0) {
+    async generateCards(alreadySummoned, packRarity, cardsSet) {
+        let summonedCards = [];
+        const cardsDropRate = await this.getCardsDropRate(packRarity);
+        for (let cardDropRates of cardsDropRate) {
+            let card = await this.getRandomCard(
+                alreadySummoned,
+                cardDropRates,
+                cardsSet
+            );
+            summonedCards.push(card);
+        }
+
+        return summonedCards;
+    }
+
+    async getRandomCard(alreadySummoned, cardDropRates, cardsSet, i = 0) {
         let rarity = 'rare';
+
         if (i !== 2) {
-            rarity = this.getRandomRarity(dropRate);
+            rarity = this.getRandomRarity(cardDropRates, cardsSet);
         }
 
         const cardsRarity = cardsSet[rarity];
@@ -87,45 +79,120 @@ export class Pull {
 
         if (alreadySummoned.includes(card.id)) {
             i++;
-            card = await this.getRandomCard(alreadySummoned, dropRate, i);
+            card = await this.getRandomCard(
+                alreadySummoned,
+                cardDropRates,
+                cardsSet,
+                i
+            );
         }
-
-        card.effect = RarityMovingEffect[card.rarity];
-        card.rarityEffect = RarityEffect[card.rarity];
-        card.image = card.images.large;
-        card.set = cardsSet.name.id;
-        card.series = cardsSet.name.series;
 
         return card;
     }
 
-    getRandomRarity(dropRates) {
+    getRandomRarity(cardDropRates, cardsSet) {
         const rate = Math.random();
-        for (const dropRate of dropRates) {
-            if (!Object.keys(cardsSet).includes(dropRate[0])) {
+        for (const cardRarity of Object.keys(cardDropRates.values)) {
+            if (
+                !Object.keys(cardsSet).includes(cardRarity) ||
+                cardsSet[cardRarity].length == 0
+            ) {
                 continue;
             }
 
-            if (rate < dropRate[1]) {
-                return dropRate[0];
+            if (rate < cardDropRates[cardRarity]) {
+                return cardRarity;
             }
         }
 
         return 'common';
     }
 
+    async getSettings() {
+        return this.parseQuery(
+            await dbConnect.queryDB(`
+                SELECT * 
+                FROM ptcg_settings`)
+        )[0];
+    }
+
+    async getAlreadySummoned() {
+        return this.parseQuery(
+            await dbConnect.queryDB(`
+                SELECT DISTINCT(uc.cardId)
+                FROM ptcg_users_cards uc
+                LEFT JOIN ptcg_cards c ON uc.cardId = c.cardId
+                WHERE rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ) AND uc.cardId IS NOT NULL`)
+        );
+    }
+
+    async getPackRarityRates() {
+        return this.parseQuery(
+            await dbConnect.queryDB(`
+            SELECT *
+            from ptcg_pull_rarity_rate
+            ORDER BY rate ASC`)
+        );
+    }
+
+    async getCardsDropRate(packRarity) {
+        return this.parseQuery(
+            await dbConnect.queryDB(
+                `SELECT s.series, rarity, \`values\`
+                FROM ptcg_card_drop_rate r
+                LEFT JOIN ptcg_settings s ON r.series = s.series
+                WHERE s.series IS NOT NULL AND rarity=':packRarity'
+                ORDER BY RAND()`,
+                { packRarity }
+            )
+        );
+    }
+
+    async getCardsSet() {
+        return this.parseQuery(
+            await dbConnect.queryDB(
+                `SELECT * 
+                FROM ptcg_cards c
+                LEFT JOIN ptcg_settings s ON c.setId = s.setId
+                WHERE s.setId IS NOT NULL`
+            )
+        );
+    }
+
+    parseQuery(output) {
+        return JSON.parse(JSON.stringify(output));
+    }
+
+    formatAlreadySummoned(alreadySummoned) {
+        return alreadySummoned.map((card) => card.cardId);
+    }
+
+    formatCardsSet(outputCardsSet, alreadySummoned) {
+        let cardsSet = {};
+        for (let card of outputCardsSet) {
+            if (!Object.keys(cardsSet).includes(card.rarity)) {
+                cardsSet[card.rarity] = [];
+            }
+
+            if (alreadySummoned.includes(card.id)) {
+                continue;
+            }
+
+            cardsSet[card.rarity].push(card);
+        }
+
+        return cardsSet;
+    }
+
     async saveInPull(discordId, cards) {
         for (let card of cards) {
             dbConnect.queryDB(
-                `INSERT INTO ptcg_cards (discordId, cardId, rarity, image, \`type\`, subtype, supertype, effect, rarityEffect, \`set\`, series)
-                VALUES (':discordId', ':cardId', ':rarity', ':image', ':type', ':subtype', ':supertype', ':effect', ':rarityEffect', ':set', ':series')
+                `INSERT INTO ptcg_users_cards (discordId, cardId)
+                VALUES (':discordId', ':cardId')
                 ON DUPLICATE KEY UPDATE
-                image=':image'`,
+                discordId=':discordId'`,
                 {
-                    discordId: discordId,
-                    cardId: card.id,
-                    image: card.images.large,
-                    type: card.types?.length > 0 ? `'${card.types[0]}'` : null,
+                    discordId,
                     ...card,
                 }
             );

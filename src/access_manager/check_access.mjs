@@ -22,14 +22,11 @@ export class CheckAccess {
         return output[0] ?? false;
     }
 
-    static checkPull(lastTimePull) {
-        return (
-            serverConfig.app.invocation <=
-            Math.floor(Date.now() / 1000) - (lastTimePull ?? 0)
-        );
+    static checkPull(lastTimePull, pullTimer) {
+        return pullTimer <= Math.floor(Date.now() / 1000) - (lastTimePull ?? 0);
     }
 
-    static async checkSummon(discordId) {
+    static async checkSummon(discordId, summonTimer) {
         const output = await dbConnect.queryDB(
             `SELECT *
             FROM ptcg_users
@@ -38,7 +35,7 @@ export class CheckAccess {
         );
 
         return (
-            serverConfig.app.summon <=
+            summonTimer <=
             Math.floor(Date.now() / 1000) - (output[0].lastTimeSummon ?? 0)
         );
     }

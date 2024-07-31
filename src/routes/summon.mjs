@@ -1,7 +1,5 @@
 import { dbConnect } from '../app.mjs';
 import { CheckAccess } from '../access_manager/check_access.mjs';
-import { serverConfig } from '../../../config/config.mjs';
-import { pokemonDropRate } from '../data/drop_rate.mjs';
 import { UserActionLogger } from '../database/user_action_logger.mjs';
 
 export class Summon {
@@ -12,25 +10,35 @@ export class Summon {
             res.json({ message: 'Unauthorized' });
             return;
         }
+        const settings = await this.getSettings();
 
-        if (!(await CheckAccess.checkSummon(userInfo.discordId))) {
+        if (
+            !(await CheckAccess.checkSummon(
+                userInfo.discordId,
+                settings.summonTimer
+            ))
+        ) {
             res.statusCode = 400;
             res.json({ message: 'Too soon' });
             return;
         }
 
-        const pokemonStatus = this.getRandomPokemonStatus();
-        const alreadySummoned = JSON.parse(
-            JSON.stringify(await this.getPokemonAlreadySummon())
-        ).map((pokemon) => pokemon.pokemonId);
+        const summonDropsRate = await this.getSummonDropsRate();
+        const pokemonStatus = this.getRandomPokemonStatus(summonDropsRate);
+        const alreadySummoned = (await this.getPokemonAlreadySummon()).map(
+            (pokemon) => pokemon.pokemonId
+        );
+        const index = summonDropsRate.findIndex(
+            (summonDropRate) => summonDropRate.rarity === pokemonStatus
+        );
 
         const pokemonId = this.getRandomPokemonId(
             alreadySummoned,
-            pokemonDropRate[pokemonStatus].pokemons
+            summonDropsRate[index].pokemons
         );
 
         const name = await this.getFrenchName(pokemonId);
-        const isShiny = this.isShiny();
+        const isShiny = this.isShiny(settings.shinyOod);
 
         this.upsertPokemonPending(userInfo.discordId, {
             pokemonId,
@@ -51,42 +59,50 @@ export class Summon {
         });
     }
 
-    isShiny() {
+    isShiny(shinyOod) {
         const rate = Math.random();
-        return rate < serverConfig.app.shinyOod ? 1 : 0;
+        return rate < shinyOod ? 1 : 0;
     }
 
-    getRandomPokemonStatus() {
+    getRandomPokemonStatus(summonDropsRate) {
         const rate = Math.random();
-        if (pokemonDropRate.fabulous.rate > rate) {
-            return 'fabulous';
-        } else if (pokemonDropRate.legendary.rate > rate) {
-            return 'legendary';
-        } else if (pokemonDropRate.subLegendary.rate > rate) {
-            return 'subLegendary';
+        for (let summonDropRate of summonDropsRate) {
+            if (summonDropRate.rate > rate) {
+                return summonDropRate.rarity;
+            }
         }
 
         return 'commun';
     }
 
-    getRandomPokemonId(alreadySummoned, pokemondIds, i = 0) {
-        if (i === 2) {
-            pokemondIds = pokemonDropRate.commun.pokemons;
-        }
+    getRandomPokemonId(alreadySummoned, pokemondIds) {
+        return pokemondIds[Math.floor(Math.random() * pokemondIds.length)];
+    }
 
-        const pokemonId =
-            pokemondIds[Math.floor(Math.random() * pokemondIds.length)];
-
-        return alreadySummoned.includes(pokemonId)
-            ? this.getRandomPokemonId(alreadySummoned, pokemondIds, i++)
-            : pokemonId;
+    async getSummonDropsRate() {
+        return this.parseQuery(
+            await dbConnect.queryDB(
+                `SELECT *
+                from ptcg_pokemon_drop_rate`
+            )
+        );
     }
 
     async getPokemonAlreadySummon() {
-        return await dbConnect.queryDB(
-            `SELECT pokemonId
-            FROM ptcg_pokemon`
+        return this.parseQuery(
+            await dbConnect.queryDB(
+                `SELECT pokemonId
+                FROM ptcg_pokemon`
+            )
         );
+    }
+
+    async getSettings() {
+        return this.parseQuery(
+            await dbConnect.queryDB(`
+                SELECT * 
+                FROM ptcg_settings`)
+        )[0];
     }
 
     async getFrenchName(pokemonId) {
@@ -103,6 +119,10 @@ export class Summon {
         return await speciesResponse.json().name;
     }
 
+    parseQuery(output) {
+        return JSON.parse(JSON.stringify(output));
+    }
+
     async upsertPokemonPending(discordId, pokemon) {
         await dbConnect.queryDB(
             `INSERT INTO ptcg_pending_pokemon
@@ -113,7 +133,8 @@ export class Summon {
             { discordId, ...pokemon }
         );
 
-        UserActionLogger.info('summon', this.discordId, ``);
+        UserActionLogger.info('summon', discordId, ``);
+        return;
 
         dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimeSummon=:lastTimeSummon WHERE discordId=':discordId'`,
