@@ -21,19 +21,9 @@ export class Pull {
         }
 
         let discordId = Hash.decrypt(req.headers.sessionid, serverConfig.hash);
-        let alreadySummoned = this.formatAlreadySummoned(
-            await this.getAlreadySummoned()
-        );
         let packRarity = this.getRandomDrop(await this.getPackRarityRates());
-        let cardsSet = this.formatCardsSet(
-            await this.getCardsSet(),
-            alreadySummoned
-        );
-        const summonedCards = await this.generateCards(
-            alreadySummoned,
-            packRarity,
-            cardsSet
-        );
+        let cardsSet = this.formatCardsSet(await this.getCardsSet());
+        const summonedCards = await this.generateCards(packRarity, cardsSet);
 
         this.saveInPull(discordId, summonedCards);
         this.savePullDateTime(discordId);
@@ -52,41 +42,23 @@ export class Pull {
         return 'normal';
     }
 
-    async generateCards(alreadySummoned, packRarity, cardsSet) {
+    async generateCards(packRarity, cardsSet) {
         let summonedCards = [];
         const cardsDropRate = await this.getCardsDropRate(packRarity);
         for (let cardDropRates of cardsDropRate) {
-            let card = await this.getRandomCard(
-                alreadySummoned,
-                cardDropRates,
-                cardsSet
-            );
+            let card = await this.getRandomCard(cardDropRates, cardsSet);
             summonedCards.push(card);
         }
 
         return summonedCards;
     }
 
-    async getRandomCard(alreadySummoned, cardDropRates, cardsSet, i = 0) {
-        let rarity = 'rare';
-
-        if (i !== 2) {
-            rarity = this.getRandomRarity(cardDropRates.values, cardsSet);
-        }
+    async getRandomCard(cardDropRates, cardsSet) {
+        const rarity = this.getRandomRarity(cardDropRates.values, cardsSet);
 
         const cardsRarity = cardsSet[rarity];
 
         let card = cardsRarity[Math.floor(Math.random() * cardsRarity.length)];
-
-        if (alreadySummoned.includes(card.id)) {
-            i++;
-            card = await this.getRandomCard(
-                alreadySummoned,
-                cardDropRates,
-                cardsSet,
-                i
-            );
-        }
 
         return card;
     }
@@ -118,16 +90,6 @@ export class Pull {
         )[0];
     }
 
-    async getAlreadySummoned() {
-        return this.parseQuery(
-            await dbConnect.queryDB(`
-                SELECT DISTINCT(uc.cardId)
-                FROM ptcg_users_cards uc
-                LEFT JOIN ptcg_cards c ON uc.cardId = c.cardId
-                WHERE rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ) AND uc.cardId IS NOT NULL`)
-        );
-    }
-
     async getPackRarityRates() {
         return this.parseQuery(
             await dbConnect.queryDB(`
@@ -157,8 +119,12 @@ export class Pull {
                 FROM ptcg_cards c
                 LEFT JOIN ptcg_effect e ON c.rarity = e.rarity
                 LEFT JOIN ptcg_settings s ON c.setId = s.setId
-                FROM ptcg_users_cards uc ON c.cardId = uc.cardId
-                WHERE s.setId IS NOT NULL IF(rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ), uc.discordId) IS NOT NULL`
+                WHERE s.setId IS NOT NULL AND c.cardId NOT IN (
+                    SELECT uc.cardId
+                                FROM ptcg_users_cards uc
+                                LEFT JOIN ptcg_cards c ON uc.cardId = c.cardId
+                                WHERE rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ) AND uc.cardId IS NOT NULL
+                ) ORDER BY c.rarity`
             )
         );
     }
@@ -167,19 +133,11 @@ export class Pull {
         return JSON.parse(JSON.stringify(output));
     }
 
-    formatAlreadySummoned(alreadySummoned) {
-        return alreadySummoned.map((card) => card.cardId);
-    }
-
-    formatCardsSet(outputCardsSet, alreadySummoned) {
+    formatCardsSet(outputCardsSet) {
         let cardsSet = {};
         for (let card of outputCardsSet) {
             if (!Object.keys(cardsSet).includes(card.rarity)) {
                 cardsSet[card.rarity] = [];
-            }
-
-            if (alreadySummoned.includes(card.id)) {
-                continue;
             }
 
             cardsSet[card.rarity].push(card);
