@@ -26,22 +26,10 @@ export class MyCards {
             LEFT JOIN ptcg_effect e ON c.rarity = e.rarity
             WHERE discordId = ':discordId'
             ORDER BY CASE 
-                WHEN c.rarity = 'special_illustration_rare' then 1
-                WHEN c.rarity = 'rare_secret' then 1
-				WHEN c.rarity = 'hyper_rare' then 2
-                WHEN c.rarity = 'rare_rainbow' then 2
-                WHEN c.rarity = 'ultra_rare' then 3
-                WHEN c.rarity = 'rare_holo_vmax' then 3
-                WHEN c.rarity = 'illustration_rare_chromatic' then 4
-                WHEN c.rarity = 'rare_holo_v' then 4 
-                WHEN c.rarity = 'illustration_rare' then 5
-                WHEN c.rarity = 'rare_ultra' then 5 
-                WHEN c.rarity = 'double_rare' then 6
-                WHEN c.rarity = 'amazing_rare' then 6
-                WHEN c.rarity = 'rare' then 7
-                WHEN c.rarity = 'rare_holo' then 7
-                WHEN c.rarity = 'uncommon' then 8
-                WHEN c.rarity = 'common' then 9
+                WHEN e.rarityEffect = 'rainbow' then 1
+                WHEN e.rarityEffect = 'gold' then 2
+                WHEN e.rarityEffect = 'silver' then 3
+                WHEN e.rarityEffect = 'none' then 4
             END, uc.cardId ASC
             LIMIT 20
             OFFSET :offset`,

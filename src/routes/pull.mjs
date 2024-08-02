@@ -44,9 +44,9 @@ export class Pull {
     getRandomDrop(packRarityRates) {
         const rate = Math.random();
 
-        for (let rarity of Object.keys(packRarityRates)) {
-            if (packRarityRates[rarity] < rate) {
-                return rarity;
+        for (let rarity of packRarityRates) {
+            if (rarity.rate > rate) {
+                return rarity.name;
             }
         }
         return 'normal';
@@ -71,10 +71,11 @@ export class Pull {
         let rarity = 'rare';
 
         if (i !== 2) {
-            rarity = this.getRandomRarity(cardDropRates, cardsSet);
+            rarity = this.getRandomRarity(cardDropRates.values, cardsSet);
         }
 
         const cardsRarity = cardsSet[rarity];
+
         let card = cardsRarity[Math.floor(Math.random() * cardsRarity.length)];
 
         if (alreadySummoned.includes(card.id)) {
@@ -92,10 +93,11 @@ export class Pull {
 
     getRandomRarity(cardDropRates, cardsSet) {
         const rate = Math.random();
-        for (const cardRarity of Object.keys(cardDropRates.values)) {
+
+        for (const cardRarity of Object.keys(cardDropRates)) {
             if (
                 !Object.keys(cardsSet).includes(cardRarity) ||
-                cardsSet[cardRarity].length == 0
+                cardsSet[cardRarity]?.length === 0
             ) {
                 continue;
             }
@@ -153,8 +155,10 @@ export class Pull {
             await dbConnect.queryDB(
                 `SELECT * 
                 FROM ptcg_cards c
+                LEFT JOIN ptcg_effect e ON c.rarity = e.rarity
                 LEFT JOIN ptcg_settings s ON c.setId = s.setId
-                WHERE s.setId IS NOT NULL`
+                FROM ptcg_users_cards uc ON c.cardId = uc.cardId
+                WHERE s.setId IS NOT NULL IF(rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ), uc.discordId) IS NOT NULL`
             )
         );
     }
