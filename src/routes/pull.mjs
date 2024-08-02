@@ -45,7 +45,7 @@ export class Pull {
         const rate = Math.random();
 
         for (let rarity of Object.keys(packRarityRates)) {
-            if (packRarityRates[rarity] > rate) {
+            if (packRarityRates[rarity] < rate) {
                 return rarity;
             }
         }
