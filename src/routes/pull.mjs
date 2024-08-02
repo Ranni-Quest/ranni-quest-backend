@@ -162,7 +162,7 @@ export class Pull {
     }
 
     async savePullDateTime(discordId) {
-        UserActionLogger.info('pull', this.discordId, ``);
+        UserActionLogger.info('pull', discordId, ``);
 
         await dbConnect.queryDB(
             `UPDATE ptcg_users SET lastTimePull=:lastTimePull WHERE discordId=':discordId'`,
