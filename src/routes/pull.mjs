@@ -46,7 +46,7 @@ export class Pull {
         let summonedCards = [];
         const cardsDropRate = await this.getCardsDropRate(packRarity);
         for (let cardDropRates of cardsDropRate) {
-            let card = await this.getRandomCard(cardDropRates, cardsSet);
+            let card = await this.getRandomCard(cardDropRates.values, cardsSet);
             summonedCards.push(card);
         }
 
@@ -54,7 +54,11 @@ export class Pull {
     }
 
     async getRandomCard(cardDropRates, cardsSet) {
-        const rarity = this.getRandomRarity(cardDropRates.values, cardsSet);
+        let sortedArray = Object.entries(cardDropRates).sort(
+            (a, b) => a[1] - b[1]
+        );
+
+        const rarity = this.getRandomRarity(sortedArray, cardsSet);
 
         const cardsRarity = cardsSet[rarity];
 
@@ -63,19 +67,19 @@ export class Pull {
         return card;
     }
 
-    getRandomRarity(cardDropRates, cardsSet) {
+    getRandomRarity(sortedArray, cardsSet) {
         const rate = Math.random();
 
-        for (const cardRarity of Object.keys(cardDropRates)) {
+        for (const cardRarity of sortedArray) {
             if (
-                !Object.keys(cardsSet).includes(cardRarity) ||
-                cardsSet[cardRarity]?.length === 0
+                !Object.keys(cardsSet).includes(cardRarity[0]) ||
+                cardsSet[cardRarity[0]]?.length === 0
             ) {
                 continue;
             }
 
-            if (rate < cardDropRates[cardRarity]) {
-                return cardRarity;
+            if (rate < cardRarity[1]) {
+                return cardRarity[0];
             }
         }
 
