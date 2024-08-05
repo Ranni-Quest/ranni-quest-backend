@@ -17,8 +17,10 @@ export class LogIn {
                     res.json({ message: 'Unauthorize' });
                     return;
                 }
+                const settings = await this._getSettings();
+                console.log(settings);
                 res.setHeader('Content-Type', 'application/json');
-                res.json(this.userInfo);
+                res.json({ ...this.userInfo, ...settings[0] });
             } catch (error) {
                 console.log(error);
                 res.statusCode = 401;
@@ -76,5 +78,18 @@ export class LogIn {
         return {};
     }
 
-    async _getSettings() {}
+    async _getSettings() {
+        return this.parseQuery(
+            await dbConnect.queryDB(
+                `SELECT setUrl, pullTimer, summonTimer
+                FROM ptcg_settings
+                LIMIT 1`,
+                null
+            )
+        );
+    }
+
+    parseQuery(output) {
+        return JSON.parse(JSON.stringify(output));
+    }
 }
