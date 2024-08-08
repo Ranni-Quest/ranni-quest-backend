@@ -1,4 +1,3 @@
-console.log('in');
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { serverConfig } from '../../config/config.mjs';

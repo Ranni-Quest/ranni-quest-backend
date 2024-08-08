@@ -68,7 +68,7 @@ export class Pull {
     }
 
     getRandomRarity(sortedArray, cardsSet) {
-        const rate = Math.random() * 0.8;
+        const rate = Math.random();
 
         for (const cardRarity of sortedArray) {
             if (
