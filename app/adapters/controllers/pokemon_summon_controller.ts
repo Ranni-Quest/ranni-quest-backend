@@ -21,6 +21,6 @@ export default class SummonPokemonController {
       return Response.json({ message: 'Too soon' }, { status: 425 })
     }
 
-    return await this.summonPokemon.execute(settings)
+    return await this.summonPokemon.execute(settings, auth.user?.discordId!)
   }
 }

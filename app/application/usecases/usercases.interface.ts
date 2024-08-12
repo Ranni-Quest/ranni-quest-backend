@@ -30,7 +30,11 @@ export interface GetUserPokemonsInterface {
 }
 
 export interface KeepUserPokemonInterface {
-  execute(discordId: string, keep: number): Promise<PokemonPendingEntity | null>
+  execute(
+    discordId: string,
+    pendingPokemon: PokemonPendingEntity,
+    pokemonIdToReplace: number
+  ): Promise<PokemonPendingEntity | null>
 }
 
 export interface PullCardsInterface {
@@ -38,5 +42,5 @@ export interface PullCardsInterface {
 }
 
 export interface SummonPokemonInterface {
-  execute(setting: SettingEntity): Promise<PokemonInterface>
+  execute(setting: SettingEntity, discordId: string): Promise<PokemonInterface>
 }

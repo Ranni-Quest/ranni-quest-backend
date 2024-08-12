@@ -15,15 +15,18 @@ export default class UserPokemonKeepController {
       return response.status(401).json({ authenticated: false })
     }
 
-    const { pokemonId } = request.body as unknown as { pokemonId: number }
+    const { pokemonIdToKeep, pokemonIdToReplace } = request.body as unknown as {
+      pokemonIdToKeep: number
+      pokemonIdToReplace: number
+    }
     const discordId = auth.user?.discordId
-    const output = await this.getUserPokemonPending.execute(discordId!, pokemonId)
+    const pokemonPending = await this.getUserPokemonPending.execute(discordId!, pokemonIdToKeep)
 
-    if (!output) {
+    if (!pokemonPending) {
       response.status(400).json({ message: 'Bad request' })
       return response
     }
 
-    return this.keepUserPokemon.execute(discordId!, pokemonId)
+    return this.keepUserPokemon.execute(discordId!, pokemonPending, pokemonIdToReplace)
   }
 }

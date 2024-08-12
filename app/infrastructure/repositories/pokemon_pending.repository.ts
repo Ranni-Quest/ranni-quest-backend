@@ -1,8 +1,17 @@
 import PokemonPendingEntity from '#entities/pokemon_pending.entity'
 import PokemonPending from '#models/pokemon_pending.model'
-import { PokemonPendingRepositoryInterface } from '#repositories/repositories.interface'
+import {
+  PokemonPendingRepositoryInterface,
+  RepositoryInterface,
+} from '#repositories/repositories.interface'
 
-export default class PokemonPendingRepository implements PokemonPendingRepositoryInterface {
+export default class PokemonPendingRepository
+  implements PokemonPendingRepositoryInterface, RepositoryInterface
+{
+  query(): typeof PokemonPending {
+    return PokemonPending
+  }
+
   async findByDiscordIdAndPokemonId(
     discordId: string,
     pokemonId: number
@@ -23,7 +32,7 @@ export default class PokemonPendingRepository implements PokemonPendingRepositor
     )
   }
 
-  async upsertPokemon(discordId: string, pokemonInfo: any): Promise<void> {
-    await PokemonPending.updateOrCreate({ discordId }, { discordId, ...pokemonInfo })
+  async createUserPokemon(discordId: string, pokemonInfo: any): Promise<void> {
+    await PokemonPending.create({ discordId, ...pokemonInfo })
   }
 }
