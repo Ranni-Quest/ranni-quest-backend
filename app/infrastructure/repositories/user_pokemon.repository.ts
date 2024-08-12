@@ -1,6 +1,6 @@
 import PokemonPendingEntity from '#entities/pokemon_pending.entity'
 import UserPokemonEntity from '#entities/user_pokemon.entity'
-import UserPokemon from '#models/user_pokemon.model'
+import UserPokemon from '../models/user_pokemon.model.js'
 import { UserPokemonRepositoryInterface } from '#repositories/repositories.interface'
 
 export default class UserPokemonRepository implements UserPokemonRepositoryInterface {

@@ -1,10 +1,8 @@
 import CardEntity from '#entities/card.entity'
-import BoosterRarityRate from '#models/booster_rarity_rate.model'
-import User from '#models/user.model'
-import UserCard from '#models/user_card.model'
+import CardDropRate from '#models/card_drop_rate.model'
 import { CardsSetType } from '#types/cards_set.type'
 import { BoosterRarityType, CardRarityType } from '#types/rarities.type'
-import CardService from './card.service.js'
+import BoosterRarityRate from '../infrastructure/models/booster_rarity_rate.model.js'
 
 interface CardDropRatesValueInterface {
   rare: number
@@ -33,9 +31,8 @@ export class PullService {
     return 'normal' as BoosterRarityType
   }
 
-  static async pullCards(boosterRarity: BoosterRarityType, cardsSet: CardsSetType) {
+  static async pullCards(cardsSet: CardsSetType, cardsDropRate: CardDropRate[]) {
     let summonedCards: Array<CardEntity> = []
-    const cardsDropRate = await CardService.getCardsDropRate(boosterRarity)
 
     for (let rarityRate of cardsDropRate) {
       let card = await this.getRandomCard(
@@ -85,28 +82,6 @@ export class PullService {
     }
 
     return 'common'
-  }
-
-  static async savePulledCards(discordId: string, pulledCards: Array<CardEntity>) {
-    for (const card of pulledCards) {
-      await UserCard.create({
-        discordId,
-        cardId: card.cardId,
-        isReverse: false,
-      })
-    }
-  }
-
-  static async savePullTimestamp(discordId: string) {
-    // log
-    await User.updateOrCreate(
-      {
-        discordId,
-      },
-      {
-        lastTimePull: Math.floor(Date.now() / 1000),
-      }
-    )
   }
 
   static formatCardsSet(outputCardsSet: CardEntity[]): CardsSetType {

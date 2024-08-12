@@ -1,6 +1,6 @@
 import CardEntity from '#entities/card.entity'
-import Card from '#models/card.model'
-import UserCard from '#models/user_card.model'
+import Card from '../models/card.model.js'
+import UserCard from '../models/user_card.model.js'
 import { CardRepositoryInterface } from '#repositories/repositories.interface'
 
 export default class CardRepository implements CardRepositoryInterface {

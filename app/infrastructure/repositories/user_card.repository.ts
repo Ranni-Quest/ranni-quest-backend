@@ -1,7 +1,7 @@
 import UserCardEntity from '#entities/user_card.entity'
-import UserCard from '#models/user_card.model'
 import { UserCardRepositoryInterface } from '#repositories/repositories.interface'
 import CardInterface from '../../application/usecases/interfaces/card.interface.js'
+import UserCard from '../models/user_card.model.js'
 
 export default class UserCardRepository implements UserCardRepositoryInterface {
   async findByDiscordId(
@@ -39,5 +39,13 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
       .andWhereNotNull('user_cards.card_id')
       .orderBy('user_cards.id', 'desc')
       .limit(10)) as unknown as CardInterface[]
+  }
+
+  async savePulledCard(discordId: string, cardId: string): Promise<void> {
+    await UserCard.create({
+      discordId,
+      cardId: cardId,
+      isReverse: false,
+    })
   }
 }

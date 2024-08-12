@@ -1,5 +1,5 @@
 import SettingEntity from '#entities/setting.entity'
-import PokemonDropRate from '#models/pokemon_drop_rate.model'
+import PokemonDropRate from '../../infrastructure/models/pokemon_drop_rate.model.js'
 import PokemonDropRateRepository from '#repositories/pokemon_drop_rate.repository'
 import PokemonPendingRepository from '#repositories/pokemon_pending.repository'
 import SummonService from '#services/summon.service'

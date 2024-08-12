@@ -1,5 +1,5 @@
 import PokemonPendingEntity from '#entities/pokemon_pending.entity'
-import PokemonPending from '#models/pokemon_pending.model'
+import PokemonPending from '../models/pokemon_pending.model.js'
 import {
   PokemonPendingRepositoryInterface,
   RepositoryInterface,

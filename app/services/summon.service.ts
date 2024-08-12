@@ -1,4 +1,4 @@
-import PokemonDropRate from '#models/pokemon_drop_rate.model'
+import PokemonDropRate from '../infrastructure/models/pokemon_drop_rate.model.js'
 import { PokemonRarityType } from '../types/rarities.type.js'
 
 interface PokemonSpeciesResponse {

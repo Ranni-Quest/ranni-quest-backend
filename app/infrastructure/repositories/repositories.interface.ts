@@ -4,6 +4,8 @@ import PokemonPendingEntity from '#entities/pokemon_pending.entity'
 import SettingEntity from '#entities/setting.entity'
 import UserCardEntity from '#entities/user_card.entity'
 import UserPokemonEntity from '#entities/user_pokemon.entity'
+import CardDropRate from '#models/card_drop_rate.model'
+import { BoosterRarityType } from '#types/rarities.type'
 import { BaseModel } from '@adonisjs/lucid/orm'
 import CardInterface from '../../application/usecases/interfaces/card.interface.js'
 
@@ -12,8 +14,9 @@ export interface RepositoryInterface {
 }
 
 export interface BoosterRarityRateRepositoryInterface {}
-export interface CardDropRateRepositoryInterface {}
-export interface CardDropRateRepositoryInterface {}
+export interface CardDropRateRepositoryInterface {
+  findCardsDropRate(boosterRarity: BoosterRarityType): Promise<CardDropRate[]>
+}
 
 export interface CardRepositoryInterface {
   findCardsSet(): Promise<CardEntity[]>
@@ -49,4 +52,6 @@ export interface UserPokemonRepositoryInterface {
   upsertPokemon(discordId: string, pokemonId: number): Promise<void>
 }
 
-export interface UserRepositoryInterface {}
+export interface UserRepositoryInterface {
+  savePullTimestamp(discordId: string): Promise<void>
+}

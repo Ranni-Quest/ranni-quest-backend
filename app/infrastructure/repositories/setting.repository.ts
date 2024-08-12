@@ -1,5 +1,5 @@
 import SettingEntity from '#entities/setting.entity'
-import Setting from '#models/setting.model'
+import Setting from '../models/setting.model.js'
 import { SettingRepositoryInterface } from '#repositories/repositories.interface'
 
 export default class SettingRepository implements SettingRepositoryInterface {
