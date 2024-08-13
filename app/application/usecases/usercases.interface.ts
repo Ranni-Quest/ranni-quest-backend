@@ -3,15 +3,15 @@ import PokemonPendingEntity from '#entities/pokemon_pending.entity'
 import SettingEntity from '#entities/setting.entity'
 import UserCardEntity from '#entities/user_card.entity'
 import UserPokemonEntity from '#entities/user_pokemon.entity'
-import CardInterface from './interfaces/card.interface.js'
 import PokemonInterface from './interfaces/pokemon.interface.js'
+import UserCardInterface from './interfaces/user_cards.interface.js'
 
 export interface GetCardsSetInterface {
   execute(): Promise<CardEntity[]>
 }
 
 export interface GetLatestCardsPulledInterface {
-  execute(): Promise<CardInterface[]>
+  execute(): Promise<UserCardInterface[]>
 }
 
 export interface GetSettingInterface {

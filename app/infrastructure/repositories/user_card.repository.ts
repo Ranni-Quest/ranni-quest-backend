@@ -1,6 +1,7 @@
 import UserCardEntity from '#entities/user_card.entity'
 import { UserCardRepositoryInterface } from '#repositories/repositories.interface'
-import CardInterface from '../../application/usecases/interfaces/card.interface.js'
+import UserCardInterface from '#usecases/interfaces/user_cards.interface'
+import db from '@adonisjs/lucid/services/db'
 import UserCard from '../models/user_card.model.js'
 
 export default class UserCardRepository implements UserCardRepositoryInterface {
@@ -17,8 +18,9 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
     )
   }
 
-  async findLatestCardsPulled(): Promise<CardInterface[]> {
-    return (await UserCard.query()
+  async findLatestCardsPulled(): Promise<UserCardInterface[]> {
+    return (await db
+      .query()
       .select(
         'users.pseudo',
         'cards.card_id',
@@ -32,13 +34,14 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
         'cards.set_id',
         'cards.series'
       )
+      .from('user_cards')
       .join('cards', 'user_cards.card_id', '=', 'cards.card_id')
       .join('effects', 'cards.rarity', '=', 'effects.rarity')
       .join('users', 'user_cards.discord_id', '=', 'users.discord_id')
       .whereNotIn('cards.rarity', ['common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare'])
       .andWhereNotNull('user_cards.card_id')
       .orderBy('user_cards.id', 'desc')
-      .limit(10)) as unknown as CardInterface[]
+      .limit(10)) as unknown as UserCardInterface[]
   }
 
   async savePulledCard(discordId: string, cardId: string): Promise<void> {

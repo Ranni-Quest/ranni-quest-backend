@@ -6,8 +6,8 @@ import UserCardEntity from '#entities/user_card.entity'
 import UserPokemonEntity from '#entities/user_pokemon.entity'
 import CardDropRate from '#models/card_drop_rate.model'
 import { BoosterRarityType } from '#types/rarities.type'
+import UserCardInterface from '#usecases/interfaces/user_cards.interface'
 import { BaseModel } from '@adonisjs/lucid/orm'
-import CardInterface from '../../application/usecases/interfaces/card.interface.js'
 
 export interface RepositoryInterface {
   query(): typeof BaseModel
@@ -44,7 +44,7 @@ export interface SettingRepositoryInterface {
 
 export interface UserCardRepositoryInterface {
   findByDiscordId(discordId: string, offset: number, limit: number): Promise<UserCardEntity[]>
-  findLatestCardsPulled(): Promise<CardInterface[]>
+  findLatestCardsPulled(): Promise<UserCardInterface[]>
 }
 
 export interface UserPokemonRepositoryInterface {
