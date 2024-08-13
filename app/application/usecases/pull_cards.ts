@@ -33,8 +33,6 @@ export default class PullCards implements PullCardsInterface {
       await this.userCardRepository.savePulledCard(discordId, card.cardId)
     }
 
-    this.userRepository.savePullTimestamp(discordId)
-
     return pulledCards
   }
 }

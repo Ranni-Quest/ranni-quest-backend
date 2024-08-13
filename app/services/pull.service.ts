@@ -70,7 +70,7 @@ export class PullService {
     cardsSet: CardsSetType
   ): CardRarityType {
     const rate = Math.random()
-    console.log(rate, sortedCardDropRates)
+
     for (const cardRarity of sortedCardDropRates) {
       if (!Object.keys(cardsSet).includes(cardRarity[0]) || cardsSet[cardRarity[0]]?.length === 0) {
         continue

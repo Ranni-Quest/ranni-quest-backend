@@ -25,12 +25,12 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
         'users.pseudo',
         'cards.card_id',
         'cards.rarity',
-        'cards.large_image_url',
+        'cards.large_image_url as largeImageUrl',
         'cards.type',
         'cards.subtype',
         'cards.supertype',
         'effects.effect',
-        'effects.rarity_effect',
+        'effects.rarity_effect as rarityEffect',
         'cards.set_id',
         'cards.series'
       )

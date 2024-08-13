@@ -2,12 +2,12 @@ export default interface UserCardInterface {
   pseudo: string
   card_id: string
   rarity: string
-  large_image_url: string
+  largeImageUrl: string
   type: string
   subtype: string
   supertype: string
   effect: string
-  rarity_effect: string
+  rarityEffect: string
   set_id: string
   series: string
 }

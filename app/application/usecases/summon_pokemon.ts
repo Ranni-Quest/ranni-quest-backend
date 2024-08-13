@@ -1,9 +1,10 @@
 import SettingEntity from '#entities/setting.entity'
-import PokemonDropRate from '../../infrastructure/models/pokemon_drop_rate.model.js'
 import PokemonDropRateRepository from '#repositories/pokemon_drop_rate.repository'
 import PokemonPendingRepository from '#repositories/pokemon_pending.repository'
+import UserRepository from '#repositories/user.repository'
 import SummonService from '#services/summon.service'
 import { inject } from '@adonisjs/core'
+import PokemonDropRate from '../../infrastructure/models/pokemon_drop_rate.model.js'
 import PokemonInterface from './interfaces/pokemon.interface.js'
 import { SummonPokemonInterface } from './usercases.interface.js'
 
@@ -11,7 +12,8 @@ import { SummonPokemonInterface } from './usercases.interface.js'
 export default class SummonPokemon implements SummonPokemonInterface {
   constructor(
     protected pokemonDropRateRepository: PokemonDropRateRepository,
-    protected pokemonPendingRepository: PokemonPendingRepository
+    protected pokemonPendingRepository: PokemonPendingRepository,
+    protected userRepository: UserRepository
   ) {}
 
   async execute(setting: SettingEntity, discordId: string): Promise<PokemonInterface> {
@@ -23,6 +25,7 @@ export default class SummonPokemon implements SummonPokemonInterface {
     const isShiny = SummonService.isShiny(setting?.shinyDropRate)
 
     this.pokemonPendingRepository.createUserPokemon(discordId, pokemonId)
+    this.userRepository.savePullTimestamp(discordId)
 
     return {
       name,
