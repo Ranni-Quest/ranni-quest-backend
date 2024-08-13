@@ -19,24 +19,32 @@ export default class SummonPokemon implements SummonPokemonInterface {
   async execute(setting: SettingEntity, discordId: string): Promise<PokemonInterface> {
     const summonDropsRates =
       (await this.pokemonDropRateRepository.findSummonDropRates()) as Array<PokemonDropRate>
-    const pokemonRarity = SummonService.getRandomPokemonRarity(summonDropsRates)
-    const pokemonId = await SummonService.getPokemonId(summonDropsRates, pokemonRarity)
+    const status = SummonService.getRandomPokemonRarity(summonDropsRates)
+    const pokemonId = await SummonService.getPokemonId(summonDropsRates, status)
     const name = await SummonService.getFrenchName(pokemonId)
     const isShiny = SummonService.isShiny(setting?.shinyDropRate)
-
-    this.pokemonPendingRepository.createUserPokemon(discordId, pokemonId)
-    this.userRepository.savePullTimestamp(discordId)
-
-    return {
+    const pokemonInfo = {
       name,
-      status: pokemonRarity,
-      isShiny: isShiny ? true : false,
-      image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
-        isShiny ? 'shiny/' : ''
-      }${pokemonId}.png`,
+      status,
+      isShiny,
+      id: pokemonId,
       sprite: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
         isShiny ? 'shiny/' : ''
       }${pokemonId}.png`,
+      artwork: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
+        isShiny ? 'shiny/' : ''
+      }${pokemonId}.png`,
     }
+
+    this.pokemonPendingRepository.upsertPokemonPending(discordId, {
+      pokemonId,
+      name,
+      isShiny,
+      artwork: pokemonInfo.artwork,
+      sprite: pokemonInfo.sprite,
+    })
+    // this.userRepository.savePullTimestamp(discordId)
+
+    return pokemonInfo
   }
 }

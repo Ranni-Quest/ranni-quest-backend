@@ -35,7 +35,14 @@ export interface PokemonPendingRepositoryInterface {
     discordId: string,
     pokemonId: number
   ): Promise<PokemonPendingEntity | null>
-  createUserPokemon(discordId: string, pokemonInfo: any): Promise<void>
+  upsertPokemonPending(
+    discordId: string,
+    pokemonInfo: {
+      pokemonId: number
+      name: string
+      isShiny: boolean
+    }
+  ): Promise<void>
 }
 
 export interface SettingRepositoryInterface {

@@ -1,9 +1,10 @@
 import PokemonPendingEntity from '#entities/pokemon_pending.entity'
-import PokemonPending from '../models/pokemon_pending.model.js'
 import {
   PokemonPendingRepositoryInterface,
   RepositoryInterface,
 } from '#repositories/repositories.interface'
+import BasePokemonInterface from '#usecases/interfaces/base_pokemon.interface'
+import PokemonPending from '../models/pokemon_pending.model.js'
 
 export default class PokemonPendingRepository
   implements PokemonPendingRepositoryInterface, RepositoryInterface
@@ -28,11 +29,13 @@ export default class PokemonPendingRepository
       pendingPokemon.discordId,
       pendingPokemon.pokemonId,
       pendingPokemon.name,
-      pendingPokemon.isShiny
+      pendingPokemon.isShiny,
+      pendingPokemon.artwork,
+      pendingPokemon.sprite
     )
   }
 
-  async createUserPokemon(discordId: string, pokemonInfo: any): Promise<void> {
-    await PokemonPending.create({ discordId, ...pokemonInfo })
+  async upsertPokemonPending(discordId: string, pokemonInfo: BasePokemonInterface): Promise<void> {
+    await PokemonPending.updateOrCreate({ discordId }, { discordId, ...pokemonInfo })
   }
 }

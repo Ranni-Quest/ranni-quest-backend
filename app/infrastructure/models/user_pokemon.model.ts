@@ -1,6 +1,7 @@
 import { BaseModel, column } from '@adonisjs/lucid/orm'
 
 export default class UserPokemon extends BaseModel {
+  static table = 'user_pokemons'
   @column({ isPrimary: true })
   declare id: number
 

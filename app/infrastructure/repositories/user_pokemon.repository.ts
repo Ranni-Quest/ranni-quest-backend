@@ -1,7 +1,9 @@
 import PokemonPendingEntity from '#entities/pokemon_pending.entity'
 import UserPokemonEntity from '#entities/user_pokemon.entity'
-import UserPokemon from '../models/user_pokemon.model.js'
 import { UserPokemonRepositoryInterface } from '#repositories/repositories.interface'
+import BasePokemonInterface from '#usecases/interfaces/base_pokemon.interface'
+import db from '@adonisjs/lucid/services/db'
+import UserPokemon from '../models/user_pokemon.model.js'
 
 export default class UserPokemonRepository implements UserPokemonRepositoryInterface {
   async findByDiscordId(discordId: string): Promise<UserPokemonEntity[]> {
@@ -25,14 +27,20 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
   }
 
   async countByDiscordId(discordId: string): Promise<number> {
-    const output = (await UserPokemon.query()
+    const output = await db
+      .query()
       .count('* as total')
-      .where('discordId', discordId)) as unknown as [{ total: number }]
-    return output[0].total
+      .from('user_pokemons')
+      .where('discord_id', discordId)
+      .first()
+    return output.total
   }
 
-  async createUserPokemon(discordId: string, pokemonInfo: any): Promise<void> {
-    await UserPokemon.create({ discordId, ...pokemonInfo })
+  async createUserPokemon(discordId: string, pokemonInfo: BasePokemonInterface): Promise<void> {
+    await UserPokemon.updateOrCreate(
+      { discordId, pokemonId: pokemonInfo.pokemonId },
+      { discordId, ...pokemonInfo }
+    )
   }
 
   async updateUserPokemon(
@@ -40,6 +48,7 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
     pokemonIdToReplace: number,
     pokemonInfo: PokemonPendingEntity
   ): Promise<void> {
+    console.log(pokemonInfo.toArray())
     await UserPokemon.updateOrCreate(
       { discordId, pokemonId: pokemonIdToReplace },
       { ...pokemonInfo.toArray() }

@@ -34,7 +34,7 @@ export interface KeepUserPokemonInterface {
     discordId: string,
     pendingPokemon: PokemonPendingEntity,
     pokemonIdToReplace: number
-  ): Promise<PokemonPendingEntity | null>
+  ): Promise<boolean>
 }
 
 export interface PullCardsInterface {

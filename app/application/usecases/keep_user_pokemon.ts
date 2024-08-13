@@ -21,9 +21,14 @@ export default class KeepUserPokemon implements KeepUserPokemonInterface {
     discordId: string,
     pendingPokemon: PokemonPendingEntity,
     pokemonIdToReplace: number | null = null
-  ): Promise<PokemonPendingEntity | null> {
+  ): Promise<boolean> {
     if (!pokemonIdToReplace) {
-      await this.keepUserPokemon(discordId, pendingPokemon)
+      try {
+        await this.keepUserPokemon(discordId, pendingPokemon)
+      } catch (error) {
+        console.log(error)
+        return false
+      }
     } else {
       await this.userPokemonRepository.updateUserPokemon(
         discordId,
@@ -32,7 +37,7 @@ export default class KeepUserPokemon implements KeepUserPokemonInterface {
       )
     }
 
-    return pendingPokemon
+    return true
   }
 
   async keepUserPokemon(discordId: string, pendingPokemon: PokemonPendingEntity): Promise<void> {
@@ -42,6 +47,12 @@ export default class KeepUserPokemon implements KeepUserPokemonInterface {
       throw new Error('User already has 6 pokemons')
     }
 
-    await this.userPokemonRepository.createUserPokemon(discordId, pendingPokemon)
+    await this.userPokemonRepository.createUserPokemon(discordId, {
+      pokemonId: pendingPokemon.pokemonId,
+      name: pendingPokemon.name,
+      isShiny: pendingPokemon.isShiny,
+      artwork: pendingPokemon.artwork,
+      sprite: pendingPokemon.sprite,
+    })
   }
 }

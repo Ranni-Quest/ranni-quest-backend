@@ -1,7 +1,8 @@
 export default interface PokemonInterface {
+  id: number
   name: string
   status: string
   isShiny: boolean
-  image: string
-  sprite: string
+  artwork: string | null
+  sprite: string | null
 }

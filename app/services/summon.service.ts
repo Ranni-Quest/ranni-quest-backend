@@ -36,7 +36,7 @@ export default class SummonService {
 
   static isShiny(shinyRate: number = 0.05) {
     const rate = Math.random()
-    return rate < shinyRate ? 1 : 0
+    return rate < shinyRate ? true : false
   }
 
   static getRandomPokemonRarity(summonDropsRate: Array<PokemonDropRate>): PokemonRarityType {

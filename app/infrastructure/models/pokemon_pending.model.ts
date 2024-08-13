@@ -15,4 +15,10 @@ export default class PokemonPending extends BaseModel {
 
   @column()
   declare isShiny: boolean
+
+  @column()
+  declare sprite: string
+
+  @column()
+  declare artwork: string
 }
