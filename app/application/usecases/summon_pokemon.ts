@@ -43,7 +43,7 @@ export default class SummonPokemon implements SummonPokemonInterface {
       artwork: pokemonInfo.artwork,
       sprite: pokemonInfo.sprite,
     })
-    // this.userRepository.savePullTimestamp(discordId)
+    this.userRepository.saveSummonTimestamp(discordId)
 
     return pokemonInfo
   }
