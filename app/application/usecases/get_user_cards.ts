@@ -8,6 +8,7 @@ export default class GetUserCards implements GetUserCardsInterface {
   constructor(private readonly userCardRepository: UserCardRepository) {}
 
   async execute(discordId: string, offset: number, limit: number): Promise<UserCardEntity[]> {
-    return this.userCardRepository.findByDiscordId(discordId, offset, limit)
+    const output = await this.userCardRepository.findByDiscordId(discordId, offset, limit)
+    return output
   }
 }

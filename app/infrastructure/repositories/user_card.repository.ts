@@ -8,14 +8,43 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
   async findByDiscordId(
     discordId: string,
     offset: number = 0,
-    limit: number = 10
+    limit: number = 20
   ): Promise<UserCardEntity[]> {
-    const output = await UserCard.query().where('discord_id', discordId).offset(offset).limit(limit)
+    const output = await db.rawQuery(`
+            SELECT  uc.card_id, c.rarity, large_image_url, small_image_url, \`type\`, subtype, supertype, effect, rarity_effect, set_id, series, is_reverse
+            FROM user_cards uc
+            LEFT JOIN cards c ON uc.card_id = c.card_id
+            LEFT JOIN effects e ON c.rarity = e.rarity
+            WHERE discord_id = '${discordId}'
+            ORDER BY CASE 
+                WHEN e.rarity_effect = 'rainbow' then 1
+                WHEN e.rarity_effect = 'gold' then 2
+                WHEN e.rarity_effect = 'silver' then 3
+                WHEN c.rarity = 'rare' then 4
+                WHEN e.rarity_effect = 'none' then 5
+            END, uc.card_id ASC
+            LIMIT ${limit}
+            OFFSET ${offset}`)
 
-    return output.map(
-      (userCard) =>
-        new UserCardEntity(userCard.id, userCard.cardId, userCard.discordId, userCard.isReverse)
-    )
+    let count = 1
+    return output[0].map((userCard: any) => {
+      count++
+      return new UserCardEntity(
+        userCard.card_id,
+        userCard.discord_id,
+        userCard.is_reverse,
+        userCard.rarity,
+        userCard.large_image_url,
+        userCard.small_image_url,
+        userCard.type,
+        userCard.subtype,
+        userCard.supertype,
+        userCard.effect,
+        userCard.rarity_effect,
+        userCard.setId,
+        userCard.series
+      )
+    })
   }
 
   async findLatestCardsPulled(): Promise<UserCardInterface[]> {

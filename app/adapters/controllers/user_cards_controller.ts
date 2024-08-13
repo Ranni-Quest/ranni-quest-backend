@@ -11,7 +11,7 @@ export default class UserCardsController {
       return response.status(401).json({ authenticated: false })
     }
 
-    const { limit, offset } = request.body()
+    const { limit, offset } = request.qs()
     const discordId = auth.user?.discordId
 
     return await this.getUserCards.execute(discordId!, offset, limit)
