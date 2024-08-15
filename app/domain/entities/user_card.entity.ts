@@ -1,8 +1,8 @@
 export default class UserCardEntity {
   constructor(
     public cardId: string,
-    public discordId: string,
-    public pseudo: string,
+    public discordId: string | null,
+    public pseudo: string | null,
     public isReverse: boolean,
     public rarity: string,
     public largeImageUrl: string,

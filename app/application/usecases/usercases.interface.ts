@@ -7,7 +7,7 @@ import PokemonInterface from './interfaces/pokemon.interface.js'
 import UserCardInterface from './interfaces/user_cards.interface.js'
 
 export interface GetCardsSetInterface {
-  execute(): Promise<UserCardInterface[]>
+  execute(): Promise<UserCardEntity[]>
 }
 
 export interface GetLatestCardsPulledInterface {
