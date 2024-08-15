@@ -1,12 +1,14 @@
 import GetUserPokemonPending from '#usecases/get_user_pokemon_pending'
 import KeepUserPokemon from '#usecases/keep_user_pokemon'
+import ReleaseUserPokemon from '#usecases/release_user_pokemon'
 import { inject } from '@adonisjs/core'
 import type { HttpContext } from '@adonisjs/core/http'
 
 @inject()
-export default class UserPokemonKeepController {
+export default class UserPokemonActionController {
   constructor(
     protected keepUserPokemon: KeepUserPokemon,
+    protected releaseUserPokemon: ReleaseUserPokemon,
     protected getUserPokemonPending: GetUserPokemonPending
   ) {}
 
@@ -15,7 +17,7 @@ export default class UserPokemonKeepController {
       return response.status(401).json({ authenticated: false })
     }
 
-    const { pokemonIdToKeep, pokemonIdToReplace } = request.body()
+    const { pokemonIdToKeep, pokemonIdToReplace, action } = request.body()
 
     const discordId = auth.user?.discordId
     const pokemonPending = await this.getUserPokemonPending.execute(discordId!, pokemonIdToKeep)
@@ -25,6 +27,10 @@ export default class UserPokemonKeepController {
       return response
     }
 
+    if (action === 'release') {
+      await this.releaseUserPokemon.execute(pokemonPending.id!, discordId!)
+      return response.status(200).json({ message: 'deleted' })
+    }
     if (await this.keepUserPokemon.execute(discordId!, pokemonPending, pokemonIdToReplace)) {
       return pokemonPending
     } else {

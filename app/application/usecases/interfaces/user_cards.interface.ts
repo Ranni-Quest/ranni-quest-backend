@@ -1,5 +1,5 @@
 export default interface UserCardInterface {
-  pseudo: string
+  pseudo: string | null
   card_id: string
   rarity: string
   largeImageUrl: string

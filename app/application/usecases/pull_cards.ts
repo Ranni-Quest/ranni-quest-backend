@@ -4,7 +4,7 @@ import CardRepository from '#repositories/card.repository'
 import CardDropRateRepository from '#repositories/card_drop_rate.repository'
 import UserRepository from '#repositories/user.repository'
 import UserCardRepository from '#repositories/user_card.repository'
-import { PullService } from '#services/pull.service'
+import { CardService } from '#services/card.service'
 import { CardsSetType } from '#types/cards_set.type'
 import { inject } from '@adonisjs/core'
 import { PullCardsInterface } from './usercases.interface.js'
@@ -20,12 +20,12 @@ export default class PullCards implements PullCardsInterface {
 
   async execute(discordId: string): Promise<CardEntity[]> {
     const cardsDropRate: CardDropRate[] = await this.cardDropRateRepository.findCardsDropRate(
-      await PullService.getRandomDrop()
+      await CardService.getRandomDrop()
     )
-    const cardsSet: CardsSetType = PullService.formatCardsSet(
+    const cardsSet: CardsSetType = CardService.formatCardsSet(
       await this.cardRepository.findCardsSet()
     )
-    const pulledCards = await PullService.pullCards(cardsSet, cardsDropRate)
+    const pulledCards = await CardService.pullCards(cardsSet, cardsDropRate)
 
     this.userRepository.savePullTimestamp(discordId)
 

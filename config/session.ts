@@ -3,7 +3,7 @@ import app from '@adonisjs/core/services/app'
 import { defineConfig, stores } from '@adonisjs/session'
 
 export default defineConfig({
-  age: '2h',
+  age: '24h',
   enabled: true,
   cookieName: 'adonis-session',
   clearWithBrowser: false,

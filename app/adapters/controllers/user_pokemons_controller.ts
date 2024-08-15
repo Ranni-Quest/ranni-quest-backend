@@ -14,6 +14,6 @@ export default class UserPokemonsController {
     const discordId = auth.user?.discordId
     const output = await this.getUserPokemons.execute(discordId!)
 
-    return output[0]
+    return output
   }
 }

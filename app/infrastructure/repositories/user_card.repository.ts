@@ -11,11 +11,12 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
     limit: number = 20
   ): Promise<UserCardEntity[]> {
     const output = await db.rawQuery(`
-            SELECT  uc.card_id, c.rarity, large_image_url, small_image_url, \`type\`, subtype, supertype, effect, rarity_effect, set_id, series, is_reverse
+            SELECT pseudo,u.discord_id, uc.card_id, c.rarity, large_image_url, small_image_url, \`type\`, subtype, supertype, effect, rarity_effect, set_id, series, is_reverse
             FROM user_cards uc
             LEFT JOIN cards c ON uc.card_id = c.card_id
             LEFT JOIN effects e ON c.rarity = e.rarity
-            WHERE discord_id = '${discordId}'
+            LEFT JOIN users u ON uc.discord_id = u.discord_id
+            WHERE u.discord_id = '${discordId}'
             ORDER BY CASE 
                 WHEN e.rarity_effect = 'rainbow' then 1
                 WHEN e.rarity_effect = 'gold' then 2
@@ -26,12 +27,11 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
             LIMIT ${limit}
             OFFSET ${offset}`)
 
-    let count = 1
     return output[0].map((userCard: any) => {
-      count++
       return new UserCardEntity(
         userCard.card_id,
         userCard.discord_id,
+        userCard.pseudo,
         userCard.is_reverse,
         userCard.rarity,
         userCard.large_image_url,

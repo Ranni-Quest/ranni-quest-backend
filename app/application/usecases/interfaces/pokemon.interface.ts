@@ -5,4 +5,8 @@ export default interface PokemonInterface {
   isShiny: boolean
   artwork: string | null
   sprite: string | null
+  types: string[]
+  weaknesses: { [key: string]: number }
+  resistances: { [key: string]: number }
+  timestamp: number
 }

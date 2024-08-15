@@ -22,4 +22,13 @@ export default class UserPokemon extends BaseModel {
 
   @column()
   declare artwork: string
+
+  @column()
+  declare types: string[]
+
+  @column()
+  declare weaknesses: string[]
+
+  @column()
+  declare timestamp: number
 }

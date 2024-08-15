@@ -16,7 +16,7 @@ interface CardDropRatesValueInterface {
   illustration_rare_chromatic: 0
 }
 
-export class PullService {
+export class CardService {
   static async getRandomDrop(): Promise<BoosterRarityType> {
     const boosterRarityDropRates = await BoosterRarityRate.query().orderBy('dropRate', 'asc')
 
@@ -53,7 +53,7 @@ export class PullService {
       cardDropRates
     ) as Array<[CardRarityType, number]>
     sortedCardDropRates = sortedCardDropRates.sort((a, b) => a[1] - b[1])
-    const rarity = PullService.getRandomRarity(sortedCardDropRates, cardsSet)
+    const rarity = CardService.getRandomRarity(sortedCardDropRates, cardsSet)
     const cardsRarity = cardsSet[rarity]
 
     if (cardsRarity?.length === 0 || !cardsRarity) {

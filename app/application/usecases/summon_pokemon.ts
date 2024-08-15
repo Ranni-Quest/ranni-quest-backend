@@ -2,7 +2,7 @@ import SettingEntity from '#entities/setting.entity'
 import PokemonDropRateRepository from '#repositories/pokemon_drop_rate.repository'
 import PokemonPendingRepository from '#repositories/pokemon_pending.repository'
 import UserRepository from '#repositories/user.repository'
-import SummonService from '#services/summon.service'
+import PokemonService from '#services/pokemon.service'
 import { inject } from '@adonisjs/core'
 import PokemonDropRate from '../../infrastructure/models/pokemon_drop_rate.model.js'
 import PokemonInterface from './interfaces/pokemon.interface.js'
@@ -19,10 +19,11 @@ export default class SummonPokemon implements SummonPokemonInterface {
   async execute(setting: SettingEntity, discordId: string): Promise<PokemonInterface> {
     const summonDropsRates =
       (await this.pokemonDropRateRepository.findSummonDropRates()) as Array<PokemonDropRate>
-    const status = SummonService.getRandomPokemonRarity(summonDropsRates)
-    const pokemonId = await SummonService.getPokemonId(summonDropsRates, status)
-    const name = await SummonService.getFrenchName(pokemonId)
-    const isShiny = SummonService.isShiny(setting?.shinyDropRate)
+    const status = PokemonService.getRandomPokemonRarity(summonDropsRates)
+    const pokemonId = await PokemonService.getPokemonId(summonDropsRates, status)
+    const name = await PokemonService.getFrenchName(pokemonId)
+    const isShiny = PokemonService.isShiny(setting?.shinyDropRate)
+    const types = await PokemonService.getPokemonTypes(pokemonId)
     const pokemonInfo = {
       name,
       status,
@@ -34,6 +35,10 @@ export default class SummonPokemon implements SummonPokemonInterface {
       artwork: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
         isShiny ? 'shiny/' : ''
       }${pokemonId}.png`,
+      types,
+      weaknesses: PokemonService.calculateWeaknesses(types),
+      resistances: PokemonService.calculatResistances(types),
+      timestamp: 0,
     }
 
     this.pokemonPendingRepository.upsertPokemonPending(discordId, {
@@ -43,7 +48,7 @@ export default class SummonPokemon implements SummonPokemonInterface {
       artwork: pokemonInfo.artwork,
       sprite: pokemonInfo.sprite,
     })
-    this.userRepository.saveSummonTimestamp(discordId)
+    // this.userRepository.saveSummonTimestamp(discordId)
 
     return pokemonInfo
   }

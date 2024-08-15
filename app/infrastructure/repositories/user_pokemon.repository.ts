@@ -1,6 +1,7 @@
 import PokemonPendingEntity from '#entities/pokemon_pending.entity'
 import UserPokemonEntity from '#entities/user_pokemon.entity'
 import { UserPokemonRepositoryInterface } from '#repositories/repositories.interface'
+import PokemonService from '#services/pokemon.service'
 import BasePokemonInterface from '#usecases/interfaces/base_pokemon.interface'
 import db from '@adonisjs/lucid/services/db'
 import UserPokemon from '../models/user_pokemon.model.js'
@@ -8,18 +9,29 @@ import UserPokemon from '../models/user_pokemon.model.js'
 export default class UserPokemonRepository implements UserPokemonRepositoryInterface {
   async findByDiscordId(discordId: string): Promise<UserPokemonEntity[]> {
     const userPokemons = await UserPokemon.query().where('discordId', discordId)
-    return userPokemons.map(
-      (userPokemon) =>
+    const output = []
+    for (const userPokemon of userPokemons) {
+      const types = await PokemonService.getPokemonTypes(userPokemon.pokemonId)
+      const weaknesses = PokemonService.calculateWeaknesses(types)
+      const resistances = PokemonService.calculateWeaknesses(types)
+
+      output.push(
         new UserPokemonEntity(
-          userPokemon.id,
+          userPokemon.pokemonId,
           userPokemon.discordId,
           userPokemon.pokemonId,
           userPokemon.name,
           userPokemon.isShiny,
           userPokemon.sprite,
-          userPokemon.artwork
+          userPokemon.artwork,
+          types,
+          weaknesses,
+          resistances,
+          userPokemon.timestamp ?? Math.floor(Date.now() / 1000)
         )
-    )
+      )
+    }
+    return output
   }
 
   async upsertPokemon(discordId: string, pokemonId: number): Promise<void> {
@@ -48,7 +60,6 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
     pokemonIdToReplace: number,
     pokemonInfo: PokemonPendingEntity
   ): Promise<void> {
-    console.log(pokemonInfo.toArray())
     await UserPokemon.updateOrCreate(
       { discordId, pokemonId: pokemonIdToReplace },
       { ...pokemonInfo.toArray() }

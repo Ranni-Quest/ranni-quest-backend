@@ -1,4 +1,3 @@
-import CardEntity from '#entities/card.entity'
 import PokemonDropRateEntity from '#entities/pokemon_drop_rate.entity'
 import PokemonPendingEntity from '#entities/pokemon_pending.entity'
 import SettingEntity from '#entities/setting.entity'
@@ -19,7 +18,7 @@ export interface CardDropRateRepositoryInterface {
 }
 
 export interface CardRepositoryInterface {
-  findCardsSet(): Promise<CardEntity[]>
+  findCardsSet(): Promise<UserCardInterface[]>
 }
 
 export interface EffectRepositoryInterface {}

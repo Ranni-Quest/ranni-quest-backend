@@ -16,8 +16,9 @@ const PullCardsController = () => import('#controllers/pull_cards_controller')
 const PokemonSummonController = () => import('#controllers/pokemon_summon_controller')
 const UserCardsController = () => import('#controllers/user_cards_controller')
 const UserPokemonsController = () => import('#controllers/user_pokemons_controller')
-const UserPokemonKeepController = () => import('#controllers/user_pokemon_keep_controller')
+const UserPokemonActionController = () => import('#controllers/user_pokemon_action_controller')
 const LoginController = () => import('#controllers/login_controller')
+const CardsSetController = () => import('#controllers/cards_set_controller')
 import router from '@adonisjs/core/services/router'
 
 router
@@ -32,6 +33,8 @@ router.post('/api/login', [LoginController, 'init'])
 
 router.get('/api/cards/pull/latest', [LatestCardPulledsController, 'init'])
 
+router.get('/api/cards/set', [CardsSetController, 'init'])
+
 router.post('/api/cards/pull', [PullCardsController, 'init'])
 
 router.post('/api/pokemons/summon', [PokemonSummonController, 'init'])
@@ -40,4 +43,4 @@ router.get('/api/users/cards', [UserCardsController, 'init'])
 
 router.get('/api/users/pokemons', [UserPokemonsController, 'init'])
 
-router.post('/api/users/pokemons/keep', [UserPokemonKeepController, 'init'])
+router.post('/api/users/pokemons/pending/action', [UserPokemonActionController, 'init'])

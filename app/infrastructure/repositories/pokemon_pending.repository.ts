@@ -17,10 +17,7 @@ export default class PokemonPendingRepository
     discordId: string,
     pokemonId: number
   ): Promise<PokemonPendingEntity> {
-    const pendingPokemon = await PokemonPending.query()
-      .where('discordId', discordId)
-      .andWhere('pokemonId', pokemonId)
-      .first()
+    const pendingPokemon = await PokemonPending.findBy({ discordId, pokemonId })
 
     if (!pendingPokemon) throw new Error('Pokemon not found')
 
