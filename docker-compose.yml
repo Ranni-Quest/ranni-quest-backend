@@ -28,7 +28,7 @@ services:
     environment:
       DB_PASSWORD: root
       DB_DATABASE: ranniquest
-      DB_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
     volumes:
