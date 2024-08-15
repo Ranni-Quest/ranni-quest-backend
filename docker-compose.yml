@@ -10,10 +10,10 @@ services:
       - "3333:3333"
     environment:
       - NODE_ENV=development
-      - MYSQL_HOST=127.0.0.1 # Nom du service "db" dans ce fichier
-      - MYSQL_PORT=3306
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=root
+      - DB_HOST=127.0.0.1 # Nom du service "db" dans ce fichier
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASSWORD=root
       # - DB_NAME=yourdatabase
     depends_on:
       - db
@@ -26,10 +26,9 @@ services:
     image: mysql:8.0.39
     container_name: database-pokemon
     environment:
-      MYSQL_PASSWORD: root
-      MYSQL_DATABASE: ranniquest
-      MYSQL_USER: root
-
+      DB_PASSWORD: root
+      DB_DATABASE: ranniquest
+      DB_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
     volumes:
