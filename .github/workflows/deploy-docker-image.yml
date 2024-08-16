@@ -1,0 +1,28 @@
+name: Deploy Docker Compose
+
+on:
+  push:
+    branches:
+      - 'development'  # Déclenchement sur chaque push dans chaque branche
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to Server via SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+        run: |
+          echo "$SSH_PRIVATE_KEY" | ssh-agent bash -c "ssh-add -"
+          rsync -avz -e 'ssh -o StrictHostKeyChecking=no' --exclude='.git' . $SERVER_USER@$SERVER_HOST:/home/debian
+          ssh -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_HOST << 'EOF'
+            cd /home/debian
+            docker-compose pull
+            docker-compose up -d --build
+          EOF
