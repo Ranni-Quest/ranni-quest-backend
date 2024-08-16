@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   app:
-    build: .
     container_name: app-pokemon
+    image: ghcr.io/abel-moi/pokemon:latest
     env_file:
       - .env.example
     ports:
@@ -19,8 +19,6 @@ services:
       - db
     volumes:
       - .:/app
-    networks:
-      - my-network
 
   db:
     image: mysql:8.0.39
@@ -33,12 +31,6 @@ services:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
-    networks:
-      - my-network
-
-networks:
-  my-network:
-    driver: bridge
 
 volumes:
   db_data:
