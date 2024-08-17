@@ -12,7 +12,6 @@ import SettingRepository from '#repositories/setting.repository'
 import UserRepository from '#repositories/user.repository'
 import UserCardRepository from '#repositories/user_card.repository'
 import UserPokemonRepository from '#repositories/user_pokemon.repository'
-import PokemonService from '#services/pokemon.service'
 import { BoosterRarityType } from '#types/rarities.type'
 
 export class CardDropRateRepositoryMock implements CardDropRateRepository {
@@ -111,14 +110,9 @@ export class PokemonDropRateRepositoryMock implements PokemonDropRateRepository 
   async findSummonDropRates(): Promise<PokemonDropRate[]> {
     return [
       {
-        rarity: 'subLegendary',
-        dropRate: 0.03,
-        pokemons: [
-          144, 145, 146, 243, 244, 245, 377, 378, 379, 380, 381, 480, 481, 482, 485, 486, 488, 638,
-          639, 640, 641, 642, 645, 772, 773, 785, 786, 787, 788, 793, 794, 795, 796, 797, 798, 799,
-          800, 803, 804, 805, 806, 891, 892, 894, 895, 896, 897, 905, 1001, 1002, 1003, 1004, 1014,
-          1015, 1016, 1017,
-        ],
+        rarity: 'commun',
+        dropRate: 1,
+        pokemons: [112],
       },
     ] as PokemonDropRate[]
   }
@@ -134,15 +128,22 @@ export class PokemonPendingRepositoryMock implements PokemonPendingRepository {
     pokemonId: number
   ): Promise<PokemonInfoEntity> {
     return new PokemonInfoEntity(
-      1,
-      'name',
-      'status',
+      112,
+      'Rhinoféros',
+      'commun',
       false,
-      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/}1.png`,
-      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png`,
-      ['normal'],
-      PokemonService.calculateWeaknesses(['normal']),
-      PokemonService.calculatResistances(['normal']),
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/112.png',
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png',
+      ['ground', 'rock'],
+      { water: 4, grass: 4, fighting: 2, ice: 2, ground: 2, steel: 2 },
+      {
+        normal: 0.5,
+        fire: 0.5,
+        electric: 0,
+        poison: 0.25,
+        flying: 0.5,
+        rock: 0.5,
+      },
       0
     )
   }
@@ -158,7 +159,7 @@ export class SettingRepositoryMock implements SettingRepository {
       setUrl: 'set_url',
       pullTimer: 1800,
       summonTimer: 600,
-      shinyDropRate: 0.05,
+      shinyDropRate: 0,
     } as Setting
   }
 }
@@ -171,7 +172,7 @@ export class UserCardRepositoryMock implements UserCardRepository {
         discordId: 'discord_id-1',
         pseudo: 'pseudo-1',
         isReverse: false,
-        rarity: 'rarity',
+        rarity: 'common',
         largeImageUrl: 'large_image_url',
         smallImageUrl: 'small_image_url',
         type: 'type',
@@ -187,7 +188,7 @@ export class UserCardRepositoryMock implements UserCardRepository {
         discordId: 'discord_id-2',
         pseudo: 'pseudo-2',
         isReverse: false,
-        rarity: 'rarity',
+        rarity: 'common',
         largeImageUrl: 'large_image_url',
         smallImageUrl: 'small_image_url',
         type: 'type',
@@ -203,7 +204,7 @@ export class UserCardRepositoryMock implements UserCardRepository {
         discordId: null,
         pseudo: null,
         isReverse: false,
-        rarity: 'rarity',
+        rarity: 'common',
         largeImageUrl: 'large_image_url',
         smallImageUrl: 'small_image_url',
         type: 'type',
@@ -225,7 +226,7 @@ export class UserCardRepositoryMock implements UserCardRepository {
         setId: 'set_id',
         setName: 'set_name',
         series: 'series',
-        rarity: 'rarity',
+        rarity: 'common',
         effect: 'effect',
         rarityEffect: 'rarity_effect',
         largeImageUrl: 'large_image_url',
@@ -248,7 +249,7 @@ export class UserCardRepositoryMock implements UserCardRepository {
         discordId: 'discord_id-1',
         pseudo: 'pseudo-1',
         isReverse: false,
-        rarity: 'rarity',
+        rarity: 'common',
         largeImageUrl: 'large_image_url',
         smallImageUrl: 'small_image_url',
         type: 'type',
@@ -269,7 +270,7 @@ export class UserCardRepositoryMock implements UserCardRepository {
         discordId: 'discord_id-1',
         pseudo: 'pseudo-1',
         isReverse: false,
-        rarity: 'rarity',
+        rarity: 'common',
         largeImageUrl: 'large_image_url',
         smallImageUrl: 'small_image_url',
         type: 'type',
@@ -285,7 +286,7 @@ export class UserCardRepositoryMock implements UserCardRepository {
         discordId: 'discord_id-2',
         pseudo: 'pseudo-2',
         isReverse: false,
-        rarity: 'rarity',
+        rarity: 'common',
         largeImageUrl: 'large_image_url',
         smallImageUrl: 'small_image_url',
         type: 'type',
@@ -306,15 +307,22 @@ export class UserPokemonRepositoryMock implements UserPokemonRepository {
   async findByDiscordId(discordId: string): Promise<PokemonInfoEntity[]> {
     return [
       new PokemonInfoEntity(
-        1,
-        'name',
-        'status',
+        112,
+        'Rhinoféros',
+        'commun',
         false,
-        `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png`,
-        `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png`,
-        ['normal'],
-        PokemonService.calculateWeaknesses(['normal']),
-        PokemonService.calculatResistances(['normal']),
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/112.png',
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png',
+        ['ground', 'rock'],
+        { water: 4, grass: 4, fighting: 2, ice: 2, ground: 2, steel: 2 },
+        {
+          normal: 0.5,
+          fire: 0.5,
+          electric: 0,
+          poison: 0.25,
+          flying: 0.5,
+          rock: 0.5,
+        },
         0
       ),
     ]

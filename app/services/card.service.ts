@@ -58,7 +58,7 @@ export class CardService {
     const cards = currentCardsSet[CardService.getRandomRarity(sortedCardDropRates, currentCardsSet)]
 
     if (cards?.length === 0 || !cards) {
-      throw 'No card'
+      throw 'CardService.pullCards: No card'
     }
 
     return cards[Math.floor(Math.random() * cards.length)]

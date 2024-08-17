@@ -40,7 +40,7 @@ export default class PokemonService {
       }
     }
 
-    return 'commun'
+    return 'common'
   }
 
   static async getFrenchName(pokemonId: number) {

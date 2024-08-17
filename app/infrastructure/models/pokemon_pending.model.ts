@@ -1,5 +1,5 @@
-import { PokemonRarityType } from '#types/rarities.type'
-import { TypeName } from '#usecases/types/type_name.type'
+import type { PokemonRarityType } from '#types/rarities.type'
+import type { TypeName } from '#usecases/types/type_name.type'
 import { BaseModel, column } from '@adonisjs/lucid/orm'
 
 export default class PokemonPending extends BaseModel {

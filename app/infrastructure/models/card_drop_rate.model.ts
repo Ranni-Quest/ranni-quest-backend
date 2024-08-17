@@ -1,4 +1,4 @@
-import { CardDropRatesValueInterface } from '#entities/interfaces/card_drop_rate_value.interface'
+import type { CardDropRatesValueInterface } from '#entities/interfaces/card_drop_rate_value.interface'
 import { BaseModel, column } from '@adonisjs/lucid/orm'
 
 export default class CardDropRate extends BaseModel {

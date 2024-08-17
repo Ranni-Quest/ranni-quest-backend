@@ -15,7 +15,6 @@ export default class GetUserCards implements GetUserCardsInterface {
    * @returns user cards
    */
   async execute(discordId: string, offset: number, limit: number): Promise<UserCardEntity[]> {
-    const output = await this.userCardRepository.findByDiscordId(discordId, offset, limit)
-    return output
+    return await this.userCardRepository.findByDiscordId(discordId, offset, limit)
   }
 }

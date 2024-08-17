@@ -1,7 +1,6 @@
 import FullCardInfoEntity from '#entities/full_card_info.entity'
 import PokemonInfoEntity from '#entities/pokemon_info.entity'
 import UserCardEntity from '#entities/user_card.entity'
-import UserPokemonEntity from '#entities/user_pokemon.entity'
 import Setting from '#models/setting.model'
 
 export interface GetCardsSetInterface {
@@ -24,7 +23,7 @@ export interface GetUserPokemonPendingInterface {
   execute(discordId: string, pokemonId: number): Promise<PokemonInfoEntity>
 }
 export interface GetUserPokemonsInterface {
-  execute(discordId: string): Promise<UserPokemonEntity[]>
+  execute(discordId: string): Promise<PokemonInfoEntity[]>
 }
 
 export interface KeepUserPokemonInterface {

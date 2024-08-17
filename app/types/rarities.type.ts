@@ -11,4 +11,4 @@ export type CardRarityType =
   | 'special_illustration_rare'
   | 'illustration_rare_chromatic'
 
-export type PokemonRarityType = 'commun' | 'subLegendary' | 'legendary' | 'fabulous'
+export type PokemonRarityType = 'common' | 'subLegendary' | 'legendary' | 'fabulous'
