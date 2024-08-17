@@ -1,5 +1,4 @@
 import PokemonInfoEntity from '#entities/pokemon_info.entity'
-import UserPokemonEntity from '#entities/user_pokemon.entity'
 import { UserPokemonRepositoryInterface } from '#repositories/repositories.interface'
 import PokemonService from '#services/pokemon.service'
 import db from '@adonisjs/lucid/services/db'
@@ -11,23 +10,23 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
    * @param discordId - discord id
    * @returns pokemon
    */
-  async findByDiscordId(discordId: string): Promise<UserPokemonEntity[]> {
+  async findByDiscordId(discordId: string): Promise<PokemonInfoEntity[]> {
     const userPokemons = await UserPokemon.query().where('discordId', discordId)
     const output = []
+
     for (const userPokemon of userPokemons) {
       const types = await PokemonService.getPokemonTypes(userPokemon.pokemonId)
       const weaknesses = PokemonService.calculateWeaknesses(types)
       const resistances = PokemonService.calculateWeaknesses(types)
 
       output.push(
-        new UserPokemonEntity(
-          userPokemon.pokemonId,
-          userPokemon.discordId,
+        new PokemonInfoEntity(
           userPokemon.pokemonId,
           userPokemon.name,
+          userPokemon.status,
           userPokemon.isShiny,
-          userPokemon.sprite,
           userPokemon.artwork,
+          userPokemon.sprite,
           types,
           weaknesses,
           resistances,
@@ -35,6 +34,7 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
         )
       )
     }
+
     return output
   }
 

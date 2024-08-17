@@ -1,6 +1,5 @@
 import PokemonInfoEntity from '#entities/pokemon_info.entity'
 import UserCardEntity from '#entities/user_card.entity'
-import UserPokemonEntity from '#entities/user_pokemon.entity'
 import CardDropRate from '#models/card_drop_rate.model'
 import PokemonDropRate from '#models/pokemon_drop_rate.model'
 import Setting from '#models/setting.model'
@@ -12,6 +11,7 @@ export interface RepositoryInterface {
 }
 
 export interface BoosterRarityRateRepositoryInterface {}
+
 export interface CardDropRateRepositoryInterface {
   findCardsDropRate(boosterRarity: BoosterRarityType): Promise<CardDropRate[]>
 }
@@ -53,7 +53,7 @@ export interface UserCardRepositoryInterface {
 }
 
 export interface UserPokemonRepositoryInterface {
-  findByDiscordId(discordId: string): Promise<UserPokemonEntity[]>
+  findByDiscordId(discordId: string): Promise<PokemonInfoEntity[]>
   upsertPokemon(discordId: string, pokemonId: number): Promise<void>
 }
 
