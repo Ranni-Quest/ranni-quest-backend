@@ -75,7 +75,6 @@ test('Pull cards', async () => {
     new UserRepositoryMock(),
     new UserCardRepositoryMock()
   )
-
   const result = await pullCards.execute('discord_id-1')
 
   assert.deepEqual(result, [

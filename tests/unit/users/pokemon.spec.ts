@@ -92,5 +92,5 @@ test('action pokemon', async () => {
     )
   )
 
-  console.log(res)
+  assert.equal(res, true)
 })

@@ -2,16 +2,8 @@ import PokemonInfoEntity from '#entities/pokemon_info.entity'
 import { TypeName } from '#usecases/types/type_name.type'
 import PokemonDropRate from '../infrastructure/models/pokemon_drop_rate.model.js'
 import { PokemonRarityType } from '../types/rarities.type.js'
+import type { PokemonInfoResponse, PokemonSpeciesResponse } from './pokeapi/response.js'
 import { defense } from './pokemon_type_relation.js'
-
-interface PokemonSpeciesResponse {
-  name: string
-  names: Array<{ language: { name: string }; name: string }>
-}
-
-interface PokemonInfoResponse {
-  types: Array<{ type: { name: string } }>
-}
 
 export default class PokemonService {
   static async getPokemonId(
