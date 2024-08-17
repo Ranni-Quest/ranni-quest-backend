@@ -1,7 +1,7 @@
-import UserPokemonRepository from '#repositories/user_pokemon.repository'
-import { inject } from '@adonisjs/core'
-import { GetUserPokemonsInterface } from './usercases.interface.js'
 import PokemonInfoEntity from '#entities/pokemon_info.entity'
+import UserPokemonRepository from '#repositories/user_pokemon.repository'
+import { GetUserPokemonsInterface } from '#usecases/usercases.interface'
+import { inject } from '@adonisjs/core'
 
 @inject()
 export default class GetUserPokemons implements GetUserPokemonsInterface {

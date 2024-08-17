@@ -1,7 +1,7 @@
 import Setting from '#models/setting.model'
 import SettingRepository from '#repositories/setting.repository'
+import { GetSettingInterface } from '#usecases/usercases.interface'
 import { inject } from '@adonisjs/core'
-import { GetSettingInterface } from './usercases.interface.js'
 
 @inject()
 export default class GetSetting implements GetSettingInterface {

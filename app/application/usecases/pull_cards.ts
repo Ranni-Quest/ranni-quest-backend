@@ -5,10 +5,10 @@ import CardDropRateRepository from '#repositories/card_drop_rate.repository'
 import UserRepository from '#repositories/user.repository'
 import UserCardRepository from '#repositories/user_card.repository'
 import { CardService } from '#services/card.service'
-import { CardsSetType } from '#types/cards_set.type'
-import { BoosterRarityType } from '#types/rarities.type'
+import type { CardsSetType } from '#types/cards_set.type'
+import type { BoosterRarityType } from '#types/rarities.type'
+import { PullCardsInterface } from '#usecases/usercases.interface'
 import { inject } from '@adonisjs/core'
-import { PullCardsInterface } from './usercases.interface.js'
 
 @inject()
 export default class PullCards implements PullCardsInterface {

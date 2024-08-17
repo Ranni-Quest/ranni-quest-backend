@@ -1,9 +1,9 @@
 import FullCardInfoEntity from '#entities/full_card_info.entity'
-import { CardDropRatesValueInterface } from '#entities/interfaces/card_drop_rate_value.interface'
+import type { CardDropRatesValueInterface } from '#entities/interfaces/card_drop_rate_value.interface'
+import BoosterRarityRate from '#models/booster_rarity_rate.model'
 import CardDropRate from '#models/card_drop_rate.model'
-import { CardsSetType } from '#types/cards_set.type'
-import { BoosterRarityType, CardRarityType } from '#types/rarities.type'
-import BoosterRarityRate from '../infrastructure/models/booster_rarity_rate.model.js'
+import type { CardsSetType } from '#types/cards_set.type'
+import type { BoosterRarityType, CardRarityType } from '#types/rarities.type'
 
 export class CardService {
   /**

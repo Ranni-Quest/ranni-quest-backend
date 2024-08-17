@@ -1,10 +1,10 @@
 import PokemonInfoEntity from '#entities/pokemon_info.entity'
+import PokemonPending from '#models/pokemon_pending.model'
 import {
   PokemonPendingRepositoryInterface,
   RepositoryInterface,
 } from '#repositories/repositories.interface'
 import PokemonService from '#services/pokemon.service'
-import PokemonPending from '../models/pokemon_pending.model.js'
 
 export default class PokemonPendingRepository
   implements PokemonPendingRepositoryInterface, RepositoryInterface

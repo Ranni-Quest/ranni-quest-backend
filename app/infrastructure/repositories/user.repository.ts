@@ -1,5 +1,5 @@
 import User from '#models/user.model'
-import { UserRepositoryInterface } from './repositories.interface.js'
+import { UserRepositoryInterface } from '#repositories/repositories.interface'
 
 export default class UserRepository implements UserRepositoryInterface {
   /**

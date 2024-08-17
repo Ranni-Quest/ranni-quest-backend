@@ -1,7 +1,7 @@
 import UserCardEntity from '#entities/user_card.entity'
 import UserCardRepository from '#repositories/user_card.repository'
+import { GetLatestCardsPulledInterface } from '#usecases/usercases.interface'
 import { inject } from '@adonisjs/core'
-import { GetLatestCardsPulledInterface } from './usercases.interface.js'
 
 @inject()
 export default class GetLatestCardsPulled implements GetLatestCardsPulledInterface {

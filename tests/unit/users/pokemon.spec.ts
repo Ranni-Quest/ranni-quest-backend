@@ -20,6 +20,7 @@ test('summon pokemon', async () => {
   const setting = await new SettingRepositoryMock().getSetting()
 
   const res = await summonPokemon.execute(setting, 'discord-id')
+
   assert.deepEqual(res, {
     pokemonId: 112,
     name: 'Rhinoféros',
@@ -47,27 +48,6 @@ test('action pokemon', async () => {
     new UserPokemonRepositoryMock(),
     new PokemonPendingRepositoryMock()
   )
-
-  const pendingPokemon = {
-    pokemonId: 112,
-    name: 'Rhinoféros',
-    status: 'commun',
-    isShiny: false,
-    artwork:
-      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/112.png',
-    sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png',
-    types: ['ground', 'rock'],
-    weaknesses: { water: 4, grass: 4, fighting: 2, ice: 2, ground: 2, steel: 2 },
-    resistances: {
-      normal: 0.5,
-      fire: 0.5,
-      electric: 0,
-      poison: 0.25,
-      flying: 0.5,
-      rock: 0.5,
-    },
-    timestamp: 0,
-  }
 
   const res = await actionPokemon.execute(
     'discord-id',

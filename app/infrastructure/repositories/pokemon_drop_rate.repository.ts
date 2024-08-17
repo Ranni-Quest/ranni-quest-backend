@@ -1,5 +1,5 @@
+import PokemonDropRate from '#models/pokemon_drop_rate.model'
 import { PokemonDropRateRepositoryInterface } from '#repositories/repositories.interface'
-import PokemonDropRate from '../models/pokemon_drop_rate.model.js'
 
 export default class PokemonDropRateRepository implements PokemonDropRateRepositoryInterface {
   /**

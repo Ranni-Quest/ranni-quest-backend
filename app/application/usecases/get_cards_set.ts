@@ -1,7 +1,7 @@
 import UserCardEntity from '#entities/user_card.entity'
 import UserCardRepository from '#repositories/user_card.repository'
+import { GetCardsSetInterface } from '#usecases/usercases.interface'
 import { inject } from '@adonisjs/core'
-import { GetCardsSetInterface } from './usercases.interface.js'
 
 @inject()
 export default class GetCardsSet implements GetCardsSetInterface {

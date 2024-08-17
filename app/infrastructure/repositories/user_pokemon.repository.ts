@@ -1,8 +1,8 @@
 import PokemonInfoEntity from '#entities/pokemon_info.entity'
+import UserPokemon from '#models/user_pokemon.model'
 import { UserPokemonRepositoryInterface } from '#repositories/repositories.interface'
 import PokemonService from '#services/pokemon.service'
 import db from '@adonisjs/lucid/services/db'
-import UserPokemon from '../models/user_pokemon.model.js'
 
 export default class UserPokemonRepository implements UserPokemonRepositoryInterface {
   /**

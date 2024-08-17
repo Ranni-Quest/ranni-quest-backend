@@ -3,7 +3,7 @@ import UserCardEntity from '#entities/user_card.entity'
 import CardDropRate from '#models/card_drop_rate.model'
 import PokemonDropRate from '#models/pokemon_drop_rate.model'
 import Setting from '#models/setting.model'
-import { BoosterRarityType } from '#types/rarities.type'
+import type { BoosterRarityType } from '#types/rarities.type'
 import { BaseModel } from '@adonisjs/lucid/orm'
 
 export interface RepositoryInterface {

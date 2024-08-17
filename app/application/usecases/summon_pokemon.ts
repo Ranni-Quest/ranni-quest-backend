@@ -1,12 +1,12 @@
 import PokemonInfoEntity from '#entities/pokemon_info.entity'
+import PokemonDropRate from '#models/pokemon_drop_rate.model'
 import Setting from '#models/setting.model'
 import PokemonDropRateRepository from '#repositories/pokemon_drop_rate.repository'
 import PokemonPendingRepository from '#repositories/pokemon_pending.repository'
 import UserRepository from '#repositories/user.repository'
 import PokemonService from '#services/pokemon.service'
+import { SummonPokemonInterface } from '#usecases/usercases.interface'
 import { inject } from '@adonisjs/core'
-import PokemonDropRate from '../../infrastructure/models/pokemon_drop_rate.model.js'
-import { SummonPokemonInterface } from './usercases.interface.js'
 
 @inject()
 export default class SummonPokemon implements SummonPokemonInterface {

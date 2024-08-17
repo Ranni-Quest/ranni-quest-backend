@@ -1,7 +1,7 @@
 import PokemonInfoEntity from '#entities/pokemon_info.entity'
 import PokemonPendingRepository from '#repositories/pokemon_pending.repository'
+import { GetUserPokemonPendingInterface } from '#usecases/usercases.interface'
 import { inject } from '@adonisjs/core'
-import { GetUserPokemonPendingInterface } from './usercases.interface.js'
 
 @inject()
 export default class GetUserPokemonPending implements GetUserPokemonPendingInterface {

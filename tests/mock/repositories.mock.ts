@@ -12,7 +12,7 @@ import SettingRepository from '#repositories/setting.repository'
 import UserRepository from '#repositories/user.repository'
 import UserCardRepository from '#repositories/user_card.repository'
 import UserPokemonRepository from '#repositories/user_pokemon.repository'
-import { BoosterRarityType } from '#types/rarities.type'
+import type { BoosterRarityType } from '#types/rarities.type'
 
 export class CardDropRateRepositoryMock implements CardDropRateRepository {
   async findCardsDropRate(boosterRarity: BoosterRarityType): Promise<CardDropRate[]> {

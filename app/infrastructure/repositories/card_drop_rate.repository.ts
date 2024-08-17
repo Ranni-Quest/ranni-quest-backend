@@ -1,6 +1,6 @@
 import CardDropRate from '#models/card_drop_rate.model'
 import { CardDropRateRepositoryInterface } from '#repositories/repositories.interface'
-import { BoosterRarityType } from '#types/rarities.type'
+import type { BoosterRarityType } from '#types/rarities.type'
 
 export default class CardDropRateRepository implements CardDropRateRepositoryInterface {
   /**

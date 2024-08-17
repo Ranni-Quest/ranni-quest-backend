@@ -1,8 +1,8 @@
 import FullCardInfoEntity from '#entities/full_card_info.entity'
 import UserCardEntity from '#entities/user_card.entity'
+import UserCard from '#models/user_card.model'
 import { UserCardRepositoryInterface } from '#repositories/repositories.interface'
 import db from '@adonisjs/lucid/services/db'
-import UserCard from '../models/user_card.model.js'
 
 export default class UserCardRepository implements UserCardRepositoryInterface {
   /**
