@@ -7,6 +7,13 @@ import { GetUserCardsInterface } from './usercases.interface.js'
 export default class GetUserCards implements GetUserCardsInterface {
   constructor(private readonly userCardRepository: UserCardRepository) {}
 
+  /**
+   * Get user cards
+   * @param discordId - discord id
+   * @param offset - offset
+   * @param limit - limit
+   * @returns user cards
+   */
   async execute(discordId: string, offset: number, limit: number): Promise<UserCardEntity[]> {
     const output = await this.userCardRepository.findByDiscordId(discordId, offset, limit)
     return output

@@ -1,4 +1,4 @@
-import PokemonPendingEntity from '#entities/pokemon_pending.entity'
+import PokemonInfoEntity from '#entities/pokemon_info.entity'
 import PokemonPendingRepository from '#repositories/pokemon_pending.repository'
 import UserPokemonRepository from '#repositories/user_pokemon.repository'
 import { inject } from '@adonisjs/core'
@@ -19,7 +19,7 @@ export default class KeepUserPokemon implements KeepUserPokemonInterface {
    */
   async execute(
     discordId: string,
-    pendingPokemon: PokemonPendingEntity,
+    pendingPokemon: PokemonInfoEntity,
     pokemonIdToReplace: number | null = null
   ): Promise<boolean> {
     if (!pokemonIdToReplace) {
@@ -40,19 +40,18 @@ export default class KeepUserPokemon implements KeepUserPokemonInterface {
     return true
   }
 
-  async keepUserPokemon(discordId: string, pendingPokemon: PokemonPendingEntity): Promise<void> {
+  /**
+   * Keep user pokemon
+   * @param discordId - discord id
+   * @param pendingPokemon - pending pokemon
+   */
+  async keepUserPokemon(discordId: string, pendingPokemon: PokemonInfoEntity): Promise<void> {
     const userPokemonCount = await this.userPokemonRepository.countByDiscordId(discordId)
 
     if (userPokemonCount >= 6) {
       throw new Error('User already has 6 pokemons')
     }
 
-    await this.userPokemonRepository.createUserPokemon(discordId, {
-      pokemonId: pendingPokemon.pokemonId,
-      name: pendingPokemon.name,
-      isShiny: pendingPokemon.isShiny,
-      artwork: pendingPokemon.artwork,
-      sprite: pendingPokemon.sprite,
-    })
+    await this.userPokemonRepository.createUserPokemon(discordId, pendingPokemon)
   }
 }

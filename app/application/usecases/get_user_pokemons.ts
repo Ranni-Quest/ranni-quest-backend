@@ -7,6 +7,11 @@ import { GetUserPokemonsInterface } from './usercases.interface.js'
 export default class GetUserPokemons implements GetUserPokemonsInterface {
   constructor(private userPokemonRepository: UserPokemonRepository) {}
 
+  /**
+   * Get user pokemons
+   * @param discordId - discord id
+   * @returns user pokemons
+   */
   async execute(discordId: string): Promise<UserPokemonEntity[]> {
     return this.userPokemonRepository.findByDiscordId(discordId)
   }

@@ -1,21 +1,16 @@
-import SettingEntity from '#entities/setting.entity'
-import Setting from '../models/setting.model.js'
 import { SettingRepositoryInterface } from '#repositories/repositories.interface'
+import Setting from '../models/setting.model.js'
 
 export default class SettingRepository implements SettingRepositoryInterface {
-  async getSetting(): Promise<SettingEntity> {
+  /**
+   * get setting
+   * @returns setting
+   */
+  async getSetting(): Promise<Setting> {
     const output = await Setting.findBy({})
     if (!output) {
       throw new Error('Setting not found')
     }
-    return new SettingEntity(
-      output.id,
-      output.series,
-      output.setId,
-      output?.setUrl,
-      output?.pullTimer,
-      output?.summonTimer,
-      output?.shinyDropRate
-    )
+    return output
   }
 }

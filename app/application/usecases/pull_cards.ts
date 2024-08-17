@@ -1,4 +1,5 @@
-import CardEntity from '#entities/card.entity'
+import FullCardInfoEntity from '#entities/full_card_info.entity'
+import BoosterRarityRate from '#models/booster_rarity_rate.model'
 import CardDropRate from '#models/card_drop_rate.model'
 import CardRepository from '#repositories/card.repository'
 import CardDropRateRepository from '#repositories/card_drop_rate.repository'
@@ -6,6 +7,7 @@ import UserRepository from '#repositories/user.repository'
 import UserCardRepository from '#repositories/user_card.repository'
 import { CardService } from '#services/card.service'
 import { CardsSetType } from '#types/cards_set.type'
+import { BoosterRarityType } from '#types/rarities.type'
 import { inject } from '@adonisjs/core'
 import { PullCardsInterface } from './usercases.interface.js'
 
@@ -18,14 +20,28 @@ export default class PullCards implements PullCardsInterface {
     protected userCardRepository: UserCardRepository
   ) {}
 
-  async execute(discordId: string): Promise<CardEntity[]> {
-    const cardsDropRate: CardDropRate[] = await this.cardDropRateRepository.findCardsDropRate(
-      await CardService.getRandomDrop()
+  /**
+   * generate booster rarity
+   * get cards left in current set
+   * pull x random cards
+   * @param discordId - discord id
+   * @returns pulled cards
+   */
+  async execute(discordId: string): Promise<FullCardInfoEntity[]> {
+    const boosterRarityDropRates: BoosterRarityRate[] = await BoosterRarityRate.query().orderBy(
+      'dropRate',
+      'asc'
     )
-    const cardsSet: CardsSetType = CardService.formatCardsSet(
-      await this.cardRepository.findCardsSet()
-    )
-    const pulledCards = await CardService.pullCards(cardsSet, cardsDropRate)
+    const boosterRarity: BoosterRarityType =
+      CardService.getRandomRarityBooster(boosterRarityDropRates)
+    const cardsDropRate: CardDropRate[] =
+      await this.cardDropRateRepository.findCardsDropRate(boosterRarity)
+
+    const leftCardsInCurrentSet: FullCardInfoEntity[] =
+      await this.userCardRepository.findLeftCardsInCurrentSet()
+    const cardsSet: CardsSetType = CardService.formatCardsSet(leftCardsInCurrentSet)
+
+    const pulledCards: FullCardInfoEntity[] = CardService.pullCards(cardsSet, cardsDropRate)
 
     this.userRepository.savePullTimestamp(discordId)
 

@@ -1,3 +1,4 @@
+import PokemonInfoEntity from '#entities/pokemon_info.entity'
 import { TypeName } from '#usecases/types/type_name.type'
 import PokemonDropRate from '../infrastructure/models/pokemon_drop_rate.model.js'
 import { PokemonRarityType } from '../types/rarities.type.js'
@@ -99,5 +100,30 @@ export default class PokemonService {
     }
 
     return weaknesses
+  }
+
+  static generatePokemonInfo(
+    name: string,
+    status: PokemonRarityType,
+    isShiny: boolean,
+    pokemonId: number,
+    types: TypeName[]
+  ): PokemonInfoEntity {
+    return new PokemonInfoEntity(
+      pokemonId,
+      name,
+      status,
+      isShiny,
+      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
+        isShiny ? 'shiny/' : ''
+      }${pokemonId}.png`,
+      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
+        isShiny ? 'shiny/' : ''
+      }${pokemonId}.png`,
+      types,
+      PokemonService.calculateWeaknesses(types),
+      PokemonService.calculatResistances(types),
+      0
+    )
   }
 }
