@@ -7,8 +7,8 @@ on:
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
-  # IMAGE_NAME: ${{ github.repository }}:${{ github.ref_name }}
-  IMAGE_NAME: ranni-quest/ranni-quest-backend:${{ github.ref_name }}
+  IMAGE_NAME: ${{ github.repository }}:${{ github.ref_name }}
+  # IMAGE_NAME: ranni-quest/ranni-quest-backend:${{ github.ref_name }}
   
 
 jobs:
