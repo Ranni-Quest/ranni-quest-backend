@@ -1,5 +1,5 @@
 # Étape 1 : Construire l'application
-FROM node:20
+FROM node:22
 
 # Définir le répertoire de travail dans le conteneur
 WORKDIR /app
