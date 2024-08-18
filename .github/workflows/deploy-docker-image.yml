@@ -18,8 +18,6 @@ jobs:
 
         steps:
         - uses: actions/checkout@v3
-          with:
-            node-version: '22'
         - name: Login
           run: |
             echo ${{ secrets.PAT }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
