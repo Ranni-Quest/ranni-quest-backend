@@ -4,8 +4,8 @@ services:
   app:
     container_name: app-pokemon
     image: ghcr.io/abel-moi/pokemon:latest
-    env_file:
-      - .env.example
+    # env_file:
+    #   - .env
     ports:
       - "3333:3333"
     environment:
