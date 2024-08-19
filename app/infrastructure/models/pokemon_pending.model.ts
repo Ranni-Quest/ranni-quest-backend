@@ -1,3 +1,5 @@
+import type { PokemonRarityType } from '#types/rarities.type'
+import type { TypeName } from '#types/type_name.type'
 import { BaseModel, column } from '@adonisjs/lucid/orm'
 
 export default class PokemonPending extends BaseModel {
@@ -14,6 +16,9 @@ export default class PokemonPending extends BaseModel {
   declare name: string
 
   @column()
+  declare status: PokemonRarityType
+
+  @column()
   declare isShiny: boolean
 
   @column()
@@ -23,10 +28,13 @@ export default class PokemonPending extends BaseModel {
   declare artwork: string
 
   @column()
-  declare types: string[]
+  declare types: TypeName[]
 
   @column()
-  declare weaknesses: string[]
+  declare resistances: { [key: string]: number }
+
+  @column()
+  declare weaknesses: { [key: string]: number }
 
   @column()
   declare timestamp: number

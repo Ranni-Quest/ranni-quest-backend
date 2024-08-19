@@ -1,4 +1,4 @@
-export default class CardEntity {
+export default class FullCardInfoEntity {
   constructor(
     public cardId: string,
     public name: string,

@@ -2,7 +2,7 @@ import GetUserPokemonPending from '#usecases/get_user_pokemon_pending'
 import KeepUserPokemon from '#usecases/keep_user_pokemon'
 import ReleaseUserPokemon from '#usecases/release_user_pokemon'
 import { inject } from '@adonisjs/core'
-import type { HttpContext } from '@adonisjs/core/http'
+import { HttpContext } from '@adonisjs/core/http'
 
 @inject()
 export default class UserPokemonActionController {
@@ -12,7 +12,7 @@ export default class UserPokemonActionController {
     protected getUserPokemonPending: GetUserPokemonPending
   ) {}
 
-  async init({ auth, request, response }: HttpContext) {
+  async init({ auth, request, response }: HttpContext): Promise<void> {
     if (!(await auth.check())) {
       return response.status(401).json({ authenticated: false })
     }
@@ -23,16 +23,15 @@ export default class UserPokemonActionController {
     const pokemonPending = await this.getUserPokemonPending.execute(discordId!, pokemonIdToKeep)
 
     if (!pokemonPending) {
-      response.status(400).json({ message: 'Bad request' })
-      return response
+      return response.status(400).json({ message: 'Bad request' })
     }
 
     if (action === 'release') {
-      await this.releaseUserPokemon.execute(pokemonPending.id!, discordId!)
+      await this.releaseUserPokemon.execute(pokemonPending.pokemonId!, discordId!)
       return response.status(200).json({ message: 'deleted' })
     }
     if (await this.keepUserPokemon.execute(discordId!, pokemonPending, pokemonIdToReplace)) {
-      return pokemonPending
+      return response.status(200).json({ message: 'keep' })
     } else {
       return response.status(400).json({ message: 'Bad request' })
     }

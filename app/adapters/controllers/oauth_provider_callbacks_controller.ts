@@ -1,6 +1,6 @@
 // import type { HttpContext } from '@adonisjs/core/http'
 
-import User from '../../infrastructure/models/user.model.js'
+import User from '#models/user.model'
 import env from '#start/env'
 import { HttpContext } from '@adonisjs/core/http'
 

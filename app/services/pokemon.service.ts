@@ -1,18 +1,17 @@
-import { TypeName } from '#usecases/types/type_name.type'
-import PokemonDropRate from '../infrastructure/models/pokemon_drop_rate.model.js'
-import { PokemonRarityType } from '../types/rarities.type.js'
-import { defense } from './pokemon_type_relation.js'
-
-interface PokemonSpeciesResponse {
-  name: string
-  names: Array<{ language: { name: string }; name: string }>
-}
-
-interface PokemonInfoResponse {
-  types: Array<{ type: { name: string } }>
-}
+import PokemonInfoEntity from '#entities/pokemon_info.entity'
+import PokemonDropRate from '#models/pokemon_drop_rate.model'
+import { defense } from '#services/pokemon_type_relation.service'
+import type { PokemonInfoResponse, PokemonSpeciesResponse } from '#types/pokeapi_response'
+import type { PokemonRarityType } from '#types/rarities.type'
+import type { TypeName } from '#types/type_name.type'
 
 export default class PokemonService {
+  /**
+   * get random pokemon id from summonDropsRates and pokemonStatus
+   * @param summonDropsRates
+   * @param pokemonStatus
+   * @returns
+   */
   static async getPokemonId(
     summonDropsRates: Array<PokemonDropRate>,
     pokemonStatus: PokemonRarityType
@@ -26,11 +25,21 @@ export default class PokemonService {
     return pokemondIds[Math.floor(Math.random() * pokemondIds.length)]
   }
 
+  /**
+   * get random shiny rate
+   * @param shinyRate
+   * @returns
+   */
   static isShiny(shinyRate: number = 0.05) {
     const rate = Math.random()
     return rate < shinyRate ? true : false
   }
 
+  /**
+   * get random pokemon rarity from summonDropsRate
+   * @param summonDropsRate
+   * @returns
+   */
   static getRandomPokemonRarity(summonDropsRate: Array<PokemonDropRate>): PokemonRarityType {
     const rate = Math.random()
     for (let summonDropRate of summonDropsRate) {
@@ -39,9 +48,14 @@ export default class PokemonService {
       }
     }
 
-    return 'commun'
+    return 'common'
   }
 
+  /**
+   * get french name from pokemonId
+   * @param pokemonId
+   * @returns
+   */
   static async getFrenchName(pokemonId: number) {
     let response = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${pokemonId}`)
     const jsonResponse = (await response.json()) as PokemonSpeciesResponse
@@ -56,12 +70,22 @@ export default class PokemonService {
     return name
   }
 
+  /**
+   * get pokemon types from pokemonId
+   * @param pokemonId
+   * @returns
+   */
   static async getPokemonTypes(pokemonId: number): Promise<TypeName[]> {
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
     const { types } = (await response.json()) as PokemonInfoResponse
     return types.map(({ type }) => type.name as TypeName)
   }
 
+  /**
+   * calculate weaknesses
+   * @param pokemonTypes
+   * @returns
+   */
   static calculatType(pokemonTypes: TypeName[]) {
     const weaknesses: { [key: string]: number } = {}
 
@@ -77,6 +101,11 @@ export default class PokemonService {
     return weaknesses
   }
 
+  /**
+   * calculate resistances
+   * @param pokemonTypes
+   * @returns
+   */
   static calculatResistances(pokemonTypes: TypeName[]) {
     const weaknesses = PokemonService.calculatType(pokemonTypes)
 
@@ -89,6 +118,11 @@ export default class PokemonService {
     return weaknesses
   }
 
+  /**
+   * calculate weaknesses
+   * @param pokemonTypes
+   * @returns
+   */
   static calculateWeaknesses(pokemonTypes: TypeName[]) {
     const weaknesses = PokemonService.calculatType(pokemonTypes)
 
@@ -99,5 +133,39 @@ export default class PokemonService {
     }
 
     return weaknesses
+  }
+
+  /**
+   * generate pokemon info
+   * @param name
+   * @param status
+   * @param isShiny
+   * @param pokemonId
+   * @param types
+   * @returns
+   */
+  static generatePokemonInfo(
+    name: string,
+    status: PokemonRarityType,
+    isShiny: boolean,
+    pokemonId: number,
+    types: TypeName[]
+  ): PokemonInfoEntity {
+    return new PokemonInfoEntity(
+      pokemonId,
+      name,
+      status,
+      isShiny,
+      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
+        isShiny ? 'shiny/' : ''
+      }${pokemonId}.png`,
+      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
+        isShiny ? 'shiny/' : ''
+      }${pokemonId}.png`,
+      types,
+      PokemonService.calculateWeaknesses(types),
+      PokemonService.calculatResistances(types),
+      0
+    )
   }
 }

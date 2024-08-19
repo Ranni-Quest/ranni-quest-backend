@@ -1,10 +1,9 @@
-import PokemonDropRateEntity from '#entities/pokemon_drop_rate.entity'
-import PokemonPendingEntity from '#entities/pokemon_pending.entity'
-import SettingEntity from '#entities/setting.entity'
+import PokemonInfoEntity from '#entities/pokemon_info.entity'
 import UserCardEntity from '#entities/user_card.entity'
-import UserPokemonEntity from '#entities/user_pokemon.entity'
 import CardDropRate from '#models/card_drop_rate.model'
-import { BoosterRarityType } from '#types/rarities.type'
+import PokemonDropRate from '#models/pokemon_drop_rate.model'
+import Setting from '#models/setting.model'
+import type { BoosterRarityType } from '#types/rarities.type'
 import { BaseModel } from '@adonisjs/lucid/orm'
 
 export interface RepositoryInterface {
@@ -12,6 +11,7 @@ export interface RepositoryInterface {
 }
 
 export interface BoosterRarityRateRepositoryInterface {}
+
 export interface CardDropRateRepositoryInterface {
   findCardsDropRate(boosterRarity: BoosterRarityType): Promise<CardDropRate[]>
 }
@@ -23,14 +23,14 @@ export interface EffectRepositoryInterface {}
 export interface LogRepositoryInterface {}
 
 export interface PokemonDropRateRepositoryInterface {
-  findSummonDropRates(): Promise<PokemonDropRateEntity[]>
+  findSummonDropRates(): Promise<PokemonDropRate[]>
 }
 
 export interface PokemonPendingRepositoryInterface {
   findByDiscordIdAndPokemonId(
     discordId: string,
     pokemonId: number
-  ): Promise<PokemonPendingEntity | null>
+  ): Promise<PokemonInfoEntity | null>
   upsertPokemonPending(
     discordId: string,
     pokemonInfo: {
@@ -42,7 +42,7 @@ export interface PokemonPendingRepositoryInterface {
 }
 
 export interface SettingRepositoryInterface {
-  getSetting(): Promise<SettingEntity>
+  getSetting(): Promise<Setting>
 }
 
 export interface UserCardRepositoryInterface {
@@ -53,7 +53,7 @@ export interface UserCardRepositoryInterface {
 }
 
 export interface UserPokemonRepositoryInterface {
-  findByDiscordId(discordId: string): Promise<UserPokemonEntity[]>
+  findByDiscordId(discordId: string): Promise<PokemonInfoEntity[]>
   upsertPokemon(discordId: string, pokemonId: number): Promise<void>
 }
 

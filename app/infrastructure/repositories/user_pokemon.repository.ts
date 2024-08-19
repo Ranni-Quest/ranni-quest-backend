@@ -1,29 +1,32 @@
-import PokemonPendingEntity from '#entities/pokemon_pending.entity'
-import UserPokemonEntity from '#entities/user_pokemon.entity'
+import PokemonInfoEntity from '#entities/pokemon_info.entity'
+import UserPokemon from '#models/user_pokemon.model'
 import { UserPokemonRepositoryInterface } from '#repositories/repositories.interface'
 import PokemonService from '#services/pokemon.service'
-import BasePokemonInterface from '#usecases/interfaces/base_pokemon.interface'
 import db from '@adonisjs/lucid/services/db'
-import UserPokemon from '../models/user_pokemon.model.js'
 
 export default class UserPokemonRepository implements UserPokemonRepositoryInterface {
-  async findByDiscordId(discordId: string): Promise<UserPokemonEntity[]> {
+  /**
+   * get pokemon by discord id
+   * @param discordId - discord id
+   * @returns pokemon
+   */
+  async findByDiscordId(discordId: string): Promise<PokemonInfoEntity[]> {
     const userPokemons = await UserPokemon.query().where('discordId', discordId)
     const output = []
+
     for (const userPokemon of userPokemons) {
       const types = await PokemonService.getPokemonTypes(userPokemon.pokemonId)
       const weaknesses = PokemonService.calculateWeaknesses(types)
       const resistances = PokemonService.calculateWeaknesses(types)
 
       output.push(
-        new UserPokemonEntity(
-          userPokemon.pokemonId,
-          userPokemon.discordId,
+        new PokemonInfoEntity(
           userPokemon.pokemonId,
           userPokemon.name,
+          userPokemon.status,
           userPokemon.isShiny,
-          userPokemon.sprite,
           userPokemon.artwork,
+          userPokemon.sprite,
           types,
           weaknesses,
           resistances,
@@ -31,13 +34,24 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
         )
       )
     }
+
     return output
   }
 
+  /**
+   * upsert pokemon
+   * @param discordId - discord id
+   * @param pokemonId - pokemon id
+   */
   async upsertPokemon(discordId: string, pokemonId: number): Promise<void> {
     await UserPokemon.updateOrCreate({ discordId }, { discordId, pokemonId })
   }
 
+  /**
+   * count pokemon by discord id
+   * @param discordId - discord id
+   * @returns count
+   */
   async countByDiscordId(discordId: string): Promise<number> {
     const output = await db
       .query()
@@ -48,21 +62,44 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
     return output.total
   }
 
-  async createUserPokemon(discordId: string, pokemonInfo: BasePokemonInterface): Promise<void> {
+  /**
+   * create user pokemon
+   * @param discordId - discord id
+   * @param pokemonInfo - pokemon info
+   */
+  async createUserPokemon(discordId: string, pokemonInfo: PokemonInfoEntity): Promise<void> {
     await UserPokemon.updateOrCreate(
       { discordId, pokemonId: pokemonInfo.pokemonId },
-      { discordId, ...pokemonInfo }
+      {
+        discordId,
+        ...pokemonInfo.toArray(),
+        types: JSON.stringify(pokemonInfo.types),
+        weaknesses: JSON.stringify(pokemonInfo.weaknesses),
+        resistances: JSON.stringify(pokemonInfo.resistances),
+      }
     )
   }
 
+  /**
+   * update user pokemon
+   * @param discordId - discord id
+   * @param pokemonIdToReplace - pokemon id to replace
+   * @param pokemonInfo - pokemon info
+   */
   async updateUserPokemon(
     discordId: string,
     pokemonIdToReplace: number,
-    pokemonInfo: PokemonPendingEntity
+    pokemonInfo: PokemonInfoEntity
   ): Promise<void> {
     await UserPokemon.updateOrCreate(
       { discordId, pokemonId: pokemonIdToReplace },
-      { ...pokemonInfo.toArray() }
+      {
+        discordId,
+        ...pokemonInfo.toArray(),
+        types: JSON.stringify(pokemonInfo.types),
+        weaknesses: JSON.stringify(pokemonInfo.weaknesses),
+        resistances: JSON.stringify(pokemonInfo.resistances),
+      }
     )
   }
 }

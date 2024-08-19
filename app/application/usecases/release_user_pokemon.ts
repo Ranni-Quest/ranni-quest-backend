@@ -5,6 +5,11 @@ import { inject } from '@adonisjs/core'
 export default class ReleaseUserPokemon {
   constructor(protected pokemonPendingRepository: PokemonPendingRepository) {}
 
+  /**
+   * Release user pokemon
+   * @param pokemonId - pokemon id
+   * @param discordId - discord id
+   */
   async execute(pokemonId: number, discordId: string) {
     await this.pokemonPendingRepository
       .query()

@@ -1,5 +1,5 @@
-// import type { HttpContext } from '@adonisjs/core/http'
-
+import FullCardInfoEntity from '#entities/full_card_info.entity'
+import Setting from '#models/setting.model'
 import GetSetting from '#usecases/get_setting'
 import PullCards from '#usecases/pull_cards'
 import { checkPull } from '#utils/check_access.util'
@@ -13,12 +13,12 @@ export default class PullCardsController {
     private getSetting: GetSetting
   ) {}
 
-  async init({ auth, response }: HttpContext) {
+  async init({ auth, response }: HttpContext): Promise<FullCardInfoEntity[] | void> {
     if (!(await auth.check())) {
       return response.status(401).json({ authenticated: false })
     }
 
-    const settings = await this.getSetting.execute()
+    const settings: Setting = await this.getSetting.execute()
 
     if (!checkPull(auth.user?.lastTimePull!, settings?.pullTimer!)) {
       return response.status(425).json({ message: 'Too soon' })
