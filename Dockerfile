@@ -1,5 +1,5 @@
 # Étape 1 : Construire l'application
-FROM node:22
+FROM node:20
 
 # Définir le répertoire de travail dans le conteneur
 WORKDIR /app
@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 3333
 
 # Démarrer l'application
-CMD ["npm", "run", "dev"]
+CMD ["start", "node", "bin/server.js"]
