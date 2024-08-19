@@ -124,8 +124,8 @@ export class PokemonPendingRepositoryMock implements PokemonPendingRepository {
   }
 
   async findByDiscordIdAndPokemonId(
-    discordId: string,
-    pokemonId: number
+    _discordId: string,
+    _pokemonId: number
   ): Promise<PokemonInfoEntity> {
     return new PokemonInfoEntity(
       112,
@@ -148,7 +148,7 @@ export class PokemonPendingRepositoryMock implements PokemonPendingRepository {
     )
   }
 
-  async upsertPokemonPending(discordId: string, pokemonInfo: PokemonInfoEntity): Promise<void> {}
+  async upsertPokemonPending(_discordId: string, _pokemonInfo: PokemonInfoEntity): Promise<void> {}
 }
 
 export class SettingRepositoryMock implements SettingRepository {
@@ -165,7 +165,7 @@ export class SettingRepositoryMock implements SettingRepository {
 }
 
 export class UserCardRepositoryMock implements UserCardRepository {
-  async findCardsSet(limit: number = 20, offset: number = 0): Promise<UserCardEntity[]> {
+  async findCardsSet(_limit: number = 20, _offset: number = 0): Promise<UserCardEntity[]> {
     return [
       {
         cardId: 'card_id-1',
@@ -239,9 +239,9 @@ export class UserCardRepositoryMock implements UserCardRepository {
   }
 
   async findByDiscordId(
-    discordId: string,
-    offset: number,
-    limit: number
+    _discordId: string,
+    _offset: number,
+    _limit: number
   ): Promise<UserCardEntity[]> {
     return [
       {
@@ -300,11 +300,11 @@ export class UserCardRepositoryMock implements UserCardRepository {
     ]
   }
 
-  async savePulledCard(discordId: string, cardId: string): Promise<void> {}
+  async savePulledCard(_discordId: string, _cardId: string): Promise<void> {}
 }
 
 export class UserPokemonRepositoryMock implements UserPokemonRepository {
-  async findByDiscordId(discordId: string): Promise<PokemonInfoEntity[]> {
+  async findByDiscordId(_discordId: string): Promise<PokemonInfoEntity[]> {
     return [
       new PokemonInfoEntity(
         112,
@@ -328,23 +328,23 @@ export class UserPokemonRepositoryMock implements UserPokemonRepository {
     ]
   }
 
-  async upsertPokemon(discordId: string, pokemonId: number): Promise<void> {}
+  async upsertPokemon(_discordId: string, _pokemonId: number): Promise<void> {}
 
-  async countByDiscordId(discordId: string): Promise<number> {
+  async countByDiscordId(_discordId: string): Promise<number> {
     return 1
   }
 
-  async createUserPokemon(discordId: string, pokemonInfo: PokemonInfoEntity): Promise<void> {}
+  async createUserPokemon(_discordId: string, _pokemonInfo: PokemonInfoEntity): Promise<void> {}
 
   async updateUserPokemon(
-    discordId: string,
-    pokemonIdToReplace: number,
-    pokemonInfo: PokemonInfoEntity
+    _discordId: string,
+    _pokemonIdToReplace: number,
+    _pokemonInfo: PokemonInfoEntity
   ): Promise<void> {}
 }
 
 export class UserRepositoryMock implements UserRepository {
-  async savePullTimestamp(discordId: string): Promise<void> {}
+  async savePullTimestamp(_discordId: string): Promise<void> {}
 
-  async saveSummonTimestamp(discordId: string): Promise<void> {}
+  async saveSummonTimestamp(_discordId: string): Promise<void> {}
 }

@@ -99,7 +99,8 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
       LEFT JOIN effects e ON c.rarity = e.rarity
       LEFT JOIN settings s ON c.set_id = s.set_id
       WHERE s.set_id IS NOT NULL AND c.card_id NOT IN (
-        SELECT uc.cardId
+        SELECT uc.card_id
+        FROM user_cards uc
         LEFT JOIN cards c ON uc.card_id = c.card_id
         WHERE rarity NOT IN ( 'common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare' ) AND uc.card_id IS NOT NULL
       ) ORDER BY c.rarity`

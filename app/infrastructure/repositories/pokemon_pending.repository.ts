@@ -45,6 +45,15 @@ export default class PokemonPendingRepository
    * @param pokemonInfo - pokemon info
    */
   async upsertPokemonPending(discordId: string, pokemonInfo: PokemonInfoEntity): Promise<void> {
-    await PokemonPending.updateOrCreate({ discordId }, { discordId, ...pokemonInfo.toArray() })
+    await PokemonPending.updateOrCreate(
+      { discordId },
+      {
+        discordId,
+        ...pokemonInfo.toArray(),
+        types: JSON.stringify(pokemonInfo.types),
+        weaknesses: JSON.stringify(pokemonInfo.weaknesses),
+        resistances: JSON.stringify(pokemonInfo.resistances),
+      }
+    )
   }
 }

@@ -70,7 +70,13 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
   async createUserPokemon(discordId: string, pokemonInfo: PokemonInfoEntity): Promise<void> {
     await UserPokemon.updateOrCreate(
       { discordId, pokemonId: pokemonInfo.pokemonId },
-      { discordId, ...pokemonInfo.toArray() }
+      {
+        discordId,
+        ...pokemonInfo.toArray(),
+        types: JSON.stringify(pokemonInfo.types),
+        weaknesses: JSON.stringify(pokemonInfo.weaknesses),
+        resistances: JSON.stringify(pokemonInfo.resistances),
+      }
     )
   }
 
@@ -87,7 +93,13 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
   ): Promise<void> {
     await UserPokemon.updateOrCreate(
       { discordId, pokemonId: pokemonIdToReplace },
-      { ...pokemonInfo.toArray() }
+      {
+        discordId,
+        ...pokemonInfo.toArray(),
+        types: JSON.stringify(pokemonInfo.types),
+        weaknesses: JSON.stringify(pokemonInfo.weaknesses),
+        resistances: JSON.stringify(pokemonInfo.resistances),
+      }
     )
   }
 }
