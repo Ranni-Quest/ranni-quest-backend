@@ -1,19 +1,29 @@
-# Étape 1 : Construire l'application
-FROM node:20
+FROM node:20.12.2-alpine3.18 as base
 
-# Définir le répertoire de travail dans le conteneur
+# All deps stage
+FROM base as deps
 WORKDIR /app
+ADD package.json package-lock.json ./
+RUN npm ci
 
-# Copier les fichiers package.json et package-lock.json
-COPY package*.json ./
+# Production only deps stage
+FROM base as production-deps
+WORKDIR /app
+ADD package.json package-lock.json ./
+RUN npm ci --omit=dev
 
-# Installer les dépendances
-RUN npm install
+# Build stage
+FROM base as build
+WORKDIR /app
+COPY --from=deps /app/node_modules /app/node_modules
+ADD . .
+RUN node ace build
 
-# Copier le reste des fichiers de l'application
-COPY . .
-
-EXPOSE 3333
-
-# Démarrer l'application
-CMD ["start", "node", "bin/server.js"]
+# Production stage
+FROM base
+ENV NODE_ENV=production
+WORKDIR /app
+COPY --from=production-deps /app/node_modules /app/node_modules
+COPY --from=build /app/build /app
+EXPOSE 8080
+CMD ["node", "./bin/server.js"]
