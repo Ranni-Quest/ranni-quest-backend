@@ -117,7 +117,7 @@ export default class UserPokemonRepository
       SELECT * 
       FROM user_pokemons up
       LEFT JOIN users u ON up.discord_id = u.discord_id
-      ORDER BY u.pseudo`)
+      ORDER BY u.last_time_summon DESC`)
 
     let userPokemons: { [key: string]: PokemonInfoEntity[] } = {}
     for (const userPokemon of output[0]) {
