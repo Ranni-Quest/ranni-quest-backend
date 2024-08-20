@@ -24,7 +24,7 @@ test('summon pokemon', async () => {
   assert.deepEqual(res, {
     pokemonId: 112,
     name: 'Rhinoféros',
-    status: 'commun',
+    status: 'common',
     isShiny: false,
     artwork:
       'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/112.png',
@@ -54,7 +54,7 @@ test('action pokemon', async () => {
     new PokemonInfoEntity(
       112,
       'Rhinoféros',
-      'commun',
+      'common',
       false,
       'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/112.png',
       'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png',

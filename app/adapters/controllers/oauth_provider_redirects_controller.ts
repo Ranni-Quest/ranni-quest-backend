@@ -8,7 +8,6 @@ export default class OAuthProviderRedirectsController {
    */
   async init({ ally, params, response }: HttpContext) {
     const url = await ally.use(params.provider).stateless().redirectUrl()
-    console.log('url', url)
     return response.status(200).json({ url })
   }
 }

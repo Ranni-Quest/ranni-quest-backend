@@ -110,7 +110,7 @@ export class PokemonDropRateRepositoryMock implements PokemonDropRateRepository 
   async findSummonDropRates(): Promise<PokemonDropRate[]> {
     return [
       {
-        rarity: 'commun',
+        rarity: 'common',
         dropRate: 1,
         pokemons: [112],
       },
@@ -130,7 +130,7 @@ export class PokemonPendingRepositoryMock implements PokemonPendingRepository {
     return new PokemonInfoEntity(
       112,
       'Rhinoféros',
-      'commun',
+      'common',
       false,
       'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/112.png',
       'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png',
@@ -309,7 +309,7 @@ export class UserPokemonRepositoryMock implements UserPokemonRepository {
       new PokemonInfoEntity(
         112,
         'Rhinoféros',
-        'commun',
+        'common',
         false,
         'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/112.png',
         'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png',

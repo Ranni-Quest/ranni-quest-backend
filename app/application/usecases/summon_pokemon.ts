@@ -4,6 +4,7 @@ import Setting from '#models/setting.model'
 import PokemonDropRateRepository from '#repositories/pokemon_drop_rate.repository'
 import PokemonPendingRepository from '#repositories/pokemon_pending.repository'
 import UserRepository from '#repositories/user.repository'
+import UserPokemonRepository from '#repositories/user_pokemon.repository'
 import PokemonService from '#services/pokemon.service'
 import { SummonPokemonInterface } from '#usecases/usercases.interface'
 import { inject } from '@adonisjs/core'
@@ -13,6 +14,7 @@ export default class SummonPokemon implements SummonPokemonInterface {
   constructor(
     protected pokemonDropRateRepository: PokemonDropRateRepository,
     protected pokemonPendingRepository: PokemonPendingRepository,
+    protected userPokemonRepository: UserPokemonRepository,
     protected userRepository: UserRepository
   ) {}
 
@@ -25,8 +27,12 @@ export default class SummonPokemon implements SummonPokemonInterface {
   async execute(setting: Setting, discordId: string): Promise<PokemonInfoEntity> {
     const summonDropsRates =
       (await this.pokemonDropRateRepository.findSummonDropRates()) as Array<PokemonDropRate>
+    const outputSummoned = await this.userPokemonRepository.query().query().select('pokemon_id')
+    const alreadySummoned: number[] = outputSummoned.map((pokemon) =>
+      Number.parseInt(pokemon.pokemonId as unknown as string, 10)
+    )
     const status = PokemonService.getRandomPokemonRarity(summonDropsRates)
-    const pokemonId = await PokemonService.getPokemonId(summonDropsRates, status)
+    const pokemonId = await PokemonService.getPokemonId(alreadySummoned, summonDropsRates, status)
     const name = await PokemonService.getFrenchName(pokemonId)
     const isShiny = PokemonService.isShiny(setting?.shinyDropRate)
     const types = await PokemonService.getPokemonTypes(pokemonId)

@@ -13,16 +13,24 @@ export default class PokemonService {
    * @returns
    */
   static async getPokemonId(
+    alreadySummoned: number[],
     summonDropsRates: Array<PokemonDropRate>,
     pokemonStatus: PokemonRarityType
   ) {
-    const index = summonDropsRates.findIndex(
+    let index = summonDropsRates.findIndex(
       (summonDropRate) => summonDropRate.rarity === pokemonStatus
     )
 
-    const pokemondIds = summonDropsRates[index].pokemons
+    let pokemonIds = summonDropsRates[index].pokemons
 
-    return pokemondIds[Math.floor(Math.random() * pokemondIds.length)]
+    for (const alreadySummonedId of alreadySummoned) {
+      index = pokemonIds.indexOf(alreadySummonedId)
+      if (index > -1) {
+        pokemonIds.splice(index, 1)
+      }
+    }
+
+    return pokemonIds[Math.floor(Math.random() * pokemonIds.length)]
   }
 
   /**
