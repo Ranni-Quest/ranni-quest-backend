@@ -102,4 +102,33 @@ export default class UserPokemonRepository implements UserPokemonRepositoryInter
       }
     )
   }
+
+  async findAll(): Promise<{ [key: string]: PokemonInfoEntity[] }> {
+    const output = await db.rawQuery(`
+      SELECT * 
+      FROM user_pokemons up
+      LEFT JOIN users u ON up.discord_id = u.discord_id
+      ORDER BY u.pseudo`)
+
+    let userPokemons: { [key: string]: PokemonInfoEntity[] } = {}
+    for (const userPokemon of output[0]) {
+      if (!Object.keys(userPokemons).includes(userPokemon.pseudo)) {
+        userPokemons[userPokemon.pseudo] = []
+      }
+
+      userPokemons[userPokemon.pseudo].push({
+        pokemonId: userPokemon.pokemon_id,
+        name: userPokemon.name,
+        status: userPokemon.status,
+        isShiny: userPokemon.is_shiny,
+        artwork: userPokemon.artwork,
+        sprite: userPokemon.sprite,
+        types: userPokemon.types,
+        weaknesses: userPokemon.weaknesses,
+        resistances: userPokemon.resistances,
+        timestamp: userPokemon.timestamp ?? Math.floor(Date.now() / 1000),
+      } as PokemonInfoEntity)
+    }
+    return userPokemons
+  }
 }

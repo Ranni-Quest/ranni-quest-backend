@@ -39,6 +39,8 @@ router.post('/api/pokemons/summon', [
   'init',
 ])
 
+router.get('/api/pokemons/ladder', [() => import('#controllers/pokemon_ladder_controller'), 'init'])
+
 router.get('/api/users/cards', [() => import('#controllers/user_cards_controller'), 'init'])
 
 router.get('/api/users/pokemons', [() => import('#controllers/user_pokemons_controller'), 'init'])
