@@ -19,7 +19,7 @@ export default class SummonPokemonController {
 
     const settings = await this.getSetting.execute()
 
-    if (!checkSummon(auth.user?.lastTimeSummon!, settings?.pullTimer!)) {
+    if (!checkSummon(auth.user?.lastTimeSummon!, settings?.summonTimer!)) {
       return response.status(425).json({ message: 'Too soon' })
     }
 
