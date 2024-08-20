@@ -5,6 +5,7 @@ import CardDropRate from '#models/card_drop_rate.model'
 import PokemonDropRate from '#models/pokemon_drop_rate.model'
 import PokemonPending from '#models/pokemon_pending.model'
 import Setting from '#models/setting.model'
+import UserPokemon from '#models/user_pokemon.model'
 import CardDropRateRepository from '#repositories/card_drop_rate.repository'
 import PokemonDropRateRepository from '#repositories/pokemon_drop_rate.repository'
 import PokemonPendingRepository from '#repositories/pokemon_pending.repository'
@@ -304,6 +305,10 @@ export class UserCardRepositoryMock implements UserCardRepository {
 }
 
 export class UserPokemonRepositoryMock implements UserPokemonRepository {
+  query(): typeof UserPokemon {
+    return UserPokemon
+  }
+
   async findByDiscordId(_discordId: string): Promise<PokemonInfoEntity[]> {
     return [
       new PokemonInfoEntity(
