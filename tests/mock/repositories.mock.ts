@@ -341,6 +341,10 @@ export class UserPokemonRepositoryMock implements UserPokemonRepository {
     _pokemonIdToReplace: number,
     _pokemonInfo: PokemonInfoEntity
   ): Promise<void> {}
+
+  async findAll(): Promise<{ [key: string]: PokemonInfoEntity[] }> {
+    return {}
+  }
 }
 
 export class UserRepositoryMock implements UserRepository {
