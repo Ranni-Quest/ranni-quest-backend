@@ -52,7 +52,7 @@ export default class UserCardRepository implements UserCardRepositoryInterface {
       LEFT JOIN settings s ON c.set_id = s.set_id
       WHERE s.set_id = c.set_id AND c.rarity IN ('common', 'uncommon', 'rare', 'rare_holo', 'amazing_rare')
 
-      ORDER BY CAST(SUBSTRING_INDEX(card_id, '-', -1) AS UNSIGNED)
+      ORDER BY CAST(SUBSTRING_INDEX(card_id, '-', -1) AS UNSIGNED) DESC
       LIMIT ${limit} OFFSET ${offset};`)
 
     return output[0].map((userCard: any) => {
