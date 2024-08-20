@@ -15,6 +15,7 @@ test('summon pokemon', async () => {
   const summonPokemon = new SummonPokemon(
     new PokemonDropRateRepositoryMock(),
     new PokemonPendingRepositoryMock(),
+    new UserPokemonRepositoryMock(),
     new UserRepositoryMock()
   )
   const setting = await new SettingRepositoryMock().getSetting()
