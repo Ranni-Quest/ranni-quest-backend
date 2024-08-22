@@ -153,6 +153,9 @@ export class PokemonPendingRepositoryMock implements PokemonPendingRepository {
 }
 
 export class SettingRepositoryMock implements SettingRepository {
+  query(): typeof Setting {
+    return Setting
+  }
   async getSetting(): Promise<Setting> {
     return {
       series: 'series',
