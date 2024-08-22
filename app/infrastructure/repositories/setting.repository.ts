@@ -1,7 +1,13 @@
 import Setting from '#models/setting.model'
-import { SettingRepositoryInterface } from '#repositories/repositories.interface'
+import {
+  RepositoryInterface,
+  SettingRepositoryInterface,
+} from '#repositories/repositories.interface'
 
-export default class SettingRepository implements SettingRepositoryInterface {
+export default class SettingRepository implements SettingRepositoryInterface, RepositoryInterface {
+  query(): typeof Setting {
+    return Setting
+  }
   /**
    * get setting
    * @returns setting
