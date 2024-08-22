@@ -15,6 +15,7 @@ export default class ChangeCardsSet extends BaseCommand {
   @inject()
   async run(cardRepository: CardRepository, settingRepository: SettingRepository) {
     const output = await cardRepository.randomAvailableCardSet()
+    this.logger.info('new cards set' + JSON.stringify(output))
     await settingRepository.query().updateOrCreate({ id: 1 }, output)
     this.logger.info('finish')
   }
